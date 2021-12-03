@@ -1,0 +1,18 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "cf-1638474731728",
+  "meta": {
+    "versionId": "2",
+    "lastUpdated": "2021-12-03T07:55:28.848+00:00",
+    "source": "#gwSKKU1a1vDfNjX7"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dokumente übermitteln (Patient)<a name=\"mm\"/></div>"
+  },
+  "url": "http://example.org/ActivityDefinition/dokumente-uebermitteln-patient",
+  "name": "DokumenteUebermittelnPatient",
+  "title": "Dokumente übermitteln (Patient)",
+  "status": "draft",
+  "experimental": true
+}

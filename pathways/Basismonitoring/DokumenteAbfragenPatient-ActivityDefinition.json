@@ -1,0 +1,17 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "cf-1638520653349",
+  "meta": {
+    "versionId": "1",
+    "lastUpdated": "2021-12-03T08:54:14.036+00:00",
+    "source": "#XEPuPAqLJNFTueD2"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dokumente abfragen (Patient)<a name=\"mm\"/></div>"
+  },
+  "status": "draft",
+  "url": "http://example.org/ActivityDefinition/dokumente-abfragen-patient",
+  "name": "DokumetenAbfragenPatient",
+  "title": "Dokumeten abfragen (Patient)"
+}

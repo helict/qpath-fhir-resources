@@ -1,0 +1,18 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "cf-1638472920649",
+  "meta": {
+    "versionId": "3",
+    "lastUpdated": "2021-12-03T07:55:28.848+00:00",
+    "source": "#gwSKKU1a1vDfNjX7"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Terminvereinbarung<a name=\"mm\"/></div>"
+  },
+  "url": "http://example.org/ActivityDefinition/terminvereinbarung",
+  "name": "Terminvereinbarung",
+  "title": "Terminvereinbarung",
+  "status": "draft",
+  "experimental": true
+}

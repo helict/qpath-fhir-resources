@@ -1,0 +1,17 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "cf-1638361202076",
+  "meta": {
+    "versionId": "5",
+    "lastUpdated": "2021-12-02T14:25:42.295+00:00",
+    "source": "#7Xa3iGKDZQPnOZ7p"
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Befundauswertung<a name=\"mm\"/></div>"
+  },
+  "url": "http://example.org/ActivityDefinition/befundauswertung",
+  "name": "Befundauswertung",
+  "title": "Befundauswertung",
+  "status": "draft"
+}
