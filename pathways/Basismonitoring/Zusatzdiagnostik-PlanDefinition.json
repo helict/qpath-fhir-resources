@@ -1,15 +1,6 @@
 {
   "resourceType": "PlanDefinition",
   "id": "cf-1638385970742",
-  "meta": {
-    "versionId": "1",
-    "lastUpdated": "2021-12-01T19:33:46.274+00:00",
-    "source": "#GCGvo0QoYQvilwy5"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Zusatzdiagnostik<a name=\"mm\"/></div>"
-  },
   "url": "http://example.org/PlanDefinition/zusatzdiagnostik",
   "name": "Zusatzdiagnostik",
   "title": "Zusatzdiagnostik",

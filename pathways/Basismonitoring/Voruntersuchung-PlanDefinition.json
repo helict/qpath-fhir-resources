@@ -1,15 +1,6 @@
 {
   "resourceType": "PlanDefinition",
   "id": "cf-1638454179391",
-  "meta": {
-    "versionId": "2",
-    "lastUpdated": "2021-12-02T14:51:45.255+00:00",
-    "source": "#kDkLTjTTam06J57S"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Voruntersuchungen<a name=\"mm\"/></div>"
-  },
   "url": "http://example.org/PlanDefinition/voruntersuchungen",
   "name": "Voruntersuchungen",
   "title": "Voruntersuchungen",

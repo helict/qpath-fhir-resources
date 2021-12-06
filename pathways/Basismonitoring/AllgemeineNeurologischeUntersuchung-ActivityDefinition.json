@@ -1,15 +1,6 @@
 {
   "resourceType": "ActivityDefinition",
   "id": "cf-1638361154394",
-  "meta": {
-    "versionId": "6",
-    "lastUpdated": "2021-12-02T14:25:42.295+00:00",
-    "source": "#7Xa3iGKDZQPnOZ7p"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Allgemeine und neurologische Untersuchung (EDSS)<a name=\"mm\"/></div>"
-  },
   "url": "http://example.org/ActivityDefinition/allgemeine-neurologische-untersuchung",
   "name": "AllgemeineNeurologischeUntersuchung",
   "title": "Allgemeine und neurologische Untersuchung",

@@ -1,15 +1,6 @@
 {
   "resourceType": "ActivityDefinition",
   "id": "cf-1638386947296",
-  "meta": {
-    "versionId": "2",
-    "lastUpdated": "2021-12-02T07:15:57.661+00:00",
-    "source": "#xX48eV5tudo3NxPG"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Multiple Sclerosis Performance Test (MSPT)<a name=\"mm\"/></div>"
-  },
   "url": "http://example.org/ActivityDefinition/mspt",
   "title": "Multiple Sclerosis Performance Test (MSPT)",
   "name": "MultipleSclerosisPerformanceTest",

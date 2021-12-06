@@ -1,15 +1,6 @@
 {
   "resourceType": "ActivityDefinition",
   "id": "cf-1638429462752",
-  "meta": {
-    "versionId": "1",
-    "lastUpdated": "2021-12-02T07:47:46.838+00:00",
-    "source": "#GJo6DNN9VRX1CUbk"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Auswertung<a name=\"mm\"/></div>"
-  },
   "url": "http://example.org/ActivityDefinition/auswertung",
   "name": "Auswertung",
   "title": "Auswertung",

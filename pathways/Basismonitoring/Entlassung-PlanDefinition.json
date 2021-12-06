@@ -1,15 +1,6 @@
 {
   "resourceType": "PlanDefinition",
   "id": "cf-1638475557410",
-  "meta": {
-    "versionId": "3",
-    "lastUpdated": "2021-12-03T08:11:18.205+00:00",
-    "source": "#4cY68VBKl3GHdCrb"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Entlassung<a name=\"mm\"/></div>"
-  },
   "url": "http://example.org/PlanDefinition/entlassung",
   "name": "Entlassung",
   "title": "Entlassung",

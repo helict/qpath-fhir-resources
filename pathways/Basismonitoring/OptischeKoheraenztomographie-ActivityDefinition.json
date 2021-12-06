@@ -1,15 +1,6 @@
 {
   "resourceType": "ActivityDefinition",
   "id": "cf-1638386189016",
-  "meta": {
-    "versionId": "2",
-    "lastUpdated": "2021-12-02T07:15:57.661+00:00",
-    "source": "#xX48eV5tudo3NxPG"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Optische Koheränztomografie (OCT)<a name=\"mm\"/></div>"
-  },
   "url": "http://example.org/ActivityDefinition/oct",
   "title": "Optische Koheränztomografie (OCT)",
   "name": "OptischeKoheraenztomografie",
