@@ -27,37 +27,6 @@
   "action": [
     {
       "id": "step-1",
-      "input": [
-        {
-          "type": "DocumentReference",
-          "codeFilter": [
-            {
-              "code": [
-                {
-                  "system": "http://example.org/tx/CodeSystem/xds-document-types",
-                  "code": "LAB"
-                },
-                {
-                  "system": "http://example.org/tx/CodeSystem/xds-document-types",
-                  "code": "BILD"
-                },
-                {
-                  "system": "http://example.org/tx/CodeSystem/xds-document-types",
-                  "code": "IMMU"
-                },
-                {
-                  "system": "http://example.org/tx/CodeSystem/xds-document-types",
-                  "code": "FUNK"
-                },
-                {
-                  "system": "http://example.org/tx/CodeSystem/xds-document-types",
-                  "code": "BERI"
-                }
-              ]
-            }
-          ]
-        }
-      ],
       "groupingBehavior": "logical-group",
       "selectionBehavior": "all",
       "requiredBehavior": "must-unless-documented",

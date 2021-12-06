@@ -12,5 +12,6 @@
   },
   "url": "http://example.org/ActivityDefinition/labor",
   "title": "Laboruntersuchung",
+  "name": "Laboruntersuchung",
   "status": "draft"
 }

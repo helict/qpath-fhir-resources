@@ -10,7 +10,7 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Dokumente übermitteln (Arzt)<a name=\"mm\"/></div>"
   },
   "url": "http://example.org/ActivityDefinition/dokumente-uebermitteln-arzt",
-  "name": "Dokumente übermitteln (Arzt)",
+  "name": "DokumenteUebermittelnArzt",
   "title": "Dokumente übermitteln (Arzt)",
   "status": "draft",
   "experimental": true,
