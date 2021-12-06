@@ -1,0 +1,3 @@
+[submodule "fhir-schemas"]
+	path = fhir-schemas
+	url = ssh://git@github.com/helict/fhir-schemas
