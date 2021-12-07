@@ -1,8 +1,10 @@
 {
   "resourceType": "PlanDefinition",
+  "id": "cf-1638533408904",
   "url": "http://example.org/PlanDefinition/basismonitoring",
   "name": "Basismonitoring",
-  "title": "Basismonitoring",
+  "title": "Multiple Sklerose Basismonitoring-Patientenpfad",
+  "description": "Kontinuierliches Monitoring von Multiple Sklerose-Patienten zur Überwachung und Beurteilung des Krankheitsverlaufs",
   "type": {
     "coding": [
       {
@@ -23,48 +25,41 @@
       "action": [
         {
           "id": "step-1",
-          "title": "Terminvereinbarung",
-          "definitionCanonical": "http://example.org/ActivityDefinition/terminvereinbarung"
+          "title": "Vorstellung",
+          "description": "Erst- und Wiedervostellung",
+          "definitionCanonical": "http://example.org/ActivityDefinition/vorstellung"
         },
         {
           "id": "step-2",
-          "title": "Dokumente abfragen (Patient)",
-          "relatedAction": [
-            {
-              "actionId": "step-2",
-              "relationship": "after-end"
-            }
-          ],
-          "definitionCanonical": "http://example.org/ActivityDefinition/dokumente-abfragen-patient"
-        },
-        {
-          "id": "step-3",
           "title": "Voruntersuchung",
+          "description": "Diagnostische Voruntersuchungen durchführen",
           "relatedAction": [
             {
-              "actionId": "step-2",
+              "actionId": "step-1",
               "relationship": "after-end"
             }
           ],
           "definitionCanonical": "http://example.org/PlanDefinition/voruntersuchung"
         },
         {
-          "id": "step-4",
+          "id": "step-3",
           "title": "Arztvorstellung",
+          "description": "Voruntersuchungen auswerten und Therapiemaßnahmen ableiten",
           "relatedAction": [
             {
-              "actionId": "step-3",
+              "actionId": "step-2",
               "relationship": "after-end"
             }
           ],
           "definitionCanonical": "http://example.org/PlanDefinition/arztvorstellung"
         },
         {
-          "id": "step-5",
+          "id": "step-4",
           "title": "Entlassung",
+          "description": "Patient nach Hause entlassen",
           "relatedAction": [
             {
-              "actionId": "step-4",
+              "actionId": "step-3",
               "relationship": "after-end"
             }
           ],
@@ -72,6 +67,5 @@
         }
       ]
     }
-  ],
-  "id": "cf-1638533408904"
+  ]
 }
