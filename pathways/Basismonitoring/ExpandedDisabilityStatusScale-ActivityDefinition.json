@@ -1,4 +1,5 @@
 {
+  "id": "2707104",
   "resourceType": "ActivityDefinition",
   "url": "http://example.org/ActivityDefinition/edss",
   "name": "ExpandedDisabilityStatusScale",

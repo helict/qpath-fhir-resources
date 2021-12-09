@@ -1,5 +1,6 @@
 {
-  "resourceType": "ActivityDefinition",
+  "id": "2707117",
+  "resourceType": "PlanDefinition",
   "url": "http://example.org/PlanDefinition/auswertung",
   "name": "Auswertung",
   "title": "Auswertung",

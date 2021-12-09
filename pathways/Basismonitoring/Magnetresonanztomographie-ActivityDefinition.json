@@ -1,4 +1,5 @@
 {
+  "id": "2707107",
   "resourceType": "ActivityDefinition",
   "url": "http://example.org/ActivityDefinition/mrt",
   "title": "Magnetresonanztomographie (MRT)",

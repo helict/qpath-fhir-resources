@@ -1,4 +1,5 @@
 {
+  "id": "2707122",
   "resourceType": "PlanDefinition",
   "url": "http://example.org/PlanDefinition/dokumente-uebermitteln-patient",
   "name": "DokumenteUebermittelnPatient",

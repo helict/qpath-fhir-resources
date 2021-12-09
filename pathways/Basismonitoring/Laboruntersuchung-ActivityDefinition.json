@@ -1,6 +1,6 @@
 {
+  "id": "2707106",
   "resourceType": "ActivityDefinition",
-  "id": "cf-1638386526727",
   "url": "http://example.org/ActivityDefinition/labor",
   "title": "Laboruntersuchung",
   "name": "Laboruntersuchung",
