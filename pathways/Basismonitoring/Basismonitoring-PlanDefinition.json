@@ -1,6 +1,5 @@
 {
   "resourceType": "PlanDefinition",
-  "id": "cf-1638533408904",
   "url": "http://example.org/PlanDefinition/basismonitoring",
   "name": "Basismonitoring",
   "title": "Multiple Sklerose Basismonitoring-Patientenpfad",

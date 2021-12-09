@@ -1,6 +1,5 @@
 {
   "resourceType": "ActivityDefinition",
-  "id": "cf-1638386290372",
   "url": "http://example.org/ActivityDefinition/mrt",
   "title": "Magnetresonanztomographie (MRT)",
   "name": "Magnetresonanztomographie",

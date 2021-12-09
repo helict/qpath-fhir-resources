@@ -1,6 +1,5 @@
 {
   "resourceType": "ActivityDefinition",
-  "id": "cf-1638472920649",
   "url": "http://example.org/ActivityDefinition/terminvereinbarung",
   "name": "Terminvereinbarung",
   "title": "Terminvereinbarung",

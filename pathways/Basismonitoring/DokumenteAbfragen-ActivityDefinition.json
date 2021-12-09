@@ -1,6 +1,5 @@
 {
   "resourceType": "ActivityDefinition",
-  "id": "cf-1638520653349",
   "status": "draft",
   "url": "http://example.org/ActivityDefinition/dokumente-abfragen",
   "name": "DokumenteAbfragen",

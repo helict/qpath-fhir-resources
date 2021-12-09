@@ -1,6 +1,5 @@
 {
   "resourceType": "ActivityDefinition",
-  "id": "cf-1638429462752",
   "url": "http://example.org/ActivityDefinition/auswertung",
   "name": "Auswertung",
   "title": "Auswertung",

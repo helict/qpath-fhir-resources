@@ -1,6 +1,5 @@
 {
   "resourceType": "PlanDefinition",
-  "id": "cf-1638475557410",
   "url": "http://example.org/PlanDefinition/entlassung",
   "name": "Entlassung",
   "title": "Entlassung",

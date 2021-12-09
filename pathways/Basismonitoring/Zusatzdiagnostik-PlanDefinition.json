@@ -1,6 +1,5 @@
 {
   "resourceType": "PlanDefinition",
-  "id": "cf-1638385970742",
   "url": "http://example.org/PlanDefinition/zusatzdiagnostik",
   "name": "Zusatzdiagnostik",
   "title": "Zusatzdiagnostik",

@@ -1,6 +1,5 @@
 {
   "resourceType": "PlanDefinition",
-  "id": "cf-1638360512805",
   "url": "http://example.org/PlanDefinition/arztvorstellung",
   "name": "Arztvorstellung",
   "title": "Arztvorstellung",

@@ -1,6 +1,5 @@
 {
   "resourceType": "PlanDefinition",
-  "id": "cf-1638454179391",
   "url": "http://example.org/PlanDefinition/voruntersuchung",
   "name": "Voruntersuchung",
   "title": "Voruntersuchung",

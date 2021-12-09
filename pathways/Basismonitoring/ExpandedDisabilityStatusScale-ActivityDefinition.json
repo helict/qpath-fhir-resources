@@ -1,6 +1,5 @@
 {
   "resourceType": "ActivityDefinition",
-  "id": "cf-1638361154394",
   "url": "http://example.org/ActivityDefinition/edss",
   "name": "ExpandedDisabilityStatusScale",
   "title": "Expanded Disability Status Scale (EDSS)",

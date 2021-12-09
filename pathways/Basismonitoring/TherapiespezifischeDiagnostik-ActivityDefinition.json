@@ -1,6 +1,5 @@
 {
   "resourceType": "ActivityDefinition",
-  "id": "cf-1638361238512",
   "url": "http://example.org/ActivityDefinition/therapiespezifische-diagnostik",
   "name": "TherapiespezifischeDiagnostik",
   "title": "Therapiespezifische Diagnostik",

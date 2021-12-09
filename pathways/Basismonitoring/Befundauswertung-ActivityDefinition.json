@@ -1,6 +1,5 @@
 {
   "resourceType": "ActivityDefinition",
-  "id": "cf-1638361202076",
   "url": "http://example.org/ActivityDefinition/befundauswertung",
   "name": "Befundauswertung",
   "title": "Befundauswertung",

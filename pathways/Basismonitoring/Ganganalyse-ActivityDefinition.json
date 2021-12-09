@@ -1,6 +1,5 @@
 {
   "resourceType": "ActivityDefinition",
-  "id": "cf-1638386088045",
   "url": "http://example.org/ActivityDefinition/ganganalyse",
   "status": "draft",
   "title": "Ganganalyse",

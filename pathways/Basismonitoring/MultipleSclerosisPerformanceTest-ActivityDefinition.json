@@ -1,6 +1,5 @@
 {
   "resourceType": "ActivityDefinition",
-  "id": "cf-1638386947296",
   "url": "http://example.org/ActivityDefinition/mspt",
   "title": "Multiple Sclerosis Performance Test (MSPT)",
   "name": "MultipleSclerosisPerformanceTest",
