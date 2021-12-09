@@ -4,5 +4,7 @@
   "url": "http://example.org/ActivityDefinition/befundauswertung",
   "name": "Befundauswertung",
   "title": "Befundauswertung",
-  "status": "draft"
+  "status": "draft",
+  "kind": "Task",
+  "doNotPerform": false
 }

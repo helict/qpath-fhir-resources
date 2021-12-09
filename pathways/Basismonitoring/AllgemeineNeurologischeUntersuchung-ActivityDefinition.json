@@ -1,8 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "cf-1638361154394",
-  "url": "http://example.org/ActivityDefinition/allgemeine-neurologische-untersuchung",
-  "name": "AllgemeineNeurologischeUntersuchung",
-  "title": "Allgemeine und neurologische Untersuchung",
-  "status": "draft"
-}

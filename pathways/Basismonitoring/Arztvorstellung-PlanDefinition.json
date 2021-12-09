@@ -8,8 +8,8 @@
     "coding": [
       {
         "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
-        "code": "clinical-protocol",
-        "display": "Clinical Protocol"
+        "code": "workflow-definition",
+        "display": "Workflow Definition"
       }
     ]
   },
@@ -17,27 +17,27 @@
   "experimental": true,
   "action": [
     {
-      "id": "step-1",
+      "id": "examination",
       "groupingBehavior": "logical-group",
-      "selectionBehavior": "any",
+      "selectionBehavior": "all",
       "requiredBehavior": "must-unless-documented",
       "cardinalityBehavior": "single",
       "action": [
         {
-          "title": "Allgemeine und neurologische Untersuchung (Expanded Disability Status Scale, EDSS)",
-          "definitionCanonical": "http://example.org/ActivityDefinition/allgemeine-neurologische-untersuchung"
+          "title": "Allgemeine und neurologische Untersuchung",
+          "definitionCanonical": "http://example.org/PlanDefinition/allgemeine-neurologische-untersuchung"
         },
         {
           "title": "Befundauswertung",
-          "definitionCanonical": "http://example.org/ActivityDefinition/befundauswertung"
+          "definitionCanonical": "http://example.org/PlanDefinition/befundauswertung"
         },
         {
           "title": "Allgemeine und neurologische Anamnese",
-          "definitionCanonical": "http://example.org/ActivityDefinition/allgemeine-neurologische-anamnese"
+          "definitionCanonical": "http://example.org/PlanDefinition/allgemeine-neurologische-anamnese"
         },
         {
-          "title": "Therapiespezifische Maßnahmen",
-          "definitionCanonical": "http://example.org/ActivityDefinition/therapiespezifische-maßnahmen"
+          "title": "Therapiespezifische Diagnostik",
+          "definitionCanonical": "http://example.org/PlanDefinition/therapiespezifische-diagnostik"
         },
         {
           "title": "Zusatzdiagnostik",
@@ -46,15 +46,15 @@
       ]
     },
     {
-      "id": "step-2",
+      "id": "analysis",
       "title": "Auswertung",
       "relatedAction": [
         {
-          "actionId": "step-1",
+          "actionId": "examination",
           "relationship": "after-end"
         }
       ],
-      "definitionCanonical": "http://example.org/ActivityDefinition/auswertung"
+      "definitionCanonical": "http://example.org/PlanDefinition/auswertung"
     }
   ]
 }

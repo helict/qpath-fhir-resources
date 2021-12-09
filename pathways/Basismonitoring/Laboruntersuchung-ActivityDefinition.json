@@ -4,5 +4,7 @@
   "url": "http://example.org/ActivityDefinition/labor",
   "title": "Laboruntersuchung",
   "name": "Laboruntersuchung",
-  "status": "draft"
+  "status": "draft",
+  "kind": "ServiceRequest",
+  "doNotPerform": false
 }
