@@ -7,8 +7,8 @@
     "coding": [
       {
         "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
-        "code": "clinical-protocol",
-        "display": "Clinical Protocol"
+        "code": "workflow-definition",
+        "display": "Workflow Definition"
       }
     ]
   },
@@ -16,22 +16,22 @@
   "experimental": true,
   "action": [
     {
-      "id": "step-1",
+      "id": "appointment",
       "title": "Terminvereinbarung",
       "description": "Termin zur Vorstellung vereinbaren",
-      "definitionCanonical": "http://example.org/ActivityDefinition/terminvereinbarung"
+      "definitionCanonical": "http://example.org/PlanDefinition/terminvereinbarung"
     },
     {
-      "id": "step-2",
+      "id": "collect",
       "title": "Dokumente abfragen",
       "description": "Dokumente zum Termin einsammeln",
       "relatedAction": [
         {
-          "actionId": "step-2",
+          "actionId": "appointment",
           "relationship": "after-end"
         }
       ],
-      "definitionCanonical": "http://example.org/ActivityDefinition/dokumente-abfragen-patient"
+      "definitionCanonical": "http://example.org/PlanDefinition/dokumente-abfragen-patient"
     }
   ]
 }

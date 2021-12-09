@@ -1,0 +1,32 @@
+{
+  "resourceType": "PlanDefinition",
+  "url": "http://example.org/PlanDefinition/dokumente-abfragen-patient",
+  "name": "DokumenteAbfragenPatient",
+  "title": "Dokumente abfragen",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+        "code": "eca-rule",
+        "display": "ECA Rule"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "action": [
+    {
+      "title": "Dokumente beim Patienten abfragen",
+      "type" : {
+        "coding" : [
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/action-type",
+            "code" : "create"
+          }
+        ]
+      },
+      "definitionCanonical": "http://example.org/ActivityDefinition/dokumente-abfragen"
+    }
+  ]
+}
+

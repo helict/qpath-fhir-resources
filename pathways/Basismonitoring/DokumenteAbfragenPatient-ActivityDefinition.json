@@ -1,8 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "cf-1638520653349",
-  "status": "draft",
-  "url": "http://example.org/ActivityDefinition/dokumente-abfragen-patient",
-  "name": "DokumetenAbfragenPatient",
-  "title": "Dokumeten abfragen (Patient)"
-}

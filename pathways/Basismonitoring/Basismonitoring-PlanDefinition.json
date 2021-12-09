@@ -27,7 +27,7 @@
           "id": "step-1",
           "title": "Vorstellung",
           "description": "Erst- und Wiedervostellung",
-          "definitionCanonical": "http://example.org/ActivityDefinition/vorstellung"
+          "definitionCanonical": "http://example.org/PlanDefinition/vorstellung"
         },
         {
           "id": "step-2",
