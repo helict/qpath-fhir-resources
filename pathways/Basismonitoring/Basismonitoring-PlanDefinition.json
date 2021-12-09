@@ -24,42 +24,42 @@
       "cardinalityBehavior": "multiple",
       "action": [
         {
-          "id": "step-1",
+          "id": "admission",
           "title": "Vorstellung",
           "description": "Erst- und Wiedervostellung",
           "definitionCanonical": "http://example.org/PlanDefinition/vorstellung"
         },
         {
-          "id": "step-2",
+          "id": "diagnostic-testing",
           "title": "Voruntersuchung",
           "description": "Diagnostische Voruntersuchungen durchführen",
           "relatedAction": [
             {
-              "actionId": "step-1",
+              "actionId": "admission",
               "relationship": "after-end"
             }
           ],
           "definitionCanonical": "http://example.org/PlanDefinition/voruntersuchung"
         },
         {
-          "id": "step-3",
+          "id": "examination",
           "title": "Arztvorstellung",
           "description": "Voruntersuchungen auswerten und Therapiemaßnahmen ableiten",
           "relatedAction": [
             {
-              "actionId": "step-2",
+              "actionId": "diagnostic-testing",
               "relationship": "after-end"
             }
           ],
           "definitionCanonical": "http://example.org/PlanDefinition/arztvorstellung"
         },
         {
-          "id": "step-4",
+          "id": "discharge",
           "title": "Entlassung",
           "description": "Patient nach Hause entlassen",
           "relatedAction": [
             {
-              "actionId": "step-3",
+              "actionId": "examination",
               "relationship": "after-end"
             }
           ],
