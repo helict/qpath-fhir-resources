@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "url": "http://example.org/ActivityDefinition/dokumente-uebermitteln-arzt",
-  "name": "DokumenteUebermittelnArzt",
-  "title": "Dokumente übermitteln (Arzt)",
-  "status": "draft",
-  "experimental": true,
-  "id": "cf-1638533522302"
-}

@@ -1,0 +1,10 @@
+{
+  "resourceType": "ActivityDefinition",
+  "url": "http://example.org/ActivityDefinition/dokumente-uebermitteln",
+  "name": "DokumenteUebermitteln",
+  "title": "Dokumente übermitteln",
+  "status": "draft",
+  "experimental": true,
+  "id": "cf-1638533522302",
+  "kind": "Task"
+}
