@@ -4,5 +4,7 @@
   "url": "http://example.org/ActivityDefinition/oct",
   "title": "Optische Koheränztomografie (OCT)",
   "name": "OptischeKoheraenztomografie",
-  "status": "draft"
+  "status": "draft",
+  "kind": "ServiceRequest",
+  "doNotPerform": false
 }

@@ -1,8 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "cf-1638361238512",
-  "url": "http://example.org/ActivityDefinition/therapiespezifische-maßnahmen",
-  "name": "TherapiespezifischeMasznahmen",
-  "title": "Therapiespezifische Maßnahmen",
-  "status": "draft"
-}

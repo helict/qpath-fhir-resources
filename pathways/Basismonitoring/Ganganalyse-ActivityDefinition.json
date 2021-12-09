@@ -4,5 +4,7 @@
   "url": "http://example.org/ActivityDefinition/ganganalyse",
   "status": "draft",
   "title": "Ganganalyse",
-  "name": "Ganganalyse"
+  "name": "Ganganalyse",
+  "kind": "ServiceRequest",
+  "doNotPerform": false
 }

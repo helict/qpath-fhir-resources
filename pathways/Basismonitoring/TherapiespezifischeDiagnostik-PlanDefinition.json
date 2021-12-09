@@ -1,0 +1,40 @@
+{
+  "resourceType": "PlanDefinition",
+  "url": "http://example.org/PlanDefinition/therapiespezifische-diagnostik",
+  "name": "TherapiespezifischeDiagnostik",
+  "title": "Therapiespezifische Diagnostik",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+        "code": "eca-rule",
+        "display": "ECA Rule"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "action": [
+    {
+      "title": "Therapiespezifische Diagnostik",
+      "type" : {
+        "coding" : [
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/action-type",
+            "code" : "create"
+          }
+        ]
+      },
+      "condition": [
+        {
+          "kind": "applicability",
+          "expression": {
+            "language": "text/cql",
+            "expression": "is under therapy"
+          }
+        }
+      ],
+      "definitionCanonical": "http://example.org/ActivityDefinition/therapiespezifische-diagnostik"
+    }
+  ]
+}

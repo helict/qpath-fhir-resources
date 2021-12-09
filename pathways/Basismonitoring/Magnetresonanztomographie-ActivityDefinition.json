@@ -4,5 +4,7 @@
   "url": "http://example.org/ActivityDefinition/mrt",
   "title": "Magnetresonanztomographie (MRT)",
   "name": "Magnetresonanztomographie",
-  "status": "draft"
+  "status": "draft",
+  "kind": "ServiceRequest",
+  "doNotPerform": false
 }

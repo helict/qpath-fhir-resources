@@ -1,15 +1,15 @@
 {
   "resourceType": "PlanDefinition",
   "id": "cf-1638454179391",
-  "url": "http://example.org/PlanDefinition/voruntersuchungen",
-  "name": "Voruntersuchungen",
-  "title": "Voruntersuchungen",
+  "url": "http://example.org/PlanDefinition/voruntersuchung",
+  "name": "Voruntersuchung",
+  "title": "Voruntersuchung",
   "type": {
     "coding": [
       {
         "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
-        "code": "clinical-protocol",
-        "display": "Clinical Protocol"
+        "code": "workflow-definition",
+        "display": "Workflow Definition"
       }
     ]
   },
@@ -17,14 +17,13 @@
   "experimental": true,
   "action": [
     {
-      "id": "step-1-outerGroup",
       "groupingBehavior": "logical-group",
       "selectionBehavior": "all",
       "requiredBehavior": "must-unless-documented",
       "cardinalityBehavior": "single",
       "action": [
         {
-          "id": "step-1-1-every3months",
+          "title": "Diagnostik alle 3 Monate",
           "timingTiming": {
             "repeat": {
               "frequency": 1,
@@ -38,17 +37,17 @@
           "cardinalityBehavior": "single",
           "action": [
             {
-              "title": "MSPT (MSFC)",
-              "definitionCanonical": "http://example.org/ActivityDefinition/mspt"
+              "title": "Multiple Sclerosis Performance Test (MSPT)",
+              "definitionCanonical": "http://example.org/PlanDefinition/mspt"
             },
             {
-              "title": "Therapiespezifische Maßnahmen",
-              "definitionCanonical": "http://example.org/ActivityDefinition/therapiespezifische-maßnahmen"
+              "title": "Therapiespezifische Diagnostik",
+              "definitionCanonical": "http://example.org/PlanDefinition/therapiespezifische-diagnostik"
             }
           ]
         },
         {
-          "id": "step-1-2-every12months",
+          "title": "Diagnostik alle 12 Monate",
           "timingTiming": {
             "repeat": {
               "frequency": 1,
@@ -62,25 +61,16 @@
           "cardinalityBehavior": "single",
           "action": [
             {
-              "title": "OCT (Optische Kohärenztomografie)",
-              "definitionCanonical": "http://example.org/ActivityDefinition/oct"
+              "title": "Optische Kohärenztomografie (OCT)",
+              "definitionCanonical": "http://example.org/PlanDefinition/oct"
             },
             {
               "title": "Ganganalyse",
-              "definitionCanonical": "http://example.org/ActivityDefinition/ganganalyse"
+              "definitionCanonical": "http://example.org/PlanDefinition/ganganalyse"
             },
             {
-              "title": "MRT",
-              "condition": [
-                {
-                  "kind": "applicability",
-                  "expression": {
-                    "language": "text/cql",
-                    "expression": "no current pregnancy"
-                  }
-                }
-              ],
-              "definitionCanonical": "http://example.org/ActivityDefinition/mrt"
+              "title": "Magnetresonanztomografie (MRT)",
+              "definitionCanonical": "http://example.org/PlanDefinition/mrt"
             }
           ]
         }

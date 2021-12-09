@@ -4,5 +4,7 @@
   "url": "http://example.org/ActivityDefinition/mspt",
   "title": "Multiple Sclerosis Performance Test (MSPT)",
   "name": "MultipleSclerosisPerformanceTest",
-  "status": "draft"
+  "status": "draft",
+  "kind": "ServiceRequest",
+  "doNotPerform": false
 }
