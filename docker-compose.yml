@@ -1,0 +1,47 @@
+version: "3"
+services:
+  hapi-proxy:
+    container_name: hapi-proxy
+    hostname: hapi-proxy
+    image: nginx:latest
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+    volumes:
+      - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - hapi-net
+    command: ['nginx-debug', '-g', 'daemon off;']
+
+  hapi:
+    container_name: hapi
+    hostname: hapi
+    image: contentgroup/cqf-ruler:latest
+    ports:
+      - 8080:8080
+    depends_on:
+      - hapi-proxy
+    networks:
+      - hapi-net
+
+  hapi-monitor:
+    container_name: hapi-monitor
+    hostname: hapi-monitor
+    image: amir20/dozzle:latest
+    environment:
+      DOZZLE_BASE: /monitor
+      DOZZLE_LEVEL: debug
+      DOZZLE_ADDR: hapi-monitor:8081
+      DOZZLE_NO_ANALYTICS: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 8081:8080
+    depends_on:
+      - hapi-proxy
+    networks:
+      - hapi-net
+
+networks:
+  hapi-net:
