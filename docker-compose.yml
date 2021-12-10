@@ -33,7 +33,7 @@ services:
       DOZZLE_BASE: /monitor
       DOZZLE_LEVEL: debug
       DOZZLE_ADDR: hapi-monitor:8081
-      DOZZLE_NO_ANALYTICS: true
+      DOZZLE_NO_ANALYTICS: 'true'
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
