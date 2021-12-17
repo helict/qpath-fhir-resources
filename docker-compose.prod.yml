@@ -1,0 +1,15 @@
+version: "3"
+services:
+  hapi-proxy:
+    ports:
+      - 80:80
+      - 443:443
+    restart: always
+
+  hapi:
+    restart: always
+    volumes:
+      - ./config/hapi/hapi-prod.properties:/var/lib/jetty/webapps/config/r4.properties
+
+  hapi-monitor:
+    restart: always

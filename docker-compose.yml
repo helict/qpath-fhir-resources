@@ -6,8 +6,7 @@ services:
     image: nginx:latest
     ports:
       - 80:80
-      - 443:443
-    restart: always
+    restart: on-failure
     volumes:
       - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf
     networks:
@@ -20,7 +19,9 @@ services:
     image: contentgroup/cqf-ruler:latest
     ports:
       - 8080:8080
-    restart: always
+    restart: on-failure
+    volumes:
+      - ./config/hapi/hapi-dev.properties:/var/lib/jetty/webapps/config/r4.properties
     depends_on:
       - hapi-proxy
     networks:
@@ -39,7 +40,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - 8081:8080
-    restart: always
+    restart: on-failure
     depends_on:
       - hapi-proxy
     networks:
