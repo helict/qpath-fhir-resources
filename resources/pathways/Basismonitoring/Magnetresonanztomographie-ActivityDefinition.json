@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "mrt",
+  "title": "Magnetresonanztomographie (MRT)",
+  "name": "Magnetresonanztomographie",
+  "status": "draft",
+  "kind": "ServiceRequest",
+  "doNotPerform": false
+}

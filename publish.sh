@@ -1,14 +1,7 @@
-#/usr/bin/env sh
+#!/usr/bin/env sh
 
-# Todo: Check arguments
-SERVER_ID=${1:-home}
-BASE_URL=${2:-http://localhost:8080/cqf-ruler}
-ACTION=${3:-create}
 PREFIX="[$(basename $0)] "
-
-echo "${PREFIX}Set server id:\t${SERVER_ID}"
-echo "${PREFIX}Set base url:\t${BASE_URL}"
-echo "${PREFIX}Set action:\t${ACTION}\n"
+BUNDLE=${PWD}/.bundle/Bundle.json
 
 # Check if curl, used for POST requests, is installed
 [ -z "$(command -v curl)" ] && echo "Please install curl" && exit 1
@@ -16,21 +9,32 @@ echo "${PREFIX}Set action:\t${ACTION}\n"
 # Check if jq, used to query JSON files, is installed
 [ -z "$(command -v jq)" ] && echo "Please install jq" && exit 1
 
-# POST each FHIR resource file to public HAPI FHIR R4 server
-for path in `ls -d ${PWD}/pathways/**/*.json`; do
-    type="$(jq -r '.resourceType' ${path})"
-    id="$(jq -r '.id' ${path})"
-    status=$(
-        curl -sSL \
-             -w "%{http_code}" \
-             -o /dev/null \
-             -d "serverId=${SERVER_ID}" \
-             -d "resource=${type}" \
-             -d "resource-create-id=${id}" \
-             --data-urlencode "resource-create-body@${path}" \
-             -X POST ${BASE_URL}/${ACTION}
-    )
-    echo "${PREFIX}${status}\t${id}\t${type}\t${path}"
-done
+# Read all FHIR JSON resource files and combine them to one FHIR Bundle
+find ${PWD}/resources/ -iname *.json -exec cat {} \; | \
+  sed -r 's/"definitionCanonical": "http:\/\/qpath.ukdd.de\/fhir\/(.*)"/"definitionCanonical": "\1"/g' | \
+    jq '{ resource: (.), request: { method: "POST", url: .resourceType } }' | \
+      jq '[inputs] | { resourceType: "Bundle", type: "transaction", entry: . }' > ${BUNDLE}
+
+# Publish the created Bundle
+BASE_URL=${1:-http://localhost:8080/cqf-ruler-r4}
+SERVER_ID=${2:-home}
+ACTION=${3:-transaction}
+
+echo "${PREFIX}POST resources to ${BASE_URL} [y/n]?"
+read continue
+
+if [[ "${continue}" == "y" ]]; then
+  echo "${PREFIX}Set server id:\t${SERVER_ID}"
+  echo "${PREFIX}Set base url:\t${BASE_URL}"
+  echo "${PREFIX}Set server action:\t${ACTION}"
+  
+  # POST each FHIR resource file to public HAPI FHIR R4 server
+  curl -sSL \
+       -w "${PREFIX}HTTP Response Status: %{http_code}\n" \
+       -o ${PWD}/.bundle/Bundle.log \
+       -d "serverId=${SERVER_ID}" \
+       --data-urlencode "transactionBody@${BUNDLE}" \
+       -X POST ${BASE_URL}/${ACTION}
+fi
 
 [ $? -eq 0 ] || exit 1

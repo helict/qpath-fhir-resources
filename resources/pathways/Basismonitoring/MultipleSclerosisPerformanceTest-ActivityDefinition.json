@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "mspt",
+  "title": "Multiple Sclerosis Performance Test (MSPT)",
+  "name": "MultipleSclerosisPerformanceTest",
+  "status": "draft",
+  "kind": "ServiceRequest",
+  "doNotPerform": false
+}

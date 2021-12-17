@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "edss",
+  "name": "ExpandedDisabilityStatusScale",
+  "title": "Expanded Disability Status Scale (EDSS)",
+  "status": "draft",
+  "kind": "Task",
+  "doNotPerform": false
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "ganganalyse",
+  "title": "Ganganalyse",
+  "name": "Ganganalyse",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+        "code": "eca-rule",
+        "display": "ECA Rule"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "action": [
+    {
+      "title": "Diagnostik Ganganalyse",
+      "type" : {
+        "coding" : [
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/action-type",
+            "code" : "create"
+          }
+        ]
+      },
+      "definitionCanonical": "http://qpath.ukdd.de/fhir/ActivityDefinition/ganganalyse"
+    }
+  ]
+}

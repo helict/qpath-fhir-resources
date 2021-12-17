@@ -1,0 +1,36 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "vorstellung",
+  "name": "Vorstellung",
+  "title": "Erst- und Wiedervorstellung",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+        "code": "workflow-definition",
+        "display": "Workflow Definition"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "action": [
+    {
+      "id": "appointment",
+      "title": "Terminvereinbarung",
+      "description": "Termin zur Vorstellung vereinbaren",
+      "definitionCanonical": "http://qpath.ukdd.de/fhir/PlanDefinition/terminvereinbarung"
+    },
+    {
+      "title": "Dokumente abfragen",
+      "description": "Dokumente zum Termin einsammeln",
+      "relatedAction": [
+        {
+          "actionId": "appointment",
+          "relationship": "after-end"
+        }
+      ],
+      "definitionCanonical": "http://qpath.ukdd.de/fhir/PlanDefinition/dokumente-abfragen-patient"
+    }
+  ]
+}

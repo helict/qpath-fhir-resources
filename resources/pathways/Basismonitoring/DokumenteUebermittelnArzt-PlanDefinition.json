@@ -1,0 +1,32 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "dokumente-uebermitteln-arzt",
+  "name": "DokumenteUebermittelnArzt",
+  "title": "Dokumente an Arzt übermitteln",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type",
+        "code": "eca-rule",
+        "display": "ECA Rule"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "action": [
+    {
+      "title": "Dokumente übermitteln",
+      "type" : {
+        "coding" : [
+          {
+            "system" : "http://terminology.hl7.org/CodeSystem/action-type",
+            "code" : "create"
+          }
+        ]
+      },
+      "definitionCanonical": "http://qpath.ukdd.de/fhir/ActivityDefinition/dokumente-uebermitteln"
+    }
+  ]
+}
+

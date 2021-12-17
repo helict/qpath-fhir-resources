@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "dokumente-uebermitteln",
+  "name": "DokumenteUebermitteln",
+  "title": "Dokumente übermitteln",
+  "status": "draft",
+  "experimental": true,
+  "kind": "Task"
+}

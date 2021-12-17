@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "labor",
+  "title": "Laboruntersuchung",
+  "name": "Laboruntersuchung",
+  "status": "draft",
+  "kind": "ServiceRequest",
+  "doNotPerform": false
+}

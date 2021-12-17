@@ -1,0 +1,10 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "auswertung",
+  "name": "Auswertung",
+  "title": "Auswertung",
+  "status": "draft",
+  "experimental": true,
+  "kind": "Task",
+  "doNotPerform": false
+}

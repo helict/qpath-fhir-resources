@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "befundauswertung",
+  "name": "Befundauswertung",
+  "title": "Befundauswertung",
+  "status": "draft",
+  "kind": "Task",
+  "doNotPerform": false
+}

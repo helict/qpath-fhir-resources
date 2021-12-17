@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "ganganalyse",
+  "status": "draft",
+  "title": "Ganganalyse",
+  "name": "Ganganalyse",
+  "kind": "ServiceRequest",
+  "doNotPerform": false
+}
