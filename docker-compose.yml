@@ -8,6 +8,7 @@ services:
       - 80:80
     restart: on-failure
     volumes:
+      - ./config/nginx/common:/etc/nginx/common
       - ./config/nginx/nginx.conf:/etc/nginx/nginx.conf
     networks:
       - hapi-net

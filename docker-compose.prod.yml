@@ -5,6 +5,14 @@ services:
       - 80:80
       - 443:443
     restart: always
+    volumes:
+      - ./config/nginx/common:/etc/nginx/common
+      - ./config/nginx/nginx.prod.conf:/etc/nginx/nginx.conf
+    secrets:
+      - source: ssl-key
+        target: /etc/nginx/ssl/privkey.pem
+      - source: ssl-cert
+        target: /etc/nginx/ssl/cert.pem
 
   hapi:
     restart: always
@@ -13,3 +21,9 @@ services:
 
   hapi-monitor:
     restart: always
+
+secrets:
+  ssl-key:
+    file: /etc/ssl/private/privkey.pem
+  ssl-cert:
+    file: /etc/ssl/certs/cert.pem
