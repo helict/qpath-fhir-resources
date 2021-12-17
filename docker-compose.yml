@@ -1,4 +1,4 @@
-version: "3"
+version: "3.3"
 services:
   hapi-proxy:
     container_name: hapi-proxy
@@ -22,7 +22,7 @@ services:
       - 8080:8080
     restart: on-failure
     volumes:
-      - ./config/hapi/hapi-dev.properties:/var/lib/jetty/webapps/config/r4.properties
+      - ./config/hapi/hapi.properties:/var/lib/jetty/webapps/config/r4.properties
     depends_on:
       - hapi-proxy
     networks:

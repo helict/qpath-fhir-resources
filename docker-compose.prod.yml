@@ -1,4 +1,4 @@
-version: "3"
+version: "3.3"
 services:
   hapi-proxy:
     ports:
@@ -17,7 +17,7 @@ services:
   hapi:
     restart: always
     volumes:
-      - ./config/hapi/hapi-prod.properties:/var/lib/jetty/webapps/config/r4.properties
+      - ./config/hapi/hapi.prod.properties:/var/lib/jetty/webapps/config/r4.properties
 
   hapi-monitor:
     restart: always
