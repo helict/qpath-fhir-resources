@@ -25,10 +25,9 @@ BASE_URL=${1:-http://localhost:8080/cqf-ruler-r4}
 SERVER_ID=${2:-home}
 ACTION=${3:-transaction}
 
-echo "${PREFIX}POST transaction FHIR bundle ${BUNDLE} to ${BASE_URL} [y/n]?"
-read continue
-
-if [[ "${continue}" == "y" ]]; then
+read -p "${PREFIX}POST transaction FHIR Bundle ${BUNDLE} to ${BASE_URL} [y/n]? " answer
+ 
+if [ "$(echo ${answer} | tr A-Z a-z)" = "y" ]; then
   echo "${PREFIX}Set server id:\t${SERVER_ID}"
   echo "${PREFIX}Set base url:\t${BASE_URL}"
   echo "${PREFIX}Set server action:\t${ACTION}"
