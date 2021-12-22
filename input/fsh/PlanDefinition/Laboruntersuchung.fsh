@@ -2,9 +2,9 @@ Instance: Q4MSLaboruntersuchung
 InstanceOf: PlanDefinition
 Title: "Laboruntersuchung PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSLaboruntersuchung"
+* url = $q4ms-laboruntersuchung
 * type = $plan-definition-type#eca-rule
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.title = "Laboruntersuchung"
 * action.type = $action-type#create

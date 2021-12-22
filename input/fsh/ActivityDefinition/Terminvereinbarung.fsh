@@ -2,7 +2,7 @@ Instance: Q4MSTerminvereinbarungActivity
 InstanceOf: ActivityDefinition
 Title: "Terminvereinbarung ActivityDefinition"
 Usage: #definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
-* kind = #Appointment
+* kind = $resource-type#Appointment
 * doNotPerform = false

@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSVorstellung",
-  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSVorstellung",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-vorstellung",
   "type": {
     "coding": [
       {
@@ -17,7 +17,7 @@
       "id": "appointment",
       "title": "Terminvereinbarung",
       "description": "Termin zur Vorstellung vereinbaren",
-      "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSTerminvereinbarung"
+      "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-terminvereinbarung"
     },
     {
       "title": "Dokumente abfragen",
@@ -28,7 +28,7 @@
           "relationship": "after-end"
         }
       ],
-      "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteAbfragenPatient"
+      "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient"
     }
   ]
 }

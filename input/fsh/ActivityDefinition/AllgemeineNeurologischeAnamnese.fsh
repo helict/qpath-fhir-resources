@@ -2,7 +2,7 @@ Instance: Q4MSAllgemeineNeurologischeAnamneseActivity
 InstanceOf: ActivityDefinition
 Title: "Allgemeine neurologische Anamnese ActivityDefinition"
 Usage: #definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
-* kind = #Task
+* kind = $resource-type#Task
 * doNotPerform = false

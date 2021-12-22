@@ -2,9 +2,9 @@ Instance: Q4MSBasismonitoring
 InstanceOf: PlanDefinition
 Title: "Basismonitoring Patientepfad PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSBasismonitoring"
+* url = $q4ms-basismonitoring
 * type = $plan-definition-type#clinical-protocol
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.groupingBehavior = #logical-group
 * action.selectionBehavior = #all

@@ -2,7 +2,7 @@ Instance: Q4MSLaboruntersuchungActivity
 InstanceOf: ActivityDefinition
 Title: "Laboruntersuchung ActivityDefinition"
 Usage: #definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
-* kind = #ServiceRequest
+* kind = $resource-type#ServiceRequest
 * doNotPerform = false

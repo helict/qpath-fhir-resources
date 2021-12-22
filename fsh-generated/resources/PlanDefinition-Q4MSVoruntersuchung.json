@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSVoruntersuchung",
-  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSVoruntersuchung",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-voruntersuchung",
   "type": {
     "coding": [
       {
@@ -35,11 +35,11 @@
           "action": [
             {
               "title": "Multiple Sclerosis Performance Test (MSPT)",
-              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"
+              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test"
             },
             {
               "title": "Therapiespezifische Diagnostik",
-              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSTherapiespezifischeDiagnostik"
+              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik"
             }
           ]
         },
@@ -59,15 +59,15 @@
           "action": [
             {
               "title": "Optische Kohärenztomographie (OCT)",
-              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSOptischeKoheraenztomographie"
+              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie"
             },
             {
               "title": "Ganganalyse",
-              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSGanganalyse"
+              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-ganganalyse"
             },
             {
               "title": "Magnetresonanztomographie (MRT)",
-              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSMagnetresonanztomographie"
+              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie"
             }
           ]
         }

@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "q4ms-terminanfragekategorie-vs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-q4ms-terminanfragekategorie.html\"><code>http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-q4ms-terminanfragekategorie.html\"><code>http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-terminanfragekategorie</code></a></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "http://qpath.ukdd.de/ValueSet/q4ms-terminanfragekategorie-vs"];
+  fhir:ValueSet.url [ fhir:value "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "Q4MSTerminanfragekategorieVS"];
   fhir:ValueSet.title [ fhir:value "Terminanfragekategorie ValueSet"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-12-22T11:59:55+01:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-12-22T13:43:58+01:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "QPath4MS"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -32,7 +32,7 @@
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-terminanfragekategorie" ]
      ]
   ] .
 

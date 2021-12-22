@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSBefundauswertung",
-  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSBefundauswertung",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-befundauswertung",
   "type": {
     "coding": [
       {

@@ -2,7 +2,7 @@ Instance: Q4MSDokumenteAbfragenActivity
 InstanceOf: ActivityDefinition
 Title: "Dokumente abfragen ActivityDefinition"
 Usage: #definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
-* kind = #Task
+* kind = $resource-type#Task
 * doNotPerform = false

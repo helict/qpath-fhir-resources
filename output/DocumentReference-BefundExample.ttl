@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "BefundExample"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-befund-profile";
+       fhir:value "http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile";
        fhir:index 0;
-       fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-befund-profile>
+       fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BefundExample\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-q4ms-befund-profile.html\">Befund DocumentReference Profile</a></p></div><p><b>status</b>: current</p><p><b>subject</b>: <a href=\"Patient-john-doe.html\">Patient/john-doe</a> \" DOE\"</p><blockquote><p><b>content</b></p></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"BefundExample\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Q4MSBefundProfile.html\">Befund DocumentReference Profile</a></p></div><p><b>status</b>: current</p><p><b>subject</b>: <a href=\"Patient-john-doe.html\">Patient/john-doe</a> \" DOE\"</p><blockquote><p><b>content</b></p></blockquote></div>"
   ];
   fhir:DocumentReference.status [ fhir:value "current"];
   fhir:DocumentReference.subject [

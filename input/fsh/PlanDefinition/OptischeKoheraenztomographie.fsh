@@ -2,9 +2,9 @@ Instance: Q4MSOptischeKoheraenztomographie
 InstanceOf: PlanDefinition
 Title: "Optische Koheränztomographie PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSOptischeKoheraenztomographie"
+* url = $q4ms-optische-koheraenztomographie
 * type = $plan-definition-type#eca-rule
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.title = "Diagnostik Optische Koheränztomographie (OCT)"
 * action.type = $action-type#create

@@ -68,7 +68,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://terminology-fgdh.wiwi.tu-dresden.de/ValueSet/q4ms-dokumentanforderungkategorie-vs"
+          "valueSet": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-dokumentanforderungkategorie-vs"
         }
       },
       {

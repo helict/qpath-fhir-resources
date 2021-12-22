@@ -3,13 +3,13 @@
   "id": "Q4MSMagnetresonanztomographieActivity",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSMagnetresonanztomographieActivity\" </p></div><p><b>url</b>: <code>http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieActivity</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T11:59:55+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><p><b>kind</b>: ServiceRequest</p><p><b>doNotPerform</b>: false</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSMagnetresonanztomographieActivity\" </p></div><p><b>url</b>: <code>http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieActivity</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T13:43:58+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><p><b>kind</b>: ServiceRequest</p><p><b>doNotPerform</b>: false</p></div>"
   },
   "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieActivity",
   "version": "0.1.0",
   "status": "draft",
   "experimental": true,
-  "date": "2021-12-22T11:59:55+01:00",
+  "date": "2021-12-22T13:43:58+01:00",
   "publisher": "QPath4MS",
   "contact": [
     {

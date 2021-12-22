@@ -2,8 +2,8 @@ Instance: Q4MSAuswertung
 InstanceOf: PlanDefinition
 Title: "Auswertung PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSAuswertung"
-* status = #draft
+* url = $q4ms-auswertung
+* status = $publication-status#draft
 * type = $plan-definition-type#eca-rule
 * experimental = true
 * action.title = "Auswertung"

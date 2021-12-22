@@ -3,18 +3,19 @@
 <PlanDefinition xmlns="http://hl7.org/fhir">
   <id value="Q4MSBasismonitoring"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSBasismonitoring" </p></div><p><b>url</b>: <code>/PlanDefinition/Q4MSBasismonitoring</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: clinical-protocol <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#clinical-protocol)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T11:59:55+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href="http://qpath.ukdd.de">http://qpath.ukdd.de</a></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: multiple</p><blockquote><p><b>action</b></p><p><b>title</b>: Vorstellung</p><p><b>description</b>: Erst- und Wiedervostellung</p><p><b>definition</b>: <code>/PlanDefinition/Q4MSVorstellung</code></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Voruntersuchung</p><p><b>description</b>: Diagnostische Voruntersuchungen durchführen</p><p><b>definition</b>: <code>/PlanDefinition/Q4MSVoruntersuchung</code></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Arztvorstellung</p><p><b>description</b>: Voruntersuchungen auswerten und Therapiemaßnahmen ableiten</p><p><b>definition</b>: <code>/PlanDefinition/Q4MSArztvorstellung</code></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Entlassung</p><p><b>description</b>: Patient nach Hause entlassen</p><p><b>definition</b>: <code>/PlanDefinition/Q4MSEntlassung</code></p></blockquote></blockquote></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSBasismonitoring" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-basismonitoring</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: Clinical Protocol <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html">PlanDefinitionType</a>#clinical-protocol)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T13:43:58+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href="http://qpath.ukdd.de">http://qpath.ukdd.de</a></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: multiple</p><blockquote><p><b>action</b></p><p><b>title</b>: Vorstellung</p><p><b>description</b>: Erst- und Wiedervostellung</p><p><b>definition</b>: <a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-vorstellung">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-vorstellung</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Voruntersuchung</p><p><b>description</b>: Diagnostische Voruntersuchungen durchführen</p><p><b>definition</b>: <a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-voruntersuchung">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-voruntersuchung</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Arztvorstellung</p><p><b>description</b>: Voruntersuchungen auswerten und Therapiemaßnahmen ableiten</p><p><b>definition</b>: <a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-arztvorstellung">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-arztvorstellung</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Entlassung</p><p><b>description</b>: Patient nach Hause entlassen</p><p><b>definition</b>: <a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-entlassung">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-entlassung</a></p></blockquote></blockquote></div>
   </text>
-  <url value="/PlanDefinition/Q4MSBasismonitoring"/>
+  <url value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-basismonitoring"/>
   <version value="0.1.0"/>
   <type>
     <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
       <code value="clinical-protocol"/>
     </coding>
   </type>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-12-22T11:59:55+01:00"/>
+  <date value="2021-12-22T13:43:58+01:00"/>
   <publisher value="QPath4MS"/>
   <contact>
     <name value="QPath4MS"/>
@@ -31,7 +32,7 @@
     <action id="admission">
       <title value="Vorstellung"/>
       <description value="Erst- und Wiedervostellung"/>
-      <definitionCanonical value="/PlanDefinition/Q4MSVorstellung"/>
+      <definitionCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-vorstellung"/>
     </action>
     <action id="diagnostic-testing">
       <title value="Voruntersuchung"/>
@@ -40,7 +41,7 @@
         <actionId value="admission"/>
         <relationship value="after-end"/>
       </relatedAction>
-      <definitionCanonical value="/PlanDefinition/Q4MSVoruntersuchung"/>
+      <definitionCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-voruntersuchung"/>
     </action>
     <action id="examination">
       <title value="Arztvorstellung"/>
@@ -49,7 +50,7 @@
         <actionId value="diagnostic-testing"/>
         <relationship value="after-end"/>
       </relatedAction>
-      <definitionCanonical value="/PlanDefinition/Q4MSArztvorstellung"/>
+      <definitionCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-arztvorstellung"/>
     </action>
     <action id="discharge">
       <title value="Entlassung"/>
@@ -58,7 +59,7 @@
         <actionId value="examination"/>
         <relationship value="after-end"/>
       </relatedAction>
-      <definitionCanonical value="/PlanDefinition/Q4MSEntlassung"/>
+      <definitionCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-entlassung"/>
     </action>
   </action>
 </PlanDefinition>

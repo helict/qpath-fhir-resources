@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "QPath4MSIG"];
   fhir:ImplementationGuide.title [ fhir:value "QPath4MS FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-22T11:59:55+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-22T13:43:58+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "QPath4MS"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -272,8 +272,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-arztbrief-profile" ]
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSArztbriefProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Arztbrief DocumentReference Profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
@@ -285,8 +285,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-befund-profile>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-befund-profile" ]
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSBefundProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Befund DocumentReference Profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
@@ -298,8 +298,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-dokument-profile>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-dokument-profile" ]
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentProfile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSDokumentProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokument DocumentReference Profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
@@ -311,8 +311,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-dokumentanforderung-profile>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-dokumentanforderung-profile" ]
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentanforderungProfile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSDokumentanforderungProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumentanforderung MessageDefinition Profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
@@ -324,8 +324,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-konsiliarbericht-profile>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-konsiliarbericht-profile" ]
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSKonsiliarberichtProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Konsiliarbericht DocumentReference Profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
@@ -337,8 +337,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-laborergebnis-profile>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-laborergebnis-profile" ]
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSLaborergebnisProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laborergebnis DocumentReference Profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
@@ -350,8 +350,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-rezept-profile>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-rezept-profile" ]
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSRezeptProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Rezept DocumentReference Profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
@@ -363,8 +363,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-sonstiges-dokument-profile>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-sonstiges-dokument-profile" ]
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSSonstigesDokumentProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sonstiges Dokument DocumentReference Profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
@@ -376,8 +376,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-terminvereinbarung-profile>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-terminvereinbarung-profile" ]
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSTerminvereinbarungProfile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSTerminvereinbarungProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminvereinbarung MessageDefinition Profile" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
@@ -479,8 +479,8 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Arztbrief" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für einen Arztbrief" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile";
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile>
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile>
        ]
      ], [
        fhir:index 16;
@@ -496,8 +496,8 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Befund" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für einen Befund" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-befund-profile";
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-befund-profile>
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile>
        ]
      ], [
        fhir:index 17;
@@ -513,8 +513,8 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Konsiliarbericht" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für einen Konsiliarbericht" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-konsiliarbericht-profile";
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-konsiliarbericht-profile>
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile>
        ]
      ], [
        fhir:index 18;
@@ -530,8 +530,8 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Laborergebnis" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für ein Laborergebnis" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-laborergebnis-profile";
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-laborergebnis-profile>
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile>
        ]
      ], [
        fhir:index 19;
@@ -1028,8 +1028,8 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Rezept" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für ein Rezept" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-rezept-profile";
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-rezept-profile>
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile>
        ]
      ], [
        fhir:index 57;
@@ -1045,8 +1045,8 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Sonstiges Dokument" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-sonstiges-dokument-profile";
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-sonstiges-dokument-profile>
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile>
        ]
      ], [
        fhir:index 58;
@@ -1059,7 +1059,7 @@
          fhir:link <http://qpath.ukdd.de/Patient/john-doe>;
          fhir:Reference.reference [ fhir:value "Patient/john-doe" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PatientExample" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Patient" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel Patient John Doe" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ];

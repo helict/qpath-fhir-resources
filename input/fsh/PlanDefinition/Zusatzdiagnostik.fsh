@@ -2,8 +2,8 @@ Instance: Q4MSZusatzdiagnostik
 InstanceOf: PlanDefinition
 Title: "Zusatzdiagnostik PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSZusatzdiagnostik"
-* status = #draft
+* url = $q4ms-zusatzdiagnostik
+* status = $publication-status#draft
 * experimental = true
 * type = $plan-definition-type#workflow-definition
 * action.selectionBehavior = #any

@@ -2,9 +2,9 @@ Instance: Q4MSBefundauswertung
 InstanceOf: PlanDefinition
 Title: "Befundauswertung PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSBefundauswertung"
+* url = $q4ms-befundauswertung
 * type = $plan-definition-type#eca-rule
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.title = "Befundauswertung"
 * action.type = $action-type#create

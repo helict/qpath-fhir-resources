@@ -6,11 +6,11 @@
   "title": "Anfragekategorie ValueSet",
   "description": "Definiert Anfragekategorien",
   "version": "1.0.0",
-  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/ValueSet/q4ms-anfragekategorie-vs",
+  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-anfragekategorie-vs",
   "compose": {
     "include": [
       {
-        "system": "http://terminology-fgdh.wiwi.tu-dresden.de/CodeSystem/q4ms-anfragekategorie"
+        "system": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-anfragekategorie"
       }
     ]
   }

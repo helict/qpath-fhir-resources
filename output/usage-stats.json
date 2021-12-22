@@ -6,25 +6,25 @@
   "profiles": {
     "DocumentReference": [
       {
-        "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-konsiliarbericht-profile",
+        "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile",
         "title": "Konsiliarbericht DocumentReference Profile"
       },
       {
-        "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-laborergebnis-profile",
+        "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile",
         "title": "Laborergebnis DocumentReference Profile"
       },
       {
-        "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-rezept-profile",
+        "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile",
         "title": "Rezept DocumentReference Profile"
       },
       {
-        "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-sonstiges-dokument-profile",
+        "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile",
         "title": "Sonstiges Dokument DocumentReference Profile"
       }
     ],
     "MessageDefinition": [
       {
-        "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-terminvereinbarung-profile",
+        "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSTerminvereinbarungProfile",
         "title": "Terminvereinbarung MessageDefinition Profile"
       }
     ]

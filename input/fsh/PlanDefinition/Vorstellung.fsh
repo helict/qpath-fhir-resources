@@ -2,9 +2,9 @@ Instance: Q4MSVorstellung
 InstanceOf: PlanDefinition
 Title: "Erst- oder Wiedervorstellung PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSVorstellung"
+* url = $q4ms-vorstellung
 * type = $plan-definition-type#workflow-definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action[0].id = "appointment"
 * action[=].title = "Terminvereinbarung"

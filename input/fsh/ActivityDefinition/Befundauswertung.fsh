@@ -2,7 +2,7 @@ Instance: Q4MSBefundauswertungActivity
 InstanceOf: ActivityDefinition
 Title: "Befundauswertung ActivityDefinition"
 Usage: #definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
-* kind = #Task
+* kind = $resource-type#Task
 * doNotPerform = false

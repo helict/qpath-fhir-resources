@@ -2,9 +2,9 @@ Instance: Q4MSMagnetresonanztomographie
 InstanceOf: PlanDefinition
 Title: "Magnetresonanztomographie PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSMagnetresonanztomographie"
+* url = $q4ms-magnetresonanztomographie
 * type = $plan-definition-type#eca-rule
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.title = "Diagnostik Magnetresonanztomographie (MRT)"
 * action.type = $action-type#create

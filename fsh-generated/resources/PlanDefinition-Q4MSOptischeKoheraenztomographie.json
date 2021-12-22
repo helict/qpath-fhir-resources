@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSOptischeKoheraenztomographie",
-  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSOptischeKoheraenztomographie",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie",
   "type": {
     "coding": [
       {

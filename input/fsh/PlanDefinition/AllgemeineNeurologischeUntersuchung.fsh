@@ -2,9 +2,9 @@ Instance: Q4MSAllgemeineNeurologischeUntersuchung
 InstanceOf: PlanDefinition
 Title: "Allgemeine neurologische Untersuchung PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung"
+* url = $q4ms-allgemeine-neurologische-untersuchung
 * type = $plan-definition-type#eca-rule
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.title = "Expanded Disability Status Scale (EDSS)"
 * action.type = $action-type#create

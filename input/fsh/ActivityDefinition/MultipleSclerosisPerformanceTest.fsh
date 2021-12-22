@@ -2,7 +2,7 @@ Instance: Q4MSMultipleSclerosisPerformanceTestActivity
 InstanceOf: ActivityDefinition
 Title: "Multiple Sclerosis Performance Test ActivityDefinition"
 Usage: #definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
-* kind = #ServiceRequest
+* kind = $resource-type#ServiceRequest
 * doNotPerform = false

@@ -10,19 +10,20 @@
   fhir:Resource.id [ fhir:value "Q4MSVoruntersuchung"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSVoruntersuchung\" </p></div><p><b>url</b>: <code>/PlanDefinition/Q4MSVoruntersuchung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: workflow-definition <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T11:59:55+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 3 Monate</p><p><b>timing</b>: Do Once per 3 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 12 Monate</p><p><b>timing</b>: Do Once per 12 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSVoruntersuchung\" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-voruntersuchung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: Workflow Definition <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T13:43:58+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 3 Monate</p><p><b>timing</b>: Do Once per 3 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 12 Monate</p><p><b>timing</b>: Do Once per 12 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote></blockquote></div>"
   ];
-  fhir:PlanDefinition.url [ fhir:value "/PlanDefinition/Q4MSVoruntersuchung"];
+  fhir:PlanDefinition.url [ fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-voruntersuchung"];
   fhir:PlanDefinition.version [ fhir:value "0.1.0"];
   fhir:PlanDefinition.type [
      fhir:CodeableConcept.coding [
        fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/plan-definition-type" ];
        fhir:Coding.code [ fhir:value "workflow-definition" ]
      ]
   ];
   fhir:PlanDefinition.status [ fhir:value "draft"];
   fhir:PlanDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:PlanDefinition.date [ fhir:value "2021-12-22T11:59:55+01:00"^^xsd:dateTime];
+  fhir:PlanDefinition.date [ fhir:value "2021-12-22T13:43:58+01:00"^^xsd:dateTime];
   fhir:PlanDefinition.publisher [ fhir:value "QPath4MS"];
   fhir:PlanDefinition.contact [
      fhir:index 0;
@@ -57,15 +58,15 @@
          fhir:index 0;
          fhir:PlanDefinition.action.title [ fhir:value "Multiple Sclerosis Performance Test (MSPT)" ];
          fhir:PlanDefinition.action.definitionCanonical [
-           fhir:value "/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest";
-           fhir:link <http://qpath.ukdd.de//PlanDefinition/Q4MSMultipleSclerosisPerformanceTest>
+           fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test";
+           fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test>
          ]
        ], [
          fhir:index 1;
          fhir:PlanDefinition.action.title [ fhir:value "Therapiespezifische Diagnostik" ];
          fhir:PlanDefinition.action.definitionCanonical [
-           fhir:value "/PlanDefinition/Q4MSTherapiespezifischeDiagnostik";
-           fhir:link <http://qpath.ukdd.de//PlanDefinition/Q4MSTherapiespezifischeDiagnostik>
+           fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik";
+           fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik>
          ]
        ]
      ], [
@@ -86,22 +87,22 @@
          fhir:index 0;
          fhir:PlanDefinition.action.title [ fhir:value "Optische Kohärenztomographie (OCT)" ];
          fhir:PlanDefinition.action.definitionCanonical [
-           fhir:value "/PlanDefinition/Q4MSOptischeKoheraenztomographie";
-           fhir:link <http://qpath.ukdd.de//PlanDefinition/Q4MSOptischeKoheraenztomographie>
+           fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie";
+           fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie>
          ]
        ], [
          fhir:index 1;
          fhir:PlanDefinition.action.title [ fhir:value "Ganganalyse" ];
          fhir:PlanDefinition.action.definitionCanonical [
-           fhir:value "/PlanDefinition/Q4MSGanganalyse";
-           fhir:link <http://qpath.ukdd.de//PlanDefinition/Q4MSGanganalyse>
+           fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-ganganalyse";
+           fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-ganganalyse>
          ]
        ], [
          fhir:index 2;
          fhir:PlanDefinition.action.title [ fhir:value "Magnetresonanztomographie (MRT)" ];
          fhir:PlanDefinition.action.definitionCanonical [
-           fhir:value "/PlanDefinition/Q4MSMagnetresonanztomographie";
-           fhir:link <http://qpath.ukdd.de//PlanDefinition/Q4MSMagnetresonanztomographie>
+           fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie";
+           fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie>
          ]
        ]
      ]

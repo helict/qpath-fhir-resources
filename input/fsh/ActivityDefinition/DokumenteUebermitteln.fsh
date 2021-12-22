@@ -2,7 +2,7 @@ Instance: Q4MSDokumenteUebermittelnActivity
 InstanceOf: ActivityDefinition
 Title: "Dokumente uebermitteln ActivityDefinition"
 Usage: #definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
-* kind = #Task
+* kind = $resource-type#Task
 * doNotPerform = false

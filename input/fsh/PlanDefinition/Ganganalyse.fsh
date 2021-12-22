@@ -2,9 +2,9 @@ Instance: Q4MSGanganalyse
 InstanceOf: PlanDefinition
 Title: "Ganganalyse PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSGanganalyse"
+* url = $q4ms-ganganalyse
 * type = $plan-definition-type#eca-rule
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.title = "Diagnostik Ganganalyse"
 * action.type = $action-type#create

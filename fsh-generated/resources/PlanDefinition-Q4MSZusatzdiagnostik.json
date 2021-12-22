@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSZusatzdiagnostik",
-  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSZusatzdiagnostik",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik",
   "status": "draft",
   "experimental": true,
   "type": {
@@ -20,23 +20,23 @@
       "action": [
         {
           "title": "Ganganalyse",
-          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSGanganalyse"
+          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-ganganalyse"
         },
         {
           "title": "Optische Koheränztomographie (OCT)",
-          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSOptischeKoheraenztomographie"
+          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie"
         },
         {
           "title": "Magnetresonanztomographie (MRT)",
-          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSMagnetresonanztomographie"
+          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie"
         },
         {
           "title": "Laboruntersuchung",
-          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSLaboruntersuchung"
+          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-laboruntersuchung"
         },
         {
           "title": "Multiple Sclerosis Performance Test (MSPT)",
-          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"
+          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test"
         }
       ]
     }

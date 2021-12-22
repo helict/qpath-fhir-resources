@@ -2,9 +2,9 @@ Instance: Q4MSMultipleSclerosisPerformanceTest
 InstanceOf: PlanDefinition
 Title: "Multiple Sclerosis Performance Test PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"
+* url = $q4ms-multiple-sclerosis-performance-test
 * type = $plan-definition-type#eca-rule
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.title = "Diagnostik Multiple Sclerosis Performance Test (MSPT)"
 * action.type = $action-type#create

@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSTherapiespezifischeDiagnostik",
-  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSTherapiespezifischeDiagnostik",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik",
   "type": {
     "coding": [
       {

@@ -2,9 +2,9 @@ Instance: Q4MSVoruntersuchung
 InstanceOf: PlanDefinition
 Title: "Voruntersuchung PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSVoruntersuchung"
+* url = $q4ms-voruntersuchung
 * type = $plan-definition-type#workflow-definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.groupingBehavior = #logical-group
 * action.selectionBehavior = #all

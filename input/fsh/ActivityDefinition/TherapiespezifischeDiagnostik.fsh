@@ -2,7 +2,7 @@ Instance: Q4MSTherapiespezifischeDiagnostikActivity
 InstanceOf: ActivityDefinition
 Title: "Therapiespezifische Diagnostik ActivityDefinition"
 Usage: #definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
-* kind = #ServiceRequest
+* kind = $resource-type#ServiceRequest
 * doNotPerform = false

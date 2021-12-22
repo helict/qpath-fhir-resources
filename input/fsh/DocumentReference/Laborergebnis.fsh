@@ -1,8 +1,8 @@
 Profile: Q4MSLaborergebnisProfile
 Parent: DocumentReference
 Title: "Laborergebnis DocumentReference Profile"
-* status = #current
-* docStatus = #preliminary
+* status = $document-reference-status#current
+* docStatus = $composition-status#preliminary
 * type = $ihe-xds-type-code#BEFU
 * category = $ihe-xds-class-code#LAB
 * description = "Profil eines Laborergebnisses"

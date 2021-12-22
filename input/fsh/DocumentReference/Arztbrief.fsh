@@ -1,8 +1,8 @@
 Profile: Q4MSArztbriefProfile
 Parent: Q4MSDokumentProfile
 Title: "Arztbrief DocumentReference Profile"
-* status = #current
-* docStatus = #preliminary
+* status = $document-reference-status#current
+* docStatus = $composition-status#preliminary
 * type = $ihe-xds-type-code#BERI
 * category = $ihe-xds-class-code#BRI
 * description = "Profil eines Arztbriefs"

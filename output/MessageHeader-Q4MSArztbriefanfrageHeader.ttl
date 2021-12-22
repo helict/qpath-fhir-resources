@@ -10,10 +10,10 @@
   fhir:Resource.id [ fhir:value "Q4MSArztbriefanfrageHeader"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSArztbriefanfrageHeader\" </p></div><p><b>event</b>: Arztbrief (Details: http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie code doctor-letter = 'Arztbrief', stated as 'null')</p><h3>Sources</h3><table class=\"grid\"><tr><td>-</td><td><b>Endpoint</b></td></tr><tr><td>*</td><td><code>127.0.0.1</code></td></tr></table><p><b>definition</b>: <a href=\"http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage\">http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSArztbriefanfrageHeader\" </p></div><p><b>event</b>: Arztbrief (Details: http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie code doctor-letter = 'Arztbrief', stated as 'null')</p><h3>Sources</h3><table class=\"grid\"><tr><td>-</td><td><b>Endpoint</b></td></tr><tr><td>*</td><td><code>127.0.0.1</code></td></tr></table><p><b>definition</b>: <a href=\"http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage\">http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage</a></p></div>"
   ];
   fhir:MessageHeader.eventCoding [
-     fhir:Coding.system [ fhir:value "http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie" ];
+     fhir:Coding.system [ fhir:value "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie" ];
      fhir:Coding.code [ fhir:value "doctor-letter" ]
   ];
   fhir:MessageHeader.source [

@@ -2,9 +2,9 @@ Instance: Q4MSDokumenteAbfragenPatient
 InstanceOf: PlanDefinition
 Title: "Dokumente beim Patienten abfragen PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteAbfragenPatient"
+* url = $q4ms-dokumente-abfragen-patient
 * type = $plan-definition-type#eca-rule
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.title = "Dokumente abfragen"
 * action.type = $action-type#create

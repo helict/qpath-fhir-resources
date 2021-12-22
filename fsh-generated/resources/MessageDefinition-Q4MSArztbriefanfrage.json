@@ -21,6 +21,6 @@
   ],
   "eventCoding": {
     "code": "doctor-letter",
-    "system": "http://terminology-fgdh.wiwi.tu-dresden.de/CodeSystem/q4ms-dokumentanforderungkategorie"
+    "system": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie"
   }
 }

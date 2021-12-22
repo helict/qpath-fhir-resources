@@ -6,11 +6,11 @@
   "title": "Terminanfragekategorie ValueSet",
   "description": "Definiert Terminanfragekategorie",
   "version": "1.0.0",
-  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/ValueSet/q4ms-terminanfragekategorie-vs",
+  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs",
   "compose": {
     "include": [
       {
-        "system": "http://terminology-fgdh.wiwi.tu-dresden.de/CodeSystem/q4ms-terminanfragekategorie"
+        "system": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-terminanfragekategorie"
       }
     ]
   }

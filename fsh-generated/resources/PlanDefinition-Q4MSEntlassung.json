@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSEntlassung",
-  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSEntlassung",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-entlassung",
   "type": {
     "coding": [
       {
@@ -35,12 +35,12 @@
                   "periodUnit": "mo"
                 }
               },
-              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSTerminvereinbarung"
+              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-terminvereinbarung"
             },
             {
               "title": "Dokumente übermitteln (Patient)",
               "description": "Dokumente an Patient übermitteln",
-              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteUebermittelnPatient"
+              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-patient"
             }
           ]
         },
@@ -56,7 +56,7 @@
               }
             }
           ],
-          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteUebermittelnArzt"
+          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-arzt"
         }
       ]
     }

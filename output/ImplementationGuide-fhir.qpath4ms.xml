@@ -10,7 +10,7 @@
   <name value="QPath4MSIG"/>
   <title value="QPath4MS FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-12-22T11:59:55+01:00"/>
+  <date value="2021-12-22T13:43:58+01:00"/>
   <publisher value="QPath4MS"/>
   <contact>
     <name value="QPath4MS"/>
@@ -180,7 +180,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/q4ms-arztbrief-profile"/>
+        <reference value="StructureDefinition/Q4MSArztbriefProfile"/>
       </reference>
       <name value="Arztbrief DocumentReference Profile"/>
       <exampleBoolean value="false"/>
@@ -190,7 +190,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/q4ms-befund-profile"/>
+        <reference value="StructureDefinition/Q4MSBefundProfile"/>
       </reference>
       <name value="Befund DocumentReference Profile"/>
       <exampleBoolean value="false"/>
@@ -200,7 +200,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/q4ms-dokument-profile"/>
+        <reference value="StructureDefinition/Q4MSDokumentProfile"/>
       </reference>
       <name value="Dokument DocumentReference Profile"/>
       <exampleBoolean value="false"/>
@@ -210,7 +210,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/q4ms-dokumentanforderung-profile"/>
+        <reference value="StructureDefinition/Q4MSDokumentanforderungProfile"/>
       </reference>
       <name value="Dokumentanforderung MessageDefinition Profile"/>
       <exampleBoolean value="false"/>
@@ -220,7 +220,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/q4ms-konsiliarbericht-profile"/>
+        <reference value="StructureDefinition/Q4MSKonsiliarberichtProfile"/>
       </reference>
       <name value="Konsiliarbericht DocumentReference Profile"/>
       <exampleBoolean value="false"/>
@@ -230,7 +230,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/q4ms-laborergebnis-profile"/>
+        <reference value="StructureDefinition/Q4MSLaborergebnisProfile"/>
       </reference>
       <name value="Laborergebnis DocumentReference Profile"/>
       <exampleBoolean value="false"/>
@@ -240,7 +240,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/q4ms-rezept-profile"/>
+        <reference value="StructureDefinition/Q4MSRezeptProfile"/>
       </reference>
       <name value="Rezept DocumentReference Profile"/>
       <exampleBoolean value="false"/>
@@ -250,7 +250,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/q4ms-sonstiges-dokument-profile"/>
+        <reference value="StructureDefinition/Q4MSSonstigesDokumentProfile"/>
       </reference>
       <name value="Sonstiges Dokument DocumentReference Profile"/>
       <exampleBoolean value="false"/>
@@ -260,7 +260,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/q4ms-terminvereinbarung-profile"/>
+        <reference value="StructureDefinition/Q4MSTerminvereinbarungProfile"/>
       </reference>
       <name value="Terminvereinbarung MessageDefinition Profile"/>
       <exampleBoolean value="false"/>
@@ -340,7 +340,7 @@
       </reference>
       <name value="Beispiel Arztbrief"/>
       <description value="Beispiel DocumentReference für einen Arztbrief"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile"/>
+      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -351,7 +351,7 @@
       </reference>
       <name value="Beispiel Befund"/>
       <description value="Beispiel DocumentReference für einen Befund"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/q4ms-befund-profile"/>
+      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -362,7 +362,7 @@
       </reference>
       <name value="Beispiel Konsiliarbericht"/>
       <description value="Beispiel DocumentReference für einen Konsiliarbericht"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/q4ms-konsiliarbericht-profile"/>
+      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -373,7 +373,7 @@
       </reference>
       <name value="Beispiel Laborergebnis"/>
       <description value="Beispiel DocumentReference für ein Laborergebnis"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/q4ms-laborergebnis-profile"/>
+      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -754,7 +754,7 @@
       </reference>
       <name value="Beispiel Rezept"/>
       <description value="Beispiel DocumentReference für ein Rezept"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/q4ms-rezept-profile"/>
+      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -765,7 +765,7 @@
       </reference>
       <name value="Beispiel Sonstiges Dokument"/>
       <description value="Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/q4ms-sonstiges-dokument-profile"/>
+      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -774,7 +774,7 @@
       <reference>
         <reference value="Patient/john-doe"/>
       </reference>
-      <name value="PatientExample"/>
+      <name value="Beispiel Patient"/>
       <description value="Beispiel Patient John Doe"/>
       <exampleBoolean value="true"/>
     </resource>

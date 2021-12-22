@@ -2,9 +2,9 @@ Instance: Q4MSEntlassung
 InstanceOf: PlanDefinition
 Title: "Entlassung PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSEntlassung"
+* url = $q4ms-entlassung
 * type = $plan-definition-type#workflow-definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.groupingBehavior = #logical-group
 * action.selectionBehavior = #all

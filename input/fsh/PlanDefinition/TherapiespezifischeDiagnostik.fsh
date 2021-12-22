@@ -2,9 +2,9 @@ Instance: Q4MSTherapiespezifischeDiagnostik
 InstanceOf: PlanDefinition
 Title: "Therapiespezifische Diagnostik PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSTherapiespezifischeDiagnostik"
+* url = $q4ms-therapiespezifische-diagnostik
 * type = $plan-definition-type#eca-rule
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action.title = "Therapiespezifische Diagnostik"
 * action.type = $action-type#create

@@ -8,14 +8,14 @@
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">laboratory-result<a name=\"q4ms-dokumentanforderungkategorie-laboratory-result\"> </a></td><td>Laborergebnis</td><td>Anforderung eines Laborergebnisses</td></tr><tr><td style=\"white-space:nowrap\">finding<a name=\"q4ms-dokumentanforderungkategorie-finding\"> </a></td><td>Befund</td><td>Anforderung eines Befunds</td></tr><tr><td style=\"white-space:nowrap\">doctor-letter<a name=\"q4ms-dokumentanforderungkategorie-doctor-letter\"> </a></td><td>Arztbrief</td><td>Anforderung eines Arztbriefs</td></tr><tr><td style=\"white-space:nowrap\">consiliary-report<a name=\"q4ms-dokumentanforderungkategorie-consiliary-report\"> </a></td><td>Konsiliarbericht</td><td>Anforderung eines Konsiliarberichts</td></tr><tr><td style=\"white-space:nowrap\">prescription<a name=\"q4ms-dokumentanforderungkategorie-prescription\"> </a></td><td>Rezept</td><td>Anforderung eines Rezepts</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"q4ms-dokumentanforderungkategorie-other\"> </a></td><td>Sonstiges</td><td>Anforderung eines sonstigen Dokuments</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">laboratory-result<a name=\"q4ms-dokumentanforderungkategorie-laboratory-result\"> </a></td><td>Laborergebnis</td><td>Anforderung eines Laborergebnisses</td></tr><tr><td style=\"white-space:nowrap\">finding<a name=\"q4ms-dokumentanforderungkategorie-finding\"> </a></td><td>Befund</td><td>Anforderung eines Befunds</td></tr><tr><td style=\"white-space:nowrap\">doctor-letter<a name=\"q4ms-dokumentanforderungkategorie-doctor-letter\"> </a></td><td>Arztbrief</td><td>Anforderung eines Arztbriefs</td></tr><tr><td style=\"white-space:nowrap\">consiliary-report<a name=\"q4ms-dokumentanforderungkategorie-consiliary-report\"> </a></td><td>Konsiliarbericht</td><td>Anforderung eines Konsiliarberichts</td></tr><tr><td style=\"white-space:nowrap\">prescription<a name=\"q4ms-dokumentanforderungkategorie-prescription\"> </a></td><td>Rezept</td><td>Anforderung eines Rezepts</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"q4ms-dokumentanforderungkategorie-other\"> </a></td><td>Sonstiges</td><td>Anforderung eines sonstigen Dokuments</td></tr></table></div>"
   },
-  "url": "http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie",
+  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie",
   "version": "0.1.0",
   "name": "Q4MSDokumentanforderungkategorie",
   "title": "Dokumentanforderungkategorie CodeSystem",
   "status": "active",
-  "date": "2021-12-22T11:59:55+01:00",
+  "date": "2021-12-22T13:43:58+01:00",
   "publisher": "QPath4MS",
   "contact": [
     {

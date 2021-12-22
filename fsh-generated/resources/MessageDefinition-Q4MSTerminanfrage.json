@@ -20,6 +20,6 @@
   ],
   "eventCoding": {
     "code": "booking",
-    "system": "http://terminology-fgdh.wiwi.tu-dresden.de/CodeSystem/q4ms-terminanfragekategorie"
+    "system": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-terminanfragekategorie"
   }
 }

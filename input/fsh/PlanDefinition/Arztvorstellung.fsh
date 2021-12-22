@@ -2,9 +2,9 @@ Instance: Q4MSArztvorstellung
 InstanceOf: PlanDefinition
 Title: "Arztvorstellung PlanDefinition"
 Usage: #definition
-* url = "http://qpath.ukdd.de/PlanDefinition/Q4MSArztvorstellung"
+* url = $q4ms-arztvorstellung
 * type = $plan-definition-type#workflow-definition
-* status = #draft
+* status = $publication-status#draft
 * experimental = true
 * action[0].id = "examination"
 * action[=].groupingBehavior = #logical-group
