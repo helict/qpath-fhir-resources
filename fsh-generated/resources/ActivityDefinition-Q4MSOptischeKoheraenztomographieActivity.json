@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "Q4MSOptischeKoheraenztomographieActivity",
+  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSOptischeKoheraenztomographieActivity",
+  "status": "draft",
+  "experimental": true,
+  "kind": "ServiceRequest",
+  "doNotPerform": false
+}

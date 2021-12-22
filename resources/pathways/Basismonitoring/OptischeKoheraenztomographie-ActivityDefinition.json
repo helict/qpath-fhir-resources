@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "oct",
-  "title": "Optische Koheränztomografie (OCT)",
-  "name": "OptischeKoheraenztomografie",
-  "status": "draft",
-  "kind": "ServiceRequest",
-  "doNotPerform": false
-}

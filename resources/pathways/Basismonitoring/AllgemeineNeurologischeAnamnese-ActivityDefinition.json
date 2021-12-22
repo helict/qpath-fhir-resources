@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "allgemeine-neurologische-anamnese",
-  "name": "AllgemeineNeurologischeAnamnese",
-  "title": "Allgemeine und neurologische Anamnese",
-  "status": "draft",
-  "kind": "Task",
-  "doNotPerform": false
-}

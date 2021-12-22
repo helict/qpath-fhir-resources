@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "Q4MSTherapiespezifischeDiagnostikActivity",
+  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSTherapiespezifischeDiagnostikActivity",
+  "status": "draft",
+  "experimental": true,
+  "kind": "ServiceRequest",
+  "doNotPerform": false
+}

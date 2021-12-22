@@ -1,0 +1,56 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "Q4MSArztvorstellung",
+  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSArztvorstellung",
+  "type": {
+    "coding": [
+      {
+        "code": "workflow-definition",
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "action": [
+    {
+      "id": "examination",
+      "groupingBehavior": "logical-group",
+      "selectionBehavior": "all",
+      "requiredBehavior": "must-unless-documented",
+      "cardinalityBehavior": "single",
+      "action": [
+        {
+          "title": "Allgemeine und neurologische Untersuchung",
+          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung"
+        },
+        {
+          "title": "Befundauswertung",
+          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSBefundauswertung"
+        },
+        {
+          "title": "Allgemeine und neurologische Anamnese",
+          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese"
+        },
+        {
+          "title": "Therapiespezifische Diagnostik",
+          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSTherapiespezifischeDiagnostik"
+        },
+        {
+          "title": "Zusatzdiagnostik",
+          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSZusatzdiagnostik"
+        }
+      ]
+    },
+    {
+      "title": "Auswertung",
+      "relatedAction": [
+        {
+          "actionId": "examination",
+          "relationship": "after-end"
+        }
+      ],
+      "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSAuswertung"
+    }
+  ]
+}

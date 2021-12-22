@@ -1,0 +1,50 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Q4MSDokumentanforderungkategorie",
+  "id": "q4ms-dokumentanforderungkategorie",
+  "title": "Dokumentanforderungkategorie CodeSystem",
+  "description": "Deklariert Dokumentanforderungkategorien",
+  "version": "1.0.0",
+  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/CodeSystem/q4ms-dokumentanforderungkategorie",
+  "concept": [
+    {
+      "code": "laboratory-result",
+      "display": "Laborergebnis",
+      "definition": "Anforderung eines Laborergebnisses"
+    },
+    {
+      "code": "finding",
+      "display": "Befund",
+      "definition": "Anforderung eines Befunds"
+    },
+    {
+      "code": "doctor-letter",
+      "display": "Arztbrief",
+      "definition": "Anforderung eines Arztbriefs"
+    },
+    {
+      "code": "consiliary-report",
+      "display": "Konsiliarbericht",
+      "definition": "Anforderung eines Konsiliarberichts"
+    },
+    {
+      "code": "prescription",
+      "display": "Rezept",
+      "definition": "Anforderung eines Rezepts"
+    },
+    {
+      "code": "other",
+      "display": "Sonstiges",
+      "definition": "Anforderung eines sonstigen Dokuments"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "caseSensitive": true,
+  "count": 6
+}

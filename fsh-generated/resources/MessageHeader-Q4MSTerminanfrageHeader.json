@@ -1,0 +1,12 @@
+{
+  "resourceType": "MessageHeader",
+  "id": "Q4MSTerminanfrageHeader",
+  "eventCoding": {
+    "code": "booking",
+    "system": "http://terminology-fgdh.wiwi.tu-dresden.de/CodeSystem/q4ms-terminanfragekategorie"
+  },
+  "source": {
+    "endpoint": "127.0.0.1"
+  },
+  "definition": "http://qpath.ukdd.de/MessageDefinition/Q4MSTerminanfrage"
+}

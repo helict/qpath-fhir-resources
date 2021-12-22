@@ -1,0 +1,29 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "Q4MSDokumenteUebermittelnArzt",
+  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteUebermittelnArzt",
+  "type": {
+    "coding": [
+      {
+        "code": "eca-rule",
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "action": [
+    {
+      "title": "Dokumente übermitteln",
+      "type": {
+        "coding": [
+          {
+            "code": "create",
+            "system": "http://terminology.hl7.org/CodeSystem/action-type"
+          }
+        ]
+      },
+      "definitionCanonical": "http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteUebermittelnActivity"
+    }
+  ]
+}

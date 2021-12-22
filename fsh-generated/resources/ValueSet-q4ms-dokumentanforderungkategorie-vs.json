@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "Q4MSDokumentanforderungkategorieVS",
+  "id": "q4ms-dokumentanforderungkategorie-vs",
+  "title": "Dokumentanforderungkategorie ValueSet",
+  "description": "Definiert Dokumentanforderungkategorien",
+  "version": "1.0.0",
+  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/ValueSet/q4ms-dokumentanforderungkategorie-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology-fgdh.wiwi.tu-dresden.de/CodeSystem/q4ms-dokumentanforderungkategorie"
+      }
+    ]
+  }
+}

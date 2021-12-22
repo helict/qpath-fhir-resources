@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "Q4MSDokumenteUebermittelnActivity",
+  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteUebermittelnActivity",
+  "status": "draft",
+  "experimental": true,
+  "kind": "Task",
+  "doNotPerform": false
+}

@@ -1,0 +1,25 @@
+{
+  "resourceType": "MessageDefinition",
+  "id": "Q4MSTerminanfrage",
+  "meta": {
+    "profile": [
+      "http://qpath.ukdd.de/StructureDefinition/Q4MSTerminvereinbarungProfile"
+    ]
+  },
+  "url": "http://qpath.ukdd.de/MessageDefinition/Q4MSTerminanfrage",
+  "status": "draft",
+  "focus": [
+    {
+      "code": "Appointment",
+      "min": 1
+    }
+  ],
+  "date": "2021-12-21",
+  "parent": [
+    "http://qpath.ukdd.de/ActivityDefinition/Q4MSTerminvereinbarungActivity"
+  ],
+  "eventCoding": {
+    "code": "booking",
+    "system": "http://terminology-fgdh.wiwi.tu-dresden.de/CodeSystem/q4ms-terminanfragekategorie"
+  }
+}

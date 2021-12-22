@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "status": "draft",
-  "id": "dokumente-abfragen",
-  "name": "DokumenteAbfragen",
-  "title": "Dokumente abfragen",
-  "kind": "Task",
-  "doNotPerform": false
-}

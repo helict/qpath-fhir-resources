@@ -1,0 +1,44 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "Q4MSZusatzdiagnostik",
+  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSZusatzdiagnostik",
+  "status": "draft",
+  "experimental": true,
+  "type": {
+    "coding": [
+      {
+        "code": "workflow-definition",
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type"
+      }
+    ]
+  },
+  "action": [
+    {
+      "selectionBehavior": "any",
+      "requiredBehavior": "must-unless-documented",
+      "cardinalityBehavior": "single",
+      "action": [
+        {
+          "title": "Ganganalyse",
+          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSGanganalyse"
+        },
+        {
+          "title": "Optische Koheränztomographie (OCT)",
+          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSOptischeKoheraenztomographie"
+        },
+        {
+          "title": "Magnetresonanztomographie (MRT)",
+          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSMagnetresonanztomographie"
+        },
+        {
+          "title": "Laboruntersuchung",
+          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSLaboruntersuchung"
+        },
+        {
+          "title": "Multiple Sclerosis Performance Test (MSPT)",
+          "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "BefundExample",
+  "meta": {
+    "profile": [
+      "http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile"
+    ]
+  },
+  "status": "current",
+  "subject": {
+    "reference": "Patient/john-doe"
+  },
+  "content": [
+    {
+      "attachment": {
+        "title": "Leeres Beispiel Attachment für einen Befund"
+      }
+    }
+  ]
+}

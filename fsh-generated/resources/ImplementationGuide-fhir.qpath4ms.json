@@ -1,0 +1,477 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.qpath4ms",
+  "url": "http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms",
+  "version": "0.1.0",
+  "name": "QPath4MSIG",
+  "title": "QPath4MS FHIR Implementation Guide",
+  "status": "draft",
+  "publisher": "QPath4MS",
+  "contact": [
+    {
+      "name": "QPath4MS",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://qpath.ukdd.de"
+        }
+      ]
+    }
+  ],
+  "packageId": "fhir.qpath4ms",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/Q4MSArztbriefProfile"
+        },
+        "name": "Arztbrief DocumentReference Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Q4MSBefundProfile"
+        },
+        "name": "Befund DocumentReference Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Q4MSDokumentProfile"
+        },
+        "name": "Dokument DocumentReference Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Q4MSDokumentanforderungProfile"
+        },
+        "name": "Dokumentanforderung MessageDefinition Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Q4MSKonsiliarberichtProfile"
+        },
+        "name": "Konsiliarbericht DocumentReference Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Q4MSLaborergebnisProfile"
+        },
+        "name": "Laborergebnis DocumentReference Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Q4MSRezeptProfile"
+        },
+        "name": "Rezept DocumentReference Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Q4MSSonstigesDokumentProfile"
+        },
+        "name": "Sonstiges Dokument DocumentReference Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/Q4MSTerminvereinbarungProfile"
+        },
+        "name": "Terminvereinbarung MessageDefinition Profile",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/q4ms-anfragekategorie-vs"
+        },
+        "name": "Anfragekategorie ValueSet",
+        "description": "Definiert Anfragekategorien",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/q4ms-dokumentanforderungkategorie-vs"
+        },
+        "name": "Dokumentanforderungkategorie ValueSet",
+        "description": "Definiert Dokumentanforderungkategorien",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/q4ms-terminanfragekategorie-vs"
+        },
+        "name": "Terminanfragekategorie ValueSet",
+        "description": "Definiert Terminanfragekategorie",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/q4ms-anfragekategorie"
+        },
+        "name": "Anfragekategorie CodeSystem",
+        "description": "Deklariert Anfragekategorien",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/q4ms-dokumentanforderungkategorie"
+        },
+        "name": "Dokumentanforderungkategorie CodeSystem",
+        "description": "Deklariert Dokumentanforderungkategorien",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/q4ms-terminanfragekategorie"
+        },
+        "name": "Terminanfragekategorie CodeSystem",
+        "description": "Deklariert Terminanfragekategorien",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/ArztbriefExample"
+        },
+        "name": "Beispiel Arztbrief",
+        "description": "Beispiel DocumentReference für einen Arztbrief",
+        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/BefundExample"
+        },
+        "name": "Beispiel Befund",
+        "description": "Beispiel DocumentReference für einen Befund",
+        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/KonsiliarberichtExample"
+        },
+        "name": "Beispiel Konsiliarbericht",
+        "description": "Beispiel DocumentReference für einen Konsiliarbericht",
+        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/LaborergebnisExample"
+        },
+        "name": "Beispiel Laborergebnis",
+        "description": "Beispiel DocumentReference für ein Laborergebnis",
+        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile"
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese"
+        },
+        "name": "Allgemeine neurologische Anamnese PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseActivity"
+        },
+        "name": "Allgemeine neurologische Anamnese ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung"
+        },
+        "name": "Allgemeine neurologische Untersuchung PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "MessageDefinition/Q4MSArztbriefanfrage"
+        },
+        "name": "Arztbriefanfrage MessageDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "MessageHeader/Q4MSArztbriefanfrageHeader"
+        },
+        "name": "Arztbriefanfrage MessageHeader",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSArztvorstellung"
+        },
+        "name": "Arztvorstellung PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSAuswertung"
+        },
+        "name": "Auswertung PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSAuswertungActivity"
+        },
+        "name": "Auswertung ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSBasismonitoring"
+        },
+        "name": "Basismonitoring Patientepfad PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSBefundauswertung"
+        },
+        "name": "Befundauswertung PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSBefundauswertungActivity"
+        },
+        "name": "Befundauswertung ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSDokumenteAbfragenActivity"
+        },
+        "name": "Dokumente abfragen ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSDokumenteAbfragenPatient"
+        },
+        "name": "Dokumente beim Patienten abfragen PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSDokumenteUebermittelnActivity"
+        },
+        "name": "Dokumente uebermitteln ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSDokumenteUebermittelnArzt"
+        },
+        "name": "Dokumente an Arzt übermitteln PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSDokumenteUebermittelnPatient"
+        },
+        "name": "Dokumente an Patient übermitteln PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSEntlassung"
+        },
+        "name": "Entlassung PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSExpandedDisabilityStatusScaleActivity"
+        },
+        "name": "Expanded Disability Status Scale ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSGanganalyse"
+        },
+        "name": "Ganganalyse PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSGanganalyseActivity"
+        },
+        "name": "Ganganalyse ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSLaboruntersuchung"
+        },
+        "name": "Laboruntersuchung PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSLaboruntersuchungActivity"
+        },
+        "name": "Laboruntersuchung ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSMagnetresonanztomographie"
+        },
+        "name": "Magnetresonanztomographie PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSMagnetresonanztomographieActivity"
+        },
+        "name": "Magnetresonanztomographie ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"
+        },
+        "name": "Multiple Sclerosis Performance Test PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestActivity"
+        },
+        "name": "Multiple Sclerosis Performance Test ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSOptischeKoheraenztomographie"
+        },
+        "name": "Optische Koheränztomographie PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSOptischeKoheraenztomographieActivity"
+        },
+        "name": "Optische Koheränztomographie ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "MessageDefinition/Q4MSTerminanfrage"
+        },
+        "name": "Terminanfrage MessageDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "MessageHeader/Q4MSTerminanfrageHeader"
+        },
+        "name": "Terminanfrage MessageHeader",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSTerminvereinbarung"
+        },
+        "name": "Terminvereinbarung PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSTerminvereinbarungActivity"
+        },
+        "name": "Terminvereinbarung ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSTherapiespezifischeDiagnostik"
+        },
+        "name": "Therapiespezifische Diagnostik PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ActivityDefinition/Q4MSTherapiespezifischeDiagnostikActivity"
+        },
+        "name": "Therapiespezifische Diagnostik ActivityDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSVorstellung"
+        },
+        "name": "Erst- oder Wiedervorstellung PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSVoruntersuchung"
+        },
+        "name": "Voruntersuchung PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "PlanDefinition/Q4MSZusatzdiagnostik"
+        },
+        "name": "Zusatzdiagnostik PlanDefinition",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/RezeptExample"
+        },
+        "name": "Beispiel Rezept",
+        "description": "Beispiel DocumentReference für ein Rezept",
+        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/SonstigesDokumentExample"
+        },
+        "name": "Beispiel Sonstiges Dokument",
+        "description": "Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU",
+        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile"
+      },
+      {
+        "reference": {
+          "reference": "Patient/john-doe"
+        },
+        "name": "Beispiel Patient",
+        "description": "Beispiel Patient John Doe",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2021+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

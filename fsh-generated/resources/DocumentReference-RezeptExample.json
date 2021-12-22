@@ -1,0 +1,20 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "RezeptExample",
+  "meta": {
+    "profile": [
+      "http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile"
+    ]
+  },
+  "status": "current",
+  "subject": {
+    "reference": "Patient/john-doe"
+  },
+  "content": [
+    {
+      "attachment": {
+        "title": "Leeres Beispiel Attachment für ein Rezept"
+      }
+    }
+  ]
+}

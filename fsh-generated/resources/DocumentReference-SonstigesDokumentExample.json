@@ -1,0 +1,28 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "SonstigesDokumentExample",
+  "meta": {
+    "profile": [
+      "http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile"
+    ]
+  },
+  "status": "current",
+  "subject": {
+    "reference": "Patient/john-doe"
+  },
+  "type": {
+    "coding": [
+      {
+        "code": "BESC",
+        "system": "http://ihe-d.de/ValueSets/IHEXDStypeCode"
+      }
+    ]
+  },
+  "content": [
+    {
+      "attachment": {
+        "title": "Leeres Beispiel Attachment für ein Sonstiges Dokument, z.B. AU"
+      }
+    }
+  ]
+}

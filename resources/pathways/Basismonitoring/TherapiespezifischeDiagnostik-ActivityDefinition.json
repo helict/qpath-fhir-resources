@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "therapiespezifische-diagnostik",
-  "name": "TherapiespezifischeDiagnostik",
-  "title": "Therapiespezifische Diagnostik",
-  "status": "draft",
-  "kind": "ServiceRequest",
-  "doNotPerform": false
-}

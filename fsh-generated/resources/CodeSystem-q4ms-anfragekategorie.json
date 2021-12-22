@@ -1,0 +1,55 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "Q4MSAnfragekategorie",
+  "id": "q4ms-anfragekategorie",
+  "title": "Anfragekategorie CodeSystem",
+  "description": "Deklariert Anfragekategorien",
+  "version": "1.0.0",
+  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/CodeSystem/q4ms-anfragekategorie",
+  "concept": [
+    {
+      "code": "drug-therapy",
+      "display": "Medikamentöse Therapie",
+      "definition": "Anfrage zur medikamentösen Therapie"
+    },
+    {
+      "code": "examination",
+      "display": "Untersuchung",
+      "definition": "Anfrage zu Krankenhausaufenthalt"
+    },
+    {
+      "code": "hospitalization",
+      "display": "Krankenhausaufenthalt",
+      "definition": "Anfrage zu Krankenhausaufenthalt"
+    },
+    {
+      "code": "infection-vaccination",
+      "display": "Infekte / Impfungen",
+      "definition": "Anfrage zu Infekten / Impfungen (z.B. Corona)"
+    },
+    {
+      "code": "non-drug-therapy",
+      "display": "Nicht-medikamentöse Therapie",
+      "definition": "Anfrage zur nicht-medikamentösen Therapie"
+    },
+    {
+      "code": "pregnancy",
+      "display": "Schwangerschaft",
+      "definition": "Anfrage zu Schwangerschaft"
+    },
+    {
+      "code": "suspected-attack",
+      "display": "Schubverdacht",
+      "definition": "Anfrage zu Schubverdacht / Verschlechterung der Symptome"
+    }
+  ],
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "caseSensitive": true,
+  "count": 7
+}

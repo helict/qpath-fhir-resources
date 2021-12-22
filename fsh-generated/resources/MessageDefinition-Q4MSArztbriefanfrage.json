@@ -1,0 +1,26 @@
+{
+  "resourceType": "MessageDefinition",
+  "id": "Q4MSArztbriefanfrage",
+  "meta": {
+    "profile": [
+      "http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentanforderungProfile"
+    ]
+  },
+  "url": "http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage",
+  "status": "draft",
+  "focus": [
+    {
+      "code": "DocumentReference",
+      "min": 1,
+      "profile": "http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile"
+    }
+  ],
+  "date": "2021-12-21",
+  "parent": [
+    "http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity"
+  ],
+  "eventCoding": {
+    "code": "doctor-letter",
+    "system": "http://terminology-fgdh.wiwi.tu-dresden.de/CodeSystem/q4ms-dokumentanforderungkategorie"
+  }
+}

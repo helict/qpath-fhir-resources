@@ -1,0 +1,77 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "Q4MSVoruntersuchung",
+  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSVoruntersuchung",
+  "type": {
+    "coding": [
+      {
+        "code": "workflow-definition",
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "action": [
+    {
+      "groupingBehavior": "logical-group",
+      "selectionBehavior": "all",
+      "requiredBehavior": "must-unless-documented",
+      "cardinalityBehavior": "single",
+      "action": [
+        {
+          "title": "Diagnostik alle 3 Monate",
+          "timingTiming": {
+            "repeat": {
+              "frequency": 1,
+              "period": 3,
+              "periodUnit": "mo"
+            }
+          },
+          "groupingBehavior": "logical-group",
+          "selectionBehavior": "all",
+          "requiredBehavior": "must-unless-documented",
+          "cardinalityBehavior": "single",
+          "action": [
+            {
+              "title": "Multiple Sclerosis Performance Test (MSPT)",
+              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"
+            },
+            {
+              "title": "Therapiespezifische Diagnostik",
+              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSTherapiespezifischeDiagnostik"
+            }
+          ]
+        },
+        {
+          "title": "Diagnostik alle 12 Monate",
+          "timingTiming": {
+            "repeat": {
+              "frequency": 1,
+              "period": 12,
+              "periodUnit": "mo"
+            }
+          },
+          "groupingBehavior": "logical-group",
+          "selectionBehavior": "all",
+          "requiredBehavior": "must-unless-documented",
+          "cardinalityBehavior": "single",
+          "action": [
+            {
+              "title": "Optische Kohärenztomographie (OCT)",
+              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSOptischeKoheraenztomographie"
+            },
+            {
+              "title": "Ganganalyse",
+              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSGanganalyse"
+            },
+            {
+              "title": "Magnetresonanztomographie (MRT)",
+              "definitionCanonical": "http://qpath.ukdd.de/PlanDefinition/Q4MSMagnetresonanztomographie"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "Q4MSMagnetresonanztomographie",
+  "url": "http://qpath.ukdd.de/PlanDefinition/Q4MSMagnetresonanztomographie",
+  "type": {
+    "coding": [
+      {
+        "code": "eca-rule",
+        "system": "http://terminology.hl7.org/CodeSystem/plan-definition-type"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "action": [
+    {
+      "title": "Diagnostik Magnetresonanztomographie (MRT)",
+      "type": {
+        "coding": [
+          {
+            "code": "create",
+            "system": "http://terminology.hl7.org/CodeSystem/action-type"
+          }
+        ]
+      },
+      "condition": [
+        {
+          "kind": "applicability",
+          "expression": {
+            "language": "text/cql",
+            "expression": "no current pregnancy"
+          }
+        }
+      ],
+      "definitionCanonical": "http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieActivity"
+    }
+  ]
+}

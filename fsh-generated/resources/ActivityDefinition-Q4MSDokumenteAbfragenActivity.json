@@ -1,0 +1,9 @@
+{
+  "resourceType": "ActivityDefinition",
+  "id": "Q4MSDokumenteAbfragenActivity",
+  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity",
+  "status": "draft",
+  "experimental": true,
+  "kind": "Task",
+  "doNotPerform": false
+}
