@@ -3,7 +3,7 @@
   "status": "active",
   "name": "Q4MSAnfragekategorieVS",
   "id": "q4ms-anfragekategorie-vs",
-  "title": "Anfragekategorie ValueSet",
+  "title": "Anfragekategorie",
   "description": "Definiert Anfragekategorien",
   "version": "1.0.0",
   "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-anfragekategorie-vs",

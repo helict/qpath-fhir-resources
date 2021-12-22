@@ -3,14 +3,14 @@
   "id": "Q4MSArztbriefanfrage",
   "meta": {
     "profile": [
-      "http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentanforderungProfile"
+      "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokumentanforderung"
     ]
   },
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSArztbriefanfrage\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Q4MSDokumentanforderungProfile.html\">Dokumentanforderung MessageDefinition Profile</a></p></div><p><b>url</b>: <code>http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2021-12-21</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><p><b>parent</b>: <a href=\"http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity\">http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity</a></p><p><b>event</b>: Arztbrief (Details: http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie code doctor-letter = 'Arztbrief', stated as 'null')</p><h3>Focus</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td><td><b>Profile</b></td><td><b>Min</b></td></tr><tr><td>*</td><td>DocumentReference</td><td><a href=\"http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile\">http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile</a></td><td>1</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSArztbriefanfrage\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Q4MSDokumentanforderungProfile.html\">Dokumentanforderung</a></p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2021-12-21</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><p><b>parent</b>: <a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn</a></p><p><b>event</b>: Arztbrief (Details: http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie code doctor-letter = 'Arztbrief', stated as 'null')</p><h3>Focus</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td><td><b>Profile</b></td><td><b>Min</b></td></tr><tr><td>*</td><td>DocumentReference</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief</a></td><td>1</td></tr></table></div>"
   },
-  "url": "http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage",
   "version": "0.1.0",
   "status": "draft",
   "date": "2021-12-21",
@@ -27,7 +27,7 @@
     }
   ],
   "parent": [
-    "http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity"
+    "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn"
   ],
   "eventCoding": {
     "system": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie",
@@ -36,7 +36,7 @@
   "focus": [
     {
       "code": "DocumentReference",
-      "profile": "http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile",
+      "profile": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief",
       "min": 1
     }
   ]

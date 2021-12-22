@@ -11,10 +11,10 @@
       "valueCode": "anonymous"
     }
   ],
-  "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSTerminvereinbarungProfile",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-terminvereinbarung",
   "version": "0.1.0",
   "name": "Q4MSTerminvereinbarungProfile",
-  "title": "Terminvereinbarung MessageDefinition Profile",
+  "title": "Terminvereinbarung",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [

@@ -3,7 +3,7 @@
   "id": "RezeptExample",
   "meta": {
     "profile": [
-      "http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile"
+      "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept"
     ]
   },
   "status": "current",

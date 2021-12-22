@@ -1,6 +1,6 @@
 Instance: Q4MSArztvorstellung
 InstanceOf: PlanDefinition
-Title: "Arztvorstellung PlanDefinition"
+Title: "Arztvorstellung"
 Usage: #definition
 * url = $q4ms-arztvorstellung
 * type = $plan-definition-type#workflow-definition

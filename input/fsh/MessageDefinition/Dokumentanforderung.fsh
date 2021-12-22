@@ -1,6 +1,7 @@
 Profile: Q4MSDokumentanforderungProfile
 Parent: MessageDefinition
-Title: "Dokumentanforderung MessageDefinition Profile"
+Title: "Dokumentanforderung"
+* ^url = $q4ms-dokumentanforderung-sd
 * status = $publication-status#draft
 * eventCoding from Q4MSDokumentanforderungkategorieVS (required)
 * category = $message-significance-category#currency

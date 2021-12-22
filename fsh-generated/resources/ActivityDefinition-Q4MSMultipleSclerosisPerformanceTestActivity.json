@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "Q4MSMultipleSclerosisPerformanceTestActivity",
-  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestActivity",
-  "status": "draft",
-  "experimental": true,
-  "kind": "ServiceRequest",
-  "doNotPerform": false
-}

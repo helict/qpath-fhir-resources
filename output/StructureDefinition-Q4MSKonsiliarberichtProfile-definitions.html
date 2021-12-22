@@ -7,7 +7,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>FHIR.QPATH4MS\Konsiliarbericht DocumentReference Profile - Definitions - FHIR v4.0.1</title>
+    <title>FHIR.QPATH4MS\Konsiliarbericht - Definitions - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -92,7 +92,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Konsiliarbericht DocumentReference Profile</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Konsiliarbericht</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -324,9 +324,7 @@ Status of the underlying document.</p>
   <tr><td>Definition</td><td><p>Specifies the particular kind of document referenced  (e.g. History and Physical, Discharge Summary, Progress Note). This usually equates to the purpose of making the document referenced.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..1</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHOULD be taken from <a href="http://hl7.org/fhir/R4/valueset-c80-doc-typecodes.html">DocumentTypeValueSet</a>
-Precise type of clinical document.</p>
-</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://ihe-d.de/ValueSets/IHEXDStypeCode">http://ihe-d.de/ValueSets/IHEXDStypeCode</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Comments</td><td><p>Key metadata element describing the document that describes he exact type of document. Helps humans to assess whether the document is of interest when viewing a list of documents.</p>
 </td></tr>
@@ -337,9 +335,7 @@ Precise type of clinical document.</p>
   <tr><td>Definition</td><td><p>A categorization for the type of document referenced - helps for indexing and searching. This may be implied by or derived from the code specified in the DocumentReference.type.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>For example codes, see <a href="http://hl7.org/fhir/R4/valueset-document-classcodes.html">DocumentClassValueSet</a>
-High-level kind of a clinical document at a macro level.</p>
-</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://ihe-d.de/ValueSets/IHEXDSclassCode">http://ihe-d.de/ValueSets/IHEXDSclassCode</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td title="Other names by which this resource/element may be known">Alternate Names</td><td>claxs</td></tr>
   <tr><td>Comments</td><td><p>Key metadata element describing the the category or classification of the document. This is a broader perspective that groups similar documents based on how they would be used. This is a primary key used in searching.</p>
@@ -464,9 +460,7 @@ The type of relationship between documents.</p>
   <tr><td>Definition</td><td><p>A set of Security-Tag codes specifying the level of privacy/security of the Document. Note that DocumentReference.meta.security contains the security labels of the &quot;reference&quot; to the document, while DocumentReference.securityLabel contains a snapshot of the security labels on the document the reference refers to.</p>
 </td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/conformance-rules.html#conformance">Control</a></td><td>0..*</td></tr>
-  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://hl7.org/fhir/R4/valueset-security-labels.html">All Security Labels</a>; other codes may be used where these codes are not suitable
-Security Labels from the Healthcare Privacy and Security Classification System.</p>
-</td></tr>
+  <tr><td><a href="http://hl7.org/fhir/R4/terminologies.html">Binding</a></td><td>The codes SHALL be taken from <a href="http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode">http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode</a></td></tr>
   <tr><td><a href="http://hl7.org/fhir/R4/datatypes.html">Type</a></td><td><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td></tr>
   <tr><td>Requirements</td><td><p>Use of the Health Care Privacy/Security Classification (HCS) system of security-tag use is recommended.</p>
 </td></tr>
@@ -689,7 +683,7 @@ Additional details about where the content was created (e.g. clinical specialty)
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://qpath.ukdd.de">QPath4MS</a>.  Package fhir.qpath4ms#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Dec 22, 2021 13:43+0100">2021-12-22</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://qpath.ukdd.de">QPath4MS</a>.  Package fhir.qpath4ms#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Dec 22, 2021 19:56+0100">2021-12-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

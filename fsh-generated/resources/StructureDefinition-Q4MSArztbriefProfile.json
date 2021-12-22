@@ -11,10 +11,10 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief",
   "version": "0.1.0",
   "name": "Q4MSArztbriefProfile",
-  "title": "Arztbrief DocumentReference Profile",
+  "title": "Arztbrief",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -57,7 +57,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "DocumentReference",
-  "baseDefinition": "http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentProfile",
+  "baseDefinition": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument",
   "derivation": "constraint",
   "differential": {
     "element": [

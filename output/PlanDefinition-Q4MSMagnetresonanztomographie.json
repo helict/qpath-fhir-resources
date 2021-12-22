@@ -3,7 +3,7 @@
   "id": "Q4MSMagnetresonanztomographie",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSMagnetresonanztomographie\" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: ECA Rule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#eca-rule)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T13:43:58+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik Magnetresonanztomographie (MRT)</p><blockquote><p><b>condition</b></p><p><b>kind</b>: applicability</p></blockquote><p><b>type</b>: Create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-action-type.html\">ActionType</a>#create)</span></p><p><b>definition</b>: <a href=\"http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieActivity\">http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieActivity</a></p></blockquote></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSMagnetresonanztomographie\" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: ECA Rule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#eca-rule)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T19:56:03+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik Magnetresonanztomographie (MRT)</p><blockquote><p><b>condition</b></p><p><b>kind</b>: applicability</p></blockquote><p><b>type</b>: Create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-action-type.html\">ActionType</a>#create)</span></p><p><b>definition</b>: <a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-magnetresonanztomographie\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-magnetresonanztomographie</a></p></blockquote></div>"
   },
   "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie",
   "version": "0.1.0",
@@ -17,7 +17,7 @@
   },
   "status": "draft",
   "experimental": true,
-  "date": "2021-12-22T13:43:58+01:00",
+  "date": "2021-12-22T19:56:03+01:00",
   "publisher": "QPath4MS",
   "contact": [
     {
@@ -50,7 +50,7 @@
           }
         ]
       },
-      "definitionCanonical": "http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieActivity"
+      "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-magnetresonanztomographie"
     }
   ]
 }

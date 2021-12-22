@@ -3,7 +3,7 @@
   "id": "BefundExample",
   "meta": {
     "profile": [
-      "http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile"
+      "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund"
     ]
   },
   "status": "current",

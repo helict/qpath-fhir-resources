@@ -8,5 +8,5 @@
   "source": {
     "endpoint": "127.0.0.1"
   },
-  "definition": "http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage"
+  "definition": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage"
 }

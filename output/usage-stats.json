@@ -6,26 +6,26 @@
   "profiles": {
     "DocumentReference": [
       {
-        "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile",
-        "title": "Konsiliarbericht DocumentReference Profile"
+        "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht",
+        "title": "Konsiliarbericht"
       },
       {
-        "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile",
-        "title": "Laborergebnis DocumentReference Profile"
+        "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis",
+        "title": "Laborergebnis"
       },
       {
-        "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile",
-        "title": "Rezept DocumentReference Profile"
+        "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept",
+        "title": "Rezept"
       },
       {
-        "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile",
-        "title": "Sonstiges Dokument DocumentReference Profile"
+        "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument",
+        "title": "Sonstiges Dokument"
       }
     ],
     "MessageDefinition": [
       {
-        "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSTerminvereinbarungProfile",
-        "title": "Terminvereinbarung MessageDefinition Profile"
+        "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-terminvereinbarung",
+        "title": "Terminvereinbarung"
       }
     ]
   },

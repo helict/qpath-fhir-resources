@@ -3,7 +3,7 @@
   "id": "SonstigesDokumentExample",
   "meta": {
     "profile": [
-      "http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile"
+      "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument"
     ]
   },
   "status": "current",

@@ -1,6 +1,6 @@
 Instance: Q4MSDokumenteUebermittelnArzt
 InstanceOf: PlanDefinition
-Title: "Dokumente an Arzt übermitteln PlanDefinition"
+Title: "Dokumente an Arzt übermitteln"
 Usage: #definition
 * url = $q4ms-dokumente-uebermitteln-arzt
 * type = $plan-definition-type#eca-rule
@@ -8,4 +8,4 @@ Usage: #definition
 * experimental = true
 * action.title = "Dokumente übermitteln"
 * action.type = $action-type#create
-* action.definitionCanonical = Canonical(Q4MSDokumenteUebermittelnActivity)
+* action.definitionCanonical = Canonical(Q4MSDokumenteUebermittelnAD)

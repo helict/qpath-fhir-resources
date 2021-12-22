@@ -1,6 +1,6 @@
 CodeSystem: Q4MSDokumentanforderungkategorie
 Id: q4ms-dokumentanforderungkategorie
-Title: "Dokumentanforderungkategorie CodeSystem"
+Title: "Dokumentanforderungkategorie"
 Description: "Deklariert Dokumentanforderungkategorien"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^status = $publication-status#active

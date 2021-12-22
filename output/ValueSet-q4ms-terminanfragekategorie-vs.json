@@ -8,9 +8,9 @@
   "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs",
   "version": "0.1.0",
   "name": "Q4MSTerminanfragekategorieVS",
-  "title": "Terminanfragekategorie ValueSet",
+  "title": "Terminanfragekategorie",
   "status": "active",
-  "date": "2021-12-22T13:43:58+01:00",
+  "date": "2021-12-22T19:56:03+01:00",
   "publisher": "QPath4MS",
   "contact": [
     {
@@ -23,7 +23,7 @@
       ]
     }
   ],
-  "description": "Definiert Terminanfragekategorie",
+  "description": "Definiert Terminanfragekategorien",
   "compose": {
     "include": [
       {

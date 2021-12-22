@@ -3,7 +3,7 @@
   "status": "active",
   "name": "Q4MSDokumentanforderungkategorieVS",
   "id": "q4ms-dokumentanforderungkategorie-vs",
-  "title": "Dokumentanforderungkategorie ValueSet",
+  "title": "Dokumentanforderungkategorie",
   "description": "Definiert Dokumentanforderungkategorien",
   "version": "1.0.0",
   "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-dokumentanforderungkategorie-vs",

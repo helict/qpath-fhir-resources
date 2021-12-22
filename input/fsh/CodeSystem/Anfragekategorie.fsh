@@ -1,6 +1,6 @@
 CodeSystem: Q4MSAnfragekategorie
 Id: q4ms-anfragekategorie
-Title: "Anfragekategorie CodeSystem"
+Title: "Anfragekategorie"
 Description: "Deklariert Anfragekategorien"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^status = $publication-status#active

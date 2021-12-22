@@ -1,6 +1,7 @@
 Profile: Q4MSTerminvereinbarungProfile
 Parent: MessageDefinition
-Title: "Terminvereinbarung MessageDefinition Profile"
+Title: "Terminvereinbarung"
+* ^url = $q4ms-terminvereinbarung-sd
 * status = $publication-status#draft
 * eventCoding from Q4MSTerminanfragekategorieVS (required)
 * category = $message-significance-category#currency

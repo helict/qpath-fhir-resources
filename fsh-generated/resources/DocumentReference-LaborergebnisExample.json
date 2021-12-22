@@ -3,7 +3,7 @@
   "id": "LaborergebnisExample",
   "meta": {
     "profile": [
-      "http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile"
+      "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis"
     ]
   },
   "status": "current",

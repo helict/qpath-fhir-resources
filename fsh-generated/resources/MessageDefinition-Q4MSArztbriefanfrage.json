@@ -3,21 +3,21 @@
   "id": "Q4MSArztbriefanfrage",
   "meta": {
     "profile": [
-      "http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentanforderungProfile"
+      "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokumentanforderung"
     ]
   },
-  "url": "http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage",
   "status": "draft",
   "focus": [
     {
       "code": "DocumentReference",
       "min": 1,
-      "profile": "http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile"
+      "profile": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief"
     }
   ],
   "date": "2021-12-21",
   "parent": [
-    "http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity"
+    "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn"
   ],
   "eventCoding": {
     "code": "doctor-letter",

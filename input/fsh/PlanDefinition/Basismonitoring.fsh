@@ -1,6 +1,6 @@
 Instance: Q4MSBasismonitoring
 InstanceOf: PlanDefinition
-Title: "Basismonitoring Patientepfad PlanDefinition"
+Title: "Basismonitoring Patientepfad"
 Usage: #definition
 * url = $q4ms-basismonitoring
 * type = $plan-definition-type#clinical-protocol

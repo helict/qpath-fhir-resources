@@ -3,8 +3,8 @@
   "status": "active",
   "name": "Q4MSTerminanfragekategorieVS",
   "id": "q4ms-terminanfragekategorie-vs",
-  "title": "Terminanfragekategorie ValueSet",
-  "description": "Definiert Terminanfragekategorie",
+  "title": "Terminanfragekategorie",
+  "description": "Definiert Terminanfragekategorien",
   "version": "1.0.0",
   "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs",
   "compose": {

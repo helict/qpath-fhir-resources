@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "Q4MSDokumentanforderungkategorie",
   "id": "q4ms-dokumentanforderungkategorie",
-  "title": "Dokumentanforderungkategorie CodeSystem",
+  "title": "Dokumentanforderungkategorie",
   "description": "Deklariert Dokumentanforderungkategorien",
   "version": "1.0.0",
   "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie",

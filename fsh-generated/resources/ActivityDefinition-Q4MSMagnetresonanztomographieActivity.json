@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "Q4MSMagnetresonanztomographieActivity",
-  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieActivity",
-  "status": "draft",
-  "experimental": true,
-  "kind": "ServiceRequest",
-  "doNotPerform": false
-}

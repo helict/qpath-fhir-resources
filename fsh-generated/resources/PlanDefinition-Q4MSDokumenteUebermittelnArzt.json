@@ -23,7 +23,7 @@
           }
         ]
       },
-      "definitionCanonical": "http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteUebermittelnActivity"
+      "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-uebermitteln"
     }
   ]
 }

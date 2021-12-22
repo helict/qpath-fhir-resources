@@ -1,6 +1,6 @@
 Instance: Q4MSEntlassung
 InstanceOf: PlanDefinition
-Title: "Entlassung PlanDefinition"
+Title: "Entlassung"
 Usage: #definition
 * url = $q4ms-entlassung
 * type = $plan-definition-type#workflow-definition

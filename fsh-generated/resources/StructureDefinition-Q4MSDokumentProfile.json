@@ -11,10 +11,10 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentProfile",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument",
   "version": "0.1.0",
   "name": "Q4MSDokumentProfile",
-  "title": "Dokument DocumentReference Profile",
+  "title": "Dokument",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [

@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "Q4MSAllgemeineNeurologischeAnamneseActivity",
-  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseActivity",
-  "status": "draft",
-  "experimental": true,
-  "kind": "Task",
-  "doNotPerform": false
-}

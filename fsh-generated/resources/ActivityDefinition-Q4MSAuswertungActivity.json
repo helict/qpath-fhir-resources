@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "Q4MSAuswertungActivity",
-  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSAuswertungActivity",
-  "status": "draft",
-  "experimental": true,
-  "kind": "Task",
-  "doNotPerform": false
-}

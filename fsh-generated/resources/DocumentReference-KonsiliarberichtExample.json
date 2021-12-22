@@ -3,7 +3,7 @@
   "id": "KonsiliarberichtExample",
   "meta": {
     "profile": [
-      "http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile"
+      "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht"
     ]
   },
   "status": "current",

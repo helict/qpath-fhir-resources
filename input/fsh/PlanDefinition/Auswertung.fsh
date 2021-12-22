@@ -1,6 +1,6 @@
 Instance: Q4MSAuswertung
 InstanceOf: PlanDefinition
-Title: "Auswertung PlanDefinition"
+Title: "Auswertung"
 Usage: #definition
 * url = $q4ms-auswertung
 * status = $publication-status#draft
@@ -8,4 +8,4 @@ Usage: #definition
 * experimental = true
 * action.title = "Auswertung"
 * action.type = $action-type#create
-* action.definitionCanonical = Canonical(Q4MSAuswertungActivity)
+* action.definitionCanonical = Canonical(Q4MSAuswertungAD)

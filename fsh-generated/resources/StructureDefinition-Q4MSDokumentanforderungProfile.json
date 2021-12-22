@@ -11,10 +11,10 @@
       "valueCode": "anonymous"
     }
   ],
-  "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentanforderungProfile",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokumentanforderung",
   "version": "0.1.0",
   "name": "Q4MSDokumentanforderungProfile",
-  "title": "Dokumentanforderung MessageDefinition Profile",
+  "title": "Dokumentanforderung",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [

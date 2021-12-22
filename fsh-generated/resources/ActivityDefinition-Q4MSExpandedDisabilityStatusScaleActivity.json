@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "Q4MSExpandedDisabilityStatusScaleActivity",
-  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSExpandedDisabilityStatusScaleActivity",
-  "status": "draft",
-  "experimental": true,
-  "kind": "Task",
-  "doNotPerform": false
-}

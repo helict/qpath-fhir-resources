@@ -1,6 +1,6 @@
 Instance: Q4MSTherapiespezifischeDiagnostik
 InstanceOf: PlanDefinition
-Title: "Therapiespezifische Diagnostik PlanDefinition"
+Title: "Therapiespezifische Diagnostik"
 Usage: #definition
 * url = $q4ms-therapiespezifische-diagnostik
 * type = $plan-definition-type#eca-rule
@@ -11,4 +11,4 @@ Usage: #definition
 * action.condition.kind = #applicability
 * action.condition.expression.language = #text/cql
 * action.condition.expression.expression = "is under therapy"
-* action.definitionCanonical = Canonical(Q4MSTherapiespezifischeDiagnostikActivity)
+* action.definitionCanonical = Canonical(Q4MSTherapiespezifischeDiagnostikAD)

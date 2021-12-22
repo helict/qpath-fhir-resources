@@ -1,7 +1,7 @@
 ValueSet: Q4MSTerminanfragekategorieVS
 Id: q4ms-terminanfragekategorie-vs
-Title: "Terminanfragekategorie ValueSet"
-Description: "Definiert Terminanfragekategorie"
+Title: "Terminanfragekategorie"
+Description: "Definiert Terminanfragekategorien"
 * ^status = $publication-status#active
 * ^version = "1.0.0"
 * ^url = $q4ms-terminanfragekategorie-vs

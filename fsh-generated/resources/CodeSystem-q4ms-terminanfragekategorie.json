@@ -4,7 +4,7 @@
   "content": "complete",
   "name": "Q4MSTerminanfragekategorie",
   "id": "q4ms-terminanfragekategorie",
-  "title": "Terminanfragekategorie CodeSystem",
+  "title": "Terminanfragekategorie",
   "description": "Deklariert Terminanfragekategorien",
   "version": "1.0.0",
   "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-terminanfragekategorie",

@@ -1,0 +1,39 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qpath.ukdd.de/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD> a fhir:ActivityDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Q4MSMultipleSclerosisPerformanceTestAD"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSMultipleSclerosisPerformanceTestAD\" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-multiple-sclerosis-performance-test</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T19:56:03+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><p><b>kind</b>: ServiceRequest</p><p><b>doNotPerform</b>: false</p></div>"
+  ];
+  fhir:ActivityDefinition.url [ fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-multiple-sclerosis-performance-test"];
+  fhir:ActivityDefinition.version [ fhir:value "0.1.0"];
+  fhir:ActivityDefinition.status [ fhir:value "draft"];
+  fhir:ActivityDefinition.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:ActivityDefinition.date [ fhir:value "2021-12-22T19:56:03+01:00"^^xsd:dateTime];
+  fhir:ActivityDefinition.publisher [ fhir:value "QPath4MS"];
+  fhir:ActivityDefinition.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "QPath4MS" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://qpath.ukdd.de" ]
+     ]
+  ];
+  fhir:ActivityDefinition.kind [ fhir:value "ServiceRequest"];
+  fhir:ActivityDefinition.doNotPerform [ fhir:value "false"^^xsd:boolean] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://qpath.ukdd.de/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

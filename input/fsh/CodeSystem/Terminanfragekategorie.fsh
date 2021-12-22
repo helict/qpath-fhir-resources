@@ -1,6 +1,6 @@
 CodeSystem: Q4MSTerminanfragekategorie
 Id: q4ms-terminanfragekategorie
-Title: "Terminanfragekategorie CodeSystem"
+Title: "Terminanfragekategorie"
 Description: "Deklariert Terminanfragekategorien"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^status = $publication-status#active

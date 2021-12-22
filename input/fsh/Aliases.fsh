@@ -22,7 +22,7 @@ Alias: $q4ms-dokumentanforderungkategorie-vs = http://terminology-fgdh.wiwi.tu-d
 Alias: $q4ms-terminanfragekategorie = http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-terminanfragekategorie
 Alias: $q4ms-terminanfragekategorie-vs = http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs
 
-// QPath4MS Pathway Definition Aliases
+// QPath4MS Pathway PlanDefinition Aliases
 Alias: $q4ms-allgemeine-neurologische-anamnese = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese
 Alias: $q4ms-allgemeine-neurologische-untersuchung = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung
 Alias: $q4ms-arztvorstellung = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-arztvorstellung
@@ -43,3 +43,33 @@ Alias: $q4ms-therapiespezifische-diagnostik = http://pathway-fgdh.wiwi.tu-dresde
 Alias: $q4ms-vorstellung = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-vorstellung
 Alias: $q4ms-voruntersuchung = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-voruntersuchung
 Alias: $q4ms-zusatzdiagnostik = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik
+
+// QPath4MS Pathway ActivityDefinition Aliases
+Alias: $q4ms-allgemeine-neurologische-anamnese-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-allgemeine-neurologische-anamnese
+Alias: $q4ms-auswertung-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-auswertung
+Alias: $q4ms-befundauswertung-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-befundauswertung
+Alias: $q4ms-dokumente-abfragen-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn
+Alias: $q4ms-dokumente-uebermitteln-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-uebermitteln
+Alias: $q4ms-expanded-disability-status-scale-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-expanded-disability-status-scale
+Alias: $q4ms-ganganalyse-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-ganganalyse
+Alias: $q4ms-laboruntersuchung-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-laboruntersuchung
+Alias: $q4ms-magnetresonanztomographie-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-magnetresonanztomographie
+Alias: $q4ms-multiple-sclerosis-performance-test-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-multiple-sclerosis-performance-test
+Alias: $q4ms-optische-koheraenztomographie-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-optische-koheraenztomographie
+Alias: $q4ms-terminvereinbarung-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-terminvereinbarung
+Alias: $q4ms-therapiespezifische-diagnostik-ad = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-therapiespezifische-diagnostik
+
+// QPath4MS Pathway Profile Aliases
+Alias: $q4ms-arztbrief-sd = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief
+Alias: $q4ms-befund-sd = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund
+Alias: $q4ms-dokument-sd = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument
+Alias: $q4ms-dokumentanforderung-sd = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokumentanforderung
+Alias: $q4ms-konsiliarbericht-sd = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht
+Alias: $q4ms-laborergebnis-sd = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis
+Alias: $q4ms-rezept-sd = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept
+Alias: $q4ms-sonstiges-dokument-sd = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument
+Alias: $q4ms-terminvereinbarung-sd = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-terminvereinbarung
+
+// QPath4MS Pathway MessageDefinition Aliases
+Alias: $q4ms-arztbriefanfrage-md = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage
+Alias: $q4ms-terminanfrage-md = http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-terminanfrage

@@ -1,6 +1,6 @@
 Instance: Q4MSLaboruntersuchung
 InstanceOf: PlanDefinition
-Title: "Laboruntersuchung PlanDefinition"
+Title: "Laboruntersuchung"
 Usage: #definition
 * url = $q4ms-laboruntersuchung
 * type = $plan-definition-type#eca-rule
@@ -8,4 +8,4 @@ Usage: #definition
 * experimental = true
 * action.title = "Laboruntersuchung"
 * action.type = $action-type#create
-* action.definitionCanonical = Canonical(Q4MSLaboruntersuchungActivity)
+* action.definitionCanonical = Canonical(Q4MSLaboruntersuchungAD)

@@ -22,9 +22,9 @@
   fhir:CodeSystem.url [ fhir:value "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-anfragekategorie"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "Q4MSAnfragekategorie"];
-  fhir:CodeSystem.title [ fhir:value "Anfragekategorie CodeSystem"];
+  fhir:CodeSystem.title [ fhir:value "Anfragekategorie"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-12-22T13:43:58+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-12-22T19:56:03+01:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "QPath4MS"];
   fhir:CodeSystem.contact [
      fhir:index 0;

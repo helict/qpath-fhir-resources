@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "Q4MSGanganalyseActivity",
-  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSGanganalyseActivity",
-  "status": "draft",
-  "experimental": true,
-  "kind": "ServiceRequest",
-  "doNotPerform": false
-}

@@ -1,9 +1,0 @@
-{
-  "resourceType": "ActivityDefinition",
-  "id": "Q4MSLaboruntersuchungActivity",
-  "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSLaboruntersuchungActivity",
-  "status": "draft",
-  "experimental": true,
-  "kind": "ServiceRequest",
-  "doNotPerform": false
-}

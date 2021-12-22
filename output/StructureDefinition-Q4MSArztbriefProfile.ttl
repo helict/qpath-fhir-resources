@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "not-classified" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile"];
+  fhir:StructureDefinition.url [ fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "Q4MSArztbriefProfile"];
-  fhir:StructureDefinition.title [ fhir:value "Arztbrief DocumentReference Profile"];
+  fhir:StructureDefinition.title [ fhir:value "Arztbrief"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-12-22T13:43:58+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-12-22T19:56:03+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "QPath4MS"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -78,8 +78,8 @@
   fhir:StructureDefinition.abstract [ fhir:value "false"^^xsd:boolean];
   fhir:StructureDefinition.type [ fhir:value "DocumentReference"];
   fhir:StructureDefinition.baseDefinition [
-     fhir:value "http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentProfile";
-     fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentProfile>
+     fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument";
+     fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument>
   ];
   fhir:StructureDefinition.derivation [ fhir:value "constraint"];
   fhir:StructureDefinition.snapshot [

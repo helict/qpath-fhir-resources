@@ -10,7 +10,7 @@
   <name value="QPath4MSIG"/>
   <title value="QPath4MS FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-12-22T13:43:58+01:00"/>
+  <date value="2021-12-22T19:56:03+01:00"/>
   <publisher value="QPath4MS"/>
   <contact>
     <name value="QPath4MS"/>
@@ -182,7 +182,7 @@
       <reference>
         <reference value="StructureDefinition/Q4MSArztbriefProfile"/>
       </reference>
-      <name value="Arztbrief DocumentReference Profile"/>
+      <name value="Arztbrief"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -192,7 +192,7 @@
       <reference>
         <reference value="StructureDefinition/Q4MSBefundProfile"/>
       </reference>
-      <name value="Befund DocumentReference Profile"/>
+      <name value="Befund"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -202,7 +202,7 @@
       <reference>
         <reference value="StructureDefinition/Q4MSDokumentProfile"/>
       </reference>
-      <name value="Dokument DocumentReference Profile"/>
+      <name value="Dokument"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -212,7 +212,7 @@
       <reference>
         <reference value="StructureDefinition/Q4MSDokumentanforderungProfile"/>
       </reference>
-      <name value="Dokumentanforderung MessageDefinition Profile"/>
+      <name value="Dokumentanforderung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -222,7 +222,7 @@
       <reference>
         <reference value="StructureDefinition/Q4MSKonsiliarberichtProfile"/>
       </reference>
-      <name value="Konsiliarbericht DocumentReference Profile"/>
+      <name value="Konsiliarbericht"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -232,7 +232,7 @@
       <reference>
         <reference value="StructureDefinition/Q4MSLaborergebnisProfile"/>
       </reference>
-      <name value="Laborergebnis DocumentReference Profile"/>
+      <name value="Laborergebnis"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -242,7 +242,7 @@
       <reference>
         <reference value="StructureDefinition/Q4MSRezeptProfile"/>
       </reference>
-      <name value="Rezept DocumentReference Profile"/>
+      <name value="Rezept"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -252,7 +252,7 @@
       <reference>
         <reference value="StructureDefinition/Q4MSSonstigesDokumentProfile"/>
       </reference>
-      <name value="Sonstiges Dokument DocumentReference Profile"/>
+      <name value="Sonstiges Dokument"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -262,7 +262,7 @@
       <reference>
         <reference value="StructureDefinition/Q4MSTerminvereinbarungProfile"/>
       </reference>
-      <name value="Terminvereinbarung MessageDefinition Profile"/>
+      <name value="Terminvereinbarung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -272,7 +272,7 @@
       <reference>
         <reference value="ValueSet/q4ms-anfragekategorie-vs"/>
       </reference>
-      <name value="Anfragekategorie ValueSet"/>
+      <name value="Anfragekategorie"/>
       <description value="Definiert Anfragekategorien"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -283,7 +283,7 @@
       <reference>
         <reference value="ValueSet/q4ms-dokumentanforderungkategorie-vs"/>
       </reference>
-      <name value="Dokumentanforderungkategorie ValueSet"/>
+      <name value="Dokumentanforderungkategorie"/>
       <description value="Definiert Dokumentanforderungkategorien"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -294,8 +294,8 @@
       <reference>
         <reference value="ValueSet/q4ms-terminanfragekategorie-vs"/>
       </reference>
-      <name value="Terminanfragekategorie ValueSet"/>
-      <description value="Definiert Terminanfragekategorie"/>
+      <name value="Terminanfragekategorie"/>
+      <description value="Definiert Terminanfragekategorien"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -305,7 +305,7 @@
       <reference>
         <reference value="CodeSystem/q4ms-anfragekategorie"/>
       </reference>
-      <name value="Anfragekategorie CodeSystem"/>
+      <name value="Anfragekategorie"/>
       <description value="Deklariert Anfragekategorien"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -316,7 +316,7 @@
       <reference>
         <reference value="CodeSystem/q4ms-dokumentanforderungkategorie"/>
       </reference>
-      <name value="Dokumentanforderungkategorie CodeSystem"/>
+      <name value="Dokumentanforderungkategorie"/>
       <description value="Deklariert Dokumentanforderungkategorien"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -327,7 +327,7 @@
       <reference>
         <reference value="CodeSystem/q4ms-terminanfragekategorie"/>
       </reference>
-      <name value="Terminanfragekategorie CodeSystem"/>
+      <name value="Terminanfragekategorie"/>
       <description value="Deklariert Terminanfragekategorien"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -340,7 +340,7 @@
       </reference>
       <name value="Beispiel Arztbrief"/>
       <description value="Beispiel DocumentReference für einen Arztbrief"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile"/>
+      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -351,7 +351,7 @@
       </reference>
       <name value="Beispiel Befund"/>
       <description value="Beispiel DocumentReference für einen Befund"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile"/>
+      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -362,7 +362,7 @@
       </reference>
       <name value="Beispiel Konsiliarbericht"/>
       <description value="Beispiel DocumentReference für einen Konsiliarbericht"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile"/>
+      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -373,7 +373,7 @@
       </reference>
       <name value="Beispiel Laborergebnis"/>
       <description value="Beispiel DocumentReference für ein Laborergebnis"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile"/>
+      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -382,7 +382,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese"/>
       </reference>
-      <name value="Allgemeine neurologische Anamnese PlanDefinition"/>
+      <name value="Allgemeine neurologische Anamnese"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -390,9 +390,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseActivity"/>
+        <reference value="ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD"/>
       </reference>
-      <name value="Allgemeine neurologische Anamnese ActivityDefinition"/>
+      <name value="Allgemeine neurologische Anamnese"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -402,7 +402,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung"/>
       </reference>
-      <name value="Allgemeine neurologische Untersuchung PlanDefinition"/>
+      <name value="Allgemeine neurologische Untersuchung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -412,7 +412,7 @@
       <reference>
         <reference value="MessageDefinition/Q4MSArztbriefanfrage"/>
       </reference>
-      <name value="Arztbriefanfrage MessageDefinition"/>
+      <name value="Arztbriefanfrage"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -422,7 +422,7 @@
       <reference>
         <reference value="MessageHeader/Q4MSArztbriefanfrageHeader"/>
       </reference>
-      <name value="Arztbriefanfrage MessageHeader"/>
+      <name value="Arztbriefanfrage"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -432,7 +432,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSArztvorstellung"/>
       </reference>
-      <name value="Arztvorstellung PlanDefinition"/>
+      <name value="Arztvorstellung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -442,7 +442,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSAuswertung"/>
       </reference>
-      <name value="Auswertung PlanDefinition"/>
+      <name value="Auswertung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -450,9 +450,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSAuswertungActivity"/>
+        <reference value="ActivityDefinition/Q4MSAuswertungAD"/>
       </reference>
-      <name value="Auswertung ActivityDefinition"/>
+      <name value="Auswertung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -462,7 +462,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSBasismonitoring"/>
       </reference>
-      <name value="Basismonitoring Patientepfad PlanDefinition"/>
+      <name value="Basismonitoring Patientepfad"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -472,7 +472,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSBefundauswertung"/>
       </reference>
-      <name value="Befundauswertung PlanDefinition"/>
+      <name value="Befundauswertung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -480,9 +480,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSBefundauswertungActivity"/>
+        <reference value="ActivityDefinition/Q4MSBefundauswertungAD"/>
       </reference>
-      <name value="Befundauswertung ActivityDefinition"/>
+      <name value="Befundauswertung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -490,9 +490,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSDokumenteAbfragenActivity"/>
+        <reference value="ActivityDefinition/Q4MSDokumenteAbfragenAD"/>
       </reference>
-      <name value="Dokumente abfragen ActivityDefinition"/>
+      <name value="Dokumente abfragen"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -502,7 +502,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSDokumenteAbfragenPatient"/>
       </reference>
-      <name value="Dokumente beim Patienten abfragen PlanDefinition"/>
+      <name value="Dokumente beim Patienten abfragen"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -510,9 +510,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSDokumenteUebermittelnActivity"/>
+        <reference value="ActivityDefinition/Q4MSDokumenteUebermittelnAD"/>
       </reference>
-      <name value="Dokumente uebermitteln ActivityDefinition"/>
+      <name value="Dokumente übermitteln"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -522,7 +522,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSDokumenteUebermittelnArzt"/>
       </reference>
-      <name value="Dokumente an Arzt übermitteln PlanDefinition"/>
+      <name value="Dokumente an Arzt übermitteln"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -532,7 +532,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSDokumenteUebermittelnPatient"/>
       </reference>
-      <name value="Dokumente an Patient übermitteln PlanDefinition"/>
+      <name value="Dokumente an Patient übermitteln"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -542,7 +542,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSEntlassung"/>
       </reference>
-      <name value="Entlassung PlanDefinition"/>
+      <name value="Entlassung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -550,9 +550,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSExpandedDisabilityStatusScaleActivity"/>
+        <reference value="ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD"/>
       </reference>
-      <name value="Expanded Disability Status Scale ActivityDefinition"/>
+      <name value="Expanded Disability Status Scale (EDSS)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -562,7 +562,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSGanganalyse"/>
       </reference>
-      <name value="Ganganalyse PlanDefinition"/>
+      <name value="Ganganalyse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -570,9 +570,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSGanganalyseActivity"/>
+        <reference value="ActivityDefinition/Q4MSGanganalyseAD"/>
       </reference>
-      <name value="Ganganalyse ActivityDefinition"/>
+      <name value="Ganganalyse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -582,7 +582,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSLaboruntersuchung"/>
       </reference>
-      <name value="Laboruntersuchung PlanDefinition"/>
+      <name value="Laboruntersuchung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -590,9 +590,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSLaboruntersuchungActivity"/>
+        <reference value="ActivityDefinition/Q4MSLaboruntersuchungAD"/>
       </reference>
-      <name value="Laboruntersuchung ActivityDefinition"/>
+      <name value="Laboruntersuchung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -602,7 +602,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSMagnetresonanztomographie"/>
       </reference>
-      <name value="Magnetresonanztomographie PlanDefinition"/>
+      <name value="Magnetresonanztomographie (MRT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -610,9 +610,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSMagnetresonanztomographieActivity"/>
+        <reference value="ActivityDefinition/Q4MSMagnetresonanztomographieAD"/>
       </reference>
-      <name value="Magnetresonanztomographie ActivityDefinition"/>
+      <name value="Magnetresonanztomographie (MRT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -622,7 +622,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"/>
       </reference>
-      <name value="Multiple Sclerosis Performance Test PlanDefinition"/>
+      <name value="Multiple Sclerosis Performance Test (MSPT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -630,9 +630,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestActivity"/>
+        <reference value="ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD"/>
       </reference>
-      <name value="Multiple Sclerosis Performance Test ActivityDefinition"/>
+      <name value="Multiple Sclerosis Performance Test (MSPR)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -642,7 +642,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSOptischeKoheraenztomographie"/>
       </reference>
-      <name value="Optische Koheränztomographie PlanDefinition"/>
+      <name value="Optische Koheränztomographie (OCT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -650,9 +650,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSOptischeKoheraenztomographieActivity"/>
+        <reference value="ActivityDefinition/Q4MSOptischeKoheraenztomographieAD"/>
       </reference>
-      <name value="Optische Koheränztomographie ActivityDefinition"/>
+      <name value="Optische Koheränztomographie (OCT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -662,7 +662,7 @@
       <reference>
         <reference value="MessageDefinition/Q4MSTerminanfrage"/>
       </reference>
-      <name value="Terminanfrage MessageDefinition"/>
+      <name value="Terminanfrage"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -672,7 +672,7 @@
       <reference>
         <reference value="MessageHeader/Q4MSTerminanfrageHeader"/>
       </reference>
-      <name value="Terminanfrage MessageHeader"/>
+      <name value="Terminanfrage"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -682,7 +682,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSTerminvereinbarung"/>
       </reference>
-      <name value="Terminvereinbarung PlanDefinition"/>
+      <name value="Terminvereinbarung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -690,9 +690,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSTerminvereinbarungActivity"/>
+        <reference value="ActivityDefinition/Q4MSTerminvereinbarungAD"/>
       </reference>
-      <name value="Terminvereinbarung ActivityDefinition"/>
+      <name value="Terminvereinbarung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -702,7 +702,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSTherapiespezifischeDiagnostik"/>
       </reference>
-      <name value="Therapiespezifische Diagnostik PlanDefinition"/>
+      <name value="Therapiespezifische Diagnostik"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -710,9 +710,9 @@
         <valueString value="ActivityDefinition"/>
       </extension>
       <reference>
-        <reference value="ActivityDefinition/Q4MSTherapiespezifischeDiagnostikActivity"/>
+        <reference value="ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD"/>
       </reference>
-      <name value="Therapiespezifische Diagnostik ActivityDefinition"/>
+      <name value="Therapiespezifische Diagnostik"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -722,7 +722,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSVorstellung"/>
       </reference>
-      <name value="Erst- oder Wiedervorstellung PlanDefinition"/>
+      <name value="Erst- oder Wiedervorstellung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -732,7 +732,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSVoruntersuchung"/>
       </reference>
-      <name value="Voruntersuchung PlanDefinition"/>
+      <name value="Voruntersuchung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -742,7 +742,7 @@
       <reference>
         <reference value="PlanDefinition/Q4MSZusatzdiagnostik"/>
       </reference>
-      <name value="Zusatzdiagnostik PlanDefinition"/>
+      <name value="Zusatzdiagnostik"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -754,7 +754,7 @@
       </reference>
       <name value="Beispiel Rezept"/>
       <description value="Beispiel DocumentReference für ein Rezept"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile"/>
+      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -765,7 +765,7 @@
       </reference>
       <name value="Beispiel Sonstiges Dokument"/>
       <description value="Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU"/>
-      <exampleCanonical value="http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile"/>
+      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

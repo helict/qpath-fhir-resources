@@ -1,6 +1,6 @@
 Instance: Q4MSAllgemeineNeurologischeAnamnese
 InstanceOf: PlanDefinition
-Title: "Allgemeine neurologische Anamnese PlanDefinition"
+Title: "Allgemeine neurologische Anamnese"
 Usage: #definition
 * url = $q4ms-allgemeine-neurologische-anamnese
 * type = $plan-definition-type#eca-rule
@@ -8,4 +8,4 @@ Usage: #definition
 * experimental = true
 * action.title = "Expanded Disability Status Scale (EDSS)"
 * action.type = $action-type#create
-* action.definitionCanonical = Canonical(Q4MSExpandedDisabilityStatusScaleActivity)
+* action.definitionCanonical = Canonical(Q4MSExpandedDisabilityStatusScaleAD)

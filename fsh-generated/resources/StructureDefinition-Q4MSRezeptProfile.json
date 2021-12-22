@@ -11,10 +11,10 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile",
+  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept",
   "version": "0.1.0",
   "name": "Q4MSRezeptProfile",
-  "title": "Rezept DocumentReference Profile",
+  "title": "Rezept",
   "status": "active",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -57,7 +57,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "DocumentReference",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/DocumentReference",
+  "baseDefinition": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -94,18 +94,6 @@
             }
           ]
         }
-      },
-      {
-        "id": "DocumentReference.subject",
-        "path": "DocumentReference.subject",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient"
-            ]
-          }
-        ]
       },
       {
         "id": "DocumentReference.description",

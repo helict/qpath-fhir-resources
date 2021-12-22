@@ -1,6 +1,6 @@
 ValueSet: Q4MSAnfragekategorieVS
 Id: q4ms-anfragekategorie-vs
-Title: "Anfragekategorie ValueSet"
+Title: "Anfragekategorie"
 Description: "Definiert Anfragekategorien"
 * ^status = $publication-status#active
 * ^version = "1.0.0"

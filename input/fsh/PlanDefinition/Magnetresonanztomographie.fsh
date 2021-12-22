@@ -1,6 +1,6 @@
 Instance: Q4MSMagnetresonanztomographie
 InstanceOf: PlanDefinition
-Title: "Magnetresonanztomographie PlanDefinition"
+Title: "Magnetresonanztomographie (MRT)"
 Usage: #definition
 * url = $q4ms-magnetresonanztomographie
 * type = $plan-definition-type#eca-rule
@@ -11,4 +11,4 @@ Usage: #definition
 * action.condition.kind = #applicability
 * action.condition.expression.language = #text/cql
 * action.condition.expression.expression = "no current pregnancy"
-* action.definitionCanonical = Canonical(Q4MSMagnetresonanztomographieActivity)
+* action.definitionCanonical = Canonical(Q4MSMagnetresonanztomographieAD)

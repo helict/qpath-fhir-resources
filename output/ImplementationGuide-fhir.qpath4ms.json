@@ -10,7 +10,7 @@
   "name": "QPath4MSIG",
   "title": "QPath4MS FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-12-22T13:43:58+01:00",
+  "date": "2021-12-22T19:56:03+01:00",
   "publisher": "QPath4MS",
   "contact": [
     {
@@ -289,7 +289,7 @@
         "reference": {
           "reference": "StructureDefinition/Q4MSArztbriefProfile"
         },
-        "name": "Arztbrief DocumentReference Profile",
+        "name": "Arztbrief",
         "exampleBoolean": false
       },
       {
@@ -302,7 +302,7 @@
         "reference": {
           "reference": "StructureDefinition/Q4MSBefundProfile"
         },
-        "name": "Befund DocumentReference Profile",
+        "name": "Befund",
         "exampleBoolean": false
       },
       {
@@ -315,7 +315,7 @@
         "reference": {
           "reference": "StructureDefinition/Q4MSDokumentProfile"
         },
-        "name": "Dokument DocumentReference Profile",
+        "name": "Dokument",
         "exampleBoolean": false
       },
       {
@@ -328,7 +328,7 @@
         "reference": {
           "reference": "StructureDefinition/Q4MSDokumentanforderungProfile"
         },
-        "name": "Dokumentanforderung MessageDefinition Profile",
+        "name": "Dokumentanforderung",
         "exampleBoolean": false
       },
       {
@@ -341,7 +341,7 @@
         "reference": {
           "reference": "StructureDefinition/Q4MSKonsiliarberichtProfile"
         },
-        "name": "Konsiliarbericht DocumentReference Profile",
+        "name": "Konsiliarbericht",
         "exampleBoolean": false
       },
       {
@@ -354,7 +354,7 @@
         "reference": {
           "reference": "StructureDefinition/Q4MSLaborergebnisProfile"
         },
-        "name": "Laborergebnis DocumentReference Profile",
+        "name": "Laborergebnis",
         "exampleBoolean": false
       },
       {
@@ -367,7 +367,7 @@
         "reference": {
           "reference": "StructureDefinition/Q4MSRezeptProfile"
         },
-        "name": "Rezept DocumentReference Profile",
+        "name": "Rezept",
         "exampleBoolean": false
       },
       {
@@ -380,7 +380,7 @@
         "reference": {
           "reference": "StructureDefinition/Q4MSSonstigesDokumentProfile"
         },
-        "name": "Sonstiges Dokument DocumentReference Profile",
+        "name": "Sonstiges Dokument",
         "exampleBoolean": false
       },
       {
@@ -393,7 +393,7 @@
         "reference": {
           "reference": "StructureDefinition/Q4MSTerminvereinbarungProfile"
         },
-        "name": "Terminvereinbarung MessageDefinition Profile",
+        "name": "Terminvereinbarung",
         "exampleBoolean": false
       },
       {
@@ -406,7 +406,7 @@
         "reference": {
           "reference": "ValueSet/q4ms-anfragekategorie-vs"
         },
-        "name": "Anfragekategorie ValueSet",
+        "name": "Anfragekategorie",
         "description": "Definiert Anfragekategorien",
         "exampleBoolean": false
       },
@@ -420,7 +420,7 @@
         "reference": {
           "reference": "ValueSet/q4ms-dokumentanforderungkategorie-vs"
         },
-        "name": "Dokumentanforderungkategorie ValueSet",
+        "name": "Dokumentanforderungkategorie",
         "description": "Definiert Dokumentanforderungkategorien",
         "exampleBoolean": false
       },
@@ -434,8 +434,8 @@
         "reference": {
           "reference": "ValueSet/q4ms-terminanfragekategorie-vs"
         },
-        "name": "Terminanfragekategorie ValueSet",
-        "description": "Definiert Terminanfragekategorie",
+        "name": "Terminanfragekategorie",
+        "description": "Definiert Terminanfragekategorien",
         "exampleBoolean": false
       },
       {
@@ -448,7 +448,7 @@
         "reference": {
           "reference": "CodeSystem/q4ms-anfragekategorie"
         },
-        "name": "Anfragekategorie CodeSystem",
+        "name": "Anfragekategorie",
         "description": "Deklariert Anfragekategorien",
         "exampleBoolean": false
       },
@@ -462,7 +462,7 @@
         "reference": {
           "reference": "CodeSystem/q4ms-dokumentanforderungkategorie"
         },
-        "name": "Dokumentanforderungkategorie CodeSystem",
+        "name": "Dokumentanforderungkategorie",
         "description": "Deklariert Dokumentanforderungkategorien",
         "exampleBoolean": false
       },
@@ -476,7 +476,7 @@
         "reference": {
           "reference": "CodeSystem/q4ms-terminanfragekategorie"
         },
-        "name": "Terminanfragekategorie CodeSystem",
+        "name": "Terminanfragekategorie",
         "description": "Deklariert Terminanfragekategorien",
         "exampleBoolean": false
       },
@@ -492,7 +492,7 @@
         },
         "name": "Beispiel Arztbrief",
         "description": "Beispiel DocumentReference für einen Arztbrief",
-        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile"
+        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief"
       },
       {
         "extension": [
@@ -506,7 +506,7 @@
         },
         "name": "Beispiel Befund",
         "description": "Beispiel DocumentReference für einen Befund",
-        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile"
+        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund"
       },
       {
         "extension": [
@@ -520,7 +520,7 @@
         },
         "name": "Beispiel Konsiliarbericht",
         "description": "Beispiel DocumentReference für einen Konsiliarbericht",
-        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile"
+        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht"
       },
       {
         "extension": [
@@ -534,7 +534,7 @@
         },
         "name": "Beispiel Laborergebnis",
         "description": "Beispiel DocumentReference für ein Laborergebnis",
-        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile"
+        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis"
       },
       {
         "extension": [
@@ -546,7 +546,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese"
         },
-        "name": "Allgemeine neurologische Anamnese PlanDefinition",
+        "name": "Allgemeine neurologische Anamnese",
         "exampleBoolean": false
       },
       {
@@ -557,9 +557,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseActivity"
+          "reference": "ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD"
         },
-        "name": "Allgemeine neurologische Anamnese ActivityDefinition",
+        "name": "Allgemeine neurologische Anamnese",
         "exampleBoolean": false
       },
       {
@@ -572,7 +572,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung"
         },
-        "name": "Allgemeine neurologische Untersuchung PlanDefinition",
+        "name": "Allgemeine neurologische Untersuchung",
         "exampleBoolean": false
       },
       {
@@ -585,7 +585,7 @@
         "reference": {
           "reference": "MessageDefinition/Q4MSArztbriefanfrage"
         },
-        "name": "Arztbriefanfrage MessageDefinition",
+        "name": "Arztbriefanfrage",
         "exampleBoolean": false
       },
       {
@@ -598,7 +598,7 @@
         "reference": {
           "reference": "MessageHeader/Q4MSArztbriefanfrageHeader"
         },
-        "name": "Arztbriefanfrage MessageHeader",
+        "name": "Arztbriefanfrage",
         "exampleBoolean": false
       },
       {
@@ -611,7 +611,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSArztvorstellung"
         },
-        "name": "Arztvorstellung PlanDefinition",
+        "name": "Arztvorstellung",
         "exampleBoolean": false
       },
       {
@@ -624,7 +624,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSAuswertung"
         },
-        "name": "Auswertung PlanDefinition",
+        "name": "Auswertung",
         "exampleBoolean": false
       },
       {
@@ -635,9 +635,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSAuswertungActivity"
+          "reference": "ActivityDefinition/Q4MSAuswertungAD"
         },
-        "name": "Auswertung ActivityDefinition",
+        "name": "Auswertung",
         "exampleBoolean": false
       },
       {
@@ -650,7 +650,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSBasismonitoring"
         },
-        "name": "Basismonitoring Patientepfad PlanDefinition",
+        "name": "Basismonitoring Patientepfad",
         "exampleBoolean": false
       },
       {
@@ -663,7 +663,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSBefundauswertung"
         },
-        "name": "Befundauswertung PlanDefinition",
+        "name": "Befundauswertung",
         "exampleBoolean": false
       },
       {
@@ -674,9 +674,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSBefundauswertungActivity"
+          "reference": "ActivityDefinition/Q4MSBefundauswertungAD"
         },
-        "name": "Befundauswertung ActivityDefinition",
+        "name": "Befundauswertung",
         "exampleBoolean": false
       },
       {
@@ -687,9 +687,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSDokumenteAbfragenActivity"
+          "reference": "ActivityDefinition/Q4MSDokumenteAbfragenAD"
         },
-        "name": "Dokumente abfragen ActivityDefinition",
+        "name": "Dokumente abfragen",
         "exampleBoolean": false
       },
       {
@@ -702,7 +702,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSDokumenteAbfragenPatient"
         },
-        "name": "Dokumente beim Patienten abfragen PlanDefinition",
+        "name": "Dokumente beim Patienten abfragen",
         "exampleBoolean": false
       },
       {
@@ -713,9 +713,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSDokumenteUebermittelnActivity"
+          "reference": "ActivityDefinition/Q4MSDokumenteUebermittelnAD"
         },
-        "name": "Dokumente uebermitteln ActivityDefinition",
+        "name": "Dokumente übermitteln",
         "exampleBoolean": false
       },
       {
@@ -728,7 +728,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSDokumenteUebermittelnArzt"
         },
-        "name": "Dokumente an Arzt übermitteln PlanDefinition",
+        "name": "Dokumente an Arzt übermitteln",
         "exampleBoolean": false
       },
       {
@@ -741,7 +741,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSDokumenteUebermittelnPatient"
         },
-        "name": "Dokumente an Patient übermitteln PlanDefinition",
+        "name": "Dokumente an Patient übermitteln",
         "exampleBoolean": false
       },
       {
@@ -754,7 +754,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSEntlassung"
         },
-        "name": "Entlassung PlanDefinition",
+        "name": "Entlassung",
         "exampleBoolean": false
       },
       {
@@ -765,9 +765,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSExpandedDisabilityStatusScaleActivity"
+          "reference": "ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD"
         },
-        "name": "Expanded Disability Status Scale ActivityDefinition",
+        "name": "Expanded Disability Status Scale (EDSS)",
         "exampleBoolean": false
       },
       {
@@ -780,7 +780,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSGanganalyse"
         },
-        "name": "Ganganalyse PlanDefinition",
+        "name": "Ganganalyse",
         "exampleBoolean": false
       },
       {
@@ -791,9 +791,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSGanganalyseActivity"
+          "reference": "ActivityDefinition/Q4MSGanganalyseAD"
         },
-        "name": "Ganganalyse ActivityDefinition",
+        "name": "Ganganalyse",
         "exampleBoolean": false
       },
       {
@@ -806,7 +806,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSLaboruntersuchung"
         },
-        "name": "Laboruntersuchung PlanDefinition",
+        "name": "Laboruntersuchung",
         "exampleBoolean": false
       },
       {
@@ -817,9 +817,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSLaboruntersuchungActivity"
+          "reference": "ActivityDefinition/Q4MSLaboruntersuchungAD"
         },
-        "name": "Laboruntersuchung ActivityDefinition",
+        "name": "Laboruntersuchung",
         "exampleBoolean": false
       },
       {
@@ -832,7 +832,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSMagnetresonanztomographie"
         },
-        "name": "Magnetresonanztomographie PlanDefinition",
+        "name": "Magnetresonanztomographie (MRT)",
         "exampleBoolean": false
       },
       {
@@ -843,9 +843,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSMagnetresonanztomographieActivity"
+          "reference": "ActivityDefinition/Q4MSMagnetresonanztomographieAD"
         },
-        "name": "Magnetresonanztomographie ActivityDefinition",
+        "name": "Magnetresonanztomographie (MRT)",
         "exampleBoolean": false
       },
       {
@@ -858,7 +858,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"
         },
-        "name": "Multiple Sclerosis Performance Test PlanDefinition",
+        "name": "Multiple Sclerosis Performance Test (MSPT)",
         "exampleBoolean": false
       },
       {
@@ -869,9 +869,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestActivity"
+          "reference": "ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD"
         },
-        "name": "Multiple Sclerosis Performance Test ActivityDefinition",
+        "name": "Multiple Sclerosis Performance Test (MSPR)",
         "exampleBoolean": false
       },
       {
@@ -884,7 +884,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSOptischeKoheraenztomographie"
         },
-        "name": "Optische Koheränztomographie PlanDefinition",
+        "name": "Optische Koheränztomographie (OCT)",
         "exampleBoolean": false
       },
       {
@@ -895,9 +895,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSOptischeKoheraenztomographieActivity"
+          "reference": "ActivityDefinition/Q4MSOptischeKoheraenztomographieAD"
         },
-        "name": "Optische Koheränztomographie ActivityDefinition",
+        "name": "Optische Koheränztomographie (OCT)",
         "exampleBoolean": false
       },
       {
@@ -910,7 +910,7 @@
         "reference": {
           "reference": "MessageDefinition/Q4MSTerminanfrage"
         },
-        "name": "Terminanfrage MessageDefinition",
+        "name": "Terminanfrage",
         "exampleBoolean": false
       },
       {
@@ -923,7 +923,7 @@
         "reference": {
           "reference": "MessageHeader/Q4MSTerminanfrageHeader"
         },
-        "name": "Terminanfrage MessageHeader",
+        "name": "Terminanfrage",
         "exampleBoolean": false
       },
       {
@@ -936,7 +936,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSTerminvereinbarung"
         },
-        "name": "Terminvereinbarung PlanDefinition",
+        "name": "Terminvereinbarung",
         "exampleBoolean": false
       },
       {
@@ -947,9 +947,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSTerminvereinbarungActivity"
+          "reference": "ActivityDefinition/Q4MSTerminvereinbarungAD"
         },
-        "name": "Terminvereinbarung ActivityDefinition",
+        "name": "Terminvereinbarung",
         "exampleBoolean": false
       },
       {
@@ -962,7 +962,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSTherapiespezifischeDiagnostik"
         },
-        "name": "Therapiespezifische Diagnostik PlanDefinition",
+        "name": "Therapiespezifische Diagnostik",
         "exampleBoolean": false
       },
       {
@@ -973,9 +973,9 @@
           }
         ],
         "reference": {
-          "reference": "ActivityDefinition/Q4MSTherapiespezifischeDiagnostikActivity"
+          "reference": "ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD"
         },
-        "name": "Therapiespezifische Diagnostik ActivityDefinition",
+        "name": "Therapiespezifische Diagnostik",
         "exampleBoolean": false
       },
       {
@@ -988,7 +988,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSVorstellung"
         },
-        "name": "Erst- oder Wiedervorstellung PlanDefinition",
+        "name": "Erst- oder Wiedervorstellung",
         "exampleBoolean": false
       },
       {
@@ -1001,7 +1001,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSVoruntersuchung"
         },
-        "name": "Voruntersuchung PlanDefinition",
+        "name": "Voruntersuchung",
         "exampleBoolean": false
       },
       {
@@ -1014,7 +1014,7 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSZusatzdiagnostik"
         },
-        "name": "Zusatzdiagnostik PlanDefinition",
+        "name": "Zusatzdiagnostik",
         "exampleBoolean": false
       },
       {
@@ -1029,7 +1029,7 @@
         },
         "name": "Beispiel Rezept",
         "description": "Beispiel DocumentReference für ein Rezept",
-        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile"
+        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept"
       },
       {
         "extension": [
@@ -1043,7 +1043,7 @@
         },
         "name": "Beispiel Sonstiges Dokument",
         "description": "Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU",
-        "exampleCanonical": "http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile"
+        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument"
       },
       {
         "extension": [
