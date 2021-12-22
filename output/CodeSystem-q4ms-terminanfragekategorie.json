@@ -1,0 +1,52 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "q4ms-terminanfragekategorie",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">booking<a name=\"q4ms-terminanfragekategorie-booking\"> </a></td><td>Terminanforderung</td><td>Anforderung eines Termins</td></tr><tr><td style=\"white-space:nowrap\">rescheduling<a name=\"q4ms-terminanfragekategorie-rescheduling\"> </a></td><td>Terminverschiebung</td><td>Verschiebung eines Termins</td></tr><tr><td style=\"white-space:nowrap\">cancellation<a name=\"q4ms-terminanfragekategorie-cancellation\"> </a></td><td>Terminabsage</td><td>Absage eines Termins</td></tr></table></div>"
+  },
+  "url": "http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie",
+  "version": "0.1.0",
+  "name": "Q4MSTerminanfragekategorie",
+  "title": "Terminanfragekategorie CodeSystem",
+  "status": "active",
+  "date": "2021-12-22T11:59:55+01:00",
+  "publisher": "QPath4MS",
+  "contact": [
+    {
+      "name": "QPath4MS",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://qpath.ukdd.de"
+        }
+      ]
+    }
+  ],
+  "description": "Deklariert Terminanfragekategorien",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "booking",
+      "display": "Terminanforderung",
+      "definition": "Anforderung eines Termins"
+    },
+    {
+      "code": "rescheduling",
+      "display": "Terminverschiebung",
+      "definition": "Verschiebung eines Termins"
+    },
+    {
+      "code": "cancellation",
+      "display": "Terminabsage",
+      "definition": "Absage eines Termins"
+    }
+  ]
+}

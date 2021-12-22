@@ -1,0 +1,84 @@
+{
+  "resourceType": "PlanDefinition",
+  "id": "Q4MSBasismonitoring",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSBasismonitoring\" </p></div><p><b>url</b>: <code>/PlanDefinition/Q4MSBasismonitoring</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: clinical-protocol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#clinical-protocol)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T11:59:55+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: multiple</p><blockquote><p><b>action</b></p><p><b>title</b>: Vorstellung</p><p><b>description</b>: Erst- und Wiedervostellung</p><p><b>definition</b>: <code>/PlanDefinition/Q4MSVorstellung</code></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Voruntersuchung</p><p><b>description</b>: Diagnostische Voruntersuchungen durchführen</p><p><b>definition</b>: <code>/PlanDefinition/Q4MSVoruntersuchung</code></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Arztvorstellung</p><p><b>description</b>: Voruntersuchungen auswerten und Therapiemaßnahmen ableiten</p><p><b>definition</b>: <code>/PlanDefinition/Q4MSArztvorstellung</code></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Entlassung</p><p><b>description</b>: Patient nach Hause entlassen</p><p><b>definition</b>: <code>/PlanDefinition/Q4MSEntlassung</code></p></blockquote></blockquote></div>"
+  },
+  "url": "/PlanDefinition/Q4MSBasismonitoring",
+  "version": "0.1.0",
+  "type": {
+    "coding": [
+      {
+        "code": "clinical-protocol"
+      }
+    ]
+  },
+  "status": "draft",
+  "experimental": true,
+  "date": "2021-12-22T11:59:55+01:00",
+  "publisher": "QPath4MS",
+  "contact": [
+    {
+      "name": "QPath4MS",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://qpath.ukdd.de"
+        }
+      ]
+    }
+  ],
+  "action": [
+    {
+      "groupingBehavior": "logical-group",
+      "selectionBehavior": "all",
+      "requiredBehavior": "must-unless-documented",
+      "cardinalityBehavior": "multiple",
+      "action": [
+        {
+          "id": "admission",
+          "title": "Vorstellung",
+          "description": "Erst- und Wiedervostellung",
+          "definitionCanonical": "/PlanDefinition/Q4MSVorstellung"
+        },
+        {
+          "id": "diagnostic-testing",
+          "title": "Voruntersuchung",
+          "description": "Diagnostische Voruntersuchungen durchführen",
+          "relatedAction": [
+            {
+              "actionId": "admission",
+              "relationship": "after-end"
+            }
+          ],
+          "definitionCanonical": "/PlanDefinition/Q4MSVoruntersuchung"
+        },
+        {
+          "id": "examination",
+          "title": "Arztvorstellung",
+          "description": "Voruntersuchungen auswerten und Therapiemaßnahmen ableiten",
+          "relatedAction": [
+            {
+              "actionId": "diagnostic-testing",
+              "relationship": "after-end"
+            }
+          ],
+          "definitionCanonical": "/PlanDefinition/Q4MSArztvorstellung"
+        },
+        {
+          "id": "discharge",
+          "title": "Entlassung",
+          "description": "Patient nach Hause entlassen",
+          "relatedAction": [
+            {
+              "actionId": "examination",
+              "relationship": "after-end"
+            }
+          ],
+          "definitionCanonical": "/PlanDefinition/Q4MSEntlassung"
+        }
+      ]
+    }
+  ]
+}

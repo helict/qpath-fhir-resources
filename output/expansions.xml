@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="acd3143e-3016-4e0a-9869-06282e0ba979"/>
+  <meta>
+    <lastUpdated value="2021-12-22T11:59:55.704+01:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://qpath.ukdd.de/ValueSet/q4ms-anfragekategorie-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="q4ms-anfragekategorie-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 7 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-q4ms-anfragekategorie.html">Anfragekategorie CodeSystem v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-q4ms-anfragekategorie.html">
+                <code>http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-anfragekategorie-drug-therapy"> </a>
+                  <a href="CodeSystem-q4ms-anfragekategorie.html#q4ms-anfragekategorie-drug-therapy">drug-therapy</a>
+                </td>
+                <td>Medikamentöse Therapie</td>
+                <td>Anfrage zur medikamentösen Therapie</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-anfragekategorie-examination"> </a>
+                  <a href="CodeSystem-q4ms-anfragekategorie.html#q4ms-anfragekategorie-examination">examination</a>
+                </td>
+                <td>Untersuchung</td>
+                <td>Anfrage zu Krankenhausaufenthalt</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-anfragekategorie-hospitalization"> </a>
+                  <a href="CodeSystem-q4ms-anfragekategorie.html#q4ms-anfragekategorie-hospitalization">hospitalization</a>
+                </td>
+                <td>Krankenhausaufenthalt</td>
+                <td>Anfrage zu Krankenhausaufenthalt</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-anfragekategorie-infection-vaccination"> </a>
+                  <a href="CodeSystem-q4ms-anfragekategorie.html#q4ms-anfragekategorie-infection-vaccination">infection-vaccination</a>
+                </td>
+                <td>Infekte / Impfungen</td>
+                <td>Anfrage zu Infekten / Impfungen (z.B. Corona)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-anfragekategorie-non-drug-therapy"> </a>
+                  <a href="CodeSystem-q4ms-anfragekategorie.html#q4ms-anfragekategorie-non-drug-therapy">non-drug-therapy</a>
+                </td>
+                <td>Nicht-medikamentöse Therapie</td>
+                <td>Anfrage zur nicht-medikamentösen Therapie</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-anfragekategorie-pregnancy"> </a>
+                  <a href="CodeSystem-q4ms-anfragekategorie.html#q4ms-anfragekategorie-pregnancy">pregnancy</a>
+                </td>
+                <td>Schwangerschaft</td>
+                <td>Anfrage zu Schwangerschaft</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-anfragekategorie-suspected-attack"> </a>
+                  <a href="CodeSystem-q4ms-anfragekategorie.html#q4ms-anfragekategorie-suspected-attack">suspected-attack</a>
+                </td>
+                <td>Schubverdacht</td>
+                <td>Anfrage zu Schubverdacht / Verschlechterung der Symptome</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://qpath.ukdd.de/ValueSet/q4ms-anfragekategorie-vs"/>
+        <version value="0.1.0"/>
+        <name value="Q4MSAnfragekategorieVS"/>
+        <title value="Anfragekategorie ValueSet"/>
+        <status value="active"/>
+        <date value="2021-12-22T11:59:55+01:00"/>
+        <publisher value="QPath4MS"/>
+        <contact>
+          <name value="QPath4MS"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://qpath.ukdd.de"/>
+          </telecom>
+        </contact>
+        <description value="Definiert Anfragekategorien"/>
+        <expansion>
+          <identifier value="urn:uuid:f920a590-7890-4cc5-b729-9fc362e9e94d"/>
+          <timestamp value="2021-12-22T12:01:21+01:00"/>
+          <total value="7"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie"/>
+            <code value="drug-therapy"/>
+            <display value="Medikamentöse Therapie"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie"/>
+            <code value="examination"/>
+            <display value="Untersuchung"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie"/>
+            <code value="hospitalization"/>
+            <display value="Krankenhausaufenthalt"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie"/>
+            <code value="infection-vaccination"/>
+            <display value="Infekte / Impfungen"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie"/>
+            <code value="non-drug-therapy"/>
+            <display value="Nicht-medikamentöse Therapie"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie"/>
+            <code value="pregnancy"/>
+            <display value="Schwangerschaft"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie"/>
+            <code value="suspected-attack"/>
+            <display value="Schubverdacht"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://qpath.ukdd.de/ValueSet/q4ms-dokumentanforderungkategorie-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="q4ms-dokumentanforderungkategorie-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html">Dokumentanforderungkategorie CodeSystem v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html">
+                <code>http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-dokumentanforderungkategorie-laboratory-result"> </a>
+                  <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html#q4ms-dokumentanforderungkategorie-laboratory-result">laboratory-result</a>
+                </td>
+                <td>Laborergebnis</td>
+                <td>Anforderung eines Laborergebnisses</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-dokumentanforderungkategorie-finding"> </a>
+                  <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html#q4ms-dokumentanforderungkategorie-finding">finding</a>
+                </td>
+                <td>Befund</td>
+                <td>Anforderung eines Befunds</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-dokumentanforderungkategorie-doctor-letter"> </a>
+                  <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html#q4ms-dokumentanforderungkategorie-doctor-letter">doctor-letter</a>
+                </td>
+                <td>Arztbrief</td>
+                <td>Anforderung eines Arztbriefs</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-dokumentanforderungkategorie-consiliary-report"> </a>
+                  <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html#q4ms-dokumentanforderungkategorie-consiliary-report">consiliary-report</a>
+                </td>
+                <td>Konsiliarbericht</td>
+                <td>Anforderung eines Konsiliarberichts</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-dokumentanforderungkategorie-prescription"> </a>
+                  <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html#q4ms-dokumentanforderungkategorie-prescription">prescription</a>
+                </td>
+                <td>Rezept</td>
+                <td>Anforderung eines Rezepts</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-dokumentanforderungkategorie-other"> </a>
+                  <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html#q4ms-dokumentanforderungkategorie-other">other</a>
+                </td>
+                <td>Sonstiges</td>
+                <td>Anforderung eines sonstigen Dokuments</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://qpath.ukdd.de/ValueSet/q4ms-dokumentanforderungkategorie-vs"/>
+        <version value="0.1.0"/>
+        <name value="Q4MSDokumentanforderungkategorieVS"/>
+        <title value="Dokumentanforderungkategorie ValueSet"/>
+        <status value="active"/>
+        <date value="2021-12-22T11:59:55+01:00"/>
+        <publisher value="QPath4MS"/>
+        <contact>
+          <name value="QPath4MS"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://qpath.ukdd.de"/>
+          </telecom>
+        </contact>
+        <description value="Definiert Dokumentanforderungkategorien"/>
+        <expansion>
+          <identifier value="urn:uuid:ed6fe6c1-8e1f-43fe-a370-20f1e19b030c"/>
+          <timestamp value="2021-12-22T12:01:21+01:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie"/>
+            <code value="laboratory-result"/>
+            <display value="Laborergebnis"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie"/>
+            <code value="finding"/>
+            <display value="Befund"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie"/>
+            <code value="doctor-letter"/>
+            <display value="Arztbrief"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie"/>
+            <code value="consiliary-report"/>
+            <display value="Konsiliarbericht"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie"/>
+            <code value="prescription"/>
+            <display value="Rezept"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie"/>
+            <code value="other"/>
+            <display value="Sonstiges"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://qpath.ukdd.de/ValueSet/q4ms-terminanfragekategorie-vs"/>
+    <resource>
+      <ValueSet>
+        <id value="q4ms-terminanfragekategorie-vs"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-q4ms-terminanfragekategorie.html">Terminanfragekategorie CodeSystem v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>All codes in this table are from the system 
+              <a href="CodeSystem-q4ms-terminanfragekategorie.html">
+                <code>http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-terminanfragekategorie-booking"> </a>
+                  <a href="CodeSystem-q4ms-terminanfragekategorie.html#q4ms-terminanfragekategorie-booking">booking</a>
+                </td>
+                <td>Terminanforderung</td>
+                <td>Anforderung eines Termins</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-terminanfragekategorie-rescheduling"> </a>
+                  <a href="CodeSystem-q4ms-terminanfragekategorie.html#q4ms-terminanfragekategorie-rescheduling">rescheduling</a>
+                </td>
+                <td>Terminverschiebung</td>
+                <td>Verschiebung eines Termins</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---qpath.ukdd.de-CodeSystem-q4ms-terminanfragekategorie-cancellation"> </a>
+                  <a href="CodeSystem-q4ms-terminanfragekategorie.html#q4ms-terminanfragekategorie-cancellation">cancellation</a>
+                </td>
+                <td>Terminabsage</td>
+                <td>Absage eines Termins</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://qpath.ukdd.de/ValueSet/q4ms-terminanfragekategorie-vs"/>
+        <version value="0.1.0"/>
+        <name value="Q4MSTerminanfragekategorieVS"/>
+        <title value="Terminanfragekategorie ValueSet"/>
+        <status value="active"/>
+        <date value="2021-12-22T11:59:55+01:00"/>
+        <publisher value="QPath4MS"/>
+        <contact>
+          <name value="QPath4MS"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://qpath.ukdd.de"/>
+          </telecom>
+        </contact>
+        <description value="Definiert Terminanfragekategorie"/>
+        <expansion>
+          <identifier value="urn:uuid:b4f825c5-301e-4b43-b4fe-e6013904ae93"/>
+          <timestamp value="2021-12-22T12:01:21+01:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie"/>
+            <code value="booking"/>
+            <display value="Terminanforderung"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie"/>
+            <code value="rescheduling"/>
+            <display value="Terminverschiebung"/>
+          </contains>
+          <contains>
+            <system value="http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie"/>
+            <code value="cancellation"/>
+            <display value="Terminabsage"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

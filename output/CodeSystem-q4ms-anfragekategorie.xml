@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="q4ms-anfragekategorie"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">drug-therapy<a name="q4ms-anfragekategorie-drug-therapy"> </a></td><td>Medikamentöse Therapie</td><td>Anfrage zur medikamentösen Therapie</td></tr><tr><td style="white-space:nowrap">examination<a name="q4ms-anfragekategorie-examination"> </a></td><td>Untersuchung</td><td>Anfrage zu Krankenhausaufenthalt</td></tr><tr><td style="white-space:nowrap">hospitalization<a name="q4ms-anfragekategorie-hospitalization"> </a></td><td>Krankenhausaufenthalt</td><td>Anfrage zu Krankenhausaufenthalt</td></tr><tr><td style="white-space:nowrap">infection-vaccination<a name="q4ms-anfragekategorie-infection-vaccination"> </a></td><td>Infekte / Impfungen</td><td>Anfrage zu Infekten / Impfungen (z.B. Corona)</td></tr><tr><td style="white-space:nowrap">non-drug-therapy<a name="q4ms-anfragekategorie-non-drug-therapy"> </a></td><td>Nicht-medikamentöse Therapie</td><td>Anfrage zur nicht-medikamentösen Therapie</td></tr><tr><td style="white-space:nowrap">pregnancy<a name="q4ms-anfragekategorie-pregnancy"> </a></td><td>Schwangerschaft</td><td>Anfrage zu Schwangerschaft</td></tr><tr><td style="white-space:nowrap">suspected-attack<a name="q4ms-anfragekategorie-suspected-attack"> </a></td><td>Schubverdacht</td><td>Anfrage zu Schubverdacht / Verschlechterung der Symptome</td></tr></table></div>
+  </text>
+  <url value="http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie"/>
+  <version value="0.1.0"/>
+  <name value="Q4MSAnfragekategorie"/>
+  <title value="Anfragekategorie CodeSystem"/>
+  <status value="active"/>
+  <date value="2021-12-22T11:59:55+01:00"/>
+  <publisher value="QPath4MS"/>
+  <contact>
+    <name value="QPath4MS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://qpath.ukdd.de"/>
+    </telecom>
+  </contact>
+  <description value="Deklariert Anfragekategorien"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="drug-therapy"/>
+    <display value="Medikamentöse Therapie"/>
+    <definition value="Anfrage zur medikamentösen Therapie"/>
+  </concept>
+  <concept>
+    <code value="examination"/>
+    <display value="Untersuchung"/>
+    <definition value="Anfrage zu Krankenhausaufenthalt"/>
+  </concept>
+  <concept>
+    <code value="hospitalization"/>
+    <display value="Krankenhausaufenthalt"/>
+    <definition value="Anfrage zu Krankenhausaufenthalt"/>
+  </concept>
+  <concept>
+    <code value="infection-vaccination"/>
+    <display value="Infekte / Impfungen"/>
+    <definition value="Anfrage zu Infekten / Impfungen (z.B. Corona)"/>
+  </concept>
+  <concept>
+    <code value="non-drug-therapy"/>
+    <display value="Nicht-medikamentöse Therapie"/>
+    <definition value="Anfrage zur nicht-medikamentösen Therapie"/>
+  </concept>
+  <concept>
+    <code value="pregnancy"/>
+    <display value="Schwangerschaft"/>
+    <definition value="Anfrage zu Schwangerschaft"/>
+  </concept>
+  <concept>
+    <code value="suspected-attack"/>
+    <display value="Schubverdacht"/>
+    <definition value="Anfrage zu Schubverdacht / Verschlechterung der Symptome"/>
+  </concept>
+</CodeSystem>

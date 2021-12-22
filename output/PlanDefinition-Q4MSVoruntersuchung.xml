@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PlanDefinition xmlns="http://hl7.org/fhir">
+  <id value="Q4MSVoruntersuchung"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSVoruntersuchung" </p></div><p><b>url</b>: <code>/PlanDefinition/Q4MSVoruntersuchung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: workflow-definition <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ([not stated]#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T11:59:55+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href="http://qpath.ukdd.de">http://qpath.ukdd.de</a></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 3 Monate</p><p><b>timing</b>: Do Once per 3 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 12 Monate</p><p><b>timing</b>: Do Once per 12 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote></blockquote></div>
+  </text>
+  <url value="/PlanDefinition/Q4MSVoruntersuchung"/>
+  <version value="0.1.0"/>
+  <type>
+    <coding>
+      <code value="workflow-definition"/>
+    </coding>
+  </type>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-12-22T11:59:55+01:00"/>
+  <publisher value="QPath4MS"/>
+  <contact>
+    <name value="QPath4MS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://qpath.ukdd.de"/>
+    </telecom>
+  </contact>
+  <action>
+    <groupingBehavior value="logical-group"/>
+    <selectionBehavior value="all"/>
+    <requiredBehavior value="must-unless-documented"/>
+    <cardinalityBehavior value="single"/>
+    <action>
+      <title value="Diagnostik alle 3 Monate"/>
+      <timingTiming>
+        <repeat>
+          <frequency value="1"/>
+          <period value="3"/>
+          <periodUnit value="mo"/>
+        </repeat>
+      </timingTiming>
+      <groupingBehavior value="logical-group"/>
+      <selectionBehavior value="all"/>
+      <requiredBehavior value="must-unless-documented"/>
+      <cardinalityBehavior value="single"/>
+      <action>
+        <title value="Multiple Sclerosis Performance Test (MSPT)"/>
+        <definitionCanonical value="/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"/>
+      </action>
+      <action>
+        <title value="Therapiespezifische Diagnostik"/>
+        <definitionCanonical value="/PlanDefinition/Q4MSTherapiespezifischeDiagnostik"/>
+      </action>
+    </action>
+    <action>
+      <title value="Diagnostik alle 12 Monate"/>
+      <timingTiming>
+        <repeat>
+          <frequency value="1"/>
+          <period value="12"/>
+          <periodUnit value="mo"/>
+        </repeat>
+      </timingTiming>
+      <groupingBehavior value="logical-group"/>
+      <selectionBehavior value="all"/>
+      <requiredBehavior value="must-unless-documented"/>
+      <cardinalityBehavior value="single"/>
+      <action>
+        <title value="Optische Kohärenztomographie (OCT)"/>
+        <definitionCanonical value="/PlanDefinition/Q4MSOptischeKoheraenztomographie"/>
+      </action>
+      <action>
+        <title value="Ganganalyse"/>
+        <definitionCanonical value="/PlanDefinition/Q4MSGanganalyse"/>
+      </action>
+      <action>
+        <title value="Magnetresonanztomographie (MRT)"/>
+        <definitionCanonical value="/PlanDefinition/Q4MSMagnetresonanztomographie"/>
+      </action>
+    </action>
+  </action>
+</PlanDefinition>

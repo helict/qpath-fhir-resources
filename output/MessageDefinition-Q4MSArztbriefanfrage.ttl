@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage> a fhir:MessageDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Q4MSArztbriefanfrage"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-dokumentanforderung-profile";
+       fhir:index 0;
+       fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-dokumentanforderung-profile>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSArztbriefanfrage\" </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-q4ms-dokumentanforderung-profile.html\">Dokumentanforderung MessageDefinition Profile</a></p></div><p><b>url</b>: <code>http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2021-12-21</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><p><b>parent</b>: <a href=\"http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity\">http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity</a></p><p><b>event</b>: Arztbrief (Details: http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie code doctor-letter = 'Arztbrief', stated as 'null')</p><h3>Focus</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td><td><b>Profile</b></td><td><b>Min</b></td></tr><tr><td>*</td><td>DocumentReference</td><td><a href=\"http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile\">http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile</a></td><td>1</td></tr></table></div>"
+  ];
+  fhir:MessageDefinition.url [ fhir:value "http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage"];
+  fhir:MessageDefinition.version [ fhir:value "0.1.0"];
+  fhir:MessageDefinition.status [ fhir:value "draft"];
+  fhir:MessageDefinition.date [ fhir:value "2021-12-21"^^xsd:date];
+  fhir:MessageDefinition.publisher [ fhir:value "QPath4MS"];
+  fhir:MessageDefinition.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "QPath4MS" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://qpath.ukdd.de" ]
+     ]
+  ];
+  fhir:MessageDefinition.parent [
+     fhir:value "http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity";
+     fhir:index 0;
+     fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity>
+  ];
+  fhir:MessageDefinition.eventCoding [
+     fhir:Coding.system [ fhir:value "http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie" ];
+     fhir:Coding.code [ fhir:value "doctor-letter" ]
+  ];
+  fhir:MessageDefinition.focus [
+     fhir:index 0;
+     fhir:MessageDefinition.focus.code [ fhir:value "DocumentReference" ];
+     fhir:MessageDefinition.focus.profile [
+       fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile";
+       fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile>
+     ];
+     fhir:MessageDefinition.focus.min [ fhir:value "1"^^xsd:nonNegativeInteger ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,34 @@
+{
+  "resourceType": "ValueSet",
+  "id": "q4ms-terminanfragekategorie-vs",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-q4ms-terminanfragekategorie.html\"><code>http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie</code></a></li></ul></div>"
+  },
+  "url": "http://qpath.ukdd.de/ValueSet/q4ms-terminanfragekategorie-vs",
+  "version": "0.1.0",
+  "name": "Q4MSTerminanfragekategorieVS",
+  "title": "Terminanfragekategorie ValueSet",
+  "status": "active",
+  "date": "2021-12-22T11:59:55+01:00",
+  "publisher": "QPath4MS",
+  "contact": [
+    {
+      "name": "QPath4MS",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://qpath.ukdd.de"
+        }
+      ]
+    }
+  ],
+  "description": "Definiert Terminanfragekategorie",
+  "compose": {
+    "include": [
+      {
+        "system": "http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie"
+      }
+    ]
+  }
+}

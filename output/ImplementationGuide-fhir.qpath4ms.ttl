@@ -1,0 +1,1146 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms> a fhir:ImplementationGuide;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "fhir.qpath4ms"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>QPath4MSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms</pre></div>"
+  ];
+  fhir:ImplementationGuide.url [ fhir:value "http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms"];
+  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.name [ fhir:value "QPath4MSIG"];
+  fhir:ImplementationGuide.title [ fhir:value "QPath4MS FHIR Implementation Guide"];
+  fhir:ImplementationGuide.status [ fhir:value "draft"];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-22T11:59:55+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "QPath4MS"];
+  fhir:ImplementationGuide.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "QPath4MS" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://qpath.ukdd.de" ]
+     ]
+  ];
+  fhir:ImplementationGuide.packageId [ fhir:value "fhir.qpath4ms"];
+  fhir:ImplementationGuide.license [ fhir:value "CC0-1.0"];
+  fhir:ImplementationGuide.fhirVersion [
+     fhir:value "4.0.1";
+     fhir:index 0
+  ];
+  fhir:ImplementationGuide.definition [
+     fhir:Element.extension [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "copyrightyear" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "2021+" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "releaselabel" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "ci-build" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-liquid" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template/liquid" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-liquid" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/liquid" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-qa" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/qa" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-temp" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "temp/pages" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-output" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "output" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-suppressed-warnings" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "input/ignoreWarnings.txt" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "path-history" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "http://qpath.ukdd.de/history.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-html" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "template-md" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "template-page-md.html" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-contact" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-context" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-copyright" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-jurisdiction" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-license" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-publisher" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "apply-version" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "code" ];
+         fhir:Extension.valueString [ fhir:value "active-tables" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "value" ];
+         fhir:Extension.valueString [ fhir:value "true" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ];
+     fhir:ImplementationGuide.definition.resource [
+       fhir:index 0;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-arztbrief-profile" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Arztbrief DocumentReference Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-befund-profile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-befund-profile" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Befund DocumentReference Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-dokument-profile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-dokument-profile" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokument DocumentReference Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-dokumentanforderung-profile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-dokumentanforderung-profile" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumentanforderung MessageDefinition Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-konsiliarbericht-profile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-konsiliarbericht-profile" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Konsiliarbericht DocumentReference Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-laborergebnis-profile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-laborergebnis-profile" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laborergebnis DocumentReference Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-rezept-profile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-rezept-profile" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Rezept DocumentReference Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-sonstiges-dokument-profile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-sonstiges-dokument-profile" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sonstiges Dokument DocumentReference Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-terminvereinbarung-profile>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/q4ms-terminvereinbarung-profile" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminvereinbarung MessageDefinition Profile" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ValueSet/q4ms-anfragekategorie-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/q4ms-anfragekategorie-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Anfragekategorie ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Definiert Anfragekategorien" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ValueSet/q4ms-dokumentanforderungkategorie-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/q4ms-dokumentanforderungkategorie-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumentanforderungkategorie ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Definiert Dokumentanforderungkategorien" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ValueSet/q4ms-terminanfragekategorie-vs>;
+         fhir:Reference.reference [ fhir:value "ValueSet/q4ms-terminanfragekategorie-vs" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminanfragekategorie ValueSet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Definiert Terminanfragekategorie" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/q4ms-anfragekategorie" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Anfragekategorie CodeSystem" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Deklariert Anfragekategorien" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/q4ms-dokumentanforderungkategorie" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumentanforderungkategorie CodeSystem" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Deklariert Dokumentanforderungkategorien" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/q4ms-terminanfragekategorie" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminanfragekategorie CodeSystem" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Deklariert Terminanfragekategorien" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "DocumentReference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/DocumentReference/ArztbriefExample>;
+         fhir:Reference.reference [ fhir:value "DocumentReference/ArztbriefExample" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Arztbrief" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für einen Arztbrief" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile>
+       ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "DocumentReference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/DocumentReference/BefundExample>;
+         fhir:Reference.reference [ fhir:value "DocumentReference/BefundExample" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Befund" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für einen Befund" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-befund-profile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-befund-profile>
+       ]
+     ], [
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "DocumentReference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/DocumentReference/KonsiliarberichtExample>;
+         fhir:Reference.reference [ fhir:value "DocumentReference/KonsiliarberichtExample" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Konsiliarbericht" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für einen Konsiliarbericht" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-konsiliarbericht-profile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-konsiliarbericht-profile>
+       ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "DocumentReference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/DocumentReference/LaborergebnisExample>;
+         fhir:Reference.reference [ fhir:value "DocumentReference/LaborergebnisExample" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Laborergebnis" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für ein Laborergebnis" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-laborergebnis-profile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-laborergebnis-profile>
+       ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Allgemeine neurologische Anamnese PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Allgemeine neurologische Anamnese ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Allgemeine neurologische Untersuchung PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MessageDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage>;
+         fhir:Reference.reference [ fhir:value "MessageDefinition/Q4MSArztbriefanfrage" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Arztbriefanfrage MessageDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MessageHeader" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/MessageHeader/Q4MSArztbriefanfrageHeader>;
+         fhir:Reference.reference [ fhir:value "MessageHeader/Q4MSArztbriefanfrageHeader" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Arztbriefanfrage MessageHeader" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSArztvorstellung>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSArztvorstellung" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Arztvorstellung PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSAuswertung>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSAuswertung" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Auswertung PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSAuswertungActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSAuswertungActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Auswertung ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSBasismonitoring>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSBasismonitoring" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Basismonitoring Patientepfad PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSBefundauswertung>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSBefundauswertung" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Befundauswertung PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSBefundauswertungActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSBefundauswertungActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Befundauswertung ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSDokumenteAbfragenActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumente abfragen ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteAbfragenPatient>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSDokumenteAbfragenPatient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumente beim Patienten abfragen PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 32;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteUebermittelnActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSDokumenteUebermittelnActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumente uebermitteln ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 33;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteUebermittelnArzt>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSDokumenteUebermittelnArzt" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumente an Arzt übermitteln PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 34;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteUebermittelnPatient>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSDokumenteUebermittelnPatient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumente an Patient übermitteln PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 35;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSEntlassung>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSEntlassung" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Entlassung PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 36;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSExpandedDisabilityStatusScaleActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSExpandedDisabilityStatusScaleActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Expanded Disability Status Scale ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 37;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSGanganalyse>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSGanganalyse" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ganganalyse PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 38;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSGanganalyseActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSGanganalyseActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ganganalyse ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 39;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSLaboruntersuchung>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSLaboruntersuchung" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laboruntersuchung PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 40;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSLaboruntersuchungActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSLaboruntersuchungActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laboruntersuchung ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 41;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSMagnetresonanztomographie>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSMagnetresonanztomographie" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Magnetresonanztomographie PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 42;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSMagnetresonanztomographieActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Magnetresonanztomographie ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 43;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSMultipleSclerosisPerformanceTest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Multiple Sclerosis Performance Test PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 44;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Multiple Sclerosis Performance Test ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 45;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSOptischeKoheraenztomographie>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSOptischeKoheraenztomographie" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Optische Koheränztomographie PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 46;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSOptischeKoheraenztomographieActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSOptischeKoheraenztomographieActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Optische Koheränztomographie ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 47;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MessageDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/MessageDefinition/Q4MSTerminanfrage>;
+         fhir:Reference.reference [ fhir:value "MessageDefinition/Q4MSTerminanfrage" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminanfrage MessageDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 48;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MessageHeader" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/MessageHeader/Q4MSTerminanfrageHeader>;
+         fhir:Reference.reference [ fhir:value "MessageHeader/Q4MSTerminanfrageHeader" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminanfrage MessageHeader" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 49;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSTerminvereinbarung>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSTerminvereinbarung" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminvereinbarung PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 50;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSTerminvereinbarungActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSTerminvereinbarungActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminvereinbarung ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 51;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSTherapiespezifischeDiagnostik>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSTherapiespezifischeDiagnostik" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Therapiespezifische Diagnostik PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 52;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSTherapiespezifischeDiagnostikActivity>;
+         fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSTherapiespezifischeDiagnostikActivity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Therapiespezifische Diagnostik ActivityDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 53;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSVorstellung>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSVorstellung" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Erst- oder Wiedervorstellung PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 54;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSVoruntersuchung>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSVoruntersuchung" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Voruntersuchung PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 55;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSZusatzdiagnostik>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSZusatzdiagnostik" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Zusatzdiagnostik PlanDefinition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 56;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "DocumentReference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/DocumentReference/RezeptExample>;
+         fhir:Reference.reference [ fhir:value "DocumentReference/RezeptExample" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Rezept" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für ein Rezept" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-rezept-profile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-rezept-profile>
+       ]
+     ], [
+       fhir:index 57;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "DocumentReference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/DocumentReference/SonstigesDokumentExample>;
+         fhir:Reference.reference [ fhir:value "DocumentReference/SonstigesDokumentExample" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Sonstiges Dokument" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://qpath.ukdd.de/StructureDefinition/q4ms-sonstiges-dokument-profile";
+         fhir:link <http://qpath.ukdd.de/StructureDefinition/q4ms-sonstiges-dokument-profile>
+       ]
+     ], [
+       fhir:index 58;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Patient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://qpath.ukdd.de/Patient/john-doe>;
+         fhir:Reference.reference [ fhir:value "Patient/john-doe" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PatientExample" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel Patient John Doe" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ];
+     fhir:ImplementationGuide.definition.page [
+       fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "toc.html" ];
+       fhir:ImplementationGuide.definition.page.title [ fhir:value "Table of Contents" ];
+       fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ];
+       fhir:ImplementationGuide.definition.page.page [
+         fhir:index 0;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ]
+     ];
+     fhir:ImplementationGuide.definition.parameter [
+       fhir:index 0;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/capabilities" ]
+     ], [
+       fhir:index 1;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/examples" ]
+     ], [
+       fhir:index 2;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/extensions" ]
+     ], [
+       fhir:index 3;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/models" ]
+     ], [
+       fhir:index 4;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/operations" ]
+     ], [
+       fhir:index 5;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/profiles" ]
+     ], [
+       fhir:index 6;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/resources" ]
+     ], [
+       fhir:index 7;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/vocabulary" ]
+     ], [
+       fhir:index 8;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/maps" ]
+     ], [
+       fhir:index 9;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/testing" ]
+     ], [
+       fhir:index 10;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/history" ]
+     ], [
+       fhir:index 11;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-resource" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "fsh-generated/resources" ]
+     ], [
+       fhir:index 12;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "template/config" ]
+     ], [
+       fhir:index 13;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-pages" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input/images" ]
+     ], [
+       fhir:index 14;
+       fhir:ImplementationGuide.definition.parameter.code [ fhir:value "path-tx-cache" ];
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "input-cache/txcache" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="q4ms-terminanfragekategorie"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">booking<a name="q4ms-terminanfragekategorie-booking"> </a></td><td>Terminanforderung</td><td>Anforderung eines Termins</td></tr><tr><td style="white-space:nowrap">rescheduling<a name="q4ms-terminanfragekategorie-rescheduling"> </a></td><td>Terminverschiebung</td><td>Verschiebung eines Termins</td></tr><tr><td style="white-space:nowrap">cancellation<a name="q4ms-terminanfragekategorie-cancellation"> </a></td><td>Terminabsage</td><td>Absage eines Termins</td></tr></table></div>
+  </text>
+  <url value="http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie"/>
+  <version value="0.1.0"/>
+  <name value="Q4MSTerminanfragekategorie"/>
+  <title value="Terminanfragekategorie CodeSystem"/>
+  <status value="active"/>
+  <date value="2021-12-22T11:59:55+01:00"/>
+  <publisher value="QPath4MS"/>
+  <contact>
+    <name value="QPath4MS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://qpath.ukdd.de"/>
+    </telecom>
+  </contact>
+  <description value="Deklariert Terminanfragekategorien"/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="booking"/>
+    <display value="Terminanforderung"/>
+    <definition value="Anforderung eines Termins"/>
+  </concept>
+  <concept>
+    <code value="rescheduling"/>
+    <display value="Terminverschiebung"/>
+    <definition value="Verschiebung eines Termins"/>
+  </concept>
+  <concept>
+    <code value="cancellation"/>
+    <display value="Terminabsage"/>
+    <definition value="Absage eines Termins"/>
+  </concept>
+</CodeSystem>

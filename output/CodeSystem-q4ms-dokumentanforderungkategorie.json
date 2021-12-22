@@ -1,0 +1,67 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "q4ms-dokumentanforderungkategorie",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">laboratory-result<a name=\"q4ms-dokumentanforderungkategorie-laboratory-result\"> </a></td><td>Laborergebnis</td><td>Anforderung eines Laborergebnisses</td></tr><tr><td style=\"white-space:nowrap\">finding<a name=\"q4ms-dokumentanforderungkategorie-finding\"> </a></td><td>Befund</td><td>Anforderung eines Befunds</td></tr><tr><td style=\"white-space:nowrap\">doctor-letter<a name=\"q4ms-dokumentanforderungkategorie-doctor-letter\"> </a></td><td>Arztbrief</td><td>Anforderung eines Arztbriefs</td></tr><tr><td style=\"white-space:nowrap\">consiliary-report<a name=\"q4ms-dokumentanforderungkategorie-consiliary-report\"> </a></td><td>Konsiliarbericht</td><td>Anforderung eines Konsiliarberichts</td></tr><tr><td style=\"white-space:nowrap\">prescription<a name=\"q4ms-dokumentanforderungkategorie-prescription\"> </a></td><td>Rezept</td><td>Anforderung eines Rezepts</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"q4ms-dokumentanforderungkategorie-other\"> </a></td><td>Sonstiges</td><td>Anforderung eines sonstigen Dokuments</td></tr></table></div>"
+  },
+  "url": "http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie",
+  "version": "0.1.0",
+  "name": "Q4MSDokumentanforderungkategorie",
+  "title": "Dokumentanforderungkategorie CodeSystem",
+  "status": "active",
+  "date": "2021-12-22T11:59:55+01:00",
+  "publisher": "QPath4MS",
+  "contact": [
+    {
+      "name": "QPath4MS",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://qpath.ukdd.de"
+        }
+      ]
+    }
+  ],
+  "description": "Deklariert Dokumentanforderungkategorien",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 6,
+  "concept": [
+    {
+      "code": "laboratory-result",
+      "display": "Laborergebnis",
+      "definition": "Anforderung eines Laborergebnisses"
+    },
+    {
+      "code": "finding",
+      "display": "Befund",
+      "definition": "Anforderung eines Befunds"
+    },
+    {
+      "code": "doctor-letter",
+      "display": "Arztbrief",
+      "definition": "Anforderung eines Arztbriefs"
+    },
+    {
+      "code": "consiliary-report",
+      "display": "Konsiliarbericht",
+      "definition": "Anforderung eines Konsiliarberichts"
+    },
+    {
+      "code": "prescription",
+      "display": "Rezept",
+      "definition": "Anforderung eines Rezepts"
+    },
+    {
+      "code": "other",
+      "display": "Sonstiges",
+      "definition": "Anforderung eines sonstigen Dokuments"
+    }
+  ]
+}

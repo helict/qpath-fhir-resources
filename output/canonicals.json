@@ -1,0 +1,324 @@
+[
+  {
+    "id": "Q4MSAllgemeineNeurologischeAnamnese",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSAllgemeineNeurologischeUntersuchung",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSArztvorstellung",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSArztvorstellung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSAuswertung",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSAuswertung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSBasismonitoring",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSBasismonitoring",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSBefundauswertung",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSBefundauswertung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSDokumenteAbfragenPatient",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSDokumenteAbfragenPatient",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSDokumenteUebermittelnArzt",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSDokumenteUebermittelnArzt",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSDokumenteUebermittelnPatient",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSDokumenteUebermittelnPatient",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSEntlassung",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSEntlassung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSGanganalyse",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSGanganalyse",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSLaboruntersuchung",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSLaboruntersuchung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSMagnetresonanztomographie",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSMagnetresonanztomographie",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSMultipleSclerosisPerformanceTest",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSOptischeKoheraenztomographie",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSOptischeKoheraenztomographie",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSTerminvereinbarung",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSTerminvereinbarung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSTherapiespezifischeDiagnostik",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSTherapiespezifischeDiagnostik",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSVorstellung",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSVorstellung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSVoruntersuchung",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSVoruntersuchung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSZusatzdiagnostik",
+    "type": "PlanDefinition",
+    "url": "/PlanDefinition/Q4MSZusatzdiagnostik",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSAllgemeineNeurologischeAnamneseActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSAuswertungActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSAuswertungActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSBefundauswertungActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSBefundauswertungActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSDokumenteAbfragenActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSDokumenteUebermittelnActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteUebermittelnActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSExpandedDisabilityStatusScaleActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSExpandedDisabilityStatusScaleActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSGanganalyseActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSGanganalyseActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSLaboruntersuchungActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSLaboruntersuchungActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSMagnetresonanztomographieActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSMultipleSclerosisPerformanceTestActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSOptischeKoheraenztomographieActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSOptischeKoheraenztomographieActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSTerminvereinbarungActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSTerminvereinbarungActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSTherapiespezifischeDiagnostikActivity",
+    "type": "ActivityDefinition",
+    "url": "http://qpath.ukdd.de/ActivityDefinition/Q4MSTherapiespezifischeDiagnostikActivity",
+    "version": "0.1.0"
+  },
+  {
+    "id": "q4ms-anfragekategorie",
+    "type": "CodeSystem",
+    "url": "http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie",
+    "version": "0.1.0",
+    "name": "Q4MSAnfragekategorie"
+  },
+  {
+    "id": "q4ms-dokumentanforderungkategorie",
+    "type": "CodeSystem",
+    "url": "http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie",
+    "version": "0.1.0",
+    "name": "Q4MSDokumentanforderungkategorie"
+  },
+  {
+    "id": "q4ms-terminanfragekategorie",
+    "type": "CodeSystem",
+    "url": "http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie",
+    "version": "0.1.0",
+    "name": "Q4MSTerminanfragekategorie"
+  },
+  {
+    "id": "fhir.qpath4ms",
+    "type": "ImplementationGuide",
+    "url": "http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms",
+    "version": "0.1.0",
+    "name": "QPath4MSIG"
+  },
+  {
+    "id": "Q4MSArztbriefanfrage",
+    "type": "MessageDefinition",
+    "url": "http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSTerminanfrage",
+    "type": "MessageDefinition",
+    "url": "http://qpath.ukdd.de/MessageDefinition/Q4MSTerminanfrage",
+    "version": "0.1.0"
+  },
+  {
+    "id": "q4ms-arztbrief-profile",
+    "type": "StructureDefinition",
+    "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-arztbrief-profile",
+    "version": "0.1.0",
+    "name": "Q4MSArztbriefProfile"
+  },
+  {
+    "id": "q4ms-befund-profile",
+    "type": "StructureDefinition",
+    "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-befund-profile",
+    "version": "0.1.0",
+    "name": "Q4MSBefundProfile"
+  },
+  {
+    "id": "q4ms-dokument-profile",
+    "type": "StructureDefinition",
+    "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-dokument-profile",
+    "version": "0.1.0",
+    "name": "Q4MSDokumentProfile"
+  },
+  {
+    "id": "q4ms-dokumentanforderung-profile",
+    "type": "StructureDefinition",
+    "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-dokumentanforderung-profile",
+    "version": "0.1.0",
+    "name": "Q4MSDokumentanforderungProfile"
+  },
+  {
+    "id": "q4ms-konsiliarbericht-profile",
+    "type": "StructureDefinition",
+    "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-konsiliarbericht-profile",
+    "version": "0.1.0",
+    "name": "Q4MSKonsiliarberichtProfile"
+  },
+  {
+    "id": "q4ms-laborergebnis-profile",
+    "type": "StructureDefinition",
+    "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-laborergebnis-profile",
+    "version": "0.1.0",
+    "name": "Q4MSLaborergebnisProfile"
+  },
+  {
+    "id": "q4ms-rezept-profile",
+    "type": "StructureDefinition",
+    "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-rezept-profile",
+    "version": "0.1.0",
+    "name": "Q4MSRezeptProfile"
+  },
+  {
+    "id": "q4ms-sonstiges-dokument-profile",
+    "type": "StructureDefinition",
+    "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-sonstiges-dokument-profile",
+    "version": "0.1.0",
+    "name": "Q4MSSonstigesDokumentProfile"
+  },
+  {
+    "id": "q4ms-terminvereinbarung-profile",
+    "type": "StructureDefinition",
+    "url": "http://qpath.ukdd.de/StructureDefinition/q4ms-terminvereinbarung-profile",
+    "version": "0.1.0",
+    "name": "Q4MSTerminvereinbarungProfile"
+  },
+  {
+    "id": "q4ms-anfragekategorie-vs",
+    "type": "ValueSet",
+    "url": "http://qpath.ukdd.de/ValueSet/q4ms-anfragekategorie-vs",
+    "version": "0.1.0",
+    "name": "Q4MSAnfragekategorieVS"
+  },
+  {
+    "id": "q4ms-dokumentanforderungkategorie-vs",
+    "type": "ValueSet",
+    "url": "http://qpath.ukdd.de/ValueSet/q4ms-dokumentanforderungkategorie-vs",
+    "version": "0.1.0",
+    "name": "Q4MSDokumentanforderungkategorieVS"
+  },
+  {
+    "id": "q4ms-terminanfragekategorie-vs",
+    "type": "ValueSet",
+    "url": "http://qpath.ukdd.de/ValueSet/q4ms-terminanfragekategorie-vs",
+    "version": "0.1.0",
+    "name": "Q4MSTerminanfragekategorieVS"
+  }
+]

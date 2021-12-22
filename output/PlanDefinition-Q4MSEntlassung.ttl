@@ -1,0 +1,97 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qpath.ukdd.de/PlanDefinition/Q4MSEntlassung> a fhir:PlanDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Q4MSEntlassung"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSEntlassung\" </p></div><p><b>url</b>: <code>/PlanDefinition/Q4MSEntlassung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: workflow-definition <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T11:59:55+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Dokumente übermitteln (Arzt)</p><p><b>description</b>: Dokumente an Arzt übermitteln</p><p><b>definition</b>: <code>/PlanDefinition/Q4MSDokumenteUebermittelnArzt</code></p></blockquote></blockquote></div>"
+  ];
+  fhir:PlanDefinition.url [ fhir:value "/PlanDefinition/Q4MSEntlassung"];
+  fhir:PlanDefinition.version [ fhir:value "0.1.0"];
+  fhir:PlanDefinition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.code [ fhir:value "workflow-definition" ]
+     ]
+  ];
+  fhir:PlanDefinition.status [ fhir:value "draft"];
+  fhir:PlanDefinition.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:PlanDefinition.date [ fhir:value "2021-12-22T11:59:55+01:00"^^xsd:dateTime];
+  fhir:PlanDefinition.publisher [ fhir:value "QPath4MS"];
+  fhir:PlanDefinition.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "QPath4MS" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://qpath.ukdd.de" ]
+     ]
+  ];
+  fhir:PlanDefinition.action [
+     fhir:index 0;
+     fhir:PlanDefinition.action.groupingBehavior [ fhir:value "logical-group" ];
+     fhir:PlanDefinition.action.selectionBehavior [ fhir:value "all" ];
+     fhir:PlanDefinition.action.requiredBehavior [ fhir:value "must-unless-documented" ];
+     fhir:PlanDefinition.action.cardinalityBehavior [ fhir:value "single" ];
+     fhir:PlanDefinition.action.action [
+       fhir:index 0;
+       fhir:PlanDefinition.action.groupingBehavior [ fhir:value "logical-group" ];
+       fhir:PlanDefinition.action.selectionBehavior [ fhir:value "all" ];
+       fhir:PlanDefinition.action.requiredBehavior [ fhir:value "must-unless-documented" ];
+       fhir:PlanDefinition.action.cardinalityBehavior [ fhir:value "single" ];
+       fhir:PlanDefinition.action.action [
+         fhir:index 0;
+         fhir:PlanDefinition.action.title [ fhir:value "Terminvereinbarung" ];
+         fhir:PlanDefinition.action.description [ fhir:value "Termin zur Wiederorstellung vereinbaren" ];
+         fhir:PlanDefinition.action.timingTiming [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.frequency [ fhir:value "1"^^xsd:positiveInteger ];
+             fhir:Timing.repeat.period [ fhir:value "3"^^xsd:decimal ];
+             fhir:Timing.repeat.periodUnit [ fhir:value "mo" ]
+           ]
+         ];
+         fhir:PlanDefinition.action.definitionCanonical [
+           fhir:value "/PlanDefinition/Q4MSTerminvereinbarung";
+           fhir:link <http://qpath.ukdd.de//PlanDefinition/Q4MSTerminvereinbarung>
+         ]
+       ], [
+         fhir:index 1;
+         fhir:PlanDefinition.action.title [ fhir:value "Dokumente übermitteln (Patient)" ];
+         fhir:PlanDefinition.action.description [ fhir:value "Dokumente an Patient übermitteln" ];
+         fhir:PlanDefinition.action.definitionCanonical [
+           fhir:value "/PlanDefinition/Q4MSDokumenteUebermittelnPatient";
+           fhir:link <http://qpath.ukdd.de//PlanDefinition/Q4MSDokumenteUebermittelnPatient>
+         ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:PlanDefinition.action.title [ fhir:value "Dokumente übermitteln (Arzt)" ];
+       fhir:PlanDefinition.action.description [ fhir:value "Dokumente an Arzt übermitteln" ];
+       fhir:PlanDefinition.action.condition [
+         fhir:index 0;
+         fhir:PlanDefinition.action.condition.kind [ fhir:value "applicability" ];
+         fhir:PlanDefinition.action.condition.expression [
+           fhir:Expression.language [ fhir:value "text/cql" ];
+           fhir:Expression.expression [ fhir:value "is referred" ]
+         ]
+       ];
+       fhir:PlanDefinition.action.definitionCanonical [
+         fhir:value "/PlanDefinition/Q4MSDokumenteUebermittelnArzt";
+         fhir:link <http://qpath.ukdd.de//PlanDefinition/Q4MSDokumenteUebermittelnArzt>
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://qpath.ukdd.de/PlanDefinition/Q4MSEntlassung.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,345 @@
+﻿QPath4MSIG : Validation Results
+=========================================
+
+err = 50, warn = 131, info = 35
+IG Publisher Version: 1.1.92
+Generated Wed Dec 22 12:02:12 CET 2021. FHIR version 4.0.1 for fhir.qpath4ms#0.1.0 (canonical = http://qpath.ukdd.de)
+ Build Errors : 0 / 46 / 0
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/ImplementationGuide-fhir.qpath4ms : 0 / 0 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSAllgemeineNeurologischeAnamneseActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSAuswertungActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSBefundauswertungActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSDokumenteAbfragenActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSDokumenteUebermittelnActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSExpandedDisabilityStatusScaleActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSGanganalyseActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSLaboruntersuchungActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSMagnetresonanztomographieActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSMultipleSclerosisPerformanceTestActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSOptischeKoheraenztomographieActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSTerminvereinbarungActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/activitydefinition-Q4MSTherapiespezifischeDiagnostikActivity : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/codesystem-q4ms-anfragekategorie : 1 / 0 / 2
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/codesystem-q4ms-dokumentanforderungkategorie : 1 / 0 / 2
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/codesystem-q4ms-terminanfragekategorie : 1 / 0 / 2
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/documentreference-ArztbriefExample : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/documentreference-BefundExample : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/documentreference-KonsiliarberichtExample : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/documentreference-LaborergebnisExample : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/documentreference-RezeptExample : 0 / 1 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/documentreference-SonstigesDokumentExample : 0 / 1 / 2
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/messagedefinition-Q4MSArztbriefanfrage : 1 / 1 / 2
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/messagedefinition-Q4MSTerminanfrage : 1 / 1 / 2
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/messageheader-Q4MSArztbriefanfrageHeader : 0 / 0 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/messageheader-Q4MSTerminanfrageHeader : 0 / 0 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/patient-john-doe : 0 / 0 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSAllgemeineNeurologischeAnamnese : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSAllgemeineNeurologischeUntersuchung : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSArztvorstellung : 7 / 2 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSAuswertung : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSBasismonitoring : 5 / 2 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSBefundauswertung : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSDokumenteAbfragenPatient : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSDokumenteUebermittelnArzt : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSDokumenteUebermittelnPatient : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSEntlassung : 4 / 2 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSGanganalyse : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSLaboruntersuchung : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSMagnetresonanztomographie : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSMultipleSclerosisPerformanceTest : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSOptischeKoheraenztomographie : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSTerminvereinbarung : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSTherapiespezifischeDiagnostik : 1 / 3 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSVorstellung : 3 / 2 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSVoruntersuchung : 6 / 2 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/plandefinition-Q4MSZusatzdiagnostik : 6 / 2 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/structuredefinition-q4ms-arztbrief-profile : 0 / 3 / 7
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/structuredefinition-q4ms-befund-profile : 0 / 0 / 7
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/structuredefinition-q4ms-dokument-profile : 0 / 7 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/structuredefinition-q4ms-dokumentanforderung-profile : 0 / 0 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/structuredefinition-q4ms-konsiliarbericht-profile : 0 / 0 / 7
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/structuredefinition-q4ms-laborergebnis-profile : 0 / 0 / 7
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/structuredefinition-q4ms-rezept-profile : 0 / 0 / 7
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/structuredefinition-q4ms-sonstiges-dokument-profile : 0 / 0 / 5
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/structuredefinition-q4ms-terminvereinbarung-profile : 0 / 0 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/valueset-q4ms-anfragekategorie-vs : 0 / 0 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/valueset-q4ms-dokumentanforderungkategorie-vs : 0 / 0 / 1
+ /Users/msusky/Development/qpath-fhir-resources/qpath4ms-ig/fsh-generated/resources/valueset-q4ms-terminanfragekategorie-vs : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/q4ms-arztbrief-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/q4ms-befund-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/q4ms-dokument-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/q4ms-dokumentanforderung-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/q4ms-konsiliarbericht-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/q4ms-laborergebnis-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/q4ms-rezept-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/q4ms-sonstiges-dokument-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/q4ms-terminvereinbarung-profile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MessageDefinition/Q4MSArztbriefanfrage.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MessageHeader/Q4MSArztbriefanfrageHeader.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSArztvorstellung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSAuswertung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSAuswertungActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSBasismonitoring.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSBefundauswertung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSBefundauswertungActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSDokumenteAbfragenActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSDokumenteAbfragenPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSDokumenteUebermittelnActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSDokumenteUebermittelnArzt.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSDokumenteUebermittelnPatient.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSEntlassung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSExpandedDisabilityStatusScaleActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSGanganalyse.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSGanganalyseActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSLaboruntersuchung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSLaboruntersuchungActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSMagnetresonanztomographie.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSMagnetresonanztomographieActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSMultipleSclerosisPerformanceTest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSOptischeKoheraenztomographie.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSOptischeKoheraenztomographieActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MessageDefinition/Q4MSTerminanfrage.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MessageHeader/Q4MSTerminanfrageHeader.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSTerminvereinbarung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSTerminvereinbarungActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSTherapiespezifischeDiagnostik.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ActivityDefinition/Q4MSTherapiespezifischeDiagnostikActivity.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSVorstellung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSVoruntersuchung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSZusatzdiagnostik.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+== fsh-generated/resources/ImplementationGuide-fhir.qpath4ms.json ==
+== fsh-generated/resources/ActivityDefinition-Q4MSAllgemeineNeurologischeAnamneseActivity.json ==
+WARNING: ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSAuswertungActivity.json ==
+WARNING: ActivityDefinition/Q4MSAuswertungActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSBefundauswertungActivity.json ==
+WARNING: ActivityDefinition/Q4MSBefundauswertungActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSDokumenteAbfragenActivity.json ==
+WARNING: ActivityDefinition/Q4MSDokumenteAbfragenActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSDokumenteUebermittelnActivity.json ==
+WARNING: ActivityDefinition/Q4MSDokumenteUebermittelnActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSExpandedDisabilityStatusScaleActivity.json ==
+WARNING: ActivityDefinition/Q4MSExpandedDisabilityStatusScaleActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSGanganalyseActivity.json ==
+WARNING: ActivityDefinition/Q4MSGanganalyseActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSLaboruntersuchungActivity.json ==
+WARNING: ActivityDefinition/Q4MSLaboruntersuchungActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSMagnetresonanztomographieActivity.json ==
+WARNING: ActivityDefinition/Q4MSMagnetresonanztomographieActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSMultipleSclerosisPerformanceTestActivity.json ==
+WARNING: ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSOptischeKoheraenztomographieActivity.json ==
+WARNING: ActivityDefinition/Q4MSOptischeKoheraenztomographieActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSTerminvereinbarungActivity.json ==
+WARNING: ActivityDefinition/Q4MSTerminvereinbarungActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ActivityDefinition-Q4MSTherapiespezifischeDiagnostikActivity.json ==
+WARNING: ActivityDefinition/Q4MSTherapiespezifischeDiagnostikActivity: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/CodeSystem-q4ms-anfragekategorie.json ==
+ERROR: CodeSystem/q4ms-anfragekategorie: CodeSystem: CodeSystem.experimental: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem)
+== fsh-generated/resources/CodeSystem-q4ms-dokumentanforderungkategorie.json ==
+ERROR: CodeSystem/q4ms-dokumentanforderungkategorie: CodeSystem: CodeSystem.experimental: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem)
+== fsh-generated/resources/CodeSystem-q4ms-terminanfragekategorie.json ==
+ERROR: CodeSystem/q4ms-terminanfragekategorie: CodeSystem: CodeSystem.experimental: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem)
+== fsh-generated/resources/DocumentReference-ArztbriefExample.json ==
+WARNING: DocumentReference/ArztbriefExample: DocumentReference.content[0].attachment: Attachments have data and/or url, or else SHOULD have either contentType and/or language
+== fsh-generated/resources/DocumentReference-BefundExample.json ==
+WARNING: DocumentReference/BefundExample: DocumentReference.content[0].attachment: Attachments have data and/or url, or else SHOULD have either contentType and/or language
+== fsh-generated/resources/DocumentReference-KonsiliarberichtExample.json ==
+WARNING: DocumentReference/KonsiliarberichtExample: DocumentReference.content[0].attachment: Attachments have data and/or url, or else SHOULD have either contentType and/or language
+== fsh-generated/resources/DocumentReference-LaborergebnisExample.json ==
+WARNING: DocumentReference/LaborergebnisExample: DocumentReference.content[0].attachment: Attachments have data and/or url, or else SHOULD have either contentType and/or language
+== fsh-generated/resources/DocumentReference-RezeptExample.json ==
+WARNING: DocumentReference/RezeptExample: DocumentReference.content[0].attachment: Attachments have data and/or url, or else SHOULD have either contentType and/or language
+== fsh-generated/resources/DocumentReference-SonstigesDokumentExample.json ==
+INFORMATION: DocumentReference/SonstigesDokumentExample: DocumentReference.type.coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+WARNING: DocumentReference/SonstigesDokumentExample: DocumentReference.content[0].attachment: Attachments have data and/or url, or else SHOULD have either contentType and/or language
+== fsh-generated/resources/MessageDefinition-Q4MSArztbriefanfrage.json ==
+WARNING: MessageDefinition/Q4MSArztbriefanfrage: MessageDefinition: msd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: MessageDefinition/Q4MSArztbriefanfrage: MessageDefinition.focus[0]: md-1: 'Max must be postive int or *' Rule 'Max must be postive int or *' Failed
+== fsh-generated/resources/MessageDefinition-Q4MSTerminanfrage.json ==
+WARNING: MessageDefinition/Q4MSTerminanfrage: MessageDefinition: msd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: MessageDefinition/Q4MSTerminanfrage: MessageDefinition.focus[0]: md-1: 'Max must be postive int or *' Rule 'Max must be postive int or *' Failed
+== fsh-generated/resources/MessageHeader-Q4MSArztbriefanfrageHeader.json ==
+== fsh-generated/resources/MessageHeader-Q4MSTerminanfrageHeader.json ==
+== fsh-generated/resources/Patient-john-doe.json ==
+== fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeAnamnese.json ==
+WARNING: PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese)
+WARNING: PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeUntersuchung.json ==
+WARNING: PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung)
+WARNING: PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSArztvorstellung.json ==
+WARNING: PlanDefinition/Q4MSArztvorstellung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSArztvorstellung: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSArztvorstellung)
+WARNING: PlanDefinition/Q4MSArztvorstellung: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: PlanDefinition/Q4MSArztvorstellung: PlanDefinition.action[0].action[0].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung)
+ERROR: PlanDefinition/Q4MSArztvorstellung: PlanDefinition.action[0].action[1].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSBefundauswertung)
+ERROR: PlanDefinition/Q4MSArztvorstellung: PlanDefinition.action[0].action[2].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese)
+ERROR: PlanDefinition/Q4MSArztvorstellung: PlanDefinition.action[0].action[3].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSTherapiespezifischeDiagnostik)
+ERROR: PlanDefinition/Q4MSArztvorstellung: PlanDefinition.action[0].action[4].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSZusatzdiagnostik)
+ERROR: PlanDefinition/Q4MSArztvorstellung: PlanDefinition.action[1].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSAuswertung)
+== fsh-generated/resources/PlanDefinition-Q4MSAuswertung.json ==
+WARNING: PlanDefinition/Q4MSAuswertung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSAuswertung: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSAuswertung)
+WARNING: PlanDefinition/Q4MSAuswertung: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSAuswertung: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSBasismonitoring.json ==
+WARNING: PlanDefinition/Q4MSBasismonitoring: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSBasismonitoring: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSBasismonitoring)
+WARNING: PlanDefinition/Q4MSBasismonitoring: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: PlanDefinition/Q4MSBasismonitoring: PlanDefinition.action[0].action[0].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSVorstellung)
+ERROR: PlanDefinition/Q4MSBasismonitoring: PlanDefinition.action[0].action[1].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSVoruntersuchung)
+ERROR: PlanDefinition/Q4MSBasismonitoring: PlanDefinition.action[0].action[2].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSArztvorstellung)
+ERROR: PlanDefinition/Q4MSBasismonitoring: PlanDefinition.action[0].action[3].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSEntlassung)
+== fsh-generated/resources/PlanDefinition-Q4MSBefundauswertung.json ==
+WARNING: PlanDefinition/Q4MSBefundauswertung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSBefundauswertung: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSBefundauswertung)
+WARNING: PlanDefinition/Q4MSBefundauswertung: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSBefundauswertung: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSDokumenteAbfragenPatient.json ==
+WARNING: PlanDefinition/Q4MSDokumenteAbfragenPatient: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSDokumenteAbfragenPatient: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSDokumenteAbfragenPatient)
+WARNING: PlanDefinition/Q4MSDokumenteAbfragenPatient: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSDokumenteAbfragenPatient: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnArzt.json ==
+WARNING: PlanDefinition/Q4MSDokumenteUebermittelnArzt: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSDokumenteUebermittelnArzt: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSDokumenteUebermittelnArzt)
+WARNING: PlanDefinition/Q4MSDokumenteUebermittelnArzt: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSDokumenteUebermittelnArzt: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnPatient.json ==
+WARNING: PlanDefinition/Q4MSDokumenteUebermittelnPatient: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSDokumenteUebermittelnPatient: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSDokumenteUebermittelnPatient)
+WARNING: PlanDefinition/Q4MSDokumenteUebermittelnPatient: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSDokumenteUebermittelnPatient: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSEntlassung.json ==
+WARNING: PlanDefinition/Q4MSEntlassung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSEntlassung: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSEntlassung)
+WARNING: PlanDefinition/Q4MSEntlassung: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: PlanDefinition/Q4MSEntlassung: PlanDefinition.action[0].action[0].action[0].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSTerminvereinbarung)
+ERROR: PlanDefinition/Q4MSEntlassung: PlanDefinition.action[0].action[0].action[1].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSDokumenteUebermittelnPatient)
+ERROR: PlanDefinition/Q4MSEntlassung: PlanDefinition.action[0].action[1].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSDokumenteUebermittelnArzt)
+== fsh-generated/resources/PlanDefinition-Q4MSGanganalyse.json ==
+WARNING: PlanDefinition/Q4MSGanganalyse: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSGanganalyse: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSGanganalyse)
+WARNING: PlanDefinition/Q4MSGanganalyse: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSGanganalyse: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSLaboruntersuchung.json ==
+WARNING: PlanDefinition/Q4MSLaboruntersuchung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSLaboruntersuchung: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSLaboruntersuchung)
+WARNING: PlanDefinition/Q4MSLaboruntersuchung: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSLaboruntersuchung: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSMagnetresonanztomographie.json ==
+WARNING: PlanDefinition/Q4MSMagnetresonanztomographie: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSMagnetresonanztomographie: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSMagnetresonanztomographie)
+WARNING: PlanDefinition/Q4MSMagnetresonanztomographie: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSMagnetresonanztomographie: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSMultipleSclerosisPerformanceTest.json ==
+WARNING: PlanDefinition/Q4MSMultipleSclerosisPerformanceTest: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSMultipleSclerosisPerformanceTest: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest)
+WARNING: PlanDefinition/Q4MSMultipleSclerosisPerformanceTest: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSMultipleSclerosisPerformanceTest: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSOptischeKoheraenztomographie.json ==
+WARNING: PlanDefinition/Q4MSOptischeKoheraenztomographie: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSOptischeKoheraenztomographie: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSOptischeKoheraenztomographie)
+WARNING: PlanDefinition/Q4MSOptischeKoheraenztomographie: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSOptischeKoheraenztomographie: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSTerminvereinbarung.json ==
+WARNING: PlanDefinition/Q4MSTerminvereinbarung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSTerminvereinbarung: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSTerminvereinbarung)
+WARNING: PlanDefinition/Q4MSTerminvereinbarung: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSTerminvereinbarung: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSTherapiespezifischeDiagnostik.json ==
+WARNING: PlanDefinition/Q4MSTherapiespezifischeDiagnostik: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSTherapiespezifischeDiagnostik: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSTherapiespezifischeDiagnostik)
+WARNING: PlanDefinition/Q4MSTherapiespezifischeDiagnostik: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: PlanDefinition/Q4MSTherapiespezifischeDiagnostik: PlanDefinition.action[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PlanDefinition-Q4MSVorstellung.json ==
+WARNING: PlanDefinition/Q4MSVorstellung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSVorstellung: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSVorstellung)
+WARNING: PlanDefinition/Q4MSVorstellung: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: PlanDefinition/Q4MSVorstellung: PlanDefinition.action[0].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSTerminvereinbarung)
+ERROR: PlanDefinition/Q4MSVorstellung: PlanDefinition.action[1].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSDokumenteAbfragenPatient)
+== fsh-generated/resources/PlanDefinition-Q4MSVoruntersuchung.json ==
+WARNING: PlanDefinition/Q4MSVoruntersuchung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSVoruntersuchung: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSVoruntersuchung)
+WARNING: PlanDefinition/Q4MSVoruntersuchung: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: PlanDefinition/Q4MSVoruntersuchung: PlanDefinition.action[0].action[0].action[0].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest)
+ERROR: PlanDefinition/Q4MSVoruntersuchung: PlanDefinition.action[0].action[0].action[1].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSTherapiespezifischeDiagnostik)
+ERROR: PlanDefinition/Q4MSVoruntersuchung: PlanDefinition.action[0].action[1].action[0].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSOptischeKoheraenztomographie)
+ERROR: PlanDefinition/Q4MSVoruntersuchung: PlanDefinition.action[0].action[1].action[1].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSGanganalyse)
+ERROR: PlanDefinition/Q4MSVoruntersuchung: PlanDefinition.action[0].action[1].action[2].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSMagnetresonanztomographie)
+== fsh-generated/resources/PlanDefinition-Q4MSZusatzdiagnostik.json ==
+WARNING: PlanDefinition/Q4MSZusatzdiagnostik: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: PlanDefinition/Q4MSZusatzdiagnostik: PlanDefinition.url: Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSZusatzdiagnostik)
+WARNING: PlanDefinition/Q4MSZusatzdiagnostik: PlanDefinition.type.coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: PlanDefinition/Q4MSZusatzdiagnostik: PlanDefinition.action[0].action[0].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSGanganalyse)
+ERROR: PlanDefinition/Q4MSZusatzdiagnostik: PlanDefinition.action[0].action[1].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSOptischeKoheraenztomographie)
+ERROR: PlanDefinition/Q4MSZusatzdiagnostik: PlanDefinition.action[0].action[2].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSMagnetresonanztomographie)
+ERROR: PlanDefinition/Q4MSZusatzdiagnostik: PlanDefinition.action[0].action[3].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSLaboruntersuchung)
+ERROR: PlanDefinition/Q4MSZusatzdiagnostik: PlanDefinition.action[0].action[4].definition.ofType(canonical): Canonical URLs must be absolute URLs if they are not fragment references (/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest)
+== fsh-generated/resources/StructureDefinition-q4ms-arztbrief-profile.json ==
+INFORMATION: StructureDefinition/q4ms-arztbrief-profile: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-arztbrief-profile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-arztbrief-profile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-arztbrief-profile: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-arztbrief-profile: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-arztbrief-profile: StructureDefinition.differential.element[6].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+WARNING: StructureDefinition/q4ms-arztbrief-profile: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDStypeCode on element DocumentReference.type could not be resolved
+WARNING: StructureDefinition/q4ms-arztbrief-profile: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
+WARNING: StructureDefinition/q4ms-arztbrief-profile: StructureDefinition.snapshot.element[27].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
+== fsh-generated/resources/StructureDefinition-q4ms-befund-profile.json ==
+INFORMATION: StructureDefinition/q4ms-befund-profile: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-befund-profile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-befund-profile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-befund-profile: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-befund-profile: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-befund-profile: StructureDefinition.differential.element[7].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-q4ms-dokument-profile.json ==
+WARNING: StructureDefinition/q4ms-dokument-profile: StructureDefinition.differential.element[1].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDStypeCode on element DocumentReference.type could not be resolved
+WARNING: StructureDefinition/q4ms-dokument-profile: StructureDefinition.differential.element[2].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
+WARNING: StructureDefinition/q4ms-dokument-profile: StructureDefinition.differential.element[4].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
+WARNING: StructureDefinition/q4ms-dokument-profile: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDStypeCode on element DocumentReference.type could not be resolved
+WARNING: StructureDefinition/q4ms-dokument-profile: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
+WARNING: StructureDefinition/q4ms-dokument-profile: StructureDefinition.snapshot.element[27].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
+WARNING: StructureDefinition.where(url = 'http://qpath.ukdd.de/StructureDefinition/q4ms-dokument-profile'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-q4ms-dokumentanforderung-profile.json ==
+== fsh-generated/resources/StructureDefinition-q4ms-konsiliarbericht-profile.json ==
+INFORMATION: StructureDefinition/q4ms-konsiliarbericht-profile: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-konsiliarbericht-profile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-konsiliarbericht-profile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-konsiliarbericht-profile: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-konsiliarbericht-profile: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-konsiliarbericht-profile: StructureDefinition.differential.element[7].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-q4ms-laborergebnis-profile.json ==
+INFORMATION: StructureDefinition/q4ms-laborergebnis-profile: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-laborergebnis-profile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-laborergebnis-profile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-laborergebnis-profile: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-laborergebnis-profile: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-laborergebnis-profile: StructureDefinition.differential.element[7].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-q4ms-rezept-profile.json ==
+INFORMATION: StructureDefinition/q4ms-rezept-profile: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-rezept-profile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-rezept-profile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-rezept-profile: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-rezept-profile: StructureDefinition.differential.element[4].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-rezept-profile: StructureDefinition.differential.element[7].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-q4ms-sonstiges-dokument-profile.json ==
+INFORMATION: StructureDefinition/q4ms-sonstiges-dokument-profile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-sonstiges-dokument-profile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-sonstiges-dokument-profile: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
+INFORMATION: StructureDefinition/q4ms-sonstiges-dokument-profile: StructureDefinition.differential.element[6].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
+== fsh-generated/resources/StructureDefinition-q4ms-terminvereinbarung-profile.json ==
+== fsh-generated/resources/ValueSet-q4ms-anfragekategorie-vs.json ==
+== fsh-generated/resources/ValueSet-q4ms-dokumentanforderungkategorie-vs.json ==
+== fsh-generated/resources/ValueSet-q4ms-terminanfragekategorie-vs.json ==

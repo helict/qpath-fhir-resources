@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="q4ms-dokumentanforderungkategorie-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html"><code>http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie</code></a></li></ul></div>
+  </text>
+  <url value="http://qpath.ukdd.de/ValueSet/q4ms-dokumentanforderungkategorie-vs"/>
+  <version value="0.1.0"/>
+  <name value="Q4MSDokumentanforderungkategorieVS"/>
+  <title value="Dokumentanforderungkategorie ValueSet"/>
+  <status value="active"/>
+  <date value="2021-12-22T11:59:55+01:00"/>
+  <publisher value="QPath4MS"/>
+  <contact>
+    <name value="QPath4MS"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://qpath.ukdd.de"/>
+    </telecom>
+  </contact>
+  <description value="Definiert Dokumentanforderungkategorien"/>
+  <compose>
+    <include>
+      <system value="http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie"/>
+    </include>
+  </compose>
+</ValueSet>
