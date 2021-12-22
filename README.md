@@ -1,10 +1,13 @@
-# qpath-fhir-resources
-QPath FHIR resources, esp. pathway-related resources
+# QPath4MS FHIR Implementation Guide
 
-## Server and tools used
+### Looking for the readable FHIR Implementation Guide?
 
-[ClinFHIR Scenario Builder](http://clinfhir.com/builder.html)
+Please visit [FHIR Implementation Guide](https://helict.github.io/qpath-fhir-resources/output/)
 
-[Latest HAPI FHIR Public R4 Server](https://hapi.fhir.org)
+### Looking for FHIR JSON resources?
 
-[Latest HAPI FHIR Public R4 Server Swagger UI](https://hapi.fhir.org/baseR4/swagger-ui/)
+Please visit [FHIR JSON Resource Files](https://github.com/helict/qpath-fhir-resources/tree/qpath4ms-ig/fsh-generated/resources)
+
+### Looking for FHIR Shorthand (FSH) files?
+
+Please visit [FHIR Shorthand Files](https://github.com/helict/qpath-fhir-resources/tree/qpath4ms-ig/input/fsh)
