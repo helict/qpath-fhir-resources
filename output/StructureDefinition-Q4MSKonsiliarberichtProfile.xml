@@ -32,15 +32,34 @@
   <name value="Q4MSKonsiliarberichtProfile"/>
   <title value="Konsiliarbericht"/>
   <status value="active"/>
-  <date value="2021-12-22T19:56:03+01:00"/>
-  <publisher value="QPath4MS"/>
+  <date value="2021-12-22T21:26:07+01:00"/>
+  <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
-    <name value="QPath4MS"/>
+    <name value="Forschungsgruppe Digital Health"/>
     <telecom>
       <system value="url"/>
-      <value value="http://qpath.ukdd.de"/>
+      <value value="https://tud.link/xd10"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="digital-health@tu-dresden.de"/>
     </telecom>
   </contact>
+  <contact>
+    <name value="Marcel Susky"/>
+    <telecom>
+      <system value="email"/>
+      <value value="marcel.susky@tu-dresden.de"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DE"/>
+      <display value="Germany"/>
+    </coding>
+  </jurisdiction>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>

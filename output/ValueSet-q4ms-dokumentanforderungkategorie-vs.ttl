@@ -17,18 +17,40 @@
   fhir:ValueSet.name [ fhir:value "Q4MSDokumentanforderungkategorieVS"];
   fhir:ValueSet.title [ fhir:value "Dokumentanforderungkategorie"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-12-22T19:56:03+01:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "QPath4MS"];
+  fhir:ValueSet.date [ fhir:value "2021-12-22T21:26:07+01:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:ValueSet.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "QPath4MS" ];
+     fhir:ContactDetail.name [ fhir:value "Forschungsgruppe Digital Health" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://qpath.ukdd.de" ]
+       fhir:ContactPoint.value [ fhir:value "https://tud.link/xd10" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "digital-health@tu-dresden.de" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Marcel Susky" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "marcel.susky@tu-dresden.de" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
   fhir:ValueSet.description [ fhir:value "Definiert Dokumentanforderungkategorien"];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "DE" ];
+       fhir:Coding.display [ fhir:value "Germany" ]
+     ]
+  ];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;

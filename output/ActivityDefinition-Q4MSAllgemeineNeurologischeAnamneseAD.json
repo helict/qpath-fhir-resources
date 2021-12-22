@@ -3,21 +3,46 @@
   "id": "Q4MSAllgemeineNeurologischeAnamneseAD",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSAllgemeineNeurologischeAnamneseAD\" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-allgemeine-neurologische-anamnese</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T19:56:03+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><p><b>kind</b>: Task</p><p><b>doNotPerform</b>: false</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSAllgemeineNeurologischeAnamneseAD\" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-allgemeine-neurologische-anamnese</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T21:26:07+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><p><b>kind</b>: Task</p><p><b>doNotPerform</b>: false</p></div>"
   },
   "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-allgemeine-neurologische-anamnese",
   "version": "0.1.0",
   "status": "draft",
   "experimental": true,
-  "date": "2021-12-22T19:56:03+01:00",
-  "publisher": "QPath4MS",
+  "date": "2021-12-22T21:26:07+01:00",
+  "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
-      "name": "QPath4MS",
+      "name": "Forschungsgruppe Digital Health",
       "telecom": [
         {
           "system": "url",
-          "value": "http://qpath.ukdd.de"
+          "value": "https://tud.link/xd10"
+        },
+        {
+          "system": "email",
+          "value": "digital-health@tu-dresden.de"
+        }
+      ]
+    },
+    {
+      "name": "Marcel Susky",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "marcel.susky@tu-dresden.de",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "DE",
+          "display": "Germany"
         }
       ]
     }

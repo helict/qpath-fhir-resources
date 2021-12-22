@@ -3,22 +3,48 @@
   "id": "fhir.qpath4ms",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>QPath4MSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms</pre></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>QPath4MSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms</pre><div><p>Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade</p>\n</div></div>"
   },
   "url": "http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms",
   "version": "0.1.0",
   "name": "QPath4MSIG",
   "title": "QPath4MS FHIR Implementation Guide",
   "status": "draft",
-  "date": "2021-12-22T19:56:03+01:00",
-  "publisher": "QPath4MS",
+  "date": "2021-12-22T21:26:07+01:00",
+  "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
-      "name": "QPath4MS",
+      "name": "Forschungsgruppe Digital Health",
       "telecom": [
         {
           "system": "url",
-          "value": "http://qpath.ukdd.de"
+          "value": "https://tud.link/xd10"
+        },
+        {
+          "system": "email",
+          "value": "digital-health@tu-dresden.de"
+        }
+      ]
+    },
+    {
+      "name": "Marcel Susky",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "marcel.susky@tu-dresden.de",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "DE",
+          "display": "Germany"
         }
       ]
     }

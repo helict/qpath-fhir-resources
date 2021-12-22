@@ -10,22 +10,45 @@
   fhir:Resource.id [ fhir:value "fhir.qpath4ms"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>QPath4MSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms</pre></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>QPath4MSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms</pre><div><p>Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "QPath4MSIG"];
   fhir:ImplementationGuide.title [ fhir:value "QPath4MS FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-22T19:56:03+01:00"^^xsd:dateTime];
-  fhir:ImplementationGuide.publisher [ fhir:value "QPath4MS"];
+  fhir:ImplementationGuide.date [ fhir:value "2021-12-22T21:26:07+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "QPath4MS" ];
+     fhir:ContactDetail.name [ fhir:value "Forschungsgruppe Digital Health" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://qpath.ukdd.de" ]
+       fhir:ContactPoint.value [ fhir:value "https://tud.link/xd10" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "digital-health@tu-dresden.de" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Marcel Susky" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "marcel.susky@tu-dresden.de" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ImplementationGuide.description [ fhir:value "Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade"];
+  fhir:ImplementationGuide.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "DE" ];
+       fhir:Coding.display [ fhir:value "Germany" ]
      ]
   ];
   fhir:ImplementationGuide.packageId [ fhir:value "fhir.qpath4ms"];

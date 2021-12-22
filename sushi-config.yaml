@@ -7,18 +7,18 @@ id: fhir.qpath4ms
 canonical: http://qpath.ukdd.de
 name: QPath4MS IG
 title: QPath4MS FHIR Implementation Guide
-# description: Example Implementation Guide for getting started with SUSHI
+description: Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2021+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+jurisdiction: urn:iso:std:iso:3166#DE "Germany" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
-  name: QPath4MS
-  url: http://qpath.ukdd.de
-  # email: test@example.org
+  name: Forschungsgruppe Digital Health
+  url: https://tud.link/xd10
+  email: digital-health@tu-dresden.de
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
@@ -74,7 +74,17 @@ publisher:
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
-  Artifacts: artifacts.html
+  Artifacts:
+    Message Definitions: artifacts.html#1
+    Profiles: artifacts.html#2
+    Value Sets: artifacts.html#3
+    Code Systems: artifacts.html#4
+    Activity Definitinos: artifacts.html#5
+    Plan Definitinos: artifacts.html#6
+    Examples: artifacts.html#7
+    Other: artifacts.html#8
+  Downloads:
+    Full IG: full-ig.zip
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
@@ -85,12 +95,12 @@ menu:
 # contact directly and follow the format outlined in the ImplementationGuide resource and
 # ContactDetail.
 #
-# contact:
-#   - name: Bob Smith
-#     telecom:
-#       - system: email # phone | fax | email | pager | url | sms | other
-#         value: bobsmith@example.org
-#         use: work
+contact:
+  - name: Marcel Susky
+    telecom:
+      - system: email # phone | fax | email | pager | url | sms | other
+        value: marcel.susky@tu-dresden.de
+        use: work
 #
 #
 # The global property corresponds to the IG.global property, but it
@@ -175,26 +185,26 @@ menu:
 # If set to true, no IG related content will be generated.
 # The default value for this property is false.
 # 
-# FSHOnly: false
+FSHOnly: false
 #
 # 
 # When set to true, the "short" and "definition" field on the root element of an Extension will
 # be set to the "Title" and "Description" of that Extension. Default is true.
 # 
-# applyExtensionMetadataToRoot: true
+applyExtensionMetadataToRoot: true
 #
 #
 # The instanceOptions property is used to configure certain aspects of how SUSHI processes instances.
 # See the individual option definitions below for more detail.
 #
-# instanceOptions:
+instanceOptions:
 #   Determines for which types of Instances SUSHI will automatically set meta.profile
 #   if InstanceOf references a profile:
 #
-#   setMetaProfile: always # always | never | inline-only | standalone-only
+  setMetaProfile: always # always | never | inline-only | standalone-only
 #
 #
 #   Determines for which types of Instances SUSHI will automatically set id
 #   if InstanceOf references a profile:
 #
-#   setId: always # always | standalone-only
+  setId: always # always | standalone-only

@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "Q4MSArztvorstellung"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSArztvorstellung\" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-arztvorstellung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: Workflow Definition <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T19:56:03+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href=\"http://qpath.ukdd.de\">http://qpath.ukdd.de</a></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Allgemeine und neurologische Untersuchung</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung</a></td></tr><tr><td>*</td><td>Befundauswertung</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-befundauswertung\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-befundauswertung</a></td></tr><tr><td>*</td><td>Allgemeine und neurologische Anamnese</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese</a></td></tr><tr><td>*</td><td>Therapiespezifische Diagnostik</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik</a></td></tr><tr><td>*</td><td>Zusatzdiagnostik</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik</a></td></tr></table></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Auswertung</p><h3>RelatedActions</h3><table class=\"grid\"><tr><td>-</td><td><b>ActionId</b></td><td><b>Relationship</b></td></tr><tr><td>*</td><td>examination</td><td>after-end</td></tr></table><p><b>definition</b>: <a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-auswertung\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-auswertung</a></p></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSArztvorstellung\" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-arztvorstellung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: Workflow Definition <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T21:26:07+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Allgemeine und neurologische Untersuchung</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung</a></td></tr><tr><td>*</td><td>Befundauswertung</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-befundauswertung\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-befundauswertung</a></td></tr><tr><td>*</td><td>Allgemeine und neurologische Anamnese</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese</a></td></tr><tr><td>*</td><td>Therapiespezifische Diagnostik</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik</a></td></tr><tr><td>*</td><td>Zusatzdiagnostik</td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik</a></td></tr></table></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Auswertung</p><h3>RelatedActions</h3><table class=\"grid\"><tr><td>-</td><td><b>ActionId</b></td><td><b>Relationship</b></td></tr><tr><td>*</td><td>examination</td><td>after-end</td></tr></table><p><b>definition</b>: <a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-auswertung\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-auswertung</a></p></blockquote></div>"
   ];
   fhir:PlanDefinition.url [ fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-arztvorstellung"];
   fhir:PlanDefinition.version [ fhir:value "0.1.0"];
@@ -23,15 +23,37 @@
   ];
   fhir:PlanDefinition.status [ fhir:value "draft"];
   fhir:PlanDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:PlanDefinition.date [ fhir:value "2021-12-22T19:56:03+01:00"^^xsd:dateTime];
-  fhir:PlanDefinition.publisher [ fhir:value "QPath4MS"];
+  fhir:PlanDefinition.date [ fhir:value "2021-12-22T21:26:07+01:00"^^xsd:dateTime];
+  fhir:PlanDefinition.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:PlanDefinition.contact [
      fhir:index 0;
-     fhir:ContactDetail.name [ fhir:value "QPath4MS" ];
+     fhir:ContactDetail.name [ fhir:value "Forschungsgruppe Digital Health" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://qpath.ukdd.de" ]
+       fhir:ContactPoint.value [ fhir:value "https://tud.link/xd10" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "digital-health@tu-dresden.de" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Marcel Susky" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "marcel.susky@tu-dresden.de" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:PlanDefinition.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "DE" ];
+       fhir:Coding.display [ fhir:value "Germany" ]
      ]
   ];
   fhir:PlanDefinition.action [

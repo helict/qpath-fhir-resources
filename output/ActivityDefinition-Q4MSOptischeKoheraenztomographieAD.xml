@@ -3,21 +3,40 @@
 <ActivityDefinition xmlns="http://hl7.org/fhir">
   <id value="Q4MSOptischeKoheraenztomographieAD"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSOptischeKoheraenztomographieAD" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-optische-koheraenztomographie</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T19:56:03+01:00</p><p><b>publisher</b>: QPath4MS</p><p><b>contact</b>: QPath4MS: <a href="http://qpath.ukdd.de">http://qpath.ukdd.de</a></p><p><b>kind</b>: ServiceRequest</p><p><b>doNotPerform</b>: false</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSOptischeKoheraenztomographieAD" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-optische-koheraenztomographie</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T21:26:07+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href="https://tud.link/xd10">https://tud.link/xd10</a>,<a href="mailto:digital-health@tu-dresden.de">digital-health@tu-dresden.de</a>, Marcel Susky: <a href="mailto:marcel.susky@tu-dresden.de">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#DE)</span></p><p><b>kind</b>: ServiceRequest</p><p><b>doNotPerform</b>: false</p></div>
   </text>
   <url value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-optische-koheraenztomographie"/>
   <version value="0.1.0"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-12-22T19:56:03+01:00"/>
-  <publisher value="QPath4MS"/>
+  <date value="2021-12-22T21:26:07+01:00"/>
+  <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
-    <name value="QPath4MS"/>
+    <name value="Forschungsgruppe Digital Health"/>
     <telecom>
       <system value="url"/>
-      <value value="http://qpath.ukdd.de"/>
+      <value value="https://tud.link/xd10"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="digital-health@tu-dresden.de"/>
     </telecom>
   </contact>
+  <contact>
+    <name value="Marcel Susky"/>
+    <telecom>
+      <system value="email"/>
+      <value value="marcel.susky@tu-dresden.de"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DE"/>
+      <display value="Germany"/>
+    </coding>
+  </jurisdiction>
   <kind value="ServiceRequest"/>
   <doNotPerform value="false"/>
 </ActivityDefinition>

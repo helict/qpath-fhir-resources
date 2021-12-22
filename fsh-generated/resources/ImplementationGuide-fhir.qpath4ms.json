@@ -6,19 +6,46 @@
   "name": "QPath4MSIG",
   "title": "QPath4MS FHIR Implementation Guide",
   "status": "draft",
-  "publisher": "QPath4MS",
+  "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
-      "name": "QPath4MS",
+      "name": "Forschungsgruppe Digital Health",
       "telecom": [
         {
           "system": "url",
-          "value": "http://qpath.ukdd.de"
+          "value": "https://tud.link/xd10"
+        },
+        {
+          "system": "email",
+          "value": "digital-health@tu-dresden.de"
+        }
+      ]
+    },
+    {
+      "name": "Marcel Susky",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "marcel.susky@tu-dresden.de",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "DE",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Germany"
         }
       ]
     }
   ],
   "packageId": "fhir.qpath4ms",
+  "license": "CC0-1.0",
   "fhirVersion": [
     "4.0.1"
   ],

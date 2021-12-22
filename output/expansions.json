@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "d53aeeab-6043-4ab7-9db3-596f88f5db2e",
+  "id" : "a3003bd2-0775-411e-a784-fb3e2dc686d1",
   "meta" : {
-    "lastUpdated" : "2021-12-22T19:56:03.359+01:00"
+    "lastUpdated" : "2021-12-22T21:26:07.754+01:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,19 +19,38 @@
       "name" : "Q4MSAnfragekategorieVS",
       "title" : "Anfragekategorie",
       "status" : "active",
-      "date" : "2021-12-22T19:56:03+01:00",
-      "publisher" : "QPath4MS",
+      "date" : "2021-12-22T21:26:07+01:00",
+      "publisher" : "Forschungsgruppe Digital Health",
       "contact" : [{
-        "name" : "QPath4MS",
+        "name" : "Forschungsgruppe Digital Health",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://qpath.ukdd.de"
+          "value" : "https://tud.link/xd10"
+        },
+        {
+          "system" : "email",
+          "value" : "digital-health@tu-dresden.de"
+        }]
+      },
+      {
+        "name" : "Marcel Susky",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "marcel.susky@tu-dresden.de",
+          "use" : "work"
         }]
       }],
       "description" : "Definiert Anfragekategorien",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:3f05f99e-4407-42e3-abd8-e47cac0743bf",
-        "timestamp" : "2021-12-22T19:56:47+01:00",
+        "identifier" : "urn:uuid:5a76abc1-9f3f-4b80-b199-f1b9b08a0007",
+        "timestamp" : "2021-12-22T21:27:02+01:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -93,19 +112,38 @@
       "name" : "Q4MSDokumentanforderungkategorieVS",
       "title" : "Dokumentanforderungkategorie",
       "status" : "active",
-      "date" : "2021-12-22T19:56:03+01:00",
-      "publisher" : "QPath4MS",
+      "date" : "2021-12-22T21:26:07+01:00",
+      "publisher" : "Forschungsgruppe Digital Health",
       "contact" : [{
-        "name" : "QPath4MS",
+        "name" : "Forschungsgruppe Digital Health",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://qpath.ukdd.de"
+          "value" : "https://tud.link/xd10"
+        },
+        {
+          "system" : "email",
+          "value" : "digital-health@tu-dresden.de"
+        }]
+      },
+      {
+        "name" : "Marcel Susky",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "marcel.susky@tu-dresden.de",
+          "use" : "work"
         }]
       }],
       "description" : "Definiert Dokumentanforderungkategorien",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:976c122a-64b3-4e0b-a590-1724d948b5e6",
-        "timestamp" : "2021-12-22T19:56:48+01:00",
+        "identifier" : "urn:uuid:3e4d0a2f-c975-4f09-86b4-0754856af8e2",
+        "timestamp" : "2021-12-22T21:27:02+01:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -162,19 +200,38 @@
       "name" : "Q4MSTerminanfragekategorieVS",
       "title" : "Terminanfragekategorie",
       "status" : "active",
-      "date" : "2021-12-22T19:56:03+01:00",
-      "publisher" : "QPath4MS",
+      "date" : "2021-12-22T21:26:07+01:00",
+      "publisher" : "Forschungsgruppe Digital Health",
       "contact" : [{
-        "name" : "QPath4MS",
+        "name" : "Forschungsgruppe Digital Health",
         "telecom" : [{
           "system" : "url",
-          "value" : "http://qpath.ukdd.de"
+          "value" : "https://tud.link/xd10"
+        },
+        {
+          "system" : "email",
+          "value" : "digital-health@tu-dresden.de"
+        }]
+      },
+      {
+        "name" : "Marcel Susky",
+        "telecom" : [{
+          "system" : "email",
+          "value" : "marcel.susky@tu-dresden.de",
+          "use" : "work"
         }]
       }],
       "description" : "Definiert Terminanfragekategorien",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DE",
+          "display" : "Germany"
+        }]
+      }],
       "expansion" : {
-        "identifier" : "urn:uuid:408842a4-f1a3-48e7-8861-23dc5f6c895c",
-        "timestamp" : "2021-12-22T19:56:48+01:00",
+        "identifier" : "urn:uuid:e09a08b1-303a-409b-8de9-5fc1bac126f9",
+        "timestamp" : "2021-12-22T21:27:02+01:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
