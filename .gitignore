@@ -2,3 +2,4 @@
 validator_cli.jar
 .bundle/
 *.bak
+.tmp/
