@@ -7,7 +7,7 @@
   "title": "Anfragekategorie",
   "description": "Deklariert Anfragekategorien",
   "version": "1.0.0",
-  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-anfragekategorie",
+  "url": "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-anfragekategorie",
   "concept": [
     {
       "code": "drug-therapy",

@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://qpath.ukdd.de/DocumentReference/LaborergebnisExample> a fhir:DocumentReference;
+<http://qpath4ms.ukdd.de/DocumentReference/LaborergebnisExample> a fhir:DocumentReference;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "LaborergebnisExample"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis";
+       fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis";
        fhir:index 0;
-       fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis>
+       fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis>
      ]
   ];
   fhir:DomainResource.text [
@@ -21,7 +21,7 @@
   ];
   fhir:DocumentReference.status [ fhir:value "current"];
   fhir:DocumentReference.subject [
-     fhir:link <http://qpath.ukdd.de/Patient/john-doe>;
+     fhir:link <http://qpath4ms.ukdd.de/Patient/john-doe>;
      fhir:Reference.reference [ fhir:value "Patient/john-doe" ]
   ];
   fhir:DocumentReference.content [
@@ -33,7 +33,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://qpath.ukdd.de/DocumentReference/LaborergebnisExample.ttl> a owl:Ontology;
+<http://qpath4ms.ukdd.de/DocumentReference/LaborergebnisExample.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

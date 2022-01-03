@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSBasismonitoring",
-  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-basismonitoring",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-basismonitoring",
   "type": {
     "coding": [
       {
@@ -23,7 +23,7 @@
           "id": "admission",
           "title": "Vorstellung",
           "description": "Erst- und Wiedervostellung",
-          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-vorstellung"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-vorstellung"
         },
         {
           "id": "diagnostic-testing",
@@ -35,7 +35,7 @@
               "relationship": "after-end"
             }
           ],
-          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-voruntersuchung"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-voruntersuchung"
         },
         {
           "id": "examination",
@@ -47,7 +47,7 @@
               "relationship": "after-end"
             }
           ],
-          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-arztvorstellung"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-arztvorstellung"
         },
         {
           "id": "discharge",
@@ -59,7 +59,7 @@
               "relationship": "after-end"
             }
           ],
-          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-entlassung"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-entlassung"
         }
       ]
     }

@@ -3,10 +3,10 @@
   "id": "Q4MSTerminanfrage",
   "meta": {
     "profile": [
-      "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-terminvereinbarung"
+      "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-terminvereinbarung"
     ]
   },
-  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-terminanfrage",
+  "url": "http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-terminanfrage",
   "status": "draft",
   "focus": [
     {
@@ -16,10 +16,10 @@
   ],
   "date": "2021-12-21",
   "parent": [
-    "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-terminvereinbarung"
+    "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-terminvereinbarung"
   ],
   "eventCoding": {
     "code": "booking",
-    "system": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-terminanfragekategorie"
+    "system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-terminanfragekategorie"
   }
 }

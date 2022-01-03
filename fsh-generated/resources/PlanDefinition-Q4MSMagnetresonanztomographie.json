@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSMagnetresonanztomographie",
-  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie",
   "type": {
     "coding": [
       {
@@ -32,7 +32,7 @@
           }
         }
       ],
-      "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-magnetresonanztomographie"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-magnetresonanztomographie"
     }
   ]
 }

@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://qpath.ukdd.de/ValueSet/q4ms-anfragekategorie-vs> a fhir:ValueSet;
+<http://qpath4ms.ukdd.de/ValueSet/q4ms-anfragekategorie-vs> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "q4ms-anfragekategorie-vs"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-q4ms-anfragekategorie.html\"><code>http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-anfragekategorie</code></a></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-q4ms-anfragekategorie.html\"><code>http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-anfragekategorie</code></a></li></ul></div>"
   ];
-  fhir:ValueSet.url [ fhir:value "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-anfragekategorie-vs"];
+  fhir:ValueSet.url [ fhir:value "http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-anfragekategorie-vs"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "Q4MSAnfragekategorieVS"];
   fhir:ValueSet.title [ fhir:value "Anfragekategorie"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-12-22T21:26:07+01:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-01-03T16:30:59+01:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -54,13 +54,13 @@
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
-       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-anfragekategorie" ]
+       fhir:ValueSet.compose.include.system [ fhir:value "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-anfragekategorie" ]
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://qpath.ukdd.de/ValueSet/q4ms-anfragekategorie-vs.ttl> a owl:Ontology;
+<http://qpath4ms.ukdd.de/ValueSet/q4ms-anfragekategorie-vs.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

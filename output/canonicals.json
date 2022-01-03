@@ -1,323 +1,323 @@
 [
   {
+    "id": "fhir.qpath4ms",
+    "type": "ImplementationGuide",
+    "url": "http://qpath4ms.ukdd.de/ImplementationGuide/fhir.qpath4ms",
+    "version": "0.1.0",
+    "name": "QPath4MSIG"
+  },
+  {
     "id": "Q4MSAllgemeineNeurologischeAnamneseAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-allgemeine-neurologische-anamnese",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-allgemeine-neurologische-anamnese",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSAuswertungAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-auswertung",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-auswertung",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSBefundauswertungAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-befundauswertung",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-befundauswertung",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSDokumenteAbfragenAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSDokumenteUebermittelnAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-uebermitteln",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-uebermitteln",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSExpandedDisabilityStatusScaleAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-expanded-disability-status-scale",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-expanded-disability-status-scale",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSGanganalyseAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-ganganalyse",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-ganganalyse",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSLaboruntersuchungAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-laboruntersuchung",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-laboruntersuchung",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSMagnetresonanztomographieAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-magnetresonanztomographie",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-magnetresonanztomographie",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSMultipleSclerosisPerformanceTestAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-multiple-sclerosis-performance-test",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-multiple-sclerosis-performance-test",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSOptischeKoheraenztomographieAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-optische-koheraenztomographie",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-optische-koheraenztomographie",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSTerminvereinbarungAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-terminvereinbarung",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-terminvereinbarung",
     "version": "0.1.0"
   },
   {
     "id": "Q4MSTherapiespezifischeDiagnostikAD",
     "type": "ActivityDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-therapiespezifische-diagnostik",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-therapiespezifische-diagnostik",
     "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSArztbriefanfrage",
-    "type": "MessageDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSTerminanfrage",
-    "type": "MessageDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-terminanfrage",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSAllgemeineNeurologischeAnamnese",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSAllgemeineNeurologischeUntersuchung",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSArztvorstellung",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-arztvorstellung",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSAuswertung",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-auswertung",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSBasismonitoring",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-basismonitoring",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSBefundauswertung",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-befundauswertung",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSDokumenteAbfragenPatient",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSDokumenteUebermittelnArzt",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-arzt",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSDokumenteUebermittelnPatient",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-patient",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSEntlassung",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-entlassung",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSGanganalyse",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-ganganalyse",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSLaboruntersuchung",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-laboruntersuchung",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSMagnetresonanztomographie",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSMultipleSclerosisPerformanceTest",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSOptischeKoheraenztomographie",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSTerminvereinbarung",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-terminvereinbarung",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSTherapiespezifischeDiagnostik",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSVorstellung",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-vorstellung",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSVoruntersuchung",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-voruntersuchung",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSZusatzdiagnostik",
-    "type": "PlanDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik",
-    "version": "0.1.0"
-  },
-  {
-    "id": "Q4MSArztbriefProfile",
-    "type": "StructureDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief",
-    "version": "0.1.0",
-    "name": "Q4MSArztbriefProfile"
-  },
-  {
-    "id": "Q4MSBefundProfile",
-    "type": "StructureDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund",
-    "version": "0.1.0",
-    "name": "Q4MSBefundProfile"
-  },
-  {
-    "id": "Q4MSDokumentProfile",
-    "type": "StructureDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument",
-    "version": "0.1.0",
-    "name": "Q4MSDokumentProfile"
-  },
-  {
-    "id": "Q4MSDokumentanforderungProfile",
-    "type": "StructureDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokumentanforderung",
-    "version": "0.1.0",
-    "name": "Q4MSDokumentanforderungProfile"
-  },
-  {
-    "id": "Q4MSKonsiliarberichtProfile",
-    "type": "StructureDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht",
-    "version": "0.1.0",
-    "name": "Q4MSKonsiliarberichtProfile"
-  },
-  {
-    "id": "Q4MSLaborergebnisProfile",
-    "type": "StructureDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis",
-    "version": "0.1.0",
-    "name": "Q4MSLaborergebnisProfile"
-  },
-  {
-    "id": "Q4MSRezeptProfile",
-    "type": "StructureDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept",
-    "version": "0.1.0",
-    "name": "Q4MSRezeptProfile"
-  },
-  {
-    "id": "Q4MSSonstigesDokumentProfile",
-    "type": "StructureDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument",
-    "version": "0.1.0",
-    "name": "Q4MSSonstigesDokumentProfile"
-  },
-  {
-    "id": "Q4MSTerminvereinbarungProfile",
-    "type": "StructureDefinition",
-    "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-terminvereinbarung",
-    "version": "0.1.0",
-    "name": "Q4MSTerminvereinbarungProfile"
-  },
-  {
-    "id": "fhir.qpath4ms",
-    "type": "ImplementationGuide",
-    "url": "http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms",
-    "version": "0.1.0",
-    "name": "QPath4MSIG"
   },
   {
     "id": "q4ms-anfragekategorie",
     "type": "CodeSystem",
-    "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-anfragekategorie",
+    "url": "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-anfragekategorie",
     "version": "0.1.0",
     "name": "Q4MSAnfragekategorie"
   },
   {
     "id": "q4ms-dokumentanforderungkategorie",
     "type": "CodeSystem",
-    "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie",
+    "url": "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie",
     "version": "0.1.0",
     "name": "Q4MSDokumentanforderungkategorie"
   },
   {
     "id": "q4ms-terminanfragekategorie",
     "type": "CodeSystem",
-    "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-terminanfragekategorie",
+    "url": "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-terminanfragekategorie",
     "version": "0.1.0",
     "name": "Q4MSTerminanfragekategorie"
   },
   {
+    "id": "Q4MSArztbriefanfrage",
+    "type": "MessageDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-arztbriefanfrage",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSTerminanfrage",
+    "type": "MessageDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-terminanfrage",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSAllgemeineNeurologischeAnamnese",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSAllgemeineNeurologischeUntersuchung",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSArztvorstellung",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-arztvorstellung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSAuswertung",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-auswertung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSBasismonitoring",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-basismonitoring",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSBefundauswertung",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-befundauswertung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSDokumenteAbfragenPatient",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSDokumenteUebermittelnArzt",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-arzt",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSDokumenteUebermittelnPatient",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-patient",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSEntlassung",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-entlassung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSGanganalyse",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSLaboruntersuchung",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-laboruntersuchung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSMagnetresonanztomographie",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSMultipleSclerosisPerformanceTest",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSOptischeKoheraenztomographie",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSTerminvereinbarung",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-terminvereinbarung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSTherapiespezifischeDiagnostik",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSVorstellung",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-vorstellung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSVoruntersuchung",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-voruntersuchung",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSZusatzdiagnostik",
+    "type": "PlanDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik",
+    "version": "0.1.0"
+  },
+  {
+    "id": "Q4MSArztbriefProfile",
+    "type": "StructureDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief",
+    "version": "0.1.0",
+    "name": "Q4MSArztbriefProfile"
+  },
+  {
+    "id": "Q4MSBefundProfile",
+    "type": "StructureDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund",
+    "version": "0.1.0",
+    "name": "Q4MSBefundProfile"
+  },
+  {
+    "id": "Q4MSDokumentProfile",
+    "type": "StructureDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument",
+    "version": "0.1.0",
+    "name": "Q4MSDokumentProfile"
+  },
+  {
+    "id": "Q4MSDokumentanforderungProfile",
+    "type": "StructureDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokumentanforderung",
+    "version": "0.1.0",
+    "name": "Q4MSDokumentanforderungProfile"
+  },
+  {
+    "id": "Q4MSKonsiliarberichtProfile",
+    "type": "StructureDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht",
+    "version": "0.1.0",
+    "name": "Q4MSKonsiliarberichtProfile"
+  },
+  {
+    "id": "Q4MSLaborergebnisProfile",
+    "type": "StructureDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis",
+    "version": "0.1.0",
+    "name": "Q4MSLaborergebnisProfile"
+  },
+  {
+    "id": "Q4MSRezeptProfile",
+    "type": "StructureDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept",
+    "version": "0.1.0",
+    "name": "Q4MSRezeptProfile"
+  },
+  {
+    "id": "Q4MSSonstigesDokumentProfile",
+    "type": "StructureDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument",
+    "version": "0.1.0",
+    "name": "Q4MSSonstigesDokumentProfile"
+  },
+  {
+    "id": "Q4MSTerminvereinbarungProfile",
+    "type": "StructureDefinition",
+    "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-terminvereinbarung",
+    "version": "0.1.0",
+    "name": "Q4MSTerminvereinbarungProfile"
+  },
+  {
     "id": "q4ms-anfragekategorie-vs",
     "type": "ValueSet",
-    "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-anfragekategorie-vs",
+    "url": "http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-anfragekategorie-vs",
     "version": "0.1.0",
     "name": "Q4MSAnfragekategorieVS"
   },
   {
     "id": "q4ms-dokumentanforderungkategorie-vs",
     "type": "ValueSet",
-    "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-dokumentanforderungkategorie-vs",
+    "url": "http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-dokumentanforderungkategorie-vs",
     "version": "0.1.0",
     "name": "Q4MSDokumentanforderungkategorieVS"
   },
   {
     "id": "q4ms-terminanfragekategorie-vs",
     "type": "ValueSet",
-    "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs",
+    "url": "http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs",
     "version": "0.1.0",
     "name": "Q4MSTerminanfragekategorieVS"
   }

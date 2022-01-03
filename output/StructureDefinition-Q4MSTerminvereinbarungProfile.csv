@@ -95,7 +95,7 @@ Restrictions","",0,1,"","","","markdown {[]} {[]}
 ","",,"closed","MessageDefinition.event[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "MessageDefinition.event[x]","eventCoding","","",0,1,"","","Y","Coding {[]} {[]}
-","Event code  or link to the EventDefinition","Event code or link to the EventDefinition.","","","","","","","","","",,"required","","http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs","",,,,"MessageDefinition.event[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Event code  or link to the EventDefinition","Event code or link to the EventDefinition.","","","","","","","","","",,"required","","http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs","",,,,"MessageDefinition.event[x]",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "MessageDefinition.category","","","",0,1,"","","Y","code {[]} {[]}
 ","consequence | currency | notification","The impact of the content of the message.","","","","","","<valueCode xmlns=""http://hl7.org/fhir"" value=""currency""/>","","","",,"required","The impact of the content of a message.","http://hl7.org/fhir/ValueSet/message-significance-category|4.0.1","",,,,"MessageDefinition.category",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

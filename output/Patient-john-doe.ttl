@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://qpath.ukdd.de/Patient/john-doe> a fhir:Patient;
+<http://qpath4ms.ukdd.de/Patient/john-doe> a fhir:Patient;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "john-doe"];
   fhir:DomainResource.text [
@@ -23,7 +23,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://qpath.ukdd.de/Patient/john-doe.ttl> a owl:Ontology;
+<http://qpath4ms.ukdd.de/Patient/john-doe.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

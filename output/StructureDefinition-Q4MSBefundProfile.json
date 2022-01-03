@@ -15,12 +15,12 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund",
+  "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund",
   "version": "0.1.0",
   "name": "Q4MSBefundProfile",
   "title": "Befund",
   "status": "active",
-  "date": "2021-12-22T21:26:07+01:00",
+  "date": "2022-01-03T16:30:59+01:00",
   "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
@@ -99,7 +99,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "DocumentReference",
-  "baseDefinition": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument",
+  "baseDefinition": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument",
   "derivation": "constraint",
   "snapshot": {
     "element": [

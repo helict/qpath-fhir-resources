@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://qpath.ukdd.de/PlanDefinition/Q4MSLaboruntersuchung> a fhir:PlanDefinition;
+<http://qpath4ms.ukdd.de/PlanDefinition/Q4MSLaboruntersuchung> a fhir:PlanDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Q4MSLaboruntersuchung"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSLaboruntersuchung\" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-laboruntersuchung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: ECA Rule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#eca-rule)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T21:26:07+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Type</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Laboruntersuchung</td><td>Create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-action-type.html\">ActionType</a>#create)</span></td><td><a href=\"http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-laboruntersuchung\">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-laboruntersuchung</a></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSLaboruntersuchung\" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-laboruntersuchung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: ECA Rule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#eca-rule)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-03T16:30:59+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Type</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Laboruntersuchung</td><td>Create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-action-type.html\">ActionType</a>#create)</span></td><td><a href=\"http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-laboruntersuchung\">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-laboruntersuchung</a></td></tr></table></div>"
   ];
-  fhir:PlanDefinition.url [ fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-laboruntersuchung"];
+  fhir:PlanDefinition.url [ fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-laboruntersuchung"];
   fhir:PlanDefinition.version [ fhir:value "0.1.0"];
   fhir:PlanDefinition.type [
      fhir:CodeableConcept.coding [
@@ -23,7 +23,7 @@
   ];
   fhir:PlanDefinition.status [ fhir:value "draft"];
   fhir:PlanDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:PlanDefinition.date [ fhir:value "2021-12-22T21:26:07+01:00"^^xsd:dateTime];
+  fhir:PlanDefinition.date [ fhir:value "2022-01-03T16:30:59+01:00"^^xsd:dateTime];
   fhir:PlanDefinition.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:PlanDefinition.contact [
      fhir:index 0;
@@ -67,14 +67,14 @@
        ]
      ];
      fhir:PlanDefinition.action.definitionCanonical [
-       fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-laboruntersuchung";
-       fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-laboruntersuchung>
+       fhir:value "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-laboruntersuchung";
+       fhir:link <http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-laboruntersuchung>
      ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<http://qpath.ukdd.de/PlanDefinition/Q4MSLaboruntersuchung.ttl> a owl:Ontology;
+<http://qpath4ms.ukdd.de/PlanDefinition/Q4MSLaboruntersuchung.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

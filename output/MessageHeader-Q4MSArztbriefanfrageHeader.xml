@@ -3,14 +3,14 @@
 <MessageHeader xmlns="http://hl7.org/fhir">
   <id value="Q4MSArztbriefanfrageHeader"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSArztbriefanfrageHeader" </p></div><p><b>event</b>: Arztbrief (Details: http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie code doctor-letter = 'Arztbrief', stated as 'null')</p><h3>Sources</h3><table class="grid"><tr><td>-</td><td><b>Endpoint</b></td></tr><tr><td>*</td><td><code>127.0.0.1</code></td></tr></table><p><b>definition</b>: <a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSArztbriefanfrageHeader" </p></div><p><b>event</b>: Arztbrief (Details: http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie code doctor-letter = 'Arztbrief', stated as 'null')</p><h3>Sources</h3><table class="grid"><tr><td>-</td><td><b>Endpoint</b></td></tr><tr><td>*</td><td><code>127.0.0.1</code></td></tr></table><p><b>definition</b>: <a href="http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-arztbriefanfrage">http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-arztbriefanfrage</a></p></div>
   </text>
   <eventCoding>
-    <system value="http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie"/>
+    <system value="http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie"/>
     <code value="doctor-letter"/>
   </eventCoding>
   <source>
     <endpoint value="127.0.0.1"/>
   </source>
-  <definition value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage"/>
+  <definition value="http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-arztbriefanfrage"/>
 </MessageHeader>

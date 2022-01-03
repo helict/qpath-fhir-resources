@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="q4ms-dokumentanforderungkategorie-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html"><code>http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-q4ms-dokumentanforderungkategorie.html"><code>http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie</code></a></li></ul></div>
   </text>
-  <url value="http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-dokumentanforderungkategorie-vs"/>
+  <url value="http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-dokumentanforderungkategorie-vs"/>
   <version value="0.1.0"/>
   <name value="Q4MSDokumentanforderungkategorieVS"/>
   <title value="Dokumentanforderungkategorie"/>
   <status value="active"/>
-  <date value="2021-12-22T21:26:07+01:00"/>
+  <date value="2022-01-03T16:30:59+01:00"/>
   <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
     <name value="Forschungsgruppe Digital Health"/>
@@ -41,7 +41,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie"/>
+      <system value="http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie"/>
     </include>
   </compose>
 </ValueSet>

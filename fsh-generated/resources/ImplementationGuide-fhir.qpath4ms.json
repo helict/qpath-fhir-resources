@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "fhir.qpath4ms",
-  "url": "http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms",
+  "url": "http://qpath4ms.ukdd.de/ImplementationGuide/fhir.qpath4ms",
   "version": "0.1.0",
   "name": "QPath4MSIG",
   "title": "QPath4MS FHIR Implementation Guide",
@@ -168,7 +168,7 @@
         },
         "name": "Beispiel Arztbrief",
         "description": "Beispiel DocumentReference für einen Arztbrief",
-        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief"
+        "exampleCanonical": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief"
       },
       {
         "reference": {
@@ -176,7 +176,7 @@
         },
         "name": "Beispiel Befund",
         "description": "Beispiel DocumentReference für einen Befund",
-        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund"
+        "exampleCanonical": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund"
       },
       {
         "reference": {
@@ -184,7 +184,7 @@
         },
         "name": "Beispiel Konsiliarbericht",
         "description": "Beispiel DocumentReference für einen Konsiliarbericht",
-        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht"
+        "exampleCanonical": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht"
       },
       {
         "reference": {
@@ -192,7 +192,7 @@
         },
         "name": "Beispiel Laborergebnis",
         "description": "Beispiel DocumentReference für ein Laborergebnis",
-        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis"
+        "exampleCanonical": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis"
       },
       {
         "reference": {
@@ -459,7 +459,7 @@
         },
         "name": "Beispiel Rezept",
         "description": "Beispiel DocumentReference für ein Rezept",
-        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept"
+        "exampleCanonical": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept"
       },
       {
         "reference": {
@@ -467,7 +467,7 @@
         },
         "name": "Beispiel Sonstiges Dokument",
         "description": "Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU",
-        "exampleCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument"
+        "exampleCanonical": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument"
       },
       {
         "reference": {

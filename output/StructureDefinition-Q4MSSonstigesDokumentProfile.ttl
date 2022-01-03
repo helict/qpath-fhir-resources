@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile> a fhir:StructureDefinition;
+<http://qpath4ms.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile> a fhir:StructureDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Q4MSSonstigesDokumentProfile"];
   fhir:DomainResource.text [
@@ -21,12 +21,12 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category" ];
      fhir:Extension.valueCode [ fhir:value "not-classified" ]
   ];
-  fhir:StructureDefinition.url [ fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument"];
+  fhir:StructureDefinition.url [ fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument"];
   fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "Q4MSSonstigesDokumentProfile"];
   fhir:StructureDefinition.title [ fhir:value "Sonstiges Dokument"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-12-22T21:26:07+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-03T16:30:59+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -100,8 +100,8 @@
   fhir:StructureDefinition.abstract [ fhir:value "false"^^xsd:boolean];
   fhir:StructureDefinition.type [ fhir:value "DocumentReference"];
   fhir:StructureDefinition.baseDefinition [
-     fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument";
-     fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument>
+     fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument";
+     fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument>
   ];
   fhir:StructureDefinition.derivation [ fhir:value "constraint"];
   fhir:StructureDefinition.snapshot [
@@ -2610,7 +2610,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile.ttl> a owl:Ontology;
+<http://qpath4ms.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

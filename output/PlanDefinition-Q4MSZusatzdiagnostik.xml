@@ -3,9 +3,9 @@
 <PlanDefinition xmlns="http://hl7.org/fhir">
   <id value="Q4MSZusatzdiagnostik"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSZusatzdiagnostik" </p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: Workflow Definition <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html">PlanDefinitionType</a>#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2021-12-22T21:26:07+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href="https://tud.link/xd10">https://tud.link/xd10</a>,<a href="mailto:digital-health@tu-dresden.de">digital-health@tu-dresden.de</a>, Marcel Susky: <a href="mailto:marcel.susky@tu-dresden.de">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#DE)</span></p><blockquote><p><b>action</b></p><p><b>selectionBehavior</b>: any</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><h3>Actions</h3><table class="grid"><tr><td>-</td><td><b>Title</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Ganganalyse</td><td><a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-ganganalyse">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-ganganalyse</a></td></tr><tr><td>*</td><td>Optische Koheränztomographie (OCT)</td><td><a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie</a></td></tr><tr><td>*</td><td>Magnetresonanztomographie (MRT)</td><td><a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie</a></td></tr><tr><td>*</td><td>Laboruntersuchung</td><td><a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-laboruntersuchung">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-laboruntersuchung</a></td></tr><tr><td>*</td><td>Multiple Sclerosis Performance Test (MSPT)</td><td><a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test</a></td></tr></table></blockquote></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSZusatzdiagnostik" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: Workflow Definition <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html">PlanDefinitionType</a>#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-03T16:30:59+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href="https://tud.link/xd10">https://tud.link/xd10</a>,<a href="mailto:digital-health@tu-dresden.de">digital-health@tu-dresden.de</a>, Marcel Susky: <a href="mailto:marcel.susky@tu-dresden.de">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#DE)</span></p><blockquote><p><b>action</b></p><p><b>selectionBehavior</b>: any</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><h3>Actions</h3><table class="grid"><tr><td>-</td><td><b>Title</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Ganganalyse</td><td><a href="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse">http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse</a></td></tr><tr><td>*</td><td>Optische Koheränztomographie (OCT)</td><td><a href="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie">http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie</a></td></tr><tr><td>*</td><td>Magnetresonanztomographie (MRT)</td><td><a href="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie">http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie</a></td></tr><tr><td>*</td><td>Laboruntersuchung</td><td><a href="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-laboruntersuchung">http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-laboruntersuchung</a></td></tr><tr><td>*</td><td>Multiple Sclerosis Performance Test (MSPT)</td><td><a href="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test">http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test</a></td></tr></table></blockquote></div>
   </text>
-  <url value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik"/>
+  <url value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik"/>
   <version value="0.1.0"/>
   <type>
     <coding>
@@ -15,7 +15,7 @@
   </type>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2021-12-22T21:26:07+01:00"/>
+  <date value="2022-01-03T16:30:59+01:00"/>
   <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
     <name value="Forschungsgruppe Digital Health"/>
@@ -49,23 +49,23 @@
     <cardinalityBehavior value="single"/>
     <action>
       <title value="Ganganalyse"/>
-      <definitionCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-ganganalyse"/>
+      <definitionCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse"/>
     </action>
     <action>
       <title value="Optische Koheränztomographie (OCT)"/>
-      <definitionCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie"/>
+      <definitionCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie"/>
     </action>
     <action>
       <title value="Magnetresonanztomographie (MRT)"/>
-      <definitionCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie"/>
+      <definitionCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie"/>
     </action>
     <action>
       <title value="Laboruntersuchung"/>
-      <definitionCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-laboruntersuchung"/>
+      <definitionCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-laboruntersuchung"/>
     </action>
     <action>
       <title value="Multiple Sclerosis Performance Test (MSPT)"/>
-      <definitionCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test"/>
+      <definitionCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test"/>
     </action>
   </action>
 </PlanDefinition>

@@ -3,15 +3,15 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fhir.qpath4ms"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>QPath4MSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms</pre><div><p>Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>QPath4MSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://qpath4ms.ukdd.de/ImplementationGuide/fhir.qpath4ms</pre><div><p>Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade</p>
 </div></div>
   </text>
-  <url value="http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms"/>
+  <url value="http://qpath4ms.ukdd.de/ImplementationGuide/fhir.qpath4ms"/>
   <version value="0.1.0"/>
   <name value="QPath4MSIG"/>
   <title value="QPath4MS FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-12-22T21:26:07+01:00"/>
+  <date value="2022-01-03T16:30:59+01:00"/>
   <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
     <name value="Forschungsgruppe Digital Health"/>
@@ -113,7 +113,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://qpath.ukdd.de/history.html"/>
+        <valueString value="http://qpath4ms.ukdd.de/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -361,7 +361,7 @@
       </reference>
       <name value="Beispiel Arztbrief"/>
       <description value="Beispiel DocumentReference für einen Arztbrief"/>
-      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -372,7 +372,7 @@
       </reference>
       <name value="Beispiel Befund"/>
       <description value="Beispiel DocumentReference für einen Befund"/>
-      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -383,7 +383,7 @@
       </reference>
       <name value="Beispiel Konsiliarbericht"/>
       <description value="Beispiel DocumentReference für einen Konsiliarbericht"/>
-      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -394,7 +394,7 @@
       </reference>
       <name value="Beispiel Laborergebnis"/>
       <description value="Beispiel DocumentReference für ein Laborergebnis"/>
-      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -775,7 +775,7 @@
       </reference>
       <name value="Beispiel Rezept"/>
       <description value="Beispiel DocumentReference für ein Rezept"/>
-      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -786,7 +786,7 @@
       </reference>
       <name value="Beispiel Sonstiges Dokument"/>
       <description value="Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU"/>
-      <exampleCanonical value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

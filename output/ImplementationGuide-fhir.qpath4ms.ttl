@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms> a fhir:ImplementationGuide;
+<http://qpath4ms.ukdd.de/ImplementationGuide/fhir.qpath4ms> a fhir:ImplementationGuide;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "fhir.qpath4ms"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>QPath4MSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms</pre><div><p>Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>QPath4MSIG</h2><p>The official URL for this implementation guide is: </p><pre>http://qpath4ms.ukdd.de/ImplementationGuide/fhir.qpath4ms</pre><div><p>Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms"];
+  fhir:ImplementationGuide.url [ fhir:value "http://qpath4ms.ukdd.de/ImplementationGuide/fhir.qpath4ms"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "QPath4MSIG"];
   fhir:ImplementationGuide.title [ fhir:value "QPath4MS FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-12-22T21:26:07+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-03T16:30:59+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -163,7 +163,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "http://qpath.ukdd.de/history.html" ]
+         fhir:Extension.valueString [ fhir:value "http://qpath4ms.ukdd.de/history.html" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -295,7 +295,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSArztbriefProfile>;
+         fhir:link <http://qpath4ms.ukdd.de/StructureDefinition/Q4MSArztbriefProfile>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSArztbriefProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Arztbrief" ];
@@ -308,7 +308,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSBefundProfile>;
+         fhir:link <http://qpath4ms.ukdd.de/StructureDefinition/Q4MSBefundProfile>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSBefundProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Befund" ];
@@ -321,7 +321,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentProfile>;
+         fhir:link <http://qpath4ms.ukdd.de/StructureDefinition/Q4MSDokumentProfile>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSDokumentProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokument" ];
@@ -334,7 +334,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSDokumentanforderungProfile>;
+         fhir:link <http://qpath4ms.ukdd.de/StructureDefinition/Q4MSDokumentanforderungProfile>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSDokumentanforderungProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumentanforderung" ];
@@ -347,7 +347,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile>;
+         fhir:link <http://qpath4ms.ukdd.de/StructureDefinition/Q4MSKonsiliarberichtProfile>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSKonsiliarberichtProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Konsiliarbericht" ];
@@ -360,7 +360,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile>;
+         fhir:link <http://qpath4ms.ukdd.de/StructureDefinition/Q4MSLaborergebnisProfile>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSLaborergebnisProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laborergebnis" ];
@@ -373,7 +373,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSRezeptProfile>;
+         fhir:link <http://qpath4ms.ukdd.de/StructureDefinition/Q4MSRezeptProfile>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSRezeptProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Rezept" ];
@@ -386,7 +386,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile>;
+         fhir:link <http://qpath4ms.ukdd.de/StructureDefinition/Q4MSSonstigesDokumentProfile>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSSonstigesDokumentProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sonstiges Dokument" ];
@@ -399,7 +399,7 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/StructureDefinition/Q4MSTerminvereinbarungProfile>;
+         fhir:link <http://qpath4ms.ukdd.de/StructureDefinition/Q4MSTerminvereinbarungProfile>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/Q4MSTerminvereinbarungProfile" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminvereinbarung" ];
@@ -412,7 +412,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ValueSet/q4ms-anfragekategorie-vs>;
+         fhir:link <http://qpath4ms.ukdd.de/ValueSet/q4ms-anfragekategorie-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/q4ms-anfragekategorie-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Anfragekategorie" ];
@@ -426,7 +426,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ValueSet/q4ms-dokumentanforderungkategorie-vs>;
+         fhir:link <http://qpath4ms.ukdd.de/ValueSet/q4ms-dokumentanforderungkategorie-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/q4ms-dokumentanforderungkategorie-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumentanforderungkategorie" ];
@@ -440,7 +440,7 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ValueSet/q4ms-terminanfragekategorie-vs>;
+         fhir:link <http://qpath4ms.ukdd.de/ValueSet/q4ms-terminanfragekategorie-vs>;
          fhir:Reference.reference [ fhir:value "ValueSet/q4ms-terminanfragekategorie-vs" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminanfragekategorie" ];
@@ -454,7 +454,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/CodeSystem/q4ms-anfragekategorie>;
+         fhir:link <http://qpath4ms.ukdd.de/CodeSystem/q4ms-anfragekategorie>;
          fhir:Reference.reference [ fhir:value "CodeSystem/q4ms-anfragekategorie" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Anfragekategorie" ];
@@ -468,7 +468,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie>;
+         fhir:link <http://qpath4ms.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie>;
          fhir:Reference.reference [ fhir:value "CodeSystem/q4ms-dokumentanforderungkategorie" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumentanforderungkategorie" ];
@@ -482,7 +482,7 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/CodeSystem/q4ms-terminanfragekategorie>;
+         fhir:link <http://qpath4ms.ukdd.de/CodeSystem/q4ms-terminanfragekategorie>;
          fhir:Reference.reference [ fhir:value "CodeSystem/q4ms-terminanfragekategorie" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminanfragekategorie" ];
@@ -496,14 +496,14 @@
          fhir:Extension.valueString [ fhir:value "DocumentReference" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/DocumentReference/ArztbriefExample>;
+         fhir:link <http://qpath4ms.ukdd.de/DocumentReference/ArztbriefExample>;
          fhir:Reference.reference [ fhir:value "DocumentReference/ArztbriefExample" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Arztbrief" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für einen Arztbrief" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief";
-         fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief>
+         fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief";
+         fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief>
        ]
      ], [
        fhir:index 16;
@@ -513,14 +513,14 @@
          fhir:Extension.valueString [ fhir:value "DocumentReference" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/DocumentReference/BefundExample>;
+         fhir:link <http://qpath4ms.ukdd.de/DocumentReference/BefundExample>;
          fhir:Reference.reference [ fhir:value "DocumentReference/BefundExample" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Befund" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für einen Befund" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund";
-         fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund>
+         fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund";
+         fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund>
        ]
      ], [
        fhir:index 17;
@@ -530,14 +530,14 @@
          fhir:Extension.valueString [ fhir:value "DocumentReference" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/DocumentReference/KonsiliarberichtExample>;
+         fhir:link <http://qpath4ms.ukdd.de/DocumentReference/KonsiliarberichtExample>;
          fhir:Reference.reference [ fhir:value "DocumentReference/KonsiliarberichtExample" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Konsiliarbericht" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für einen Konsiliarbericht" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht";
-         fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht>
+         fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht";
+         fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht>
        ]
      ], [
        fhir:index 18;
@@ -547,14 +547,14 @@
          fhir:Extension.valueString [ fhir:value "DocumentReference" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/DocumentReference/LaborergebnisExample>;
+         fhir:link <http://qpath4ms.ukdd.de/DocumentReference/LaborergebnisExample>;
          fhir:Reference.reference [ fhir:value "DocumentReference/LaborergebnisExample" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Laborergebnis" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für ein Laborergebnis" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis";
-         fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis>
+         fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis";
+         fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis>
        ]
      ], [
        fhir:index 19;
@@ -564,7 +564,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Allgemeine neurologische Anamnese" ];
@@ -577,7 +577,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Allgemeine neurologische Anamnese" ];
@@ -590,7 +590,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Allgemeine neurologische Untersuchung" ];
@@ -603,7 +603,7 @@
          fhir:Extension.valueString [ fhir:value "MessageDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage>;
+         fhir:link <http://qpath4ms.ukdd.de/MessageDefinition/Q4MSArztbriefanfrage>;
          fhir:Reference.reference [ fhir:value "MessageDefinition/Q4MSArztbriefanfrage" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Arztbriefanfrage" ];
@@ -616,7 +616,7 @@
          fhir:Extension.valueString [ fhir:value "MessageHeader" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/MessageHeader/Q4MSArztbriefanfrageHeader>;
+         fhir:link <http://qpath4ms.ukdd.de/MessageHeader/Q4MSArztbriefanfrageHeader>;
          fhir:Reference.reference [ fhir:value "MessageHeader/Q4MSArztbriefanfrageHeader" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Arztbriefanfrage" ];
@@ -629,7 +629,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSArztvorstellung>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSArztvorstellung>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSArztvorstellung" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Arztvorstellung" ];
@@ -642,7 +642,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSAuswertung>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSAuswertung>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSAuswertung" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Auswertung" ];
@@ -655,7 +655,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSAuswertungAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSAuswertungAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSAuswertungAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Auswertung" ];
@@ -668,7 +668,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSBasismonitoring>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSBasismonitoring>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSBasismonitoring" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Basismonitoring Patientepfad" ];
@@ -681,7 +681,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSBefundauswertung>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSBefundauswertung>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSBefundauswertung" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Befundauswertung" ];
@@ -694,7 +694,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSBefundauswertungAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSBefundauswertungAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSBefundauswertungAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Befundauswertung" ];
@@ -707,7 +707,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSDokumenteAbfragenAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSDokumenteAbfragenAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumente abfragen" ];
@@ -720,7 +720,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteAbfragenPatient>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSDokumenteAbfragenPatient>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSDokumenteAbfragenPatient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumente beim Patienten abfragen" ];
@@ -733,7 +733,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSDokumenteUebermittelnAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSDokumenteUebermittelnAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSDokumenteUebermittelnAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumente übermitteln" ];
@@ -746,7 +746,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteUebermittelnArzt>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSDokumenteUebermittelnArzt>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSDokumenteUebermittelnArzt" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumente an Arzt übermitteln" ];
@@ -759,7 +759,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSDokumenteUebermittelnPatient>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSDokumenteUebermittelnPatient>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSDokumenteUebermittelnPatient" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dokumente an Patient übermitteln" ];
@@ -772,7 +772,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSEntlassung>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSEntlassung>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSEntlassung" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Entlassung" ];
@@ -785,7 +785,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Expanded Disability Status Scale (EDSS)" ];
@@ -798,7 +798,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSGanganalyse>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSGanganalyse>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSGanganalyse" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ganganalyse" ];
@@ -811,7 +811,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSGanganalyseAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSGanganalyseAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSGanganalyseAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ganganalyse" ];
@@ -824,7 +824,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSLaboruntersuchung>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSLaboruntersuchung>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSLaboruntersuchung" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laboruntersuchung" ];
@@ -837,7 +837,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSLaboruntersuchungAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSLaboruntersuchungAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSLaboruntersuchungAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laboruntersuchung" ];
@@ -850,7 +850,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSMagnetresonanztomographie>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSMagnetresonanztomographie>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSMagnetresonanztomographie" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Magnetresonanztomographie (MRT)" ];
@@ -863,7 +863,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSMagnetresonanztomographieAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSMagnetresonanztomographieAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Magnetresonanztomographie (MRT)" ];
@@ -876,7 +876,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSMultipleSclerosisPerformanceTest" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Multiple Sclerosis Performance Test (MSPT)" ];
@@ -889,7 +889,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Multiple Sclerosis Performance Test (MSPR)" ];
@@ -902,7 +902,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSOptischeKoheraenztomographie>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSOptischeKoheraenztomographie>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSOptischeKoheraenztomographie" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Optische Koheränztomographie (OCT)" ];
@@ -915,7 +915,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSOptischeKoheraenztomographieAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSOptischeKoheraenztomographieAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSOptischeKoheraenztomographieAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Optische Koheränztomographie (OCT)" ];
@@ -928,7 +928,7 @@
          fhir:Extension.valueString [ fhir:value "MessageDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/MessageDefinition/Q4MSTerminanfrage>;
+         fhir:link <http://qpath4ms.ukdd.de/MessageDefinition/Q4MSTerminanfrage>;
          fhir:Reference.reference [ fhir:value "MessageDefinition/Q4MSTerminanfrage" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminanfrage" ];
@@ -941,7 +941,7 @@
          fhir:Extension.valueString [ fhir:value "MessageHeader" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/MessageHeader/Q4MSTerminanfrageHeader>;
+         fhir:link <http://qpath4ms.ukdd.de/MessageHeader/Q4MSTerminanfrageHeader>;
          fhir:Reference.reference [ fhir:value "MessageHeader/Q4MSTerminanfrageHeader" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminanfrage" ];
@@ -954,7 +954,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSTerminvereinbarung>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSTerminvereinbarung>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSTerminvereinbarung" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminvereinbarung" ];
@@ -967,7 +967,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSTerminvereinbarungAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSTerminvereinbarungAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSTerminvereinbarungAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Terminvereinbarung" ];
@@ -980,7 +980,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSTherapiespezifischeDiagnostik>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSTherapiespezifischeDiagnostik>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSTherapiespezifischeDiagnostik" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Therapiespezifische Diagnostik" ];
@@ -993,7 +993,7 @@
          fhir:Extension.valueString [ fhir:value "ActivityDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD>;
+         fhir:link <http://qpath4ms.ukdd.de/ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD>;
          fhir:Reference.reference [ fhir:value "ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Therapiespezifische Diagnostik" ];
@@ -1006,7 +1006,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSVorstellung>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSVorstellung>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSVorstellung" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Erst- oder Wiedervorstellung" ];
@@ -1019,7 +1019,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSVoruntersuchung>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSVoruntersuchung>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSVoruntersuchung" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Voruntersuchung" ];
@@ -1032,7 +1032,7 @@
          fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/PlanDefinition/Q4MSZusatzdiagnostik>;
+         fhir:link <http://qpath4ms.ukdd.de/PlanDefinition/Q4MSZusatzdiagnostik>;
          fhir:Reference.reference [ fhir:value "PlanDefinition/Q4MSZusatzdiagnostik" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Zusatzdiagnostik" ];
@@ -1045,14 +1045,14 @@
          fhir:Extension.valueString [ fhir:value "DocumentReference" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/DocumentReference/RezeptExample>;
+         fhir:link <http://qpath4ms.ukdd.de/DocumentReference/RezeptExample>;
          fhir:Reference.reference [ fhir:value "DocumentReference/RezeptExample" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Rezept" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für ein Rezept" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept";
-         fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept>
+         fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept";
+         fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept>
        ]
      ], [
        fhir:index 57;
@@ -1062,14 +1062,14 @@
          fhir:Extension.valueString [ fhir:value "DocumentReference" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/DocumentReference/SonstigesDokumentExample>;
+         fhir:link <http://qpath4ms.ukdd.de/DocumentReference/SonstigesDokumentExample>;
          fhir:Reference.reference [ fhir:value "DocumentReference/SonstigesDokumentExample" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Sonstiges Dokument" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU" ];
        fhir:ImplementationGuide.definition.resource.exampleCanonical [
-         fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument";
-         fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument>
+         fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument";
+         fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument>
        ]
      ], [
        fhir:index 58;
@@ -1079,7 +1079,7 @@
          fhir:Extension.valueString [ fhir:value "Patient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://qpath.ukdd.de/Patient/john-doe>;
+         fhir:link <http://qpath4ms.ukdd.de/Patient/john-doe>;
          fhir:Reference.reference [ fhir:value "Patient/john-doe" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Beispiel Patient" ];
@@ -1162,7 +1162,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms.ttl> a owl:Ontology;
+<http://qpath4ms.ukdd.de/ImplementationGuide/fhir.qpath4ms.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

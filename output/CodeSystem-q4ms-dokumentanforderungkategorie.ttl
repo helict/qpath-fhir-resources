@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie> a fhir:CodeSystem;
+<http://qpath4ms.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "q4ms-dokumentanforderungkategorie"];
   fhir:Resource.meta [
@@ -17,14 +17,14 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">laboratory-result<a name=\"q4ms-dokumentanforderungkategorie-laboratory-result\"> </a></td><td>Laborergebnis</td><td>Anforderung eines Laborergebnisses</td></tr><tr><td style=\"white-space:nowrap\">finding<a name=\"q4ms-dokumentanforderungkategorie-finding\"> </a></td><td>Befund</td><td>Anforderung eines Befunds</td></tr><tr><td style=\"white-space:nowrap\">doctor-letter<a name=\"q4ms-dokumentanforderungkategorie-doctor-letter\"> </a></td><td>Arztbrief</td><td>Anforderung eines Arztbriefs</td></tr><tr><td style=\"white-space:nowrap\">consiliary-report<a name=\"q4ms-dokumentanforderungkategorie-consiliary-report\"> </a></td><td>Konsiliarbericht</td><td>Anforderung eines Konsiliarberichts</td></tr><tr><td style=\"white-space:nowrap\">prescription<a name=\"q4ms-dokumentanforderungkategorie-prescription\"> </a></td><td>Rezept</td><td>Anforderung eines Rezepts</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"q4ms-dokumentanforderungkategorie-other\"> </a></td><td>Sonstiges</td><td>Anforderung eines sonstigen Dokuments</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">laboratory-result<a name=\"q4ms-dokumentanforderungkategorie-laboratory-result\"> </a></td><td>Laborergebnis</td><td>Anforderung eines Laborergebnisses</td></tr><tr><td style=\"white-space:nowrap\">finding<a name=\"q4ms-dokumentanforderungkategorie-finding\"> </a></td><td>Befund</td><td>Anforderung eines Befunds</td></tr><tr><td style=\"white-space:nowrap\">doctor-letter<a name=\"q4ms-dokumentanforderungkategorie-doctor-letter\"> </a></td><td>Arztbrief</td><td>Anforderung eines Arztbriefs</td></tr><tr><td style=\"white-space:nowrap\">consiliary-report<a name=\"q4ms-dokumentanforderungkategorie-consiliary-report\"> </a></td><td>Konsiliarbericht</td><td>Anforderung eines Konsiliarberichts</td></tr><tr><td style=\"white-space:nowrap\">prescription<a name=\"q4ms-dokumentanforderungkategorie-prescription\"> </a></td><td>Rezept</td><td>Anforderung eines Rezepts</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"q4ms-dokumentanforderungkategorie-other\"> </a></td><td>Sonstiges</td><td>Anforderung eines sonstigen Dokuments</td></tr></table></div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie"];
+  fhir:CodeSystem.url [ fhir:value "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie"];
   fhir:CodeSystem.version [ fhir:value "0.1.0"];
   fhir:CodeSystem.name [ fhir:value "Q4MSDokumentanforderungkategorie"];
   fhir:CodeSystem.title [ fhir:value "Dokumentanforderungkategorie"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-12-22T21:26:07+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-01-03T16:30:59+01:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:CodeSystem.contact [
      fhir:index 0;
@@ -95,7 +95,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://qpath.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie.ttl> a owl:Ontology;
+<http://qpath4ms.ukdd.de/CodeSystem/q4ms-dokumentanforderungkategorie.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

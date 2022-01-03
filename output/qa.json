@@ -1,10 +1,10 @@
 {
-  "url": "http://qpath.ukdd.de/ImplementationGuide/fhir.qpath4ms",
+  "url": "http://qpath4ms.ukdd.de/ImplementationGuide/fhir.qpath4ms",
   "name": "QPath4MSIG",
   "package-id": "fhir.qpath4ms",
   "ig-ver": "0.1.0",
-  "date": "Wed, 22 Dec, 2021 21:26:07 +0100",
-  "errs": 5,
+  "date": "Mon, 03 Jan, 2022 16:30:59 +0100",
+  "errs": 49,
   "warnings": 113,
   "hints": 35,
   "version": "4.0.1",

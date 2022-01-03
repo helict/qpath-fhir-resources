@@ -3,14 +3,14 @@
   "id": "q4ms-anfragekategorie-vs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-q4ms-anfragekategorie.html\"><code>http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-anfragekategorie</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-q4ms-anfragekategorie.html\"><code>http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-anfragekategorie</code></a></li></ul></div>"
   },
-  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-anfragekategorie-vs",
+  "url": "http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-anfragekategorie-vs",
   "version": "0.1.0",
   "name": "Q4MSAnfragekategorieVS",
   "title": "Anfragekategorie",
   "status": "active",
-  "date": "2021-12-22T21:26:07+01:00",
+  "date": "2022-01-03T16:30:59+01:00",
   "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
@@ -52,7 +52,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-anfragekategorie"
+        "system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-anfragekategorie"
       }
     ]
   }

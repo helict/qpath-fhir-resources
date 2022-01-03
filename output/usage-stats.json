@@ -7,25 +7,25 @@
   "profiles": {
     "DocumentReference": [
       {
-        "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-konsiliarbericht",
+        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht",
         "title": "Konsiliarbericht"
       },
       {
-        "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-laborergebnis",
+        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis",
         "title": "Laborergebnis"
       },
       {
-        "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-rezept",
+        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept",
         "title": "Rezept"
       },
       {
-        "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-sonstiges-dokument",
+        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument",
         "title": "Sonstiges Dokument"
       }
     ],
     "MessageDefinition": [
       {
-        "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-terminvereinbarung",
+        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-terminvereinbarung",
         "title": "Terminvereinbarung"
       }
     ]

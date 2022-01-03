@@ -11,7 +11,7 @@
       "valueCode": "anonymous"
     }
   ],
-  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokumentanforderung",
+  "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokumentanforderung",
   "version": "0.1.0",
   "name": "Q4MSDokumentanforderungProfile",
   "title": "Dokumentanforderung",
@@ -68,7 +68,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/ValueSet/q4ms-dokumentanforderungkategorie-vs"
+          "valueSet": "http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-dokumentanforderungkategorie-vs"
         }
       },
       {

@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSVoruntersuchung",
-  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-voruntersuchung",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-voruntersuchung",
   "type": {
     "coding": [
       {
@@ -35,11 +35,11 @@
           "action": [
             {
               "title": "Multiple Sclerosis Performance Test (MSPT)",
-              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test"
+              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test"
             },
             {
               "title": "Therapiespezifische Diagnostik",
-              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik"
+              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik"
             }
           ]
         },
@@ -59,15 +59,15 @@
           "action": [
             {
               "title": "Optische Kohärenztomographie (OCT)",
-              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie"
+              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie"
             },
             {
               "title": "Ganganalyse",
-              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-ganganalyse"
+              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse"
             },
             {
               "title": "Magnetresonanztomographie (MRT)",
-              "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie"
+              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie"
             }
           ]
         }

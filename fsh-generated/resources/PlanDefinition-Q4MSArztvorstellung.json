@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSArztvorstellung",
-  "url": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-arztvorstellung",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-arztvorstellung",
   "type": {
     "coding": [
       {
@@ -22,23 +22,23 @@
       "action": [
         {
           "title": "Allgemeine und neurologische Untersuchung",
-          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung"
         },
         {
           "title": "Befundauswertung",
-          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-befundauswertung"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-befundauswertung"
         },
         {
           "title": "Allgemeine und neurologische Anamnese",
-          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese"
         },
         {
           "title": "Therapiespezifische Diagnostik",
-          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik"
         },
         {
           "title": "Zusatzdiagnostik",
-          "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik"
         }
       ]
     },
@@ -50,7 +50,7 @@
           "relationship": "after-end"
         }
       ],
-      "definitionCanonical": "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/PlanDefinition/q4ms-auswertung"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-auswertung"
     }
   ]
 }

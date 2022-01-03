@@ -3,7 +3,7 @@
   "id": "ArztbriefExample",
   "meta": {
     "profile": [
-      "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief"
+      "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief"
     ]
   },
   "status": "current",

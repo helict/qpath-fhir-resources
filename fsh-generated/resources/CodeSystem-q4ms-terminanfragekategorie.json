@@ -7,7 +7,7 @@
   "title": "Terminanfragekategorie",
   "description": "Deklariert Terminanfragekategorien",
   "version": "1.0.0",
-  "url": "http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-terminanfragekategorie",
+  "url": "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-terminanfragekategorie",
   "concept": [
     {
       "code": "booking",

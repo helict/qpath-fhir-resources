@@ -3,12 +3,12 @@
 <MessageDefinition xmlns="http://hl7.org/fhir">
   <id value="Q4MSArztbriefanfrage"/>
   <meta>
-    <profile value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokumentanforderung"/>
+    <profile value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokumentanforderung"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSArztbriefanfrage" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Q4MSDokumentanforderungProfile.html">Dokumentanforderung</a></p></div><p><b>url</b>: <code>http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2021-12-21</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href="https://tud.link/xd10">https://tud.link/xd10</a>,<a href="mailto:digital-health@tu-dresden.de">digital-health@tu-dresden.de</a>, Marcel Susky: <a href="mailto:marcel.susky@tu-dresden.de">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#DE)</span></p><p><b>parent</b>: <a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn</a></p><p><b>event</b>: Arztbrief (Details: http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie code doctor-letter = 'Arztbrief', stated as 'null')</p><h3>Focus</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Profile</b></td><td><b>Min</b></td></tr><tr><td>*</td><td>DocumentReference</td><td><a href="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief">http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief</a></td><td>1</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSArztbriefanfrage" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Q4MSDokumentanforderungProfile.html">Dokumentanforderung</a></p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-arztbriefanfrage</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>date</b>: 2021-12-21</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href="https://tud.link/xd10">https://tud.link/xd10</a>,<a href="mailto:digital-health@tu-dresden.de">digital-health@tu-dresden.de</a>, Marcel Susky: <a href="mailto:marcel.susky@tu-dresden.de">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#DE)</span></p><p><b>parent</b>: <a href="http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn</a></p><p><b>event</b>: Arztbrief (Details: http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie code doctor-letter = 'Arztbrief', stated as 'null')</p><h3>Focus</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td><td><b>Profile</b></td><td><b>Min</b></td></tr><tr><td>*</td><td>DocumentReference</td><td><a href="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief">http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief</a></td><td>1</td></tr></table></div>
   </text>
-  <url value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/MessageDefinition/q4ms-arztbriefanfrage"/>
+  <url value="http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-arztbriefanfrage"/>
   <version value="0.1.0"/>
   <status value="draft"/>
   <date value="2021-12-21"/>
@@ -39,14 +39,14 @@
       <display value="Germany"/>
     </coding>
   </jurisdiction>
-  <parent value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn"/>
+  <parent value="http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn"/>
   <eventCoding>
-    <system value="http://terminology-fgdh.wiwi.tu-dresden.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie"/>
+    <system value="http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie"/>
     <code value="doctor-letter"/>
   </eventCoding>
   <focus>
     <code value="DocumentReference"/>
-    <profile value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-arztbrief"/>
+    <profile value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief"/>
     <min value="1"/>
   </focus>
 </MessageDefinition>

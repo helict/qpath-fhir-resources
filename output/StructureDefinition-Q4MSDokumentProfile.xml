@@ -16,12 +16,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="not-classified"/>
   </extension>
-  <url value="http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-dokument"/>
+  <url value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument"/>
   <version value="0.1.0"/>
   <name value="Q4MSDokumentProfile"/>
   <title value="Dokument"/>
   <status value="active"/>
-  <date value="2021-12-22T21:26:07+01:00"/>
+  <date value="2022-01-03T16:30:59+01:00"/>
   <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
     <name value="Forschungsgruppe Digital Health"/>

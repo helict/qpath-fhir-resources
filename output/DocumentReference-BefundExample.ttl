@@ -5,14 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://qpath.ukdd.de/DocumentReference/BefundExample> a fhir:DocumentReference;
+<http://qpath4ms.ukdd.de/DocumentReference/BefundExample> a fhir:DocumentReference;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "BefundExample"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund";
+       fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund";
        fhir:index 0;
-       fhir:link <http://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/q4ms-befund>
+       fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund>
      ]
   ];
   fhir:DomainResource.text [
@@ -21,7 +21,7 @@
   ];
   fhir:DocumentReference.status [ fhir:value "current"];
   fhir:DocumentReference.subject [
-     fhir:link <http://qpath.ukdd.de/Patient/john-doe>;
+     fhir:link <http://qpath4ms.ukdd.de/Patient/john-doe>;
      fhir:Reference.reference [ fhir:value "Patient/john-doe" ]
   ];
   fhir:DocumentReference.content [
@@ -33,7 +33,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://qpath.ukdd.de/DocumentReference/BefundExample.ttl> a owl:Ontology;
+<http://qpath4ms.ukdd.de/DocumentReference/BefundExample.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
