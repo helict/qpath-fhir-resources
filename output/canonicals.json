@@ -301,6 +301,13 @@
     "name": "Q4MSTerminvereinbarungProfile"
   },
   {
+    "id": "Q4MSActivityDefinitionTaskTransform",
+    "type": "StructureMap",
+    "url": "http://qpath4ms.ukdd.de/fhir/StructureMap/q4ms-activitydefinition-task-transform-sm",
+    "version": "0.1.0",
+    "name": "Transformiert eine ActivityDefinition in einen Task"
+  },
+  {
     "id": "q4ms-anfragekategorie-vs",
     "type": "ValueSet",
     "url": "http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-anfragekategorie-vs",

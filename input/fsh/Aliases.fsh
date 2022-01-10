@@ -1,16 +1,24 @@
 // Common Aliases
 Alias: $action-type = http://terminology.hl7.org/CodeSystem/action-type
+Alias: $activitydefinition-sd = http://hl7.org/fhir/StructureDefinition/activitydefinition
 Alias: $codesystem-content-mode = http://hl7.org/fhir/codesystem-content-mode
 Alias: $composition-status = http://hl7.org/fhir/composition-status
 Alias: $document-reference-status = http://hl7.org/fhir/document-reference-status
 Alias: $ihe-xds-class-code = http://ihe-d.de/ValueSets/IHEXDSclassCode
 Alias: $ihe-xds-confidentiality-code = http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode
 Alias: $ihe-xds-type-code = http://ihe-d.de/ValueSets/IHEXDStypeCode
+Alias: $map-context-type = http://hl7.org/fhir/map-context-type
+Alias: $map-group-type-mode = http://hl7.org/fhir/map-group-type-mode
+Alias: $map-input-mode = http://hl7.org/fhir/map-input-mode
+Alias: $map-model-mode = http://hl7.org/fhir/map-model-mode
+Alias: $map-transform = http://hl7.org/fhir/map-transform
 Alias: $message-significance-category = http://hl7.org/fhir/message-significance-category
 Alias: $messageheader-response-request = http://hl7.org/fhir/messageheader-response-request
 Alias: $plan-definition-type = http://terminology.hl7.org/CodeSystem/plan-definition-type
 Alias: $publication-status = http://hl7.org/fhir/publication-status
+Alias: $request-intent = http://hl7.org/fhir/request-intent
 Alias: $resource-type = http://hl7.org/fhir/resource-types
+Alias: $task-sd = http://hl7.org/fhir/StructureDefinition/task
 Alias: $v2-0003 = http://terminology.hl7.org/CodeSystem/v2-0003
 Alias: $v2-0267 = http://terminology.hl7.org/CodeSystem/v2-0267
 
@@ -73,3 +81,6 @@ Alias: $q4ms-terminvereinbarung-sd = http://qpath4ms.ukdd.de/fhir/StructureDefin
 // QPath4MS Pathway MessageDefinition Aliases
 Alias: $q4ms-arztbriefanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-arztbriefanfrage
 Alias: $q4ms-terminanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-terminanfrage
+
+// QPath4MS StructureMap Definition Aliases
+Alias: $q4ms-activitydefinition-task-transform-sm = http://qpath4ms.ukdd.de/fhir/StructureMap/q4ms-activitydefinition-task-transform-sm

@@ -10,7 +10,7 @@
   "name": "QPath4MSIG",
   "title": "QPath4MS FHIR Implementation Guide",
   "status": "draft",
-  "date": "2022-01-03T16:30:59+01:00",
+  "date": "2022-01-10T21:07:17+01:00",
   "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
@@ -561,6 +561,19 @@
         "name": "Beispiel Laborergebnis",
         "description": "Beispiel DocumentReference für ein Laborergebnis",
         "exampleCanonical": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureMap"
+          }
+        ],
+        "reference": {
+          "reference": "StructureMap/Q4MSActivityDefinitionTaskTransform"
+        },
+        "name": "Transformiert eine ActivityDefinition in einen Task",
+        "exampleBoolean": false
       },
       {
         "extension": [

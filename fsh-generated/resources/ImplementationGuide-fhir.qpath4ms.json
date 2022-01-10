@@ -196,6 +196,13 @@
       },
       {
         "reference": {
+          "reference": "StructureMap/Q4MSActivityDefinitionTaskTransform"
+        },
+        "name": "Transformiert eine ActivityDefinition in einen Task",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese"
         },
         "name": "Allgemeine neurologische Anamnese",

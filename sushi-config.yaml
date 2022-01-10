@@ -79,10 +79,11 @@ menu:
     Profiles: artifacts.html#2
     Value Sets: artifacts.html#3
     Code Systems: artifacts.html#4
-    Activity Definitinos: artifacts.html#5
-    Plan Definitinos: artifacts.html#6
-    Examples: artifacts.html#7
-    Other: artifacts.html#8
+    Structure Maps: artifacts.html#5
+    Activity Definitions: artifacts.html#6
+    Plan Definitinos: artifacts.html#7
+    Examples: artifacts.html#8
+    Other: artifacts.html#9
   Downloads:
     Full IG: full-ig.zip
 
