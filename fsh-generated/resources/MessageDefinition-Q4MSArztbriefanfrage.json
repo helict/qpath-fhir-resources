@@ -17,7 +17,7 @@
   ],
   "date": "2021-12-21",
   "parent": [
-    "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn"
+    "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen"
   ],
   "eventCoding": {
     "code": "doctor-letter",

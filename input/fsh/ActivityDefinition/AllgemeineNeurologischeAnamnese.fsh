@@ -1,6 +1,6 @@
 Instance: Q4MSAllgemeineNeurologischeAnamneseAD
 InstanceOf: ActivityDefinition
-Title: "Allgemeine neurologische Anamnese"
+Title: "Allgemeine und neurologische Anamnese"
 Usage: #definition
 * url = $q4ms-allgemeine-neurologische-anamnese-ad
 * status = $publication-status#draft

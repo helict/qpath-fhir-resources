@@ -3,7 +3,7 @@
   "id": "Q4MSDokumenteAbfragenPatient",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSDokumenteAbfragenPatient\" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: ECA Rule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#eca-rule)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-10T21:07:17+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Type</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Dokumente abfragen</td><td>Create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-action-type.html\">ActionType</a>#create)</span></td><td><a href=\"http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn\">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn</a></td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSDokumenteAbfragenPatient\" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: ECA Rule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#eca-rule)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-13T14:43:39+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Type</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Dokumente abfragen</td><td>Create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-action-type.html\">ActionType</a>#create)</span></td><td><a href=\"http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen\">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen</a></td></tr></table></div>"
   },
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient",
   "version": "0.1.0",
@@ -17,7 +17,7 @@
   },
   "status": "draft",
   "experimental": true,
-  "date": "2022-01-10T21:07:17+01:00",
+  "date": "2022-01-13T14:43:39+01:00",
   "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
@@ -66,7 +66,7 @@
           }
         ]
       },
-      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen"
     }
   ]
 }

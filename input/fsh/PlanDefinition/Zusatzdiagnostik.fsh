@@ -11,8 +11,8 @@ Usage: #definition
 * action.cardinalityBehavior = #single
 * action.action[0].title = "Ganganalyse"
 * action.action[=].definitionCanonical = Canonical(Q4MSGanganalyse)
-* action.action[+].title = "Optische Koheränztomographie (OCT)"
-* action.action[=].definitionCanonical = Canonical(Q4MSOptischeKoheraenztomographie)
+* action.action[+].title = "Optische Kohärenztomographie (OCT)"
+* action.action[=].definitionCanonical = Canonical(Q4MSOptischeKohaerenztomographie)
 * action.action[+].title = "Magnetresonanztomographie (MRT)"
 * action.action[=].definitionCanonical = Canonical(Q4MSMagnetresonanztomographie)
 * action.action[+].title = "Laboruntersuchung"

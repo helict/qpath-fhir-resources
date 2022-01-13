@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Task xmlns="http://hl7.org/fhir">
+  <id value="AllgemeineNeurologischeUntersuchungExampleTSK"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "AllgemeineNeurologischeUntersuchungExampleTSK" </p></div><p><b>instantiatesCanonical</b>: <a href="http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-expanded-disability-status-scale">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-expanded-disability-status-scale</a></p><p><b>status</b>: ready</p><p><b>intent</b>: option</p><p><b>code</b>: Activate/approve the focal resource <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R4/codesystem-task-code.html">Task Codes</a>#approve)</span></p><p><b>description</b>: Expanded Disability Status Scale (EDSS)</p><p><b>executionPeriod</b>: 2022-01-12T12:00:00Z --&gt; 2022-01-15T00:00:00Z</p><p><b>authoredOn</b>: 2022-01-12T12:00:00Z</p><p><b>performerType</b>: Neurologist <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#56397003)</span></p><h3>Restrictions</h3><table class="grid"><tr><td>-</td><td><b>Period</b></td><td><b>Recipient</b></td></tr><tr><td>*</td><td>2022-01-12T12:00:00Z --&gt; 2022-01-21T00:00:00Z</td><td><a href="Patient-PatientJohnDoe.html">Patient/PatientJohnDoe</a> " DOE"</td></tr></table></div>
+  </text>
+  <instantiatesCanonical value="http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-expanded-disability-status-scale"/>
+  <status value="ready"/>
+  <intent value="option"/>
+  <code>
+    <coding>
+      <system value="http://hl7.org/fhir/CodeSystem/task-code"/>
+      <code value="approve"/>
+    </coding>
+  </code>
+  <description value="Expanded Disability Status Scale (EDSS)"/>
+  <executionPeriod>
+    <start value="2022-01-12T12:00:00Z"/>
+    <end value="2022-01-15T00:00:00Z"/>
+  </executionPeriod>
+  <authoredOn value="2022-01-12T12:00:00Z"/>
+  <performerType>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="56397003"/>
+    </coding>
+  </performerType>
+  <restriction>
+    <period>
+      <start value="2022-01-12T12:00:00Z"/>
+      <end value="2022-01-21T00:00:00Z"/>
+    </period>
+    <recipient>
+      <reference value="Patient/PatientJohnDoe"/>
+    </recipient>
+  </restriction>
+</Task>

@@ -31,7 +31,7 @@ Usage: #definition
 * action.action[=].requiredBehavior = #must-unless-documented
 * action.action[=].cardinalityBehavior = #single
 * action.action[=].action[0].title = "Optische Kohärenztomographie (OCT)"
-* action.action[=].action[=].definitionCanonical = Canonical(Q4MSOptischeKoheraenztomographie)
+* action.action[=].action[=].definitionCanonical = Canonical(Q4MSOptischeKohaerenztomographie)
 * action.action[=].action[+].title = "Ganganalyse"
 * action.action[=].action[=].definitionCanonical = Canonical(Q4MSGanganalyse)
 * action.action[=].action[+].title = "Magnetresonanztomographie (MRT)"

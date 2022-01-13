@@ -23,7 +23,7 @@
           }
         ]
       },
-      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen"
     }
   ]
 }

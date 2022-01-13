@@ -15,7 +15,7 @@ Usage: #definition
 * action.action[=].requiredBehavior = #must-unless-documented
 * action.action[=].cardinalityBehavior = #single
 * action.action[=].action[0].title = "Terminvereinbarung"
-* action.action[=].action[=].description = "Termin zur Wiederorstellung vereinbaren"
+* action.action[=].action[=].description = "Termin zur Wiedervorstellung vereinbaren"
 * action.action[=].action[=].timingTiming.repeat.frequency = 1
 * action.action[=].action[=].timingTiming.repeat.period = 3
 * action.action[=].action[=].timingTiming.repeat.periodUnit = #mo

@@ -23,7 +23,7 @@
           "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse"
         },
         {
-          "title": "Optische Koheränztomographie (OCT)",
+          "title": "Optische Kohärenztomographie (OCT)",
           "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie"
         },
         {

@@ -14,7 +14,7 @@
   "experimental": true,
   "action": [
     {
-      "title": "Expanded Disability Status Scale (EDSS)",
+      "title": "Allgemeine und neurologische Anamnese",
       "type": {
         "coding": [
           {
@@ -23,7 +23,7 @@
           }
         ]
       },
-      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-expanded-disability-status-scale"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-allgemeine-neurologische-anamnese"
     }
   ]
 }

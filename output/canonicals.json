@@ -27,7 +27,7 @@
   {
     "id": "Q4MSDokumenteAbfragenAD",
     "type": "ActivityDefinition",
-    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn",
+    "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen",
     "version": "0.1.0"
   },
   {
@@ -67,7 +67,7 @@
     "version": "0.1.0"
   },
   {
-    "id": "Q4MSOptischeKoheraenztomographieAD",
+    "id": "Q4MSOptischeKohaerenztomographieAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-optische-koheraenztomographie",
     "version": "0.1.0"
@@ -202,7 +202,7 @@
     "version": "0.1.0"
   },
   {
-    "id": "Q4MSOptischeKoheraenztomographie",
+    "id": "Q4MSOptischeKohaerenztomographie",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie",
     "version": "0.1.0"

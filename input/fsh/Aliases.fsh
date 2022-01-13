@@ -1,6 +1,7 @@
 // Common Aliases
 Alias: $action-type = http://terminology.hl7.org/CodeSystem/action-type
 Alias: $activitydefinition-sd = http://hl7.org/fhir/StructureDefinition/activitydefinition
+Alias: $appointment-status = http://hl7.org/fhir/appointmentstatus
 Alias: $codesystem-content-mode = http://hl7.org/fhir/codesystem-content-mode
 Alias: $composition-status = http://hl7.org/fhir/composition-status
 Alias: $document-reference-status = http://hl7.org/fhir/document-reference-status
@@ -14,13 +15,20 @@ Alias: $map-model-mode = http://hl7.org/fhir/map-model-mode
 Alias: $map-transform = http://hl7.org/fhir/map-transform
 Alias: $message-significance-category = http://hl7.org/fhir/message-significance-category
 Alias: $messageheader-response-request = http://hl7.org/fhir/messageheader-response-request
+Alias: $participant-required = http://hl7.org/fhir/participantrequired
+Alias: $participation-status = http://hl7.org/fhir/participationstatus
 Alias: $plan-definition-type = http://terminology.hl7.org/CodeSystem/plan-definition-type
 Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $request-intent = http://hl7.org/fhir/request-intent
 Alias: $resource-type = http://hl7.org/fhir/resource-types
+Alias: $snomed-ct = http://snomed.info/sct
+Alias: $task-code = http://hl7.org/fhir/CodeSystem/task-code
 Alias: $task-sd = http://hl7.org/fhir/StructureDefinition/task
+Alias: $task-status = http://hl7.org/fhir/task-status
 Alias: $v2-0003 = http://terminology.hl7.org/CodeSystem/v2-0003
-Alias: $v2-0267 = http://terminology.hl7.org/CodeSystem/v2-0267
+Alias: $v2-0276 = http://terminology.hl7.org/CodeSystem/v2-0276
+Alias: $v3-participation-type = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
+Alias: $v3-role-code = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 // QPath4MS Terminology Aliases
 Alias: $q4ms-anfragekategorie = http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-anfragekategorie
@@ -56,7 +64,7 @@ Alias: $q4ms-zusatzdiagnostik = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms
 Alias: $q4ms-allgemeine-neurologische-anamnese-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-allgemeine-neurologische-anamnese
 Alias: $q4ms-auswertung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-auswertung
 Alias: $q4ms-befundauswertung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-befundauswertung
-Alias: $q4ms-dokumente-abfragen-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragenn
+Alias: $q4ms-dokumente-abfragen-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen
 Alias: $q4ms-dokumente-uebermitteln-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-uebermitteln
 Alias: $q4ms-expanded-disability-status-scale-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-expanded-disability-status-scale
 Alias: $q4ms-ganganalyse-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-ganganalyse

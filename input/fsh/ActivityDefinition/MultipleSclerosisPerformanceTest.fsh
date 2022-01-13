@@ -1,6 +1,6 @@
 Instance: Q4MSMultipleSclerosisPerformanceTestAD
 InstanceOf: ActivityDefinition
-Title: "Multiple Sclerosis Performance Test (MSPR)"
+Title: "Multiple Sclerosis Performance Test (MSPT)"
 Usage: #definition
 * url = $q4ms-multiple-sclerosis-performance-test-ad
 * status = $publication-status#draft

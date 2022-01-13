@@ -27,7 +27,7 @@
           "action": [
             {
               "title": "Terminvereinbarung",
-              "description": "Termin zur Wiederorstellung vereinbaren",
+              "description": "Termin zur Wiedervorstellung vereinbaren",
               "timingTiming": {
                 "repeat": {
                   "frequency": 1,
