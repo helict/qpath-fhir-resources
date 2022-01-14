@@ -5,8 +5,9 @@
 Please visit [FHIR Implementation Guide](https://helict.github.io/qpath-fhir-resources/output/)
 
 To interprete/compile FHIR Shorthand (FSH) files use [SUSHI](https://github.com/FHIR/sushi) command line tool (reverse conversion
-with [GoFSH](https://github.com/FHIR/GoFSH). To generate the complete QPath4MS FHIR IG run `_updatePublisher.sh` (optionally) and
-`_genonce.sh` script one the repository.
+with [GoFSH](https://github.com/FHIR/GoFSH)). To generate the complete QPath4MS FHIR IG run `_updatePublisher.sh` (optionally) and
+`_genonce.sh` script on the repository. Later we can migrate to https://build.fhir.org using the 
+[Auto IG Builder](https://github.com/FHIR/auto-ig-builder).
 
 ### Looking for FHIR JSON resources?
 
