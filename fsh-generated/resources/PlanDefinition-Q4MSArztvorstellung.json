@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSArztvorstellung",
-  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-arztvorstellung",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSArztvorstellung",
   "type": {
     "coding": [
       {
@@ -22,23 +22,23 @@
       "action": [
         {
           "title": "Allgemeine und neurologische Untersuchung",
-          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung"
         },
         {
           "title": "Befundauswertung",
-          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-befundauswertung"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBefundauswertung"
         },
         {
           "title": "Allgemeine und neurologische Anamnese",
-          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese"
         },
         {
           "title": "Therapiespezifische Diagnostik",
-          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTherapiespezifischeDiagnostik"
         },
         {
           "title": "Zusatzdiagnostik",
-          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik"
+          "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSZusatzdiagnostik"
         }
       ]
     },
@@ -50,7 +50,7 @@
           "relationship": "after-end"
         }
       ],
-      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-auswertung"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAuswertung"
     }
   ]
 }

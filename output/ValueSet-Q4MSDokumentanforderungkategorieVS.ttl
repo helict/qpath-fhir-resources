@@ -1,0 +1,67 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/ValueSet/Q4MSDokumentanforderungkategorieVS> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Q4MSDokumentanforderungkategorieVS"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-Q4MSDokumentanforderungkategorie.html\"><code>http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie</code></a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://qpath4ms.ukdd.de/fhir/ValueSet/Q4MSDokumentanforderungkategorieVS"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "Q4MSDokumentanforderungkategorieVS"];
+  fhir:ValueSet.title [ fhir:value "Dokumentanforderungkategorie"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2022-01-19T20:56:59+01:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "Forschungsgruppe Digital Health"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Forschungsgruppe Digital Health" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://tud.link/xd10" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "digital-health@tu-dresden.de" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Marcel Susky" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "marcel.susky@tu-dresden.de" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Definiert Dokumentanforderungkategorien"];
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "DE" ];
+       fhir:Coding.display [ fhir:value "Germany" ]
+     ]
+  ];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/ValueSet/Q4MSDokumentanforderungkategorieVS.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

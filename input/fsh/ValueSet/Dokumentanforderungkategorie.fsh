@@ -1,5 +1,4 @@
 ValueSet: Q4MSDokumentanforderungkategorieVS
-Id: q4ms-dokumentanforderungkategorie-vs
 Title: "Dokumentanforderungkategorie"
 Description: "Definiert Dokumentanforderungkategorien"
 * ^status = $publication-status#active

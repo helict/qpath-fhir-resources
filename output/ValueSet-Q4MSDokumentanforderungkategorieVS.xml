@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="Q4MSDokumentanforderungkategorieVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-Q4MSDokumentanforderungkategorie.html"><code>http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie</code></a></li></ul></div>
+  </text>
+  <url value="http://qpath4ms.ukdd.de/fhir/ValueSet/Q4MSDokumentanforderungkategorieVS"/>
+  <version value="0.1.0"/>
+  <name value="Q4MSDokumentanforderungkategorieVS"/>
+  <title value="Dokumentanforderungkategorie"/>
+  <status value="active"/>
+  <date value="2022-01-19T20:56:59+01:00"/>
+  <publisher value="Forschungsgruppe Digital Health"/>
+  <contact>
+    <name value="Forschungsgruppe Digital Health"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://tud.link/xd10"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="digital-health@tu-dresden.de"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Marcel Susky"/>
+    <telecom>
+      <system value="email"/>
+      <value value="marcel.susky@tu-dresden.de"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Definiert Dokumentanforderungkategorien"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DE"/>
+      <display value="Germany"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie"/>
+    </include>
+  </compose>
+</ValueSet>

@@ -11,7 +11,7 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief",
+  "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSArztbriefProfile",
   "version": "0.1.0",
   "name": "Q4MSArztbriefProfile",
   "title": "Arztbrief",
@@ -57,7 +57,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "DocumentReference",
-  "baseDefinition": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument",
+  "baseDefinition": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSDokumentProfile",
   "derivation": "constraint",
   "differential": {
     "element": [

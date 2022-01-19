@@ -10,9 +10,9 @@
   fhir:Resource.id [ fhir:value "BefundExample"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund";
+       fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSBefundProfile";
        fhir:index 0;
-       fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund>
+       fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSBefundProfile>
      ]
   ];
   fhir:DomainResource.text [

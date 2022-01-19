@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSTherapiespezifischeDiagnostik",
-  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTherapiespezifischeDiagnostik",
   "type": {
     "coding": [
       {
@@ -32,7 +32,7 @@
           }
         }
       ],
-      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-therapiespezifische-diagnostik"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD"
     }
   ]
 }

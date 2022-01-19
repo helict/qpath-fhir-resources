@@ -10,9 +10,9 @@
   fhir:Resource.id [ fhir:value "KonsiliarberichtExample"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht";
+       fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSKonsiliarberichtProfile";
        fhir:index 0;
-       fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht>
+       fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSKonsiliarberichtProfile>
      ]
   ];
   fhir:DomainResource.text [

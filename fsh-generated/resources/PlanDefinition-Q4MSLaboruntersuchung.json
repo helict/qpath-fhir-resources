@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSLaboruntersuchung",
-  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-laboruntersuchung",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSLaboruntersuchung",
   "type": {
     "coding": [
       {
@@ -23,7 +23,7 @@
           }
         ]
       },
-      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-laboruntersuchung"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSLaboruntersuchungAD"
     }
   ]
 }

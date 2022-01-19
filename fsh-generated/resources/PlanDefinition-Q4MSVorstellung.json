@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSVorstellung",
-  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-vorstellung",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVorstellung",
   "type": {
     "coding": [
       {
@@ -17,7 +17,7 @@
       "id": "appointment",
       "title": "Terminvereinbarung",
       "description": "Termin zur Vorstellung vereinbaren",
-      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-terminvereinbarung"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTerminvereinbarung"
     },
     {
       "title": "Dokumente abfragen",
@@ -28,7 +28,7 @@
           "relationship": "after-end"
         }
       ],
-      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteAbfragenPatient"
     }
   ]
 }

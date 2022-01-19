@@ -1,13 +1,13 @@
 CodeSystem: Q4MSAnfragekategorie
-Id: q4ms-anfragekategorie
 Title: "Anfragekategorie"
 Description: "Deklariert Anfragekategorien"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"
 * ^url = $q4ms-anfragekategorie
 * ^caseSensitive = true
 * ^content = $codesystem-content-mode#complete
+* ^experimental = true
 * #drug-therapy          "Medikamentöse Therapie"       "Anfrage zur medikamentösen Therapie"
 * #examination           "Untersuchung"                 "Anfrage zu Krankenhausaufenthalt"
 * #hospitalization       "Krankenhausaufenthalt"        "Anfrage zu Krankenhausaufenthalt"

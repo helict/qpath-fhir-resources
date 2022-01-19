@@ -7,25 +7,25 @@
   "profiles": {
     "DocumentReference": [
       {
-        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht",
+        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSKonsiliarberichtProfile",
         "title": "Konsiliarbericht"
       },
       {
-        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis",
+        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSLaborergebnisProfile",
         "title": "Laborergebnis"
       },
       {
-        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept",
+        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSRezeptProfile",
         "title": "Rezept"
       },
       {
-        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument",
+        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSSonstigesDokumentProfile",
         "title": "Sonstiges Dokument"
       }
     ],
     "MessageDefinition": [
       {
-        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-terminvereinbarung",
+        "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSTerminvereinbarungProfile",
         "title": "Terminvereinbarung"
       }
     ]

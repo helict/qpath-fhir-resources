@@ -1,0 +1,103 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/CodeSystem/Q4MSDokumentanforderungkategorie> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "Q4MSDokumentanforderungkategorie"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/shareablecodesystem";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">laboratory-result<a name=\"Q4MSDokumentanforderungkategorie-laboratory-result\"> </a></td><td>Laborergebnis</td><td>Anforderung eines Laborergebnisses</td></tr><tr><td style=\"white-space:nowrap\">finding<a name=\"Q4MSDokumentanforderungkategorie-finding\"> </a></td><td>Befund</td><td>Anforderung eines Befunds</td></tr><tr><td style=\"white-space:nowrap\">doctor-letter<a name=\"Q4MSDokumentanforderungkategorie-doctor-letter\"> </a></td><td>Arztbrief</td><td>Anforderung eines Arztbriefs</td></tr><tr><td style=\"white-space:nowrap\">consiliary-report<a name=\"Q4MSDokumentanforderungkategorie-consiliary-report\"> </a></td><td>Konsiliarbericht</td><td>Anforderung eines Konsiliarberichts</td></tr><tr><td style=\"white-space:nowrap\">prescription<a name=\"Q4MSDokumentanforderungkategorie-prescription\"> </a></td><td>Rezept</td><td>Anforderung eines Rezepts</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"Q4MSDokumentanforderungkategorie-other\"> </a></td><td>Sonstiges</td><td>Anforderung eines sonstigen Dokuments</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "Q4MSDokumentanforderungkategorie"];
+  fhir:CodeSystem.title [ fhir:value "Dokumentanforderungkategorie"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2022-01-19T20:56:59+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "Forschungsgruppe Digital Health"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "Forschungsgruppe Digital Health" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://tud.link/xd10" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "digital-health@tu-dresden.de" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Marcel Susky" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "marcel.susky@tu-dresden.de" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Deklariert Dokumentanforderungkategorien"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "DE" ];
+       fhir:Coding.display [ fhir:value "Germany" ]
+     ]
+  ];
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "laboratory-result" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Laborergebnis" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Anforderung eines Laborergebnisses" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "finding" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Befund" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Anforderung eines Befunds" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "doctor-letter" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Arztbrief" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Anforderung eines Arztbriefs" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "consiliary-report" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Konsiliarbericht" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Anforderung eines Konsiliarberichts" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "prescription" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Rezept" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Anforderung eines Rezepts" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "other" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Sonstiges" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Anforderung eines sonstigen Dokuments" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/CodeSystem/Q4MSDokumentanforderungkategorie.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

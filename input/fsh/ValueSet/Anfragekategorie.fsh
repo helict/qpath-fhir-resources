@@ -1,5 +1,4 @@
 ValueSet: Q4MSAnfragekategorieVS
-Id: q4ms-anfragekategorie-vs
 Title: "Anfragekategorie"
 Description: "Definiert Anfragekategorien"
 * ^status = $publication-status#active

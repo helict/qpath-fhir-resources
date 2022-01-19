@@ -3,24 +3,25 @@
   "id": "Q4MSArztbriefanfrage",
   "meta": {
     "profile": [
-      "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokumentanforderung"
+      "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSDokumentanforderungProfile"
     ]
   },
-  "url": "http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-arztbriefanfrage",
+  "url": "http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSArztbriefanfrage",
   "status": "draft",
   "focus": [
     {
       "code": "DocumentReference",
       "min": 1,
-      "profile": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief"
+      "profile": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSArztbriefProfile",
+      "max": "*"
     }
   ],
   "date": "2021-12-21",
   "parent": [
-    "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen"
+    "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteAbfragenAD"
   ],
   "eventCoding": {
     "code": "doctor-letter",
-    "system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie"
+    "system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie"
   }
 }

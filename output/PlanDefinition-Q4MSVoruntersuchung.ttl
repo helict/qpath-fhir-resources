@@ -10,9 +10,9 @@
   fhir:Resource.id [ fhir:value "Q4MSVoruntersuchung"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSVoruntersuchung\" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-voruntersuchung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: Workflow Definition <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-13T14:43:39+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 3 Monate</p><p><b>timing</b>: Do Once per 3 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 12 Monate</p><p><b>timing</b>: Do Once per 12 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSVoruntersuchung\" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: Workflow Definition <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-19T20:56:59+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 3 Monate</p><p><b>timing</b>: Do Once per 3 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 12 Monate</p><p><b>timing</b>: Do Once per 12 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote></blockquote></div>"
   ];
-  fhir:PlanDefinition.url [ fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-voruntersuchung"];
+  fhir:PlanDefinition.url [ fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung"];
   fhir:PlanDefinition.version [ fhir:value "0.1.0"];
   fhir:PlanDefinition.type [
      fhir:CodeableConcept.coding [
@@ -23,7 +23,7 @@
   ];
   fhir:PlanDefinition.status [ fhir:value "draft"];
   fhir:PlanDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:PlanDefinition.date [ fhir:value "2022-01-13T14:43:39+01:00"^^xsd:dateTime];
+  fhir:PlanDefinition.date [ fhir:value "2022-01-19T20:56:59+01:00"^^xsd:dateTime];
   fhir:PlanDefinition.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:PlanDefinition.contact [
      fhir:index 0;
@@ -80,15 +80,15 @@
          fhir:index 0;
          fhir:PlanDefinition.action.title [ fhir:value "Multiple Sclerosis Performance Test (MSPT)" ];
          fhir:PlanDefinition.action.definitionCanonical [
-           fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test";
-           fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test>
+           fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest";
+           fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest>
          ]
        ], [
          fhir:index 1;
          fhir:PlanDefinition.action.title [ fhir:value "Therapiespezifische Diagnostik" ];
          fhir:PlanDefinition.action.definitionCanonical [
-           fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik";
-           fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik>
+           fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTherapiespezifischeDiagnostik";
+           fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTherapiespezifischeDiagnostik>
          ]
        ]
      ], [
@@ -109,22 +109,22 @@
          fhir:index 0;
          fhir:PlanDefinition.action.title [ fhir:value "Optische Kohärenztomographie (OCT)" ];
          fhir:PlanDefinition.action.definitionCanonical [
-           fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie";
-           fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie>
+           fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSOptischeKohaerenztomographie";
+           fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSOptischeKohaerenztomographie>
          ]
        ], [
          fhir:index 1;
          fhir:PlanDefinition.action.title [ fhir:value "Ganganalyse" ];
          fhir:PlanDefinition.action.definitionCanonical [
-           fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse";
-           fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse>
+           fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSGanganalyse";
+           fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSGanganalyse>
          ]
        ], [
          fhir:index 2;
          fhir:PlanDefinition.action.title [ fhir:value "Magnetresonanztomographie (MRT)" ];
          fhir:PlanDefinition.action.definitionCanonical [
-           fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie";
-           fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie>
+           fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMagnetresonanztomographie";
+           fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMagnetresonanztomographie>
          ]
        ]
      ]

@@ -1,106 +1,71 @@
 ﻿QPath4MSIG : Validation Results
 =========================================
 
-err = 56, warn = 115, info = 35
-IG Publisher Version: 1.1.93 Out of date - current version is 1.1.94
-Generated Thu Jan 13 14:44:33 CET 2022. FHIR version 4.0.1 for fhir.qpath4ms#0.1.0 (canonical = http://qpath4ms.ukdd.de)
- Build Errors : 1 / 47 / 0
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/ImplementationGuide-fhir.qpath4ms : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSAllgemeineNeurologischeAnamneseAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSAuswertungAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSBefundauswertungAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSDokumenteAbfragenAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSDokumenteUebermittelnAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSExpandedDisabilityStatusScaleAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSGanganalyseAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSLaboruntersuchungAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSMagnetresonanztomographieAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSMultipleSclerosisPerformanceTestAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSOptischeKohaerenztomographieAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSTerminvereinbarungAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/activitydefinition-Q4MSTherapiespezifischeDiagnostikAD : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/appointment-TerminvereinbarungExampleAPT : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-AllgemeineNeurologischeAnamneseExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-AllgemeineNeurologischeUntersuchungExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-ArztvorstellungExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-AuswertungExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-BasismonitoringExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-BefundauswertungExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-DokumenteAbfragenPatientExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-DokumenteUebermittelnArztExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-DokumenteUebermittelnPatientExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-EntlassungExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-GanganalyseExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-LaboruntersuchungExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-MagnetresonanztomographieExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-MultipleSclerosisPerformanceTestExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-OptischeKohaerenztomographieExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-TerminvereinbarungExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-TherapiespezifischeDiagnostikExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-VorstellungExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-VoruntersuchungExampleCP : 2 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/careplan-ZusatzdiagnostikExampleCP : 0 / 0 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/codesystem-q4ms-anfragekategorie : 1 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/codesystem-q4ms-dokumentanforderungkategorie : 1 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/codesystem-q4ms-terminanfragekategorie : 1 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/documentreference-ArztbriefExample : 0 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/documentreference-BefundExample : 0 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/documentreference-KonsiliarberichtExample : 0 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/documentreference-LaborergebnisExample : 0 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/documentreference-RezeptExample : 0 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/documentreference-SonstigesDokumentExample : 0 / 2 / 2
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/messagedefinition-Q4MSArztbriefanfrage : 2 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/messagedefinition-Q4MSTerminanfrage : 2 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/messageheader-Q4MSArztbriefanfrageHeader : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/messageheader-Q4MSTerminanfrageHeader : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/patient-PatientJohnDoe : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSAllgemeineNeurologischeAnamnese : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSAllgemeineNeurologischeUntersuchung : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSArztvorstellung : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSAuswertung : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSBasismonitoring : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSBefundauswertung : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSDokumenteAbfragenPatient : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSDokumenteUebermittelnArzt : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSDokumenteUebermittelnPatient : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSEntlassung : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSGanganalyse : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSLaboruntersuchung : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSMagnetresonanztomographie : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSMultipleSclerosisPerformanceTest : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSOptischeKohaerenztomographie : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSTerminvereinbarung : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSTherapiespezifischeDiagnostik : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSVorstellung : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSVoruntersuchung : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/plandefinition-Q4MSZusatzdiagnostik : 1 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/servicerequest-AuswertungExampleSR : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/servicerequest-GanganalyseExampleSR : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/servicerequest-LaboruntersuchungExampleSR : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/servicerequest-MagnetresonanztomographieExampleSR : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/servicerequest-MultipleSclerosisPerformanceTestExampleSR : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/servicerequest-OptischeKohaerenztomographieExampleSR : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/servicerequest-TherapiespezifischeDiagnostikExampleSR : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/structuredefinition-Q4MSArztbriefProfile : 1 / 3 / 7
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/structuredefinition-Q4MSBefundProfile : 1 / 3 / 7
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/structuredefinition-Q4MSDokumentProfile : 1 / 7 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/structuredefinition-Q4MSDokumentanforderungProfile : 1 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/structuredefinition-Q4MSKonsiliarberichtProfile : 1 / 3 / 7
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/structuredefinition-Q4MSLaborergebnisProfile : 1 / 3 / 7
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/structuredefinition-Q4MSRezeptProfile : 1 / 3 / 7
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/structuredefinition-Q4MSSonstigesDokumentProfile : 1 / 3 / 5
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/structuredefinition-Q4MSTerminvereinbarungProfile : 1 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/structuremap-Q4MSActivityDefinitionTaskTransform : 5 / 1 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/task-AllgemeineNeurologischeAnamneseExampleTSK : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/task-AllgemeineNeurologischeUntersuchungExampleTSK : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/task-AuswertungExampleTSK : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/task-BefundauswertungExampleTSK : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/task-DokumenteAbfragenPatientExampleTSK : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/task-DokumenteUebermittelnArztExampleTSK : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/task-DokumenteUebermittelnPatientExampleTSK : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/valueset-q4ms-anfragekategorie-vs : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/valueset-q4ms-dokumentanforderungkategorie-vs : 0 / 0 / 1
- /Users/msusky/Development/qpath-fhir-resources/fsh-generated/resources/valueset-q4ms-terminanfragekategorie-vs : 0 / 0 / 1
+err = 4, warn = 115, info = 35
+IG Publisher Version: 1.1.97
+Generated Wed Jan 19 20:57:42 CET 2022. FHIR version 4.0.1 for fhir.qpath4ms#0.1.0 (canonical = http://qpath4ms.ukdd.de)
+ Build Errors : 0 / 47 / 0
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSAllgemeineNeurologischeAnamneseAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSAuswertungAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSBefundauswertungAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSDokumenteAbfragenAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSDokumenteUebermittelnAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSExpandedDisabilityStatusScaleAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSGanganalyseAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSLaboruntersuchungAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSMagnetresonanztomographieAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSMultipleSclerosisPerformanceTestAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSOptischeKohaerenztomographieAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSTerminvereinbarungAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSTherapiespezifischeDiagnostikAD : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/CodeSystem-Q4MSAnfragekategorie : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/CodeSystem-Q4MSDokumentanforderungkategorie : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/CodeSystem-Q4MSTerminanfragekategorie : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/DocumentReference-ArztbriefExample : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/DocumentReference-BefundExample : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/DocumentReference-KonsiliarberichtExample : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/DocumentReference-LaborergebnisExample : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/DocumentReference-RezeptExample : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/DocumentReference-SonstigesDokumentExample : 0 / 2 / 2
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ImplementationGuide-fhir.qpath4ms : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageDefinition-Q4MSArztbriefanfrage : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageDefinition-Q4MSTerminanfrage : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageHeader-Q4MSArztbriefanfrageHeader : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageHeader-Q4MSTerminanfrageHeader : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/Patient-PatientJohnDoe : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeAnamnese : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeUntersuchung : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSArztvorstellung : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSAuswertung : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSBasismonitoring : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSBefundauswertung : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSDokumenteAbfragenPatient : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnArzt : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnPatient : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSEntlassung : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSGanganalyse : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSLaboruntersuchung : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSMagnetresonanztomographie : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSMultipleSclerosisPerformanceTest : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSOptischeKohaerenztomographie : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSTerminvereinbarung : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSTherapiespezifischeDiagnostik : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSVorstellung : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSVoruntersuchung : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSZusatzdiagnostik : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/StructureDefinition-Q4MSArztbriefProfile : 0 / 3 / 7
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/StructureDefinition-Q4MSBefundProfile : 0 / 3 / 7
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/StructureDefinition-Q4MSDokumentProfile : 0 / 7 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/StructureDefinition-Q4MSDokumentanforderungProfile : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/StructureDefinition-Q4MSKonsiliarberichtProfile : 0 / 3 / 7
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/StructureDefinition-Q4MSLaborergebnisProfile : 0 / 3 / 7
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/StructureDefinition-Q4MSRezeptProfile : 0 / 3 / 7
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/StructureDefinition-Q4MSSonstigesDokumentProfile : 0 / 3 / 5
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/StructureDefinition-Q4MSTerminvereinbarungProfile : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/StructureMap-Q4MSActivityDefinitionTaskTransform : 4 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ValueSet-Q4MSAnfragekategorieVS : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ValueSet-Q4MSDokumentanforderungkategorieVS : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ValueSet-Q4MSTerminanfragekategorieVS : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/Q4MSArztbriefProfile.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
@@ -150,76 +115,35 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSVorstellung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSVoruntersuchung.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/Q4MSZusatzdiagnostik.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: /Users/msusky/Development/qpath-fhir-resources/output/CarePlan-VoruntersuchungExampleCP.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 198, column 750: The link 'RequestGroup/VoruntersuchungExampleRG' for "RequestGroup/VoruntersuchungExampleRG" cannot be resolved
-== fsh-generated/resources/ImplementationGuide-fhir.qpath4ms.json ==
 == fsh-generated/resources/ActivityDefinition-Q4MSAllgemeineNeurologischeAnamneseAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSAllgemeineNeurologischeAnamneseAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-allgemeine-neurologische-anamnese
 WARNING: ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSAuswertungAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSAuswertungAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-auswertung
 WARNING: ActivityDefinition/Q4MSAuswertungAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSBefundauswertungAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSBefundauswertungAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-befundauswertung
 WARNING: ActivityDefinition/Q4MSBefundauswertungAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSDokumenteAbfragenAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSDokumenteAbfragenAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen
 WARNING: ActivityDefinition/Q4MSDokumenteAbfragenAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSDokumenteUebermittelnAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSDokumenteUebermittelnAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-uebermitteln
 WARNING: ActivityDefinition/Q4MSDokumenteUebermittelnAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSExpandedDisabilityStatusScaleAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSExpandedDisabilityStatusScaleAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-expanded-disability-status-scale
 WARNING: ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSGanganalyseAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSGanganalyseAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-ganganalyse
 WARNING: ActivityDefinition/Q4MSGanganalyseAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSLaboruntersuchungAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSLaboruntersuchungAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-laboruntersuchung
 WARNING: ActivityDefinition/Q4MSLaboruntersuchungAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSMagnetresonanztomographieAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSMagnetresonanztomographieAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-magnetresonanztomographie
 WARNING: ActivityDefinition/Q4MSMagnetresonanztomographieAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSMultipleSclerosisPerformanceTestAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSMultipleSclerosisPerformanceTestAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-multiple-sclerosis-performance-test
 WARNING: ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSOptischeKohaerenztomographieAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSOptischeKohaerenztomographieAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-optische-koheraenztomographie
 WARNING: ActivityDefinition/Q4MSOptischeKohaerenztomographieAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSTerminvereinbarungAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSTerminvereinbarungAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-terminvereinbarung
 WARNING: ActivityDefinition/Q4MSTerminvereinbarungAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ActivityDefinition-Q4MSTherapiespezifischeDiagnostikAD.json ==
-ERROR: ActivityDefinition.url: Resource id/url mismatch: Q4MSTherapiespezifischeDiagnostikAD/http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-therapiespezifische-diagnostik
 WARNING: ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD: ActivityDefinition: adf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== fsh-generated/resources/Appointment-TerminvereinbarungExampleAPT.json ==
-== fsh-generated/resources/CarePlan-AllgemeineNeurologischeAnamneseExampleCP.json ==
-== fsh-generated/resources/CarePlan-AllgemeineNeurologischeUntersuchungExampleCP.json ==
-== fsh-generated/resources/CarePlan-ArztvorstellungExampleCP.json ==
-== fsh-generated/resources/CarePlan-AuswertungExampleCP.json ==
-== fsh-generated/resources/CarePlan-BasismonitoringExampleCP.json ==
-== fsh-generated/resources/CarePlan-BefundauswertungExampleCP.json ==
-== fsh-generated/resources/CarePlan-DokumenteAbfragenPatientExampleCP.json ==
-== fsh-generated/resources/CarePlan-DokumenteUebermittelnArztExampleCP.json ==
-== fsh-generated/resources/CarePlan-DokumenteUebermittelnPatientExampleCP.json ==
-== fsh-generated/resources/CarePlan-EntlassungExampleCP.json ==
-== fsh-generated/resources/CarePlan-GanganalyseExampleCP.json ==
-== fsh-generated/resources/CarePlan-LaboruntersuchungExampleCP.json ==
-== fsh-generated/resources/CarePlan-MagnetresonanztomographieExampleCP.json ==
-== fsh-generated/resources/CarePlan-MultipleSclerosisPerformanceTestExampleCP.json ==
-== fsh-generated/resources/CarePlan-OptischeKohaerenztomographieExampleCP.json ==
-== fsh-generated/resources/CarePlan-TerminvereinbarungExampleCP.json ==
-== fsh-generated/resources/CarePlan-TherapiespezifischeDiagnostikExampleCP.json ==
-== fsh-generated/resources/CarePlan-VorstellungExampleCP.json ==
-== fsh-generated/resources/CarePlan-VoruntersuchungExampleCP.json ==
-ERROR: CarePlan/VoruntersuchungExampleCP: CarePlan: dom-3: 'If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource' 'If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource' ( (unmatched: VorstellungExampleRG))
-ERROR: CarePlan/VoruntersuchungExampleCP: CarePlan.activity[0].reference: Unable to resolve resource 'RequestGroup/VoruntersuchungExampleRG'
-== fsh-generated/resources/CarePlan-ZusatzdiagnostikExampleCP.json ==
-== fsh-generated/resources/CodeSystem-q4ms-anfragekategorie.json ==
-ERROR: CodeSystem/q4ms-anfragekategorie: CodeSystem: CodeSystem.experimental: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem)
-== fsh-generated/resources/CodeSystem-q4ms-dokumentanforderungkategorie.json ==
-ERROR: CodeSystem/q4ms-dokumentanforderungkategorie: CodeSystem: CodeSystem.experimental: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem)
-== fsh-generated/resources/CodeSystem-q4ms-terminanfragekategorie.json ==
-ERROR: CodeSystem/q4ms-terminanfragekategorie: CodeSystem: CodeSystem.experimental: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/shareablecodesystem)
+== fsh-generated/resources/CodeSystem-Q4MSAnfragekategorie.json ==
+== fsh-generated/resources/CodeSystem-Q4MSDokumentanforderungkategorie.json ==
+== fsh-generated/resources/CodeSystem-Q4MSTerminanfragekategorie.json ==
 == fsh-generated/resources/DocumentReference-ArztbriefExample.json ==
 WARNING: DocumentReference/ArztbriefExample: DocumentReference.content[0].attachment: Attachments have data and/or url, or else SHOULD have either contentType and/or language
 == fsh-generated/resources/DocumentReference-BefundExample.json ==
@@ -234,86 +158,55 @@ WARNING: DocumentReference/RezeptExample: DocumentReference.content[0].attachmen
 WARNING: DocumentReference/SonstigesDokumentExample: DocumentReference.type: ValueSet http://ihe-d.de/ValueSets/IHEXDStypeCode not found by validator
 INFORMATION: DocumentReference/SonstigesDokumentExample: DocumentReference.type.coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
 WARNING: DocumentReference/SonstigesDokumentExample: DocumentReference.content[0].attachment: Attachments have data and/or url, or else SHOULD have either contentType and/or language
+== fsh-generated/resources/ImplementationGuide-fhir.qpath4ms.json ==
 == fsh-generated/resources/MessageDefinition-Q4MSArztbriefanfrage.json ==
-ERROR: MessageDefinition.url: Resource id/url mismatch: Q4MSArztbriefanfrage/http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-arztbriefanfrage
 WARNING: MessageDefinition/Q4MSArztbriefanfrage: MessageDefinition: msd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: MessageDefinition/Q4MSArztbriefanfrage: MessageDefinition.focus[0]: md-1: 'Max must be postive int or *' Rule 'Max must be postive int or *' Failed
 == fsh-generated/resources/MessageDefinition-Q4MSTerminanfrage.json ==
-ERROR: MessageDefinition.url: Resource id/url mismatch: Q4MSTerminanfrage/http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-terminanfrage
 WARNING: MessageDefinition/Q4MSTerminanfrage: MessageDefinition: msd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: MessageDefinition/Q4MSTerminanfrage: MessageDefinition.focus[0]: md-1: 'Max must be postive int or *' Rule 'Max must be postive int or *' Failed
 == fsh-generated/resources/MessageHeader-Q4MSArztbriefanfrageHeader.json ==
 == fsh-generated/resources/MessageHeader-Q4MSTerminanfrageHeader.json ==
 == fsh-generated/resources/Patient-PatientJohnDoe.json ==
 == fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeAnamnese.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSAllgemeineNeurologischeAnamnese/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese
 WARNING: PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeUntersuchung.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSAllgemeineNeurologischeUntersuchung/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung
 WARNING: PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSArztvorstellung.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSArztvorstellung/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-arztvorstellung
 WARNING: PlanDefinition/Q4MSArztvorstellung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSAuswertung.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSAuswertung/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-auswertung
 WARNING: PlanDefinition/Q4MSAuswertung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSBasismonitoring.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSBasismonitoring/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-basismonitoring
 WARNING: PlanDefinition/Q4MSBasismonitoring: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSBefundauswertung.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSBefundauswertung/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-befundauswertung
 WARNING: PlanDefinition/Q4MSBefundauswertung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSDokumenteAbfragenPatient.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSDokumenteAbfragenPatient/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient
 WARNING: PlanDefinition/Q4MSDokumenteAbfragenPatient: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnArzt.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSDokumenteUebermittelnArzt/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-arzt
 WARNING: PlanDefinition/Q4MSDokumenteUebermittelnArzt: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnPatient.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSDokumenteUebermittelnPatient/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-patient
 WARNING: PlanDefinition/Q4MSDokumenteUebermittelnPatient: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSEntlassung.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSEntlassung/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-entlassung
 WARNING: PlanDefinition/Q4MSEntlassung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSGanganalyse.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSGanganalyse/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse
 WARNING: PlanDefinition/Q4MSGanganalyse: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSLaboruntersuchung.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSLaboruntersuchung/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-laboruntersuchung
 WARNING: PlanDefinition/Q4MSLaboruntersuchung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSMagnetresonanztomographie.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSMagnetresonanztomographie/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie
 WARNING: PlanDefinition/Q4MSMagnetresonanztomographie: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSMultipleSclerosisPerformanceTest.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSMultipleSclerosisPerformanceTest/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test
 WARNING: PlanDefinition/Q4MSMultipleSclerosisPerformanceTest: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSOptischeKohaerenztomographie.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSOptischeKohaerenztomographie/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie
 WARNING: PlanDefinition/Q4MSOptischeKohaerenztomographie: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSTerminvereinbarung.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSTerminvereinbarung/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-terminvereinbarung
 WARNING: PlanDefinition/Q4MSTerminvereinbarung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSTherapiespezifischeDiagnostik.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSTherapiespezifischeDiagnostik/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik
 WARNING: PlanDefinition/Q4MSTherapiespezifischeDiagnostik: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSVorstellung.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSVorstellung/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-vorstellung
 WARNING: PlanDefinition/Q4MSVorstellung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSVoruntersuchung.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSVoruntersuchung/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-voruntersuchung
 WARNING: PlanDefinition/Q4MSVoruntersuchung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSZusatzdiagnostik.json ==
-ERROR: PlanDefinition.url: Resource id/url mismatch: Q4MSZusatzdiagnostik/http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik
 WARNING: PlanDefinition/Q4MSZusatzdiagnostik: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== fsh-generated/resources/ServiceRequest-AuswertungExampleSR.json ==
-== fsh-generated/resources/ServiceRequest-GanganalyseExampleSR.json ==
-== fsh-generated/resources/ServiceRequest-LaboruntersuchungExampleSR.json ==
-== fsh-generated/resources/ServiceRequest-MagnetresonanztomographieExampleSR.json ==
-== fsh-generated/resources/ServiceRequest-MultipleSclerosisPerformanceTestExampleSR.json ==
-== fsh-generated/resources/ServiceRequest-OptischeKohaerenztomographieExampleSR.json ==
-== fsh-generated/resources/ServiceRequest-TherapiespezifischeDiagnostikExampleSR.json ==
 == fsh-generated/resources/StructureDefinition-Q4MSArztbriefProfile.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: Q4MSArztbriefProfile/http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief
 INFORMATION: StructureDefinition/Q4MSArztbriefProfile: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSArztbriefProfile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSArztbriefProfile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
@@ -324,7 +217,6 @@ WARNING: StructureDefinition/Q4MSArztbriefProfile: StructureDefinition.snapshot.
 WARNING: StructureDefinition/Q4MSArztbriefProfile: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
 WARNING: StructureDefinition/Q4MSArztbriefProfile: StructureDefinition.snapshot.element[27].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
 == fsh-generated/resources/StructureDefinition-Q4MSBefundProfile.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: Q4MSBefundProfile/http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund
 INFORMATION: StructureDefinition/Q4MSBefundProfile: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSBefundProfile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSBefundProfile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
@@ -335,18 +227,15 @@ WARNING: StructureDefinition/Q4MSBefundProfile: StructureDefinition.snapshot.ele
 WARNING: StructureDefinition/Q4MSBefundProfile: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
 WARNING: StructureDefinition/Q4MSBefundProfile: StructureDefinition.snapshot.element[27].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
 == fsh-generated/resources/StructureDefinition-Q4MSDokumentProfile.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: Q4MSDokumentProfile/http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument
 WARNING: StructureDefinition/Q4MSDokumentProfile: StructureDefinition.differential.element[1].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDStypeCode on element DocumentReference.type could not be resolved
 WARNING: StructureDefinition/Q4MSDokumentProfile: StructureDefinition.differential.element[2].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
 WARNING: StructureDefinition/Q4MSDokumentProfile: StructureDefinition.differential.element[4].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
 WARNING: StructureDefinition/Q4MSDokumentProfile: StructureDefinition.snapshot.element[13].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDStypeCode on element DocumentReference.type could not be resolved
 WARNING: StructureDefinition/Q4MSDokumentProfile: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
 WARNING: StructureDefinition/Q4MSDokumentProfile: StructureDefinition.snapshot.element[27].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
-WARNING: StructureDefinition.where(url = 'http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSDokumentProfile'): The Implementation Guide contains no examples for this profile
 == fsh-generated/resources/StructureDefinition-Q4MSDokumentanforderungProfile.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: Q4MSDokumentanforderungProfile/http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokumentanforderung
 == fsh-generated/resources/StructureDefinition-Q4MSKonsiliarberichtProfile.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: Q4MSKonsiliarberichtProfile/http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht
 INFORMATION: StructureDefinition/Q4MSKonsiliarberichtProfile: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSKonsiliarberichtProfile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSKonsiliarberichtProfile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
@@ -357,7 +246,6 @@ WARNING: StructureDefinition/Q4MSKonsiliarberichtProfile: StructureDefinition.sn
 WARNING: StructureDefinition/Q4MSKonsiliarberichtProfile: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
 WARNING: StructureDefinition/Q4MSKonsiliarberichtProfile: StructureDefinition.snapshot.element[27].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
 == fsh-generated/resources/StructureDefinition-Q4MSLaborergebnisProfile.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: Q4MSLaborergebnisProfile/http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis
 INFORMATION: StructureDefinition/Q4MSLaborergebnisProfile: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSLaborergebnisProfile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSLaborergebnisProfile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
@@ -368,7 +256,6 @@ WARNING: StructureDefinition/Q4MSLaborergebnisProfile: StructureDefinition.snaps
 WARNING: StructureDefinition/Q4MSLaborergebnisProfile: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
 WARNING: StructureDefinition/Q4MSLaborergebnisProfile: StructureDefinition.snapshot.element[27].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
 == fsh-generated/resources/StructureDefinition-Q4MSRezeptProfile.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: Q4MSRezeptProfile/http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept
 INFORMATION: StructureDefinition/Q4MSRezeptProfile: StructureDefinition.snapshot.element[13].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDStypeCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSRezeptProfile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSRezeptProfile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
@@ -379,7 +266,6 @@ WARNING: StructureDefinition/Q4MSRezeptProfile: StructureDefinition.snapshot.ele
 WARNING: StructureDefinition/Q4MSRezeptProfile: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
 WARNING: StructureDefinition/Q4MSRezeptProfile: StructureDefinition.snapshot.element[27].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
 == fsh-generated/resources/StructureDefinition-Q4MSSonstigesDokumentProfile.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: Q4MSSonstigesDokumentProfile/http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument
 INFORMATION: StructureDefinition/Q4MSSonstigesDokumentProfile: StructureDefinition.snapshot.element[14].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSSonstigesDokumentProfile: StructureDefinition.snapshot.element[27].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode' is unknown so the code cannot be validated
 INFORMATION: StructureDefinition/Q4MSSonstigesDokumentProfile: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'http://ihe-d.de/ValueSets/IHEXDSclassCode' is unknown so the code cannot be validated
@@ -388,21 +274,12 @@ WARNING: StructureDefinition/Q4MSSonstigesDokumentProfile: StructureDefinition.s
 WARNING: StructureDefinition/Q4MSSonstigesDokumentProfile: StructureDefinition.snapshot.element[14].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSclassCode on element DocumentReference.category could not be resolved
 WARNING: StructureDefinition/Q4MSSonstigesDokumentProfile: StructureDefinition.snapshot.element[27].binding: The valueSet reference http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode on element DocumentReference.securityLabel could not be resolved
 == fsh-generated/resources/StructureDefinition-Q4MSTerminvereinbarungProfile.json ==
-ERROR: StructureDefinition.url: Resource id/url mismatch: Q4MSTerminvereinbarungProfile/http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-terminvereinbarung
 == fsh-generated/resources/StructureMap-Q4MSActivityDefinitionTaskTransform.json ==
-ERROR: StructureMap.url: Resource id/url mismatch: Q4MSActivityDefinitionTaskTransform/http://qpath4ms.ukdd.de/fhir/StructureMap/q4ms-activitydefinition-task-transform-sm
 WARNING: StructureMap/Q4MSActivityDefinitionTaskTransform: StructureMap: smp-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: StructureMap/Q4MSActivityDefinitionTaskTransform: StructureMap.structure[0].url: Canonical URL 'http://hl7.org/fhir/StructureDefinition/activitydefinition' does not resolve
 ERROR: StructureMap/Q4MSActivityDefinitionTaskTransform: StructureMap.structure[1].url: Canonical URL 'http://hl7.org/fhir/StructureDefinition/activitydefinition' does not resolve
 ERROR: StructureMap/Q4MSActivityDefinitionTaskTransform: StructureMap.structure[2].url: Canonical URL 'http://hl7.org/fhir/StructureDefinition/task' does not resolve
 ERROR: StructureMap/Q4MSActivityDefinitionTaskTransform: StructureMap.structure[3].url: Canonical URL 'http://hl7.org/fhir/StructureDefinition/task' does not resolve
-== fsh-generated/resources/Task-AllgemeineNeurologischeAnamneseExampleTSK.json ==
-== fsh-generated/resources/Task-AllgemeineNeurologischeUntersuchungExampleTSK.json ==
-== fsh-generated/resources/Task-AuswertungExampleTSK.json ==
-== fsh-generated/resources/Task-BefundauswertungExampleTSK.json ==
-== fsh-generated/resources/Task-DokumenteAbfragenPatientExampleTSK.json ==
-== fsh-generated/resources/Task-DokumenteUebermittelnArztExampleTSK.json ==
-== fsh-generated/resources/Task-DokumenteUebermittelnPatientExampleTSK.json ==
-== fsh-generated/resources/ValueSet-q4ms-anfragekategorie-vs.json ==
-== fsh-generated/resources/ValueSet-q4ms-dokumentanforderungkategorie-vs.json ==
-== fsh-generated/resources/ValueSet-q4ms-terminanfragekategorie-vs.json ==
+== fsh-generated/resources/ValueSet-Q4MSAnfragekategorieVS.json ==
+== fsh-generated/resources/ValueSet-Q4MSDokumentanforderungkategorieVS.json ==
+== fsh-generated/resources/ValueSet-Q4MSTerminanfragekategorieVS.json ==

@@ -27,12 +27,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="not-classified"/>
   </extension>
-  <url value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept"/>
+  <url value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSRezeptProfile"/>
   <version value="0.1.0"/>
   <name value="Q4MSRezeptProfile"/>
   <title value="Rezept"/>
   <status value="active"/>
-  <date value="2022-01-13T14:43:39+01:00"/>
+  <date value="2022-01-19T20:56:59+01:00"/>
   <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
     <name value="Forschungsgruppe Digital Health"/>
@@ -99,7 +99,7 @@
   <kind value="resource"/>
   <abstract value="false"/>
   <type value="DocumentReference"/>
-  <baseDefinition value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument"/>
+  <baseDefinition value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSDokumentProfile"/>
   <derivation value="constraint"/>
   <snapshot>
     <element id="DocumentReference">

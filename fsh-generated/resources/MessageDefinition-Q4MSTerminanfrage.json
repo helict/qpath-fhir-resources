@@ -3,23 +3,24 @@
   "id": "Q4MSTerminanfrage",
   "meta": {
     "profile": [
-      "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-terminvereinbarung"
+      "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSTerminvereinbarungProfile"
     ]
   },
-  "url": "http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-terminanfrage",
+  "url": "http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSTerminanfrage",
   "status": "draft",
   "focus": [
     {
       "code": "Appointment",
-      "min": 1
+      "min": 1,
+      "max": "*"
     }
   ],
   "date": "2021-12-21",
   "parent": [
-    "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-terminvereinbarung"
+    "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSTerminvereinbarungAD"
   ],
   "eventCoding": {
     "code": "booking",
-    "system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-terminanfragekategorie"
+    "system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSTerminanfragekategorie"
   }
 }

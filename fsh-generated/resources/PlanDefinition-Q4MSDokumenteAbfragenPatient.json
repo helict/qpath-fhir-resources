@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSDokumenteAbfragenPatient",
-  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteAbfragenPatient",
   "type": {
     "coding": [
       {
@@ -23,7 +23,7 @@
           }
         ]
       },
-      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteAbfragenAD"
     }
   ]
 }

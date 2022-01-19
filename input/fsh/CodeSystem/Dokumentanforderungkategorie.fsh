@@ -1,13 +1,13 @@
 CodeSystem: Q4MSDokumentanforderungkategorie
-Id: q4ms-dokumentanforderungkategorie
 Title: "Dokumentanforderungkategorie"
 Description: "Deklariert Dokumentanforderungkategorien"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"
 * ^url = $q4ms-dokumentanforderungkategorie
 * ^caseSensitive = true
 * ^content = $codesystem-content-mode#complete
+* ^experimental = true
 * #laboratory-result "Laborergebnis"    "Anforderung eines Laborergebnisses"
 * #finding           "Befund"           "Anforderung eines Befunds"
 * #doctor-letter     "Arztbrief"        "Anforderung eines Arztbriefs"

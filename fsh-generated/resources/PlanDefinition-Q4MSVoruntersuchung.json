@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSVoruntersuchung",
-  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-voruntersuchung",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung",
   "type": {
     "coding": [
       {
@@ -35,11 +35,11 @@
           "action": [
             {
               "title": "Multiple Sclerosis Performance Test (MSPT)",
-              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test"
+              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"
             },
             {
               "title": "Therapiespezifische Diagnostik",
-              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik"
+              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTherapiespezifischeDiagnostik"
             }
           ]
         },
@@ -59,15 +59,15 @@
           "action": [
             {
               "title": "Optische Kohärenztomographie (OCT)",
-              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie"
+              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSOptischeKohaerenztomographie"
             },
             {
               "title": "Ganganalyse",
-              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse"
+              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSGanganalyse"
             },
             {
               "title": "Magnetresonanztomographie (MRT)",
-              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie"
+              "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMagnetresonanztomographie"
             }
           ]
         }

@@ -10,13 +10,13 @@
   fhir:Resource.id [ fhir:value "Q4MSAuswertungAD"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSAuswertungAD\" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-auswertung</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-13T14:43:39+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><p><b>kind</b>: Task</p><p><b>doNotPerform</b>: false</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSAuswertungAD\" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAuswertungAD</code></p><p><b>version</b>: 0.1.0</p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-19T20:56:59+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><p><b>kind</b>: Task</p><p><b>doNotPerform</b>: false</p></div>"
   ];
-  fhir:ActivityDefinition.url [ fhir:value "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-auswertung"];
+  fhir:ActivityDefinition.url [ fhir:value "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAuswertungAD"];
   fhir:ActivityDefinition.version [ fhir:value "0.1.0"];
   fhir:ActivityDefinition.status [ fhir:value "draft"];
   fhir:ActivityDefinition.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:ActivityDefinition.date [ fhir:value "2022-01-13T14:43:39+01:00"^^xsd:dateTime];
+  fhir:ActivityDefinition.date [ fhir:value "2022-01-19T20:56:59+01:00"^^xsd:dateTime];
   fhir:ActivityDefinition.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:ActivityDefinition.contact [
      fhir:index 0;

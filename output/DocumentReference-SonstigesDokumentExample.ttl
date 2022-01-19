@@ -10,9 +10,9 @@
   fhir:Resource.id [ fhir:value "SonstigesDokumentExample"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument";
+       fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSSonstigesDokumentProfile";
        fhir:index 0;
-       fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument>
+       fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSSonstigesDokumentProfile>
      ]
   ];
   fhir:DomainResource.text [

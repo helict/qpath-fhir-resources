@@ -15,12 +15,12 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis",
+  "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSLaborergebnisProfile",
   "version": "0.1.0",
   "name": "Q4MSLaborergebnisProfile",
   "title": "Laborergebnis",
   "status": "active",
-  "date": "2022-01-13T14:43:39+01:00",
+  "date": "2022-01-19T20:56:59+01:00",
   "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
@@ -99,7 +99,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "DocumentReference",
-  "baseDefinition": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument",
+  "baseDefinition": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSDokumentProfile",
   "derivation": "constraint",
   "snapshot": {
     "element": [

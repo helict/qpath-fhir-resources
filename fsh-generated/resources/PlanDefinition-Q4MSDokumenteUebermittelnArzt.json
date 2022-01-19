@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "Q4MSDokumenteUebermittelnArzt",
-  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-arzt",
+  "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteUebermittelnArzt",
   "type": {
     "coding": [
       {
@@ -23,7 +23,7 @@
           }
         ]
       },
-      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-uebermitteln"
+      "definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteUebermittelnAD"
     }
   ]
 }

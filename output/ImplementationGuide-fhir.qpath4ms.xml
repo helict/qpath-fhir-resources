@@ -11,7 +11,7 @@
   <name value="QPath4MSIG"/>
   <title value="QPath4MS FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2022-01-13T14:43:39+01:00"/>
+  <date value="2022-01-19T20:56:59+01:00"/>
   <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
     <name value="Forschungsgruppe Digital Health"/>
@@ -291,7 +291,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/q4ms-anfragekategorie-vs"/>
+        <reference value="ValueSet/Q4MSAnfragekategorieVS"/>
       </reference>
       <name value="Anfragekategorie"/>
       <description value="Definiert Anfragekategorien"/>
@@ -302,7 +302,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/q4ms-dokumentanforderungkategorie-vs"/>
+        <reference value="ValueSet/Q4MSDokumentanforderungkategorieVS"/>
       </reference>
       <name value="Dokumentanforderungkategorie"/>
       <description value="Definiert Dokumentanforderungkategorien"/>
@@ -313,7 +313,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/q4ms-terminanfragekategorie-vs"/>
+        <reference value="ValueSet/Q4MSTerminanfragekategorieVS"/>
       </reference>
       <name value="Terminanfragekategorie"/>
       <description value="Definiert Terminanfragekategorien"/>
@@ -324,7 +324,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/q4ms-anfragekategorie"/>
+        <reference value="CodeSystem/Q4MSAnfragekategorie"/>
       </reference>
       <name value="Anfragekategorie"/>
       <description value="Deklariert Anfragekategorien"/>
@@ -335,7 +335,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/q4ms-dokumentanforderungkategorie"/>
+        <reference value="CodeSystem/Q4MSDokumentanforderungkategorie"/>
       </reference>
       <name value="Dokumentanforderungkategorie"/>
       <description value="Deklariert Dokumentanforderungkategorien"/>
@@ -346,55 +346,11 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/q4ms-terminanfragekategorie"/>
+        <reference value="CodeSystem/Q4MSTerminanfragekategorie"/>
       </reference>
       <name value="Terminanfragekategorie"/>
       <description value="Deklariert Terminanfragekategorien"/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/AllgemeineNeurologischeAnamneseExampleCP"/>
-      </reference>
-      <name value="Beispiel Allgemeine und neurologische Anamnese"/>
-      <description value="Beispiel CarePlan für die Durchführung einer allgemeinen und neurologischen Anamnese mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Task"/>
-      </extension>
-      <reference>
-        <reference value="Task/AllgemeineNeurologischeAnamneseExampleTSK"/>
-      </reference>
-      <name value="Beispiel Allgemeine und neurologische Anamnese"/>
-      <description value="Beispiel Task für die Durchführung einer allgemeinenen und neurologischen Anamnese mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/AllgemeineNeurologischeUntersuchungExampleCP"/>
-      </reference>
-      <name value="Beispiel Allgemeine und neurologische Untersuchung"/>
-      <description value="Beispiel CarePlan für die Durchführung einer allgemeinen neurologischen Untersuchung mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Task"/>
-      </extension>
-      <reference>
-        <reference value="Task/AllgemeineNeurologischeUntersuchungExampleTSK"/>
-      </reference>
-      <name value="Beispiel Allgemeine und neurologische Untersuchung"/>
-      <description value="Beispiel Task für die Durchführung einer allgemeinen und neurologischen Untersuchung mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -405,62 +361,7 @@
       </reference>
       <name value="Beispiel Arztbrief"/>
       <description value="Beispiel DocumentReference für einen Arztbrief"/>
-      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/ArztvorstellungExampleCP"/>
-      </reference>
-      <name value="Beispiel Arztvorstellung"/>
-      <description value="Beispiel CarePlan für die Arztvorstellung eines Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/AuswertungExampleCP"/>
-      </reference>
-      <name value="Beispiel Auswertung"/>
-      <description value="Beispiel CarePlan für die Durchführung einer Auswertung mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/AuswertungExampleSR"/>
-      </reference>
-      <name value="Beispiel Auswertung"/>
-      <description value="Beispiel ServiceRequest für die Durchführung einer Auswertung mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Task"/>
-      </extension>
-      <reference>
-        <reference value="Task/AuswertungExampleTSK"/>
-      </reference>
-      <name value="Beispiel Auswertung"/>
-      <description value="Beispiel Task für die Durchführung einer Auswertung mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/BasismonitoringExampleCP"/>
-      </reference>
-      <name value="Beispiel Basismonitoring Patientenpfad"/>
-      <description value="Beispiel CarePlan einer Basismonitoring-Patientenpfadinstanz bei Erstvorstellung (M0) von Patient John Doe nach Überweisung aus der ambulanten neurologischen Einrichtung"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSArztbriefProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -471,128 +372,7 @@
       </reference>
       <name value="Beispiel Befund"/>
       <description value="Beispiel DocumentReference für einen Befund"/>
-      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/BefundauswertungExampleCP"/>
-      </reference>
-      <name value="Beispiel Befundauswertung"/>
-      <description value="Beispiel CarePlan für die Durchführung einer Befundauswertung mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Task"/>
-      </extension>
-      <reference>
-        <reference value="Task/BefundauswertungExampleTSK"/>
-      </reference>
-      <name value="Beispiel Befundauswertung"/>
-      <description value="Beispiel Task für die Durchführung einer Befundauswertung mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/DokumenteAbfragenPatientExampleCP"/>
-      </reference>
-      <name value="Beispiel Dokumente abfragen"/>
-      <description value="Beispiel CarePlan für eine Dokumentenabfrage beim Patienten abfragen (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Task"/>
-      </extension>
-      <reference>
-        <reference value="Task/DokumenteAbfragenPatientExampleTSK"/>
-      </reference>
-      <name value="Beispiel Dokumente abfragen"/>
-      <description value="Beispiel Task für eine Dokumentenabfrage beim Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/DokumenteUebermittelnArztExampleCP"/>
-      </reference>
-      <name value="Beispiel Dokumente an Arzt übermitteln"/>
-      <description value="Beispiel CarePlan für eine Dokumentenübermittlung an den Patienten abfragen (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Task"/>
-      </extension>
-      <reference>
-        <reference value="Task/DokumenteUebermittelnArztExampleTSK"/>
-      </reference>
-      <name value="Beispiel Dokumente an Arzt übermitteln"/>
-      <description value="Beispiel Task für eine Dokumentenübermittlung an den Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/DokumenteUebermittelnPatientExampleCP"/>
-      </reference>
-      <name value="Beispiel Dokumente an Patient übermitteln"/>
-      <description value="Beispiel CarePlan für eine Dokumentenübermittlung an den Patienten abfragen (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Task"/>
-      </extension>
-      <reference>
-        <reference value="Task/DokumenteUebermittelnPatientExampleTSK"/>
-      </reference>
-      <name value="Beispiel Dokumente an Patient übermitteln"/>
-      <description value="Beispiel Task für eine Dokumentenübermittlung an den Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/EntlassungExampleCP"/>
-      </reference>
-      <name value="Beispiel Entlassung"/>
-      <description value="Beispiel CarePlan für die Entlassung eines Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/GanganalyseExampleCP"/>
-      </reference>
-      <name value="Beispiel Ganganalyse"/>
-      <description value="Beispiel CarePlan für die Durchführung einer Ganganalyse mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/GanganalyseExampleSR"/>
-      </reference>
-      <name value="Beispiel Ganganalyse"/>
-      <description value="Beispiel ServiceRequest für die Durchführung einer Ganganalyse mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSBefundProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -603,7 +383,7 @@
       </reference>
       <name value="Beispiel Konsiliarbericht"/>
       <description value="Beispiel DocumentReference für einen Konsiliarbericht"/>
-      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSKonsiliarberichtProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -614,95 +394,7 @@
       </reference>
       <name value="Beispiel Laborergebnis"/>
       <description value="Beispiel DocumentReference für ein Laborergebnis"/>
-      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/LaboruntersuchungExampleCP"/>
-      </reference>
-      <name value="Beispiel Laboruntersuchung"/>
-      <description value="Beispiel CarePlan für die Durchführung einer Laboruntersuchung mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/LaboruntersuchungExampleSR"/>
-      </reference>
-      <name value="Beispiel Laboruntersuchung"/>
-      <description value="Beispiel ServiceRequest für die Durchführung einer Laboruntersuchung mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/MagnetresonanztomographieExampleCP"/>
-      </reference>
-      <name value="Beispiel Magnetresonanztomographie (MRT)"/>
-      <description value="Beispiel CarePlan für die Durchführung einer MRT mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/MagnetresonanztomographieExampleSR"/>
-      </reference>
-      <name value="Beispiel Magnetresonanztomographie (MRT)"/>
-      <description value="Beispiel ServiceRequest für die Durchführung einer MRT mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/MultipleSclerosisPerformanceTestExampleCP"/>
-      </reference>
-      <name value="Beispiel Multiple Sclerosis Performance Test (MSPT)"/>
-      <description value="Beispiel CarePlan für die Durchführung eines MSPT mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/MultipleSclerosisPerformanceTestExampleSR"/>
-      </reference>
-      <name value="Beispiel Multiple Sclerosis Performance Test (MSPT)"/>
-      <description value="Beispiel ServiceRequest für die Durchführung eines MSPT mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/OptischeKohaerenztomographieExampleCP"/>
-      </reference>
-      <name value="Beispiel Optische Kohärenztomographie (OCT)"/>
-      <description value="Beispiel CarePlan für die Durchführung eines OCT mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/OptischeKohaerenztomographieExampleSR"/>
-      </reference>
-      <name value="Beispiel Optische Kohärenztomographie (OCT)"/>
-      <description value="Beispiel ServiceRequest für die Durchführung eines OCT mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSLaborergebnisProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1104,7 +796,7 @@
       </reference>
       <name value="Beispiel Rezept"/>
       <description value="Beispiel DocumentReference für ein Rezept"/>
-      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSRezeptProfile"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1115,84 +807,7 @@
       </reference>
       <name value="Beispiel Sonstiges Dokument"/>
       <description value="Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU"/>
-      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Appointment"/>
-      </extension>
-      <reference>
-        <reference value="Appointment/TerminvereinbarungExampleAPT"/>
-      </reference>
-      <name value="Beispiel Terminvereinbarung"/>
-      <description value="Beispiel Appointment mit einem Terminvorschlag für einen Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/TerminvereinbarungExampleCP"/>
-      </reference>
-      <name value="Beispiel Terminvereinbarung"/>
-      <description value="Beispiel CarePlan zur Terminvereinbarung mit einem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/TherapiespezifischeDiagnostikExampleCP"/>
-      </reference>
-      <name value="Beispiel Therapiespezifische Diagnostik"/>
-      <description value="Beispiel CarePlan für die Durchführung einer therapiespezifischen Diagnostik mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ServiceRequest"/>
-      </extension>
-      <reference>
-        <reference value="ServiceRequest/TherapiespezifischeDiagnostikExampleSR"/>
-      </reference>
-      <name value="Beispiel Therapiespezifische Diagnostik"/>
-      <description value="Beispiel ServiceRequest für die Durchführung einer therapiespezifischen Diagnostik mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/VorstellungExampleCP"/>
-      </reference>
-      <name value="Beispiel Erst- oder Wiedervorstellung"/>
-      <description value="Beispiel CarePlan zur Erstvorstellung eines Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/VoruntersuchungExampleCP"/>
-      </reference>
-      <name value="Beispiel Voruntersuchung"/>
-      <description value="Beispiel CarePlan für die Voruntersuchung eines Patienten (M0)"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CarePlan"/>
-      </extension>
-      <reference>
-        <reference value="CarePlan/ZusatzdiagnostikExampleCP"/>
-      </reference>
-      <name value="Beispiel Zusatzdiagnostik"/>
-      <description value="Beispiel CarePlan für die Durchführung einer Zusatzdiagnostik mit dem Patienten (M0)"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSSonstigesDokumentProfile"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

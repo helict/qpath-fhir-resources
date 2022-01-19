@@ -10,9 +10,9 @@
   fhir:Resource.id [ fhir:value "LaborergebnisExample"];
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis";
+       fhir:value "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSLaborergebnisProfile";
        fhir:index 0;
-       fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis>
+       fhir:link <http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSLaborergebnisProfile>
      ]
   ];
   fhir:DomainResource.text [

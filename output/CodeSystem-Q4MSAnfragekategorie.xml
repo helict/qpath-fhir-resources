@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="Q4MSAnfragekategorie"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSAnfragekategorie defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">drug-therapy<a name="Q4MSAnfragekategorie-drug-therapy"> </a></td><td>Medikamentöse Therapie</td><td>Anfrage zur medikamentösen Therapie</td></tr><tr><td style="white-space:nowrap">examination<a name="Q4MSAnfragekategorie-examination"> </a></td><td>Untersuchung</td><td>Anfrage zu Krankenhausaufenthalt</td></tr><tr><td style="white-space:nowrap">hospitalization<a name="Q4MSAnfragekategorie-hospitalization"> </a></td><td>Krankenhausaufenthalt</td><td>Anfrage zu Krankenhausaufenthalt</td></tr><tr><td style="white-space:nowrap">infection-vaccination<a name="Q4MSAnfragekategorie-infection-vaccination"> </a></td><td>Infekte / Impfungen</td><td>Anfrage zu Infekten / Impfungen (z.B. Corona)</td></tr><tr><td style="white-space:nowrap">non-drug-therapy<a name="Q4MSAnfragekategorie-non-drug-therapy"> </a></td><td>Nicht-medikamentöse Therapie</td><td>Anfrage zur nicht-medikamentösen Therapie</td></tr><tr><td style="white-space:nowrap">pregnancy<a name="Q4MSAnfragekategorie-pregnancy"> </a></td><td>Schwangerschaft</td><td>Anfrage zu Schwangerschaft</td></tr><tr><td style="white-space:nowrap">suspected-attack<a name="Q4MSAnfragekategorie-suspected-attack"> </a></td><td>Schubverdacht</td><td>Anfrage zu Schubverdacht / Verschlechterung der Symptome</td></tr></table></div>
+  </text>
+  <url value="http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSAnfragekategorie"/>
+  <version value="0.1.0"/>
+  <name value="Q4MSAnfragekategorie"/>
+  <title value="Anfragekategorie"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2022-01-19T20:56:59+01:00"/>
+  <publisher value="Forschungsgruppe Digital Health"/>
+  <contact>
+    <name value="Forschungsgruppe Digital Health"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://tud.link/xd10"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="digital-health@tu-dresden.de"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Marcel Susky"/>
+    <telecom>
+      <system value="email"/>
+      <value value="marcel.susky@tu-dresden.de"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="Deklariert Anfragekategorien"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DE"/>
+      <display value="Germany"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="drug-therapy"/>
+    <display value="Medikamentöse Therapie"/>
+    <definition value="Anfrage zur medikamentösen Therapie"/>
+  </concept>
+  <concept>
+    <code value="examination"/>
+    <display value="Untersuchung"/>
+    <definition value="Anfrage zu Krankenhausaufenthalt"/>
+  </concept>
+  <concept>
+    <code value="hospitalization"/>
+    <display value="Krankenhausaufenthalt"/>
+    <definition value="Anfrage zu Krankenhausaufenthalt"/>
+  </concept>
+  <concept>
+    <code value="infection-vaccination"/>
+    <display value="Infekte / Impfungen"/>
+    <definition value="Anfrage zu Infekten / Impfungen (z.B. Corona)"/>
+  </concept>
+  <concept>
+    <code value="non-drug-therapy"/>
+    <display value="Nicht-medikamentöse Therapie"/>
+    <definition value="Anfrage zur nicht-medikamentösen Therapie"/>
+  </concept>
+  <concept>
+    <code value="pregnancy"/>
+    <display value="Schwangerschaft"/>
+    <definition value="Anfrage zu Schwangerschaft"/>
+  </concept>
+  <concept>
+    <code value="suspected-attack"/>
+    <display value="Schubverdacht"/>
+    <definition value="Anfrage zu Schubverdacht / Verschlechterung der Symptome"/>
+  </concept>
+</CodeSystem>

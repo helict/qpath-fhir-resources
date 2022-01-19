@@ -2,7 +2,7 @@ Instance: Q4MSActivityDefinitionTaskTransform
 InstanceOf: StructureMap
 Title: "Transformiert eine ActivityDefinition in einen Task"
 Usage: #definition
-* url = $q4ms-activitydefinition-task-transform-sm
+* url = $q4ms-activitydefinition-task-transform
 * name = "Transformiert eine ActivityDefinition in einen Task"
 * status = $publication-status#draft
 * experimental = true

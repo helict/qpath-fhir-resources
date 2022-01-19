@@ -11,7 +11,7 @@
       "valueCode": "anonymous"
     }
   ],
-  "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-terminvereinbarung",
+  "url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSTerminvereinbarungProfile",
   "version": "0.1.0",
   "name": "Q4MSTerminvereinbarungProfile",
   "title": "Terminvereinbarung",
@@ -68,7 +68,7 @@
         ],
         "binding": {
           "strength": "required",
-          "valueSet": "http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs"
+          "valueSet": "http://qpath4ms.ukdd.de/fhir/ValueSet/Q4MSTerminanfragekategorieVS"
         }
       },
       {

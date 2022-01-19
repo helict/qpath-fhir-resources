@@ -3,9 +3,9 @@
 <PlanDefinition xmlns="http://hl7.org/fhir">
   <id value="Q4MSVorstellung"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSVorstellung" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-vorstellung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: Workflow Definition <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html">PlanDefinitionType</a>#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-13T14:43:39+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href="https://tud.link/xd10">https://tud.link/xd10</a>,<a href="mailto:digital-health@tu-dresden.de">digital-health@tu-dresden.de</a>, Marcel Susky: <a href="mailto:marcel.susky@tu-dresden.de">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#DE)</span></p><blockquote><p><b>action</b></p><p><b>title</b>: Terminvereinbarung</p><p><b>description</b>: Termin zur Vorstellung vereinbaren</p><p><b>definition</b>: <a href="PlanDefinition-Q4MSTerminvereinbarung.html">PlanDefinition[http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-terminvereinbarung]</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Dokumente abfragen</p><p><b>description</b>: Dokumente beim Patienten abfragen</p><h3>RelatedActions</h3><table class="grid"><tr><td>-</td><td><b>ActionId</b></td><td><b>Relationship</b></td></tr><tr><td>*</td><td>appointment</td><td>after-end</td></tr></table><p><b>definition</b>: <a href="PlanDefinition-Q4MSDokumenteAbfragenPatient.html">PlanDefinition[http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient]</a></p></blockquote></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "Q4MSVorstellung" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVorstellung</code></p><p><b>version</b>: 0.1.0</p><p><b>type</b>: Workflow Definition <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html">PlanDefinitionType</a>#workflow-definition)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-19T20:56:59+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href="https://tud.link/xd10">https://tud.link/xd10</a>,<a href="mailto:digital-health@tu-dresden.de">digital-health@tu-dresden.de</a>, Marcel Susky: <a href="mailto:marcel.susky@tu-dresden.de">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#DE)</span></p><blockquote><p><b>action</b></p><p><b>title</b>: Terminvereinbarung</p><p><b>description</b>: Termin zur Vorstellung vereinbaren</p><p><b>definition</b>: <a href="PlanDefinition-Q4MSTerminvereinbarung.html">PlanDefinition[http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTerminvereinbarung]</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Dokumente abfragen</p><p><b>description</b>: Dokumente beim Patienten abfragen</p><h3>RelatedActions</h3><table class="grid"><tr><td>-</td><td><b>ActionId</b></td><td><b>Relationship</b></td></tr><tr><td>*</td><td>appointment</td><td>after-end</td></tr></table><p><b>definition</b>: <a href="PlanDefinition-Q4MSDokumenteAbfragenPatient.html">PlanDefinition[http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteAbfragenPatient]</a></p></blockquote></div>
   </text>
-  <url value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-vorstellung"/>
+  <url value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVorstellung"/>
   <version value="0.1.0"/>
   <type>
     <coding>
@@ -15,7 +15,7 @@
   </type>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2022-01-13T14:43:39+01:00"/>
+  <date value="2022-01-19T20:56:59+01:00"/>
   <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
     <name value="Forschungsgruppe Digital Health"/>
@@ -46,7 +46,7 @@
   <action id="appointment">
     <title value="Terminvereinbarung"/>
     <description value="Termin zur Vorstellung vereinbaren"/>
-    <definitionCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-terminvereinbarung"/>
+    <definitionCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTerminvereinbarung"/>
   </action>
   <action>
     <title value="Dokumente abfragen"/>
@@ -55,6 +55,6 @@
       <actionId value="appointment"/>
       <relationship value="after-end"/>
     </relatedAction>
-    <definitionCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient"/>
+    <definitionCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteAbfragenPatient"/>
   </action>
 </PlanDefinition>

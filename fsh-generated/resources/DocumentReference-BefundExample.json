@@ -3,7 +3,7 @@
   "id": "BefundExample",
   "meta": {
     "profile": [
-      "http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund"
+      "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSBefundProfile"
     ]
   },
   "status": "current",

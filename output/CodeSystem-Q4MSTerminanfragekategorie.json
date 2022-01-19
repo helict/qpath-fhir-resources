@@ -1,0 +1,78 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "Q4MSTerminanfragekategorie",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSTerminanfragekategorie defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">booking<a name=\"Q4MSTerminanfragekategorie-booking\"> </a></td><td>Terminanforderung</td><td>Anforderung eines Termins</td></tr><tr><td style=\"white-space:nowrap\">rescheduling<a name=\"Q4MSTerminanfragekategorie-rescheduling\"> </a></td><td>Terminverschiebung</td><td>Verschiebung eines Termins</td></tr><tr><td style=\"white-space:nowrap\">cancellation<a name=\"Q4MSTerminanfragekategorie-cancellation\"> </a></td><td>Terminabsage</td><td>Absage eines Termins</td></tr></table></div>"
+  },
+  "url": "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSTerminanfragekategorie",
+  "version": "0.1.0",
+  "name": "Q4MSTerminanfragekategorie",
+  "title": "Terminanfragekategorie",
+  "status": "active",
+  "experimental": true,
+  "date": "2022-01-19T20:56:59+01:00",
+  "publisher": "Forschungsgruppe Digital Health",
+  "contact": [
+    {
+      "name": "Forschungsgruppe Digital Health",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://tud.link/xd10"
+        },
+        {
+          "system": "email",
+          "value": "digital-health@tu-dresden.de"
+        }
+      ]
+    },
+    {
+      "name": "Marcel Susky",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "marcel.susky@tu-dresden.de",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "Deklariert Terminanfragekategorien",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "DE",
+          "display": "Germany"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "booking",
+      "display": "Terminanforderung",
+      "definition": "Anforderung eines Termins"
+    },
+    {
+      "code": "rescheduling",
+      "display": "Terminverschiebung",
+      "definition": "Verschiebung eines Termins"
+    },
+    {
+      "code": "cancellation",
+      "display": "Terminabsage",
+      "definition": "Absage eines Termins"
+    }
+  ]
+}

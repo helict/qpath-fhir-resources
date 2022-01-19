@@ -21,6 +21,7 @@ Alias: $plan-definition-type = http://terminology.hl7.org/CodeSystem/plan-defini
 Alias: $publication-status = http://hl7.org/fhir/publication-status
 Alias: $request-intent = http://hl7.org/fhir/request-intent
 Alias: $resource-type = http://hl7.org/fhir/resource-types
+Alias: $shareable-codesystem = http://hl7.org/fhir/StructureDefinition/shareablecodesystem
 Alias: $snomed-ct = http://snomed.info/sct
 Alias: $task-code = http://hl7.org/fhir/CodeSystem/task-code
 Alias: $task-sd = http://hl7.org/fhir/StructureDefinition/task
@@ -31,64 +32,64 @@ Alias: $v3-participation-type = http://terminology.hl7.org/CodeSystem/v3-Partici
 Alias: $v3-role-code = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
 // QPath4MS Terminology Aliases
-Alias: $q4ms-anfragekategorie = http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-anfragekategorie
-Alias: $q4ms-anfragekategorie-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-anfragekategorie-vs
-Alias: $q4ms-dokumentanforderungkategorie = http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-dokumentanforderungkategorie
-Alias: $q4ms-dokumentanforderungkategorie-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-dokumentanforderungkategorie-vs
-Alias: $q4ms-terminanfragekategorie = http://qpath4ms.ukdd.de/fhir/CodeSystem/q4ms-terminanfragekategorie
-Alias: $q4ms-terminanfragekategorie-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/q4ms-terminanfragekategorie-vs
+Alias: $q4ms-anfragekategorie = http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSAnfragekategorie
+Alias: $q4ms-anfragekategorie-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/Q4MSAnfragekategorieVS
+Alias: $q4ms-dokumentanforderungkategorie = http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie
+Alias: $q4ms-dokumentanforderungkategorie-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/Q4MSDokumentanforderungkategorieVS
+Alias: $q4ms-terminanfragekategorie = http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSTerminanfragekategorie
+Alias: $q4ms-terminanfragekategorie-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/Q4MSTerminanfragekategorieVS
 
 // QPath4MS Pathway PlanDefinition Aliases
-Alias: $q4ms-allgemeine-neurologische-anamnese = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-anamnese
-Alias: $q4ms-allgemeine-neurologische-untersuchung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-allgemeine-neurologische-untersuchung
-Alias: $q4ms-arztvorstellung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-arztvorstellung
-Alias: $q4ms-auswertung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-auswertung
-Alias: $q4ms-basismonitoring = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-basismonitoring
-Alias: $q4ms-befundauswertung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-befundauswertung
-Alias: $q4ms-dokumente-abfragen-patient = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-abfragen-patient
-Alias: $q4ms-dokumente-uebermitteln-arzt = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-arzt
-Alias: $q4ms-dokumente-uebermitteln-patient = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-dokumente-uebermitteln-patient
-Alias: $q4ms-entlassung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-entlassung
-Alias: $q4ms-ganganalyse = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-ganganalyse
-Alias: $q4ms-laboruntersuchung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-laboruntersuchung
-Alias: $q4ms-magnetresonanztomographie = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-magnetresonanztomographie
-Alias: $q4ms-multiple-sclerosis-performance-test = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-multiple-sclerosis-performance-test
-Alias: $q4ms-optische-koheraenztomographie = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-optische-koheraenztomographie
-Alias: $q4ms-terminvereinbarung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-terminvereinbarung
-Alias: $q4ms-therapiespezifische-diagnostik = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-therapiespezifische-diagnostik
-Alias: $q4ms-vorstellung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-vorstellung
-Alias: $q4ms-voruntersuchung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-voruntersuchung
-Alias: $q4ms-zusatzdiagnostik = http://qpath4ms.ukdd.de/fhir/PlanDefinition/q4ms-zusatzdiagnostik
+Alias: $q4ms-allgemeine-neurologische-anamnese = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese
+Alias: $q4ms-allgemeine-neurologische-untersuchung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung
+Alias: $q4ms-arztvorstellung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSArztvorstellung
+Alias: $q4ms-auswertung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAuswertung
+Alias: $q4ms-basismonitoring = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBasismonitoring
+Alias: $q4ms-befundauswertung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBefundauswertung
+Alias: $q4ms-dokumente-abfragen-patient = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteAbfragenPatient
+Alias: $q4ms-dokumente-uebermitteln-arzt = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteUebermittelnArzt
+Alias: $q4ms-dokumente-uebermitteln-patient = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteUebermittelnPatient
+Alias: $q4ms-entlassung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSEntlassung
+Alias: $q4ms-ganganalyse = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSGanganalyse
+Alias: $q4ms-laboruntersuchung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSLaboruntersuchung
+Alias: $q4ms-magnetresonanztomographie = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMagnetresonanztomographie
+Alias: $q4ms-multiple-sclerosis-performance-test = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest
+Alias: $q4ms-optische-koheraenztomographie = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSOptischeKohaerenztomographie
+Alias: $q4ms-terminvereinbarung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTerminvereinbarung
+Alias: $q4ms-therapiespezifische-diagnostik = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTherapiespezifischeDiagnostik
+Alias: $q4ms-vorstellung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVorstellung
+Alias: $q4ms-voruntersuchung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung
+Alias: $q4ms-zusatzdiagnostik = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSZusatzdiagnostik
 
 // QPath4MS Pathway ActivityDefinition Aliases
-Alias: $q4ms-allgemeine-neurologische-anamnese-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-allgemeine-neurologische-anamnese
-Alias: $q4ms-auswertung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-auswertung
-Alias: $q4ms-befundauswertung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-befundauswertung
-Alias: $q4ms-dokumente-abfragen-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-abfragen
-Alias: $q4ms-dokumente-uebermitteln-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-dokumente-uebermitteln
-Alias: $q4ms-expanded-disability-status-scale-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-expanded-disability-status-scale
-Alias: $q4ms-ganganalyse-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-ganganalyse
-Alias: $q4ms-laboruntersuchung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-laboruntersuchung
-Alias: $q4ms-magnetresonanztomographie-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-magnetresonanztomographie
-Alias: $q4ms-multiple-sclerosis-performance-test-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-multiple-sclerosis-performance-test
-Alias: $q4ms-optische-koheraenztomographie-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-optische-koheraenztomographie
-Alias: $q4ms-terminvereinbarung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-terminvereinbarung
-Alias: $q4ms-therapiespezifische-diagnostik-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/q4ms-therapiespezifische-diagnostik
+Alias: $q4ms-allgemeine-neurologische-anamnese-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD
+Alias: $q4ms-auswertung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAuswertungAD
+Alias: $q4ms-befundauswertung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSBefundauswertungAD
+Alias: $q4ms-dokumente-abfragen-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteAbfragenAD
+Alias: $q4ms-dokumente-uebermitteln-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteUebermittelnAD
+Alias: $q4ms-expanded-disability-status-scale-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD
+Alias: $q4ms-ganganalyse-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSGanganalyseAD
+Alias: $q4ms-laboruntersuchung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSLaboruntersuchungAD
+Alias: $q4ms-magnetresonanztomographie-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSMagnetresonanztomographieAD
+Alias: $q4ms-multiple-sclerosis-performance-test-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD
+Alias: $q4ms-optische-kohaerenztomographie-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSOptischeKohaerenztomographieAD
+Alias: $q4ms-terminvereinbarung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSTerminvereinbarungAD
+Alias: $q4ms-therapiespezifische-diagnostik-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD
 
 // QPath4MS Pathway Profile Aliases
-Alias: $q4ms-arztbrief-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-arztbrief
-Alias: $q4ms-befund-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-befund
-Alias: $q4ms-dokument-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokument
-Alias: $q4ms-dokumentanforderung-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-dokumentanforderung
-Alias: $q4ms-konsiliarbericht-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-konsiliarbericht
-Alias: $q4ms-laborergebnis-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-laborergebnis
-Alias: $q4ms-rezept-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-rezept
-Alias: $q4ms-sonstiges-dokument-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-sonstiges-dokument
-Alias: $q4ms-terminvereinbarung-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/q4ms-terminvereinbarung
+Alias: $q4ms-arztbrief-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSArztbriefProfile
+Alias: $q4ms-befund-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSBefundProfile
+Alias: $q4ms-dokument-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSDokumentProfile
+Alias: $q4ms-dokumentanforderung-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSDokumentanforderungProfile
+Alias: $q4ms-konsiliarbericht-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSKonsiliarberichtProfile
+Alias: $q4ms-laborergebnis-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSLaborergebnisProfile
+Alias: $q4ms-rezept-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSRezeptProfile
+Alias: $q4ms-sonstiges-dokument-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSSonstigesDokumentProfile
+Alias: $q4ms-terminvereinbarung-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSTerminvereinbarungProfile
 
 // QPath4MS Pathway MessageDefinition Aliases
-Alias: $q4ms-arztbriefanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-arztbriefanfrage
-Alias: $q4ms-terminanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/q4ms-terminanfrage
+Alias: $q4ms-arztbriefanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSArztbriefanfrage
+Alias: $q4ms-terminanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSTerminanfrage
 
 // QPath4MS StructureMap Definition Aliases
-Alias: $q4ms-activitydefinition-task-transform-sm = http://qpath4ms.ukdd.de/fhir/StructureMap/q4ms-activitydefinition-task-transform-sm
+Alias: $q4ms-activitydefinition-task-transform = http://qpath4ms.ukdd.de/fhir/StructureMap/Q4MSActivityDefinitionTaskTransform

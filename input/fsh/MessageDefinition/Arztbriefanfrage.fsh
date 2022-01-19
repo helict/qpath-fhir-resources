@@ -7,7 +7,7 @@ Title: "Arztbriefanfrage"
 * date = "2021-12-21"
 * parent = Canonical(Q4MSDokumenteAbfragenAD)
 * eventCoding = $q4ms-dokumentanforderungkategorie#doctor-letter
-* focus
-  * code = $resource-type#DocumentReference
-  * profile = Canonical(Q4MSArztbriefProfile)
-  * min = 1
+* focus.code = $resource-type#DocumentReference
+* focus.profile = Canonical(Q4MSArztbriefProfile)
+* focus.min = 1
+* focus.max = "*"
