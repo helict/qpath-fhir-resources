@@ -3,9 +3,9 @@
   "name": "QPath4MSIG",
   "package-id": "fhir.qpath4ms",
   "ig-ver": "0.1.0",
-  "date": "Wed, 19 Jan, 2022 20:56:59 +0100",
+  "date": "Thu, 20 Jan, 2022 13:58:01 +0100",
   "errs": 4,
-  "warnings": 115,
+  "warnings": 102,
   "hints": 35,
   "version": "4.0.1",
   "tool": "5.0.0-snapshot1 (3)"

@@ -3,6 +3,7 @@ InstanceOf: ActivityDefinition
 Title: "Therapiespezifische Diagnostik"
 Usage: #definition
 * url = $q4ms-therapiespezifische-diagnostik-ad
+* name = "Q4MSTherapiespezifischeDiagnostikAD"
 * status = $publication-status#draft
 * experimental = true
 * kind = $resource-type#ServiceRequest

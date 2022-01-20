@@ -10,79 +10,92 @@
     "id": "Q4MSAllgemeineNeurologischeAnamneseAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSAllgemeineNeurologischeAnamneseAD"
   },
   {
     "id": "Q4MSAuswertungAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAuswertungAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSAuswertungAD"
   },
   {
     "id": "Q4MSBefundauswertungAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSBefundauswertungAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSBefundauswertungAD"
   },
   {
     "id": "Q4MSDokumenteAbfragenAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteAbfragenAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSDokumenteAbfragenAD"
   },
   {
     "id": "Q4MSDokumenteUebermittelnAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteUebermittelnAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSDokumenteUebermittelnAD"
   },
   {
     "id": "Q4MSExpandedDisabilityStatusScaleAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSExpandedDisabilityStatusScaleAD"
   },
   {
     "id": "Q4MSGanganalyseAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSGanganalyseAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSGanganalyseAD"
   },
   {
     "id": "Q4MSLaboruntersuchungAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSLaboruntersuchungAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSLaboruntersuchungAD"
   },
   {
     "id": "Q4MSMagnetresonanztomographieAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSMagnetresonanztomographieAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSMagnetresonanztomographieAD"
   },
   {
     "id": "Q4MSMultipleSclerosisPerformanceTestAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSMultipleSclerosisPerformanceTestAD"
   },
   {
     "id": "Q4MSOptischeKohaerenztomographieAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSOptischeKohaerenztomographieAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSOptischeKohaerenztomographieAD"
   },
   {
     "id": "Q4MSTerminvereinbarungAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSTerminvereinbarungAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSTerminvereinbarungAD"
   },
   {
     "id": "Q4MSTherapiespezifischeDiagnostikAD",
     "type": "ActivityDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSTherapiespezifischeDiagnostikAD"
   },
   {
     "id": "Q4MSAnfragekategorie",
