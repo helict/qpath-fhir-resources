@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSBefundauswertung",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBefundauswertung",
+  "name": "Q4MSBefundauswertung",
   "type": {
     "coding": [
       {

@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSLaboruntersuchung",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSLaboruntersuchung",
+  "name": "Q4MSLaboruntersuchung",
   "type": {
     "coding": [
       {

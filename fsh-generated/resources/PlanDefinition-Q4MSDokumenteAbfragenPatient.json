@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSDokumenteAbfragenPatient",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteAbfragenPatient",
+  "name": "Q4MSDokumenteAbfragenPatient",
   "type": {
     "coding": [
       {

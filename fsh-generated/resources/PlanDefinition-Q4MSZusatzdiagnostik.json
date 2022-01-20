@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSZusatzdiagnostik",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSZusatzdiagnostik",
+  "name": "Q4MSZusatzdiagnostik",
   "status": "draft",
   "experimental": true,
   "type": {

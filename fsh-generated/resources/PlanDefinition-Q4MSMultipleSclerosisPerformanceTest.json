@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSMultipleSclerosisPerformanceTest",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest",
+  "name": "Q4MSMultipleSclerosisPerformanceTest",
   "type": {
     "coding": [
       {

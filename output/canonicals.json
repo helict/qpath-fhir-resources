@@ -134,121 +134,141 @@
     "id": "Q4MSAllgemeineNeurologischeAnamnese",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSAllgemeineNeurologischeAnamnese"
   },
   {
     "id": "Q4MSAllgemeineNeurologischeUntersuchung",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSAllgemeineNeurologischeUntersuchung"
   },
   {
     "id": "Q4MSArztvorstellung",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSArztvorstellung",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSArztvorstellung"
   },
   {
     "id": "Q4MSAuswertung",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAuswertung",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSAuswertung"
   },
   {
     "id": "Q4MSBasismonitoring",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBasismonitoring",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSBasismonitoring"
   },
   {
     "id": "Q4MSBefundauswertung",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBefundauswertung",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSBefundauswertung"
   },
   {
     "id": "Q4MSDokumenteAbfragenPatient",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteAbfragenPatient",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSDokumenteAbfragenPatient"
   },
   {
     "id": "Q4MSDokumenteUebermittelnArzt",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteUebermittelnArzt",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSDokumenteUebermittelnArzt"
   },
   {
     "id": "Q4MSDokumenteUebermittelnPatient",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteUebermittelnPatient",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSDokumenteUebermittelnPatient"
   },
   {
     "id": "Q4MSEntlassung",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSEntlassung",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSEntlassung"
   },
   {
     "id": "Q4MSGanganalyse",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSGanganalyse",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSGanganalyse"
   },
   {
     "id": "Q4MSLaboruntersuchung",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSLaboruntersuchung",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSLaboruntersuchung"
   },
   {
     "id": "Q4MSMagnetresonanztomographie",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMagnetresonanztomographie",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSMagnetresonanztomographie"
   },
   {
     "id": "Q4MSMultipleSclerosisPerformanceTest",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSMultipleSclerosisPerformanceTest"
   },
   {
     "id": "Q4MSOptischeKohaerenztomographie",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSOptischeKohaerenztomographie",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSOptischeKohaerenztomographie"
   },
   {
     "id": "Q4MSTerminvereinbarung",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTerminvereinbarung",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSTerminvereinbarung"
   },
   {
     "id": "Q4MSTherapiespezifischeDiagnostik",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTherapiespezifischeDiagnostik",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSTherapiespezifischeDiagnostik"
   },
   {
     "id": "Q4MSVorstellung",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVorstellung",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSVorstellung"
   },
   {
     "id": "Q4MSVoruntersuchung",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSVoruntersuchung"
   },
   {
     "id": "Q4MSZusatzdiagnostik",
     "type": "PlanDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSZusatzdiagnostik",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSZusatzdiagnostik"
   },
   {
     "id": "Q4MSArztbriefProfile",

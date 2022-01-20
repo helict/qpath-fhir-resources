@@ -4,6 +4,7 @@ Title: "Multiple Sclerosis Performance Test"
 Description: "PlanDefinition zum Multiple Sclerosis Performance Test (MSPT)"
 Usage: #definition
 * url = $q4ms-multiple-sclerosis-performance-test
+* name = "Q4MSMultipleSclerosisPerformanceTest"
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#draft
 * experimental = true

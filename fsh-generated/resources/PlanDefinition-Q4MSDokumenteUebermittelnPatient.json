@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSDokumenteUebermittelnPatient",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteUebermittelnPatient",
+  "name": "Q4MSDokumenteUebermittelnPatient",
   "type": {
     "coding": [
       {

@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSMagnetresonanztomographie",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMagnetresonanztomographie",
+  "name": "Q4MSMagnetresonanztomographie",
   "type": {
     "coding": [
       {

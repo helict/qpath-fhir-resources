@@ -4,6 +4,7 @@ Title: "Therapiespezifische Diagnostik"
 Description: "PlanDefinition zur therapiespezifischen Diagnostik"
 Usage: #definition
 * url = $q4ms-therapiespezifische-diagnostik
+* name = "Q4MSTherapiespezifischeDiagnostik"
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#draft
 * experimental = true

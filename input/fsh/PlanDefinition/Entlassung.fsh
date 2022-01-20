@@ -4,6 +4,7 @@ Title: "Entlassung"
 Description: "PlanDefinition zur Entlassung"
 Usage: #definition
 * url = $q4ms-entlassung
+* name = "Q4MSEntlassung"
 * type = $plan-definition-type#workflow-definition
 * status = $publication-status#draft
 * experimental = true

@@ -4,6 +4,7 @@ Title: "Terminvereinbarung"
 Description: "PlanDefinition zur Terminvereinbarung"
 Usage: #definition
 * url = $q4ms-terminvereinbarung
+* name = "Q4MSTerminvereinbarung"
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#draft
 * experimental = true

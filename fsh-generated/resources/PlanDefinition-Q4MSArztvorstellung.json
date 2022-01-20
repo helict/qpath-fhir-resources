@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSArztvorstellung",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSArztvorstellung",
+  "name": "Q4MSArztvorstellung",
   "type": {
     "coding": [
       {

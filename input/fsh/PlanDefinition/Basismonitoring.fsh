@@ -4,6 +4,7 @@ Title: "Basismonitoring Patientepfad"
 Description: "PlanDefinition zum Basismonitoring-Patientepfad"
 Usage: #definition
 * url = $q4ms-basismonitoring
+* name = "Q4MSBasismonitoring"
 * type = $plan-definition-type#clinical-protocol
 * status = $publication-status#draft
 * experimental = true

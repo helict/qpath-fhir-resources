@@ -4,6 +4,7 @@ Title: "Arztvorstellung"
 Description: "PlanDefinition zur Arztvorstellung"
 Usage: #definition
 * url = $q4ms-arztvorstellung
+* name = "Q4MSArztvorstellung"
 * type = $plan-definition-type#workflow-definition
 * status = $publication-status#draft
 * experimental = true

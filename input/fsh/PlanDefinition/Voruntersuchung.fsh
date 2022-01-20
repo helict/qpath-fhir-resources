@@ -4,6 +4,7 @@ Title: "Voruntersuchung"
 Description: "PlanDefinition zur Voruntersuchung"
 Usage: #definition
 * url = $q4ms-voruntersuchung
+* name = "Q4MSVoruntersuchung"
 * type = $plan-definition-type#workflow-definition
 * status = $publication-status#draft
 * experimental = true

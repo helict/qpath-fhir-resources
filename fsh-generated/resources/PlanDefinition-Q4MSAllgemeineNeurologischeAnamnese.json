@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSAllgemeineNeurologischeAnamnese",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese",
+  "name": "Q4MSAllgemeineNeurologischeAnamnese",
   "type": {
     "coding": [
       {

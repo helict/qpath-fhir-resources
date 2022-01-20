@@ -4,6 +4,7 @@ Title: "Zusatzdiagnostik"
 Description: "PlanDefinition zur Zusatzdiagnostik"
 Usage: #definition
 * url = $q4ms-zusatzdiagnostik
+* name = "Q4MSZusatzdiagnostik"
 * status = $publication-status#draft
 * experimental = true
 * type = $plan-definition-type#workflow-definition

@@ -4,6 +4,7 @@ Title: "Dokumente beim Patient abfragen"
 Description: "PlanDefinition zur Abfrage von Dokumenten beim Patient"
 Usage: #definition
 * url = $q4ms-dokumente-abfragen-patient
+* name = "Q4MSDokumenteAbfragenPatient"
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#draft
 * experimental = true

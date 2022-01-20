@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSVoruntersuchung",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung",
+  "name": "Q4MSVoruntersuchung",
   "type": {
     "coding": [
       {

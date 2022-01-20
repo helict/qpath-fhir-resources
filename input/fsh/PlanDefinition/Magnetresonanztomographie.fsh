@@ -4,6 +4,7 @@ Title: "Magnetresonanztomographie"
 Description: "PlanDefinition zur Magnetresonanztomographie (MRT)"
 Usage: #definition
 * url = $q4ms-magnetresonanztomographie
+* name = "Q4MSMagnetresonanztomographie"
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#draft
 * experimental = true

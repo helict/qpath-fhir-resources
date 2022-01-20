@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSVorstellung",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVorstellung",
+  "name": "Q4MSVorstellung",
   "type": {
     "coding": [
       {

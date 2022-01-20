@@ -4,6 +4,7 @@ Title: "Erst- oder Wiedervorstellung"
 Description: "PlanDefinition zur Erst- oder Wiedervorstellung"
 Usage: #definition
 * url = $q4ms-vorstellung
+* name = "Q4MSVorstellung"
 * type = $plan-definition-type#workflow-definition
 * status = $publication-status#draft
 * experimental = true

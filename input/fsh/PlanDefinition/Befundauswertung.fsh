@@ -4,6 +4,7 @@ Title: "Befundauswertung"
 Description: "PlanDefinition zur Befundauswertung"
 Usage: #definition
 * url = $q4ms-befundauswertung
+* name = "Q4MSBefundauswertung"
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#draft
 * experimental = true

@@ -4,6 +4,7 @@ Title: "Optische Kohärenztomographie"
 Description: "PlanDefinition zur Optischen Kohärenztomographie (OCT)"
 Usage: #definition
 * url = $q4ms-optische-koheraenztomographie
+* name = "Q4MSOptischeKohaerenztomographie"
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#draft
 * experimental = true

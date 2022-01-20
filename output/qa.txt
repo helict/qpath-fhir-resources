@@ -1,9 +1,9 @@
 ﻿QPath4MSIG : Validation Results
 =========================================
 
-err = 4, warn = 58, info = 35
+err = 4, warn = 38, info = 35
 IG Publisher Version: 1.1.97
-Generated Thu Jan 20 17:10:48 CET 2022. FHIR version 4.0.1 for fhir.qpath4ms#0.1.0 (canonical = http://qpath4ms.ukdd.de)
+Generated Thu Jan 20 17:23:27 CET 2022. FHIR version 4.0.1 for fhir.qpath4ms#0.1.0 (canonical = http://qpath4ms.ukdd.de)
  Build Errors : 0 / 3 / 0
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSAllgemeineNeurologischeAnamneseAD : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSAuswertungAD : 0 / 0 / 1
@@ -54,26 +54,26 @@ Generated Thu Jan 20 17:10:48 CET 2022. FHIR version 4.0.1 for fhir.qpath4ms#0.1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageHeader-Q4MSArztbriefanfrageHeader : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageHeader-Q4MSTerminanfrageHeader : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/Patient-PatientJohnDoe : 0 / 0 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeAnamnese : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeUntersuchung : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSArztvorstellung : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSAuswertung : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSBasismonitoring : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSBefundauswertung : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSDokumenteAbfragenPatient : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnArzt : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnPatient : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSEntlassung : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSGanganalyse : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSLaboruntersuchung : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSMagnetresonanztomographie : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSMultipleSclerosisPerformanceTest : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSOptischeKohaerenztomographie : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSTerminvereinbarung : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSTherapiespezifischeDiagnostik : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSVorstellung : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSVoruntersuchung : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSZusatzdiagnostik : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeAnamnese : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeUntersuchung : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSArztvorstellung : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSAuswertung : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSBasismonitoring : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSBefundauswertung : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSDokumenteAbfragenPatient : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnArzt : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnPatient : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSEntlassung : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSGanganalyse : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSLaboruntersuchung : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSMagnetresonanztomographie : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSMultipleSclerosisPerformanceTest : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSOptischeKohaerenztomographie : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSTerminvereinbarung : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSTherapiespezifischeDiagnostik : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSVorstellung : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSVoruntersuchung : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/PlanDefinition-Q4MSZusatzdiagnostik : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ServiceRequest-AuswertungExampleSR : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ServiceRequest-GanganalyseExampleSR : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ServiceRequest-LaboruntersuchungExampleSR : 0 / 0 / 1
@@ -166,45 +166,25 @@ WARNING: MessageDefinition/Q4MSTerminanfrage: MessageDefinition: msd-0: 'Name sh
 == fsh-generated/resources/MessageHeader-Q4MSTerminanfrageHeader.json ==
 == fsh-generated/resources/Patient-PatientJohnDoe.json ==
 == fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeAnamnese.json ==
-WARNING: PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSAllgemeineNeurologischeUntersuchung.json ==
-WARNING: PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSArztvorstellung.json ==
-WARNING: PlanDefinition/Q4MSArztvorstellung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSAuswertung.json ==
-WARNING: PlanDefinition/Q4MSAuswertung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSBasismonitoring.json ==
-WARNING: PlanDefinition/Q4MSBasismonitoring: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSBefundauswertung.json ==
-WARNING: PlanDefinition/Q4MSBefundauswertung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSDokumenteAbfragenPatient.json ==
-WARNING: PlanDefinition/Q4MSDokumenteAbfragenPatient: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnArzt.json ==
-WARNING: PlanDefinition/Q4MSDokumenteUebermittelnArzt: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSDokumenteUebermittelnPatient.json ==
-WARNING: PlanDefinition/Q4MSDokumenteUebermittelnPatient: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSEntlassung.json ==
-WARNING: PlanDefinition/Q4MSEntlassung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSGanganalyse.json ==
-WARNING: PlanDefinition/Q4MSGanganalyse: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSLaboruntersuchung.json ==
-WARNING: PlanDefinition/Q4MSLaboruntersuchung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSMagnetresonanztomographie.json ==
-WARNING: PlanDefinition/Q4MSMagnetresonanztomographie: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSMultipleSclerosisPerformanceTest.json ==
-WARNING: PlanDefinition/Q4MSMultipleSclerosisPerformanceTest: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSOptischeKohaerenztomographie.json ==
-WARNING: PlanDefinition/Q4MSOptischeKohaerenztomographie: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSTerminvereinbarung.json ==
-WARNING: PlanDefinition/Q4MSTerminvereinbarung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSTherapiespezifischeDiagnostik.json ==
-WARNING: PlanDefinition/Q4MSTherapiespezifischeDiagnostik: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSVorstellung.json ==
-WARNING: PlanDefinition/Q4MSVorstellung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSVoruntersuchung.json ==
-WARNING: PlanDefinition/Q4MSVoruntersuchung: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/PlanDefinition-Q4MSZusatzdiagnostik.json ==
-WARNING: PlanDefinition/Q4MSZusatzdiagnostik: PlanDefinition: pdf-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ServiceRequest-AuswertungExampleSR.json ==
 == fsh-generated/resources/ServiceRequest-GanganalyseExampleSR.json ==
 == fsh-generated/resources/ServiceRequest-LaboruntersuchungExampleSR.json ==

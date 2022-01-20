@@ -4,6 +4,7 @@ Title: "Dokumente an Patient übermitteln"
 Description: "PlanDefinition zur Uebermittlung von Dokumenten an einen Patient"
 Usage: #definition
 * url = $q4ms-dokumente-uebermitteln-patient
+* name = "Q4MSDokumenteUebermittelnPatient"
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#draft
 * experimental = true

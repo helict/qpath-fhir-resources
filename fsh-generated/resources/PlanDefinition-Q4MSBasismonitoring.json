@@ -2,6 +2,7 @@
   "resourceType": "PlanDefinition",
   "id": "Q4MSBasismonitoring",
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBasismonitoring",
+  "name": "Q4MSBasismonitoring",
   "type": {
     "coding": [
       {
