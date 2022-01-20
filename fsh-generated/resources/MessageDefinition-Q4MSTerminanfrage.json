@@ -15,6 +15,7 @@
       "max": "1"
     }
   ],
+  "name": "Q4MSTerminanfrage",
   "date": "2021-12-21",
   "parent": [
     "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSTerminvereinbarungAD"

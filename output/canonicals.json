@@ -122,13 +122,15 @@
     "id": "Q4MSArztbriefanfrage",
     "type": "MessageDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSArztbriefanfrage",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSArztbriefanfrage"
   },
   {
     "id": "Q4MSTerminanfrage",
     "type": "MessageDefinition",
     "url": "http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSTerminanfrage",
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "name": "Q4MSTerminanfrage"
   },
   {
     "id": "Q4MSAllgemeineNeurologischeAnamnese",

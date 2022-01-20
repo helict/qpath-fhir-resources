@@ -4,6 +4,7 @@ Usage: #definition
 Title: "Arztbriefanfrage"
 Description: "Profile einer Arztbriefanfrage"
 * url = $q4ms-arztbriefanfrage-md
+* name = "Q4MSArztbriefanfrage"
 * status = $publication-status#draft
 * date = "2021-12-21"
 * parent = Canonical(Q4MSDokumenteAbfragenAD)

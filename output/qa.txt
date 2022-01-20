@@ -1,9 +1,9 @@
 ﻿QPath4MSIG : Validation Results
 =========================================
 
-err = 4, warn = 38, info = 35
+err = 4, warn = 36, info = 35
 IG Publisher Version: 1.1.97
-Generated Thu Jan 20 17:23:27 CET 2022. FHIR version 4.0.1 for fhir.qpath4ms#0.1.0 (canonical = http://qpath4ms.ukdd.de)
+Generated Thu Jan 20 17:27:51 CET 2022. FHIR version 4.0.1 for fhir.qpath4ms#0.1.0 (canonical = http://qpath4ms.ukdd.de)
  Build Errors : 0 / 3 / 0
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSAllgemeineNeurologischeAnamneseAD : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSAuswertungAD : 0 / 0 / 1
@@ -49,8 +49,8 @@ Generated Thu Jan 20 17:23:27 CET 2022. FHIR version 4.0.1 for fhir.qpath4ms#0.1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/DocumentReference-RezeptExample : 0 / 1 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/DocumentReference-SonstigesDokumentExample : 0 / 2 / 2
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ImplementationGuide-fhir.qpath4ms : 0 / 0 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageDefinition-Q4MSArztbriefanfrage : 0 / 1 / 1
- /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageDefinition-Q4MSTerminanfrage : 0 / 1 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageDefinition-Q4MSArztbriefanfrage : 0 / 0 / 1
+ /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageDefinition-Q4MSTerminanfrage : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageHeader-Q4MSArztbriefanfrageHeader : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/MessageHeader-Q4MSTerminanfrageHeader : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/Patient-PatientJohnDoe : 0 / 0 / 1
@@ -159,9 +159,7 @@ INFORMATION: DocumentReference/SonstigesDokumentExample: DocumentReference.type.
 WARNING: DocumentReference/SonstigesDokumentExample: DocumentReference.content[0].attachment: Attachments have data and/or url, or else SHOULD have either contentType and/or language
 == fsh-generated/resources/ImplementationGuide-fhir.qpath4ms.json ==
 == fsh-generated/resources/MessageDefinition-Q4MSArztbriefanfrage.json ==
-WARNING: MessageDefinition/Q4MSArztbriefanfrage: MessageDefinition: msd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/MessageDefinition-Q4MSTerminanfrage.json ==
-WARNING: MessageDefinition/Q4MSTerminanfrage: MessageDefinition: msd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/MessageHeader-Q4MSArztbriefanfrageHeader.json ==
 == fsh-generated/resources/MessageHeader-Q4MSTerminanfrageHeader.json ==
 == fsh-generated/resources/Patient-PatientJohnDoe.json ==

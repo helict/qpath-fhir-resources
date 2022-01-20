@@ -16,6 +16,7 @@
       "max": "*"
     }
   ],
+  "name": "Q4MSArztbriefanfrage",
   "date": "2021-12-21",
   "parent": [
     "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteAbfragenAD"
