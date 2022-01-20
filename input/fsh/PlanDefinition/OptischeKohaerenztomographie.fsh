@@ -1,6 +1,7 @@
 Instance: Q4MSOptischeKohaerenztomographie
 InstanceOf: PlanDefinition
-Title: "Optische Kohärenztomographie (OCT)"
+Title: "Optische Kohärenztomographie"
+Description: "PlanDefinition zur Optischen Kohärenztomographie (OCT)"
 Usage: #definition
 * url = $q4ms-optische-koheraenztomographie
 * type = $plan-definition-type#eca-rule

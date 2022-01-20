@@ -1,6 +1,7 @@
 Profile: Q4MSLaborergebnisProfile
 Parent: Q4MSDokumentProfile
 Title: "Laborergebnis"
+Description: "Profile eines Laborergebnisses"
 * ^url = $q4ms-laborergebnis-sd
 * status = $document-reference-status#current
 * docStatus = $composition-status#preliminary

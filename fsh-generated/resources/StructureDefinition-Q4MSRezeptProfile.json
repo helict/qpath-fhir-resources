@@ -16,6 +16,7 @@
   "name": "Q4MSRezeptProfile",
   "title": "Rezept",
   "status": "active",
+  "description": "Profile eines Rezepts",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

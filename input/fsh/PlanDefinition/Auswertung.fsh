@@ -1,6 +1,7 @@
 Instance: Q4MSAuswertung
 InstanceOf: PlanDefinition
 Title: "Auswertung"
+Description: "PlanDefinition zur Auswertung"
 Usage: #definition
 * url = $q4ms-auswertung
 * status = $publication-status#draft

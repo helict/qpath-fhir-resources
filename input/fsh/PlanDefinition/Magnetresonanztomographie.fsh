@@ -1,6 +1,7 @@
 Instance: Q4MSMagnetresonanztomographie
 InstanceOf: PlanDefinition
-Title: "Magnetresonanztomographie (MRT)"
+Title: "Magnetresonanztomographie"
+Description: "PlanDefinition zur Magnetresonanztomographie (MRT)"
 Usage: #definition
 * url = $q4ms-magnetresonanztomographie
 * type = $plan-definition-type#eca-rule

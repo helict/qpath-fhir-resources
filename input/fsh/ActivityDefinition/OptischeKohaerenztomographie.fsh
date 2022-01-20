@@ -1,6 +1,7 @@
 Instance: Q4MSOptischeKohaerenztomographieAD
 InstanceOf: ActivityDefinition
-Title: "Optische Kohärenztomographie (OCT)"
+Title: "Optische Kohärenztomographie"
+Description: "ActivityDefinition zur Optischen Kohärenztomographie (OCT)"
 Usage: #definition
 * url = $q4ms-optische-kohaerenztomographie-ad
 * name = "Q4MSOptischeKohaerenztomographieAD"

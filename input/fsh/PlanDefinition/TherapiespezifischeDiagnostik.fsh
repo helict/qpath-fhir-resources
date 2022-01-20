@@ -1,6 +1,7 @@
 Instance: Q4MSTherapiespezifischeDiagnostik
 InstanceOf: PlanDefinition
 Title: "Therapiespezifische Diagnostik"
+Description: "PlanDefinition zur therapiespezifischen Diagnostik"
 Usage: #definition
 * url = $q4ms-therapiespezifische-diagnostik
 * type = $plan-definition-type#eca-rule

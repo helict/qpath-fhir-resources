@@ -1,6 +1,7 @@
 Instance: Q4MSTerminvereinbarungAD
 InstanceOf: ActivityDefinition
 Title: "Terminvereinbarung"
+Description: "ActivityDefinition zur Terminvereinbarung"
 Usage: #definition
 * url = $q4ms-terminvereinbarung-ad
 * name = "Q4MSTerminvereinbarungAD"

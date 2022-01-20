@@ -16,6 +16,7 @@
   "name": "Q4MSArztbriefProfile",
   "title": "Arztbrief",
   "status": "active",
+  "description": "Profile eines Arztbriefs",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

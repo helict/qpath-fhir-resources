@@ -1,6 +1,7 @@
 Instance: Q4MSAllgemeineNeurologischeUntersuchung
 InstanceOf: PlanDefinition
-Title: "Allgemeine neurologische Untersuchung"
+Title: "Allgemeine und neurologische Untersuchung"
+Description: "PlanDefinition zur allgemeinen und neurologischen Untersuchung"
 Usage: #definition
 * url = $q4ms-allgemeine-neurologische-untersuchung
 * type = $plan-definition-type#eca-rule

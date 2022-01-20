@@ -23,5 +23,6 @@
   "eventCoding": {
     "code": "doctor-letter",
     "system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie"
-  }
+  },
+  "responseRequired": "always"
 }

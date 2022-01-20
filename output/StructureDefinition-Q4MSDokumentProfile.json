@@ -20,7 +20,7 @@
   "name": "Q4MSDokumentProfile",
   "title": "Dokument",
   "status": "active",
-  "date": "2022-01-20T14:56:11+01:00",
+  "date": "2022-01-20T17:09:51+01:00",
   "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
@@ -47,6 +47,7 @@
       ]
     }
   ],
+  "description": "Profile eines Dokuments",
   "jurisdiction": [
     {
       "coding": [

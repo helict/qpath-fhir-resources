@@ -1,6 +1,7 @@
 Instance: Q4MSMagnetresonanztomographieAD
 InstanceOf: ActivityDefinition
-Title: "Magnetresonanztomographie (MRT)"
+Title: "Magnetresonanztomographie"
+Description: "ActivityDefinition zur Magnetresonanztomographie (MRT)"
 Usage: #definition
 * url = $q4ms-magnetresonanztomographie-ad
 * name = "Q4MSMagnetresonanztomographieAD"

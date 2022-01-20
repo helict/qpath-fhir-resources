@@ -1,6 +1,7 @@
 Instance: Q4MSExpandedDisabilityStatusScaleAD
 InstanceOf: ActivityDefinition
 Title: "Expanded Disability Status Scale (EDSS)"
+Description: "ActivityDefinition zur Expanded Disability Status Scale (EDSS)"
 Usage: #definition
 * url = $q4ms-expanded-disability-status-scale-ad
 * name = "Q4MSExpandedDisabilityStatusScaleAD"

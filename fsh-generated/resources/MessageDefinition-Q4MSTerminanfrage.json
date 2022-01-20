@@ -12,7 +12,7 @@
     {
       "code": "Appointment",
       "min": 1,
-      "max": "*"
+      "max": "1"
     }
   ],
   "date": "2021-12-21",
@@ -22,5 +22,6 @@
   "eventCoding": {
     "code": "booking",
     "system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSTerminanfragekategorie"
-  }
+  },
+  "responseRequired": "always"
 }

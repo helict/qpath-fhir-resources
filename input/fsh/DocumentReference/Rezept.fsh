@@ -1,6 +1,7 @@
 Profile: Q4MSRezeptProfile
 Parent: Q4MSDokumentProfile
 Title: "Rezept"
+Description: "Profile eines Rezepts"
 * ^url = $q4ms-rezept-sd
 * status = $document-reference-status#current
 * docStatus = $composition-status#preliminary

@@ -1,6 +1,7 @@
 Instance: Q4MSGanganalyseAD
 InstanceOf: ActivityDefinition
 Title: "Ganganalyse"
+Description: "ActivityDefinition zur Ganganalyse"
 Usage: #definition
 * url = $q4ms-ganganalyse-ad
 * name = "Q4MSGanganalyseAD"

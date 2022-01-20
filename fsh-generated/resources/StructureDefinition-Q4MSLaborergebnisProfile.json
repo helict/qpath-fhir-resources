@@ -16,6 +16,7 @@
   "name": "Q4MSLaborergebnisProfile",
   "title": "Laborergebnis",
   "status": "active",
+  "description": "Profile eines Laborergebnisses",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

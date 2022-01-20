@@ -1,6 +1,7 @@
 Instance: Q4MSLaboruntersuchung
 InstanceOf: PlanDefinition
 Title: "Laboruntersuchung"
+Description: "PlanDefinition zur Laboruntersuchung"
 Usage: #definition
 * url = $q4ms-laboruntersuchung
 * type = $plan-definition-type#eca-rule

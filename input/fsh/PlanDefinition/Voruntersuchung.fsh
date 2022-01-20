@@ -1,6 +1,7 @@
 Instance: Q4MSVoruntersuchung
 InstanceOf: PlanDefinition
 Title: "Voruntersuchung"
+Description: "PlanDefinition zur Voruntersuchung"
 Usage: #definition
 * url = $q4ms-voruntersuchung
 * type = $plan-definition-type#workflow-definition

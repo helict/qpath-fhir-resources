@@ -1,6 +1,7 @@
 Instance: Q4MSMultipleSclerosisPerformanceTest
 InstanceOf: PlanDefinition
-Title: "Multiple Sclerosis Performance Test (MSPT)"
+Title: "Multiple Sclerosis Performance Test"
+Description: "PlanDefinition zum Multiple Sclerosis Performance Test (MSPT)"
 Usage: #definition
 * url = $q4ms-multiple-sclerosis-performance-test
 * type = $plan-definition-type#eca-rule

@@ -1,6 +1,7 @@
 Instance: Q4MSBefundauswertung
 InstanceOf: PlanDefinition
 Title: "Befundauswertung"
+Description: "PlanDefinition zur Befundauswertung"
 Usage: #definition
 * url = $q4ms-befundauswertung
 * type = $plan-definition-type#eca-rule

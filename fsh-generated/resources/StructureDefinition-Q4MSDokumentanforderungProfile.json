@@ -16,6 +16,7 @@
   "name": "Q4MSDokumentanforderungProfile",
   "title": "Dokumentanforderung",
   "status": "active",
+  "description": "Profile einer Dokumentanforderung",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -85,11 +86,6 @@
         "id": "MessageDefinition.focus.min",
         "path": "MessageDefinition.focus.min",
         "patternUnsignedInt": 1
-      },
-      {
-        "id": "MessageDefinition.responseRequired",
-        "path": "MessageDefinition.responseRequired",
-        "patternCode": "always"
       }
     ]
   }

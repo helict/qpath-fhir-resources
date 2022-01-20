@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "Q4MSKonsiliarberichtProfile"];
   fhir:StructureDefinition.title [ fhir:value "Konsiliarbericht"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-01-20T14:56:11+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-20T17:09:51+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -50,6 +50,7 @@
        fhir:ContactPoint.use [ fhir:value "work" ]
      ]
   ];
+  fhir:StructureDefinition.description [ fhir:value "Profile eines Konsiliarberichts"];
   fhir:StructureDefinition.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

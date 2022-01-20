@@ -1,6 +1,7 @@
 Profile: Q4MSKonsiliarberichtProfile
 Parent: Q4MSDokumentProfile
 Title: "Konsiliarbericht"
+Description: "Profile eines Konsiliarberichts"
 * ^url = $q4ms-konsiliarbericht-sd
 * status = $document-reference-status#current
 * docStatus = $composition-status#preliminary

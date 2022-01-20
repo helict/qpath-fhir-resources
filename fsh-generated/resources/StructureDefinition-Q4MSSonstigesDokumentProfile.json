@@ -16,6 +16,7 @@
   "name": "Q4MSSonstigesDokumentProfile",
   "title": "Sonstiges Dokument",
   "status": "active",
+  "description": "Profile eines sonstiges Dokuments",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

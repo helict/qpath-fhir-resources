@@ -16,6 +16,7 @@
   "name": "Q4MSKonsiliarberichtProfile",
   "title": "Konsiliarbericht",
   "status": "active",
+  "description": "Profile eines Konsiliarberichts",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

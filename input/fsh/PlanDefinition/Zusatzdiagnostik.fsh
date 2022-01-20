@@ -1,6 +1,7 @@
 Instance: Q4MSZusatzdiagnostik
 InstanceOf: PlanDefinition
 Title: "Zusatzdiagnostik"
+Description: "PlanDefinition zur Zusatzdiagnostik"
 Usage: #definition
 * url = $q4ms-zusatzdiagnostik
 * status = $publication-status#draft

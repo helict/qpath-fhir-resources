@@ -11,7 +11,7 @@
   <name value="QPath4MSIG"/>
   <title value="QPath4MS FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2022-01-20T14:56:11+01:00"/>
+  <date value="2022-01-20T17:09:51+01:00"/>
   <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
     <name value="Forschungsgruppe Digital Health"/>
@@ -204,6 +204,7 @@
         <reference value="StructureDefinition/Q4MSArztbriefProfile"/>
       </reference>
       <name value="Arztbrief"/>
+      <description value="Profile eines Arztbriefs"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -214,6 +215,7 @@
         <reference value="StructureDefinition/Q4MSBefundProfile"/>
       </reference>
       <name value="Befund"/>
+      <description value="Profile eines Befunds"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -224,6 +226,7 @@
         <reference value="StructureDefinition/Q4MSDokumentProfile"/>
       </reference>
       <name value="Dokument"/>
+      <description value="Profile eines Dokuments"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -234,6 +237,7 @@
         <reference value="StructureDefinition/Q4MSDokumentanforderungProfile"/>
       </reference>
       <name value="Dokumentanforderung"/>
+      <description value="Profile einer Dokumentanforderung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -244,6 +248,7 @@
         <reference value="StructureDefinition/Q4MSKonsiliarberichtProfile"/>
       </reference>
       <name value="Konsiliarbericht"/>
+      <description value="Profile eines Konsiliarberichts"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -254,6 +259,7 @@
         <reference value="StructureDefinition/Q4MSLaborergebnisProfile"/>
       </reference>
       <name value="Laborergebnis"/>
+      <description value="Profile eines Laborergebnisses"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -264,6 +270,7 @@
         <reference value="StructureDefinition/Q4MSRezeptProfile"/>
       </reference>
       <name value="Rezept"/>
+      <description value="Profile eines Rezepts"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -274,6 +281,7 @@
         <reference value="StructureDefinition/Q4MSSonstigesDokumentProfile"/>
       </reference>
       <name value="Sonstiges Dokument"/>
+      <description value="Profile eines sonstiges Dokuments"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -284,6 +292,7 @@
         <reference value="StructureDefinition/Q4MSTerminvereinbarungProfile"/>
       </reference>
       <name value="Terminvereinbarung"/>
+      <description value="Profile einer Terminvereinbarung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -733,6 +742,7 @@
         <reference value="PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese"/>
       </reference>
       <name value="Allgemeine und neurologische Anamnese"/>
+      <description value="PlanDefinition zur allgemeinen und neurologischen Anamnese"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -743,6 +753,7 @@
         <reference value="ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD"/>
       </reference>
       <name value="Allgemeine und neurologische Anamnese"/>
+      <description value="ActivityDefinition zur allgemeinen und neurologischen Anamnese"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -752,7 +763,8 @@
       <reference>
         <reference value="PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung"/>
       </reference>
-      <name value="Allgemeine neurologische Untersuchung"/>
+      <name value="Allgemeine und neurologische Untersuchung"/>
+      <description value="PlanDefinition zur allgemeinen und neurologischen Untersuchung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -763,6 +775,7 @@
         <reference value="MessageDefinition/Q4MSArztbriefanfrage"/>
       </reference>
       <name value="Arztbriefanfrage"/>
+      <description value="Profile einer Arztbriefanfrage"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -783,6 +796,7 @@
         <reference value="PlanDefinition/Q4MSArztvorstellung"/>
       </reference>
       <name value="Arztvorstellung"/>
+      <description value="PlanDefinition zur Arztvorstellung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -793,6 +807,7 @@
         <reference value="PlanDefinition/Q4MSAuswertung"/>
       </reference>
       <name value="Auswertung"/>
+      <description value="PlanDefinition zur Auswertung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -803,6 +818,7 @@
         <reference value="ActivityDefinition/Q4MSAuswertungAD"/>
       </reference>
       <name value="Auswertung"/>
+      <description value="ActivityDefinition zur Auswertung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -813,6 +829,7 @@
         <reference value="PlanDefinition/Q4MSBasismonitoring"/>
       </reference>
       <name value="Basismonitoring Patientepfad"/>
+      <description value="PlanDefinition zum Basismonitoring-Patientepfad"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -823,6 +840,7 @@
         <reference value="PlanDefinition/Q4MSBefundauswertung"/>
       </reference>
       <name value="Befundauswertung"/>
+      <description value="PlanDefinition zur Befundauswertung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -833,6 +851,7 @@
         <reference value="ActivityDefinition/Q4MSBefundauswertungAD"/>
       </reference>
       <name value="Befundauswertung"/>
+      <description value="ActivityDefinition zur Befundauswertung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -843,6 +862,7 @@
         <reference value="ActivityDefinition/Q4MSDokumenteAbfragenAD"/>
       </reference>
       <name value="Dokumente abfragen"/>
+      <description value="ActivityDefinition zur Abfragen von Dokumenten"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -852,7 +872,8 @@
       <reference>
         <reference value="PlanDefinition/Q4MSDokumenteAbfragenPatient"/>
       </reference>
-      <name value="Dokumente beim Patienten abfragen"/>
+      <name value="Dokumente beim Patient abfragen"/>
+      <description value="PlanDefinition zur Abfrage von Dokumenten beim Patient"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -863,6 +884,7 @@
         <reference value="ActivityDefinition/Q4MSDokumenteUebermittelnAD"/>
       </reference>
       <name value="Dokumente übermitteln"/>
+      <description value="ActivityDefinition zur Uebermittlung von Dokumenten"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -873,6 +895,7 @@
         <reference value="PlanDefinition/Q4MSDokumenteUebermittelnArzt"/>
       </reference>
       <name value="Dokumente an Arzt übermitteln"/>
+      <description value="PlanDefinition zur Uebermittlung von Dokumenten an einen Arzt"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -883,6 +906,7 @@
         <reference value="PlanDefinition/Q4MSDokumenteUebermittelnPatient"/>
       </reference>
       <name value="Dokumente an Patient übermitteln"/>
+      <description value="PlanDefinition zur Uebermittlung von Dokumenten an einen Patient"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -893,6 +917,7 @@
         <reference value="PlanDefinition/Q4MSEntlassung"/>
       </reference>
       <name value="Entlassung"/>
+      <description value="PlanDefinition zur Entlassung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -903,6 +928,7 @@
         <reference value="ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD"/>
       </reference>
       <name value="Expanded Disability Status Scale (EDSS)"/>
+      <description value="ActivityDefinition zur Expanded Disability Status Scale (EDSS)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -913,6 +939,7 @@
         <reference value="PlanDefinition/Q4MSGanganalyse"/>
       </reference>
       <name value="Ganganalyse"/>
+      <description value="PlanDefinition zur Ganganalyse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -923,6 +950,7 @@
         <reference value="ActivityDefinition/Q4MSGanganalyseAD"/>
       </reference>
       <name value="Ganganalyse"/>
+      <description value="ActivityDefinition zur Ganganalyse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -933,6 +961,7 @@
         <reference value="PlanDefinition/Q4MSLaboruntersuchung"/>
       </reference>
       <name value="Laboruntersuchung"/>
+      <description value="PlanDefinition zur Laboruntersuchung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -943,6 +972,7 @@
         <reference value="ActivityDefinition/Q4MSLaboruntersuchungAD"/>
       </reference>
       <name value="Laboruntersuchung"/>
+      <description value="ActivityDefinition zur Laboruntersuchung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -952,7 +982,8 @@
       <reference>
         <reference value="PlanDefinition/Q4MSMagnetresonanztomographie"/>
       </reference>
-      <name value="Magnetresonanztomographie (MRT)"/>
+      <name value="Magnetresonanztomographie"/>
+      <description value="PlanDefinition zur Magnetresonanztomographie (MRT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -962,7 +993,8 @@
       <reference>
         <reference value="ActivityDefinition/Q4MSMagnetresonanztomographieAD"/>
       </reference>
-      <name value="Magnetresonanztomographie (MRT)"/>
+      <name value="Magnetresonanztomographie"/>
+      <description value="ActivityDefinition zur Magnetresonanztomographie (MRT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -972,7 +1004,8 @@
       <reference>
         <reference value="PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"/>
       </reference>
-      <name value="Multiple Sclerosis Performance Test (MSPT)"/>
+      <name value="Multiple Sclerosis Performance Test"/>
+      <description value="PlanDefinition zum Multiple Sclerosis Performance Test (MSPT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -982,7 +1015,8 @@
       <reference>
         <reference value="ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD"/>
       </reference>
-      <name value="Multiple Sclerosis Performance Test (MSPT)"/>
+      <name value="Multiple Sclerosis Performance Test"/>
+      <description value="ActivityDefinition zum Multiple Sclerosis Performance Test (MSPT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -992,7 +1026,8 @@
       <reference>
         <reference value="PlanDefinition/Q4MSOptischeKohaerenztomographie"/>
       </reference>
-      <name value="Optische Kohärenztomographie (OCT)"/>
+      <name value="Optische Kohärenztomographie"/>
+      <description value="PlanDefinition zur Optischen Kohärenztomographie (OCT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1002,7 +1037,8 @@
       <reference>
         <reference value="ActivityDefinition/Q4MSOptischeKohaerenztomographieAD"/>
       </reference>
-      <name value="Optische Kohärenztomographie (OCT)"/>
+      <name value="Optische Kohärenztomographie"/>
+      <description value="ActivityDefinition zur Optischen Kohärenztomographie (OCT)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1013,6 +1049,7 @@
         <reference value="MessageDefinition/Q4MSTerminanfrage"/>
       </reference>
       <name value="Terminanfrage"/>
+      <description value="Profile einer Terminanfrage"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1033,6 +1070,7 @@
         <reference value="PlanDefinition/Q4MSTerminvereinbarung"/>
       </reference>
       <name value="Terminvereinbarung"/>
+      <description value="PlanDefinition zur Terminvereinbarung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1043,6 +1081,7 @@
         <reference value="ActivityDefinition/Q4MSTerminvereinbarungAD"/>
       </reference>
       <name value="Terminvereinbarung"/>
+      <description value="ActivityDefinition zur Terminvereinbarung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1053,6 +1092,7 @@
         <reference value="PlanDefinition/Q4MSTherapiespezifischeDiagnostik"/>
       </reference>
       <name value="Therapiespezifische Diagnostik"/>
+      <description value="PlanDefinition zur therapiespezifischen Diagnostik"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1063,6 +1103,7 @@
         <reference value="ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD"/>
       </reference>
       <name value="Therapiespezifische Diagnostik"/>
+      <description value="ActivityDefinition zur therapiespezifischen Diagnostik"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1073,6 +1114,7 @@
         <reference value="PlanDefinition/Q4MSVorstellung"/>
       </reference>
       <name value="Erst- oder Wiedervorstellung"/>
+      <description value="PlanDefinition zur Erst- oder Wiedervorstellung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1083,6 +1125,7 @@
         <reference value="PlanDefinition/Q4MSVoruntersuchung"/>
       </reference>
       <name value="Voruntersuchung"/>
+      <description value="PlanDefinition zur Voruntersuchung"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1093,6 +1136,7 @@
         <reference value="PlanDefinition/Q4MSZusatzdiagnostik"/>
       </reference>
       <name value="Zusatzdiagnostik"/>
+      <description value="PlanDefinition zur Zusatzdiagnostik"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

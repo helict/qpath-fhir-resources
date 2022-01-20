@@ -1,6 +1,7 @@
 Instance: Q4MSTerminvereinbarung
 InstanceOf: PlanDefinition
 Title: "Terminvereinbarung"
+Description: "PlanDefinition zur Terminvereinbarung"
 Usage: #definition
 * url = $q4ms-terminvereinbarung
 * type = $plan-definition-type#eca-rule

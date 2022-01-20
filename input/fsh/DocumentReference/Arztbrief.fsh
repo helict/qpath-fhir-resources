@@ -1,6 +1,7 @@
 Profile: Q4MSArztbriefProfile
 Parent: Q4MSDokumentProfile
 Title: "Arztbrief"
+Description: "Profile eines Arztbriefs"
 * ^url = $q4ms-arztbrief-sd
 * status = $document-reference-status#current
 * docStatus = $composition-status#preliminary

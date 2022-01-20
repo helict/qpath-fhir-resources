@@ -10,7 +10,7 @@
   "name": "QPath4MSIG",
   "title": "QPath4MS FHIR Implementation Guide",
   "status": "draft",
-  "date": "2022-01-20T14:56:11+01:00",
+  "date": "2022-01-20T17:09:51+01:00",
   "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
@@ -316,6 +316,7 @@
           "reference": "StructureDefinition/Q4MSArztbriefProfile"
         },
         "name": "Arztbrief",
+        "description": "Profile eines Arztbriefs",
         "exampleBoolean": false
       },
       {
@@ -329,6 +330,7 @@
           "reference": "StructureDefinition/Q4MSBefundProfile"
         },
         "name": "Befund",
+        "description": "Profile eines Befunds",
         "exampleBoolean": false
       },
       {
@@ -342,6 +344,7 @@
           "reference": "StructureDefinition/Q4MSDokumentProfile"
         },
         "name": "Dokument",
+        "description": "Profile eines Dokuments",
         "exampleBoolean": false
       },
       {
@@ -355,6 +358,7 @@
           "reference": "StructureDefinition/Q4MSDokumentanforderungProfile"
         },
         "name": "Dokumentanforderung",
+        "description": "Profile einer Dokumentanforderung",
         "exampleBoolean": false
       },
       {
@@ -368,6 +372,7 @@
           "reference": "StructureDefinition/Q4MSKonsiliarberichtProfile"
         },
         "name": "Konsiliarbericht",
+        "description": "Profile eines Konsiliarberichts",
         "exampleBoolean": false
       },
       {
@@ -381,6 +386,7 @@
           "reference": "StructureDefinition/Q4MSLaborergebnisProfile"
         },
         "name": "Laborergebnis",
+        "description": "Profile eines Laborergebnisses",
         "exampleBoolean": false
       },
       {
@@ -394,6 +400,7 @@
           "reference": "StructureDefinition/Q4MSRezeptProfile"
         },
         "name": "Rezept",
+        "description": "Profile eines Rezepts",
         "exampleBoolean": false
       },
       {
@@ -407,6 +414,7 @@
           "reference": "StructureDefinition/Q4MSSonstigesDokumentProfile"
         },
         "name": "Sonstiges Dokument",
+        "description": "Profile eines sonstiges Dokuments",
         "exampleBoolean": false
       },
       {
@@ -420,6 +428,7 @@
           "reference": "StructureDefinition/Q4MSTerminvereinbarungProfile"
         },
         "name": "Terminvereinbarung",
+        "description": "Profile einer Terminvereinbarung",
         "exampleBoolean": false
       },
       {
@@ -992,6 +1001,7 @@
           "reference": "PlanDefinition/Q4MSAllgemeineNeurologischeAnamnese"
         },
         "name": "Allgemeine und neurologische Anamnese",
+        "description": "PlanDefinition zur allgemeinen und neurologischen Anamnese",
         "exampleBoolean": false
       },
       {
@@ -1005,6 +1015,7 @@
           "reference": "ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD"
         },
         "name": "Allgemeine und neurologische Anamnese",
+        "description": "ActivityDefinition zur allgemeinen und neurologischen Anamnese",
         "exampleBoolean": false
       },
       {
@@ -1017,7 +1028,8 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSAllgemeineNeurologischeUntersuchung"
         },
-        "name": "Allgemeine neurologische Untersuchung",
+        "name": "Allgemeine und neurologische Untersuchung",
+        "description": "PlanDefinition zur allgemeinen und neurologischen Untersuchung",
         "exampleBoolean": false
       },
       {
@@ -1031,6 +1043,7 @@
           "reference": "MessageDefinition/Q4MSArztbriefanfrage"
         },
         "name": "Arztbriefanfrage",
+        "description": "Profile einer Arztbriefanfrage",
         "exampleBoolean": false
       },
       {
@@ -1057,6 +1070,7 @@
           "reference": "PlanDefinition/Q4MSArztvorstellung"
         },
         "name": "Arztvorstellung",
+        "description": "PlanDefinition zur Arztvorstellung",
         "exampleBoolean": false
       },
       {
@@ -1070,6 +1084,7 @@
           "reference": "PlanDefinition/Q4MSAuswertung"
         },
         "name": "Auswertung",
+        "description": "PlanDefinition zur Auswertung",
         "exampleBoolean": false
       },
       {
@@ -1083,6 +1098,7 @@
           "reference": "ActivityDefinition/Q4MSAuswertungAD"
         },
         "name": "Auswertung",
+        "description": "ActivityDefinition zur Auswertung",
         "exampleBoolean": false
       },
       {
@@ -1096,6 +1112,7 @@
           "reference": "PlanDefinition/Q4MSBasismonitoring"
         },
         "name": "Basismonitoring Patientepfad",
+        "description": "PlanDefinition zum Basismonitoring-Patientepfad",
         "exampleBoolean": false
       },
       {
@@ -1109,6 +1126,7 @@
           "reference": "PlanDefinition/Q4MSBefundauswertung"
         },
         "name": "Befundauswertung",
+        "description": "PlanDefinition zur Befundauswertung",
         "exampleBoolean": false
       },
       {
@@ -1122,6 +1140,7 @@
           "reference": "ActivityDefinition/Q4MSBefundauswertungAD"
         },
         "name": "Befundauswertung",
+        "description": "ActivityDefinition zur Befundauswertung",
         "exampleBoolean": false
       },
       {
@@ -1135,6 +1154,7 @@
           "reference": "ActivityDefinition/Q4MSDokumenteAbfragenAD"
         },
         "name": "Dokumente abfragen",
+        "description": "ActivityDefinition zur Abfragen von Dokumenten",
         "exampleBoolean": false
       },
       {
@@ -1147,7 +1167,8 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSDokumenteAbfragenPatient"
         },
-        "name": "Dokumente beim Patienten abfragen",
+        "name": "Dokumente beim Patient abfragen",
+        "description": "PlanDefinition zur Abfrage von Dokumenten beim Patient",
         "exampleBoolean": false
       },
       {
@@ -1161,6 +1182,7 @@
           "reference": "ActivityDefinition/Q4MSDokumenteUebermittelnAD"
         },
         "name": "Dokumente übermitteln",
+        "description": "ActivityDefinition zur Uebermittlung von Dokumenten",
         "exampleBoolean": false
       },
       {
@@ -1174,6 +1196,7 @@
           "reference": "PlanDefinition/Q4MSDokumenteUebermittelnArzt"
         },
         "name": "Dokumente an Arzt übermitteln",
+        "description": "PlanDefinition zur Uebermittlung von Dokumenten an einen Arzt",
         "exampleBoolean": false
       },
       {
@@ -1187,6 +1210,7 @@
           "reference": "PlanDefinition/Q4MSDokumenteUebermittelnPatient"
         },
         "name": "Dokumente an Patient übermitteln",
+        "description": "PlanDefinition zur Uebermittlung von Dokumenten an einen Patient",
         "exampleBoolean": false
       },
       {
@@ -1200,6 +1224,7 @@
           "reference": "PlanDefinition/Q4MSEntlassung"
         },
         "name": "Entlassung",
+        "description": "PlanDefinition zur Entlassung",
         "exampleBoolean": false
       },
       {
@@ -1213,6 +1238,7 @@
           "reference": "ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD"
         },
         "name": "Expanded Disability Status Scale (EDSS)",
+        "description": "ActivityDefinition zur Expanded Disability Status Scale (EDSS)",
         "exampleBoolean": false
       },
       {
@@ -1226,6 +1252,7 @@
           "reference": "PlanDefinition/Q4MSGanganalyse"
         },
         "name": "Ganganalyse",
+        "description": "PlanDefinition zur Ganganalyse",
         "exampleBoolean": false
       },
       {
@@ -1239,6 +1266,7 @@
           "reference": "ActivityDefinition/Q4MSGanganalyseAD"
         },
         "name": "Ganganalyse",
+        "description": "ActivityDefinition zur Ganganalyse",
         "exampleBoolean": false
       },
       {
@@ -1252,6 +1280,7 @@
           "reference": "PlanDefinition/Q4MSLaboruntersuchung"
         },
         "name": "Laboruntersuchung",
+        "description": "PlanDefinition zur Laboruntersuchung",
         "exampleBoolean": false
       },
       {
@@ -1265,6 +1294,7 @@
           "reference": "ActivityDefinition/Q4MSLaboruntersuchungAD"
         },
         "name": "Laboruntersuchung",
+        "description": "ActivityDefinition zur Laboruntersuchung",
         "exampleBoolean": false
       },
       {
@@ -1277,7 +1307,8 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSMagnetresonanztomographie"
         },
-        "name": "Magnetresonanztomographie (MRT)",
+        "name": "Magnetresonanztomographie",
+        "description": "PlanDefinition zur Magnetresonanztomographie (MRT)",
         "exampleBoolean": false
       },
       {
@@ -1290,7 +1321,8 @@
         "reference": {
           "reference": "ActivityDefinition/Q4MSMagnetresonanztomographieAD"
         },
-        "name": "Magnetresonanztomographie (MRT)",
+        "name": "Magnetresonanztomographie",
+        "description": "ActivityDefinition zur Magnetresonanztomographie (MRT)",
         "exampleBoolean": false
       },
       {
@@ -1303,7 +1335,8 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSMultipleSclerosisPerformanceTest"
         },
-        "name": "Multiple Sclerosis Performance Test (MSPT)",
+        "name": "Multiple Sclerosis Performance Test",
+        "description": "PlanDefinition zum Multiple Sclerosis Performance Test (MSPT)",
         "exampleBoolean": false
       },
       {
@@ -1316,7 +1349,8 @@
         "reference": {
           "reference": "ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD"
         },
-        "name": "Multiple Sclerosis Performance Test (MSPT)",
+        "name": "Multiple Sclerosis Performance Test",
+        "description": "ActivityDefinition zum Multiple Sclerosis Performance Test (MSPT)",
         "exampleBoolean": false
       },
       {
@@ -1329,7 +1363,8 @@
         "reference": {
           "reference": "PlanDefinition/Q4MSOptischeKohaerenztomographie"
         },
-        "name": "Optische Kohärenztomographie (OCT)",
+        "name": "Optische Kohärenztomographie",
+        "description": "PlanDefinition zur Optischen Kohärenztomographie (OCT)",
         "exampleBoolean": false
       },
       {
@@ -1342,7 +1377,8 @@
         "reference": {
           "reference": "ActivityDefinition/Q4MSOptischeKohaerenztomographieAD"
         },
-        "name": "Optische Kohärenztomographie (OCT)",
+        "name": "Optische Kohärenztomographie",
+        "description": "ActivityDefinition zur Optischen Kohärenztomographie (OCT)",
         "exampleBoolean": false
       },
       {
@@ -1356,6 +1392,7 @@
           "reference": "MessageDefinition/Q4MSTerminanfrage"
         },
         "name": "Terminanfrage",
+        "description": "Profile einer Terminanfrage",
         "exampleBoolean": false
       },
       {
@@ -1382,6 +1419,7 @@
           "reference": "PlanDefinition/Q4MSTerminvereinbarung"
         },
         "name": "Terminvereinbarung",
+        "description": "PlanDefinition zur Terminvereinbarung",
         "exampleBoolean": false
       },
       {
@@ -1395,6 +1433,7 @@
           "reference": "ActivityDefinition/Q4MSTerminvereinbarungAD"
         },
         "name": "Terminvereinbarung",
+        "description": "ActivityDefinition zur Terminvereinbarung",
         "exampleBoolean": false
       },
       {
@@ -1408,6 +1447,7 @@
           "reference": "PlanDefinition/Q4MSTherapiespezifischeDiagnostik"
         },
         "name": "Therapiespezifische Diagnostik",
+        "description": "PlanDefinition zur therapiespezifischen Diagnostik",
         "exampleBoolean": false
       },
       {
@@ -1421,6 +1461,7 @@
           "reference": "ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD"
         },
         "name": "Therapiespezifische Diagnostik",
+        "description": "ActivityDefinition zur therapiespezifischen Diagnostik",
         "exampleBoolean": false
       },
       {
@@ -1434,6 +1475,7 @@
           "reference": "PlanDefinition/Q4MSVorstellung"
         },
         "name": "Erst- oder Wiedervorstellung",
+        "description": "PlanDefinition zur Erst- oder Wiedervorstellung",
         "exampleBoolean": false
       },
       {
@@ -1447,6 +1489,7 @@
           "reference": "PlanDefinition/Q4MSVoruntersuchung"
         },
         "name": "Voruntersuchung",
+        "description": "PlanDefinition zur Voruntersuchung",
         "exampleBoolean": false
       },
       {
@@ -1460,6 +1503,7 @@
           "reference": "PlanDefinition/Q4MSZusatzdiagnostik"
         },
         "name": "Zusatzdiagnostik",
+        "description": "PlanDefinition zur Zusatzdiagnostik",
         "exampleBoolean": false
       },
       {

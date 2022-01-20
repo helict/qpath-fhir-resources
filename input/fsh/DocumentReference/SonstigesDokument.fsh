@@ -1,6 +1,7 @@
 Profile: Q4MSSonstigesDokumentProfile
 Parent: Q4MSDokumentProfile
 Title: "Sonstiges Dokument"
+Description: "Profile eines sonstiges Dokuments"
 * ^url = $q4ms-sonstiges-dokument-sd
 * status = $document-reference-status#current
 * docStatus = $composition-status#preliminary

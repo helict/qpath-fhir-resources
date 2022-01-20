@@ -1,6 +1,7 @@
 Instance: Q4MSVorstellung
 InstanceOf: PlanDefinition
 Title: "Erst- oder Wiedervorstellung"
+Description: "PlanDefinition zur Erst- oder Wiedervorstellung"
 Usage: #definition
 * url = $q4ms-vorstellung
 * type = $plan-definition-type#workflow-definition

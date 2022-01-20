@@ -16,6 +16,7 @@
   "name": "Q4MSDokumentProfile",
   "title": "Dokument",
   "status": "active",
+  "description": "Profile eines Dokuments",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

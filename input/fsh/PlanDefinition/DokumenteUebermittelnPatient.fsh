@@ -1,6 +1,7 @@
 Instance: Q4MSDokumenteUebermittelnPatient
 InstanceOf: PlanDefinition
 Title: "Dokumente an Patient übermitteln"
+Description: "PlanDefinition zur Uebermittlung von Dokumenten an einen Patient"
 Usage: #definition
 * url = $q4ms-dokumente-uebermitteln-patient
 * type = $plan-definition-type#eca-rule

@@ -32,7 +32,7 @@
   <name value="Q4MSArztbriefProfile"/>
   <title value="Arztbrief"/>
   <status value="active"/>
-  <date value="2022-01-20T14:56:11+01:00"/>
+  <date value="2022-01-20T17:09:51+01:00"/>
   <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
     <name value="Forschungsgruppe Digital Health"/>
@@ -53,6 +53,7 @@
       <use value="work"/>
     </telecom>
   </contact>
+  <description value="Profile eines Arztbriefs"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

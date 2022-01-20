@@ -1,6 +1,7 @@
 Instance: Q4MSMultipleSclerosisPerformanceTestAD
 InstanceOf: ActivityDefinition
-Title: "Multiple Sclerosis Performance Test (MSPT)"
+Title: "Multiple Sclerosis Performance Test"
+Description: "ActivityDefinition zum Multiple Sclerosis Performance Test (MSPT)"
 Usage: #definition
 * url = $q4ms-multiple-sclerosis-performance-test-ad
 * name = "Q4MSMultipleSclerosisPerformanceTestAD"

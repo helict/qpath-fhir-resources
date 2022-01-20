@@ -16,6 +16,7 @@
   "name": "Q4MSBefundProfile",
   "title": "Befund",
   "status": "active",
+  "description": "Profile eines Befunds",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

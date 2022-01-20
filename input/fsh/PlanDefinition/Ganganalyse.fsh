@@ -1,6 +1,7 @@
 Instance: Q4MSGanganalyse
 InstanceOf: PlanDefinition
 Title: "Ganganalyse"
+Description: "PlanDefinition zur Ganganalyse"
 Usage: #definition
 * url = $q4ms-ganganalyse
 * type = $plan-definition-type#eca-rule
