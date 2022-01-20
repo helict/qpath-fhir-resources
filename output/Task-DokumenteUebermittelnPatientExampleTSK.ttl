@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/Task/DokumenteUebermittelnPatientExampleTSK> a fhir:Task;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "DokumenteUebermittelnPatientExampleTSK"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"DokumenteUebermittelnPatientExampleTSK\" </p></div><p><b>instantiatesCanonical</b>: <a href=\"http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteUebermittelnAD\">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteUebermittelnAD</a></p><p><b>status</b>: ready</p><p><b>intent</b>: option</p><p><b>code</b>: Activate/approve the focal resource <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-task-code.html\">Task Codes</a>#approve)</span></p><p><b>description</b>: Dokumente übermitteln</p><p><b>focus</b>: <a href=\"CarePlan-DokumenteUebermittelnPatientExampleCP.html\">CarePlan/DokumenteUebermittelnPatientExampleCP</a></p><p><b>executionPeriod</b>: 2022-01-12T12:00:00Z --&gt; 2022-01-15T00:00:00Z</p><p><b>authoredOn</b>: 2022-01-12T12:00:00Z</p><h3>Restrictions</h3><table class=\"grid\"><tr><td>-</td><td><b>Period</b></td><td><b>Recipient</b></td></tr><tr><td>*</td><td>2022-01-12T12:00:00Z --&gt; 2022-01-21T00:00:00Z</td><td><a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> \" DOE\"</td></tr></table></div>"
+  ];
+  fhir:Task.instantiatesCanonical [
+     fhir:value "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteUebermittelnAD";
+     fhir:link <http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteUebermittelnAD>
+  ];
+  fhir:Task.status [ fhir:value "ready"];
+  fhir:Task.intent [ fhir:value "option"];
+  fhir:Task.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/CodeSystem/task-code" ];
+       fhir:Coding.code [ fhir:value "approve" ]
+     ]
+  ];
+  fhir:Task.description [ fhir:value "Dokumente übermitteln"];
+  fhir:Task.focus [
+     fhir:link <http://qpath4ms.ukdd.de/CarePlan/DokumenteUebermittelnPatientExampleCP>;
+     fhir:Reference.reference [ fhir:value "CarePlan/DokumenteUebermittelnPatientExampleCP" ]
+  ];
+  fhir:Task.executionPeriod [
+     fhir:Period.start [ fhir:value "2022-01-12T12:00:00Z"^^xsd:dateTime ];
+     fhir:Period.end [ fhir:value "2022-01-15T00:00:00Z"^^xsd:dateTime ]
+  ];
+  fhir:Task.authoredOn [ fhir:value "2022-01-12T12:00:00Z"^^xsd:dateTime];
+  fhir:Task.restriction [
+     fhir:Task.restriction.period [
+       fhir:Period.start [ fhir:value "2022-01-12T12:00:00Z"^^xsd:dateTime ];
+       fhir:Period.end [ fhir:value "2022-01-21T00:00:00Z"^^xsd:dateTime ]
+     ];
+     fhir:Task.restriction.recipient [
+       fhir:index 0;
+       fhir:link <http://qpath4ms.ukdd.de/Patient/PatientJohnDoe>;
+       fhir:Reference.reference [ fhir:value "Patient/PatientJohnDoe" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/Task/DokumenteUebermittelnPatientExampleTSK.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

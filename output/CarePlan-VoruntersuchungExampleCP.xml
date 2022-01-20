@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CarePlan xmlns="http://hl7.org/fhir">
+  <id value="VoruntersuchungExampleCP"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "VoruntersuchungExampleCP" </p></div><p><b>instantiatesCanonical</b>: <a href="PlanDefinition-Q4MSVoruntersuchung.html">PlanDefinition[http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung]</a></p><p><b>status</b>: draft</p><p><b>intent</b>: option</p><p><b>subject</b>: <a href="Patient-PatientJohnDoe.html">Patient/PatientJohnDoe</a> " DOE"</p><h3>Activities</h3><table class="grid"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a name="VoruntersuchungExampleRG"> </a><blockquote><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "VoruntersuchungExampleRG" </p></div><p><b>instantiatesCanonical</b>: <a href="PlanDefinition-Q4MSVoruntersuchung.html">PlanDefinition[http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung]</a></p><p><b>status</b>: draft</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href="Patient-PatientJohnDoe.html">Patient/PatientJohnDoe</a> " DOE"</p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 3 Monate</p><p><b>timing</b>: Do Once per 3 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 12 Monate</p><p><b>timing</b>: Do Once per 12 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote></blockquote></blockquote></td></tr></table></div>
+  </text>
+  <contained>
+    <RequestGroup>
+      <id value="VoruntersuchungExampleRG"/>
+      <instantiatesCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung"/>
+      <status value="draft"/>
+      <intent value="plan"/>
+      <subject>
+        <reference value="Patient/PatientJohnDoe"/>
+      </subject>
+      <action>
+        <groupingBehavior value="logical-group"/>
+        <selectionBehavior value="all"/>
+        <requiredBehavior value="must-unless-documented"/>
+        <cardinalityBehavior value="single"/>
+        <action>
+          <title value="Diagnostik alle 3 Monate"/>
+          <timingTiming>
+            <repeat>
+              <frequency value="1"/>
+              <period value="3"/>
+              <periodUnit value="mo"/>
+            </repeat>
+          </timingTiming>
+          <groupingBehavior value="logical-group"/>
+          <selectionBehavior value="all"/>
+          <requiredBehavior value="must-unless-documented"/>
+          <cardinalityBehavior value="single"/>
+          <action>
+            <title value="Multiple Sclerosis Performance Test (MSPT)"/>
+            <resource>
+              <reference value="CarePlan/MultipleSclerosisPerformanceTestExampleCP"/>
+            </resource>
+          </action>
+          <action>
+            <title value="Therapiespezifische Diagnostik"/>
+            <resource>
+              <reference value="CarePlan/TherapiespezifischeDiagnostikExampleCP"/>
+            </resource>
+          </action>
+        </action>
+        <action>
+          <title value="Diagnostik alle 12 Monate"/>
+          <timingTiming>
+            <repeat>
+              <frequency value="1"/>
+              <period value="12"/>
+              <periodUnit value="mo"/>
+            </repeat>
+          </timingTiming>
+          <groupingBehavior value="logical-group"/>
+          <selectionBehavior value="all"/>
+          <requiredBehavior value="must-unless-documented"/>
+          <cardinalityBehavior value="single"/>
+          <action>
+            <title value="Optische Kohärenztomographie (OCT)"/>
+            <resource>
+              <reference value="CarePlan/OptischeKohaerenztomographieExampleCP"/>
+            </resource>
+          </action>
+          <action>
+            <title value="Ganganalyse"/>
+            <resource>
+              <reference value="CarePlan/GanganalyseExampleCP"/>
+            </resource>
+          </action>
+          <action>
+            <title value="Magnetresonanztomographie (MRT)"/>
+            <resource>
+              <reference value="CarePlan/MagnetresonanztomographieExampleCP"/>
+            </resource>
+          </action>
+        </action>
+      </action>
+    </RequestGroup>
+  </contained>
+  <instantiatesCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung"/>
+  <status value="draft"/>
+  <intent value="option"/>
+  <subject>
+    <reference value="Patient/PatientJohnDoe"/>
+  </subject>
+  <activity>
+    <reference>
+      <reference value="#VoruntersuchungExampleRG"/>
+    </reference>
+  </activity>
+</CarePlan>

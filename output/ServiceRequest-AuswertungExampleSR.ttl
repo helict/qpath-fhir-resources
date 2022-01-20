@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/ServiceRequest/AuswertungExampleSR> a fhir:ServiceRequest;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "AuswertungExampleSR"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"AuswertungExampleSR\" </p></div><p><b>instantiatesCanonical</b>: <a href=\"http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAuswertungAD\">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAuswertungAD</a></p><p><b>status</b>: active</p><p><b>intent</b>: plan</p><p><b>doNotPerform</b>: false</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> \" DOE\"</p><p><b>occurrence</b>: 2022-01-12T12:00:00Z --&gt; 2022-01-21T00:00:00Z</p><p><b>locationCode</b>: Neurology clinic <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#NEUR)</span></p></div>"
+  ];
+  fhir:ServiceRequest.instantiatesCanonical [
+     fhir:value "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAuswertungAD";
+     fhir:index 0;
+     fhir:link <http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAuswertungAD>
+  ];
+  fhir:ServiceRequest.status [ fhir:value "active"];
+  fhir:ServiceRequest.intent [ fhir:value "plan"];
+  fhir:ServiceRequest.doNotPerform [ fhir:value "false"^^xsd:boolean];
+  fhir:ServiceRequest.subject [
+     fhir:link <http://qpath4ms.ukdd.de/Patient/PatientJohnDoe>;
+     fhir:Reference.reference [ fhir:value "Patient/PatientJohnDoe" ]
+  ];
+  fhir:ServiceRequest.occurrencePeriod [
+     fhir:Period.start [ fhir:value "2022-01-12T12:00:00Z"^^xsd:dateTime ];
+     fhir:Period.end [ fhir:value "2022-01-21T00:00:00Z"^^xsd:dateTime ]
+  ];
+  fhir:ServiceRequest.locationCode [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleCode" ];
+       fhir:Coding.code [ fhir:value "NEUR" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/ServiceRequest/AuswertungExampleSR.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

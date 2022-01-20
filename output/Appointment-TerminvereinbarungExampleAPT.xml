@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Appointment xmlns="http://hl7.org/fhir">
+  <id value="TerminvereinbarungExampleAPT"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "TerminvereinbarungExampleAPT" </p></div><p><b>status</b>: proposed</p><p><b>appointmentType</b>: Routine appointment - default if not valued <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-v2-0276.html">appointmentReason</a>#ROUTINE)</span></p><p><b>description</b>: Terminvereinbarung im Rahmen des Basismonitorings</p><p><b>minutesDuration</b>: 21600</p><p><b>created</b>: 2022-01-12T12:00:00Z</p><p><b>patientInstruction</b>: Bitte prüfen Sie den Terminvorschlag und bestätigen oder lehnen diesen ab.</p><h3>Participants</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Actor</b></td><td><b>Required</b></td><td><b>Status</b></td><td><b>Period</b></td></tr><tr><td>*</td><td>primary performer <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/3.0.0/CodeSystem-v3-ParticipationType.html">ParticipationType</a>#PPRF)</span></td><td><a href="Patient-PatientJohnDoe.html">Patient/PatientJohnDoe</a> " DOE"</td><td>required</td><td>needs-action</td><td>2022-01-17T00:00:00Z --&gt; 2022-01-21T00:00:00Z</td></tr></table></div>
+  </text>
+  <status value="proposed"/>
+  <appointmentType>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0276"/>
+      <code value="ROUTINE"/>
+    </coding>
+  </appointmentType>
+  <description value="Terminvereinbarung im Rahmen des Basismonitorings"/>
+  <minutesDuration value="21600"/>
+  <created value="2022-01-12T12:00:00Z"/>
+  <patientInstruction value="Bitte prüfen Sie den Terminvorschlag und bestätigen oder lehnen diesen ab."/>
+  <participant>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+        <code value="PPRF"/>
+      </coding>
+    </type>
+    <actor>
+      <reference value="Patient/PatientJohnDoe"/>
+    </actor>
+    <required value="required"/>
+    <status value="needs-action"/>
+    <period>
+      <start value="2022-01-17T00:00:00Z"/>
+      <end value="2022-01-21T00:00:00Z"/>
+    </period>
+  </participant>
+</Appointment>

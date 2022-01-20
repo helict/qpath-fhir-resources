@@ -164,6 +164,38 @@
       },
       {
         "reference": {
+          "reference": "CarePlan/AllgemeineNeurologischeAnamneseExampleCP"
+        },
+        "name": "Beispiel Allgemeine und neurologische Anamnese",
+        "description": "Beispiel CarePlan für die Durchführung einer allgemeinen und neurologischen Anamnese mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Task/AllgemeineNeurologischeAnamneseExampleTSK"
+        },
+        "name": "Beispiel Allgemeine und neurologische Anamnese",
+        "description": "Beispiel Task für die Durchführung einer allgemeinenen und neurologischen Anamnese mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/AllgemeineNeurologischeUntersuchungExampleCP"
+        },
+        "name": "Beispiel Allgemeine und neurologische Untersuchung",
+        "description": "Beispiel CarePlan für die Durchführung einer allgemeinen neurologischen Untersuchung mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Task/AllgemeineNeurologischeUntersuchungExampleTSK"
+        },
+        "name": "Beispiel Allgemeine und neurologische Untersuchung",
+        "description": "Beispiel Task für die Durchführung einer allgemeinen und neurologischen Untersuchung mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "DocumentReference/ArztbriefExample"
         },
         "name": "Beispiel Arztbrief",
@@ -172,11 +204,139 @@
       },
       {
         "reference": {
+          "reference": "CarePlan/ArztvorstellungExampleCP"
+        },
+        "name": "Beispiel Arztvorstellung",
+        "description": "Beispiel CarePlan für die Arztvorstellung eines Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/AuswertungExampleCP"
+        },
+        "name": "Beispiel Auswertung",
+        "description": "Beispiel CarePlan für die Durchführung einer Auswertung mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "ServiceRequest/AuswertungExampleSR"
+        },
+        "name": "Beispiel Auswertung",
+        "description": "Beispiel ServiceRequest für die Durchführung einer Auswertung mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Task/AuswertungExampleTSK"
+        },
+        "name": "Beispiel Auswertung",
+        "description": "Beispiel Task für die Durchführung einer Auswertung mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/BasismonitoringExampleCP"
+        },
+        "name": "Beispiel Basismonitoring Patientenpfad",
+        "description": "Beispiel CarePlan einer Basismonitoring-Patientenpfadinstanz bei Erstvorstellung (M0) von Patient John Doe nach Überweisung aus der ambulanten neurologischen Einrichtung",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
           "reference": "DocumentReference/BefundExample"
         },
         "name": "Beispiel Befund",
         "description": "Beispiel DocumentReference für einen Befund",
         "exampleCanonical": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSBefundProfile"
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/BefundauswertungExampleCP"
+        },
+        "name": "Beispiel Befundauswertung",
+        "description": "Beispiel CarePlan für die Durchführung einer Befundauswertung mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Task/BefundauswertungExampleTSK"
+        },
+        "name": "Beispiel Befundauswertung",
+        "description": "Beispiel Task für die Durchführung einer Befundauswertung mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/DokumenteAbfragenPatientExampleCP"
+        },
+        "name": "Beispiel Dokumente abfragen",
+        "description": "Beispiel CarePlan für eine Dokumentenabfrage beim Patienten abfragen (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Task/DokumenteAbfragenPatientExampleTSK"
+        },
+        "name": "Beispiel Dokumente abfragen",
+        "description": "Beispiel Task für eine Dokumentenabfrage beim Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/DokumenteUebermittelnArztExampleCP"
+        },
+        "name": "Beispiel Dokumente an Arzt übermitteln",
+        "description": "Beispiel CarePlan für eine Dokumentenübermittlung an den Patienten abfragen (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Task/DokumenteUebermittelnArztExampleTSK"
+        },
+        "name": "Beispiel Dokumente an Arzt übermitteln",
+        "description": "Beispiel Task für eine Dokumentenübermittlung an den Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/DokumenteUebermittelnPatientExampleCP"
+        },
+        "name": "Beispiel Dokumente an Patient übermitteln",
+        "description": "Beispiel CarePlan für eine Dokumentenübermittlung an den Patienten abfragen (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Task/DokumenteUebermittelnPatientExampleTSK"
+        },
+        "name": "Beispiel Dokumente an Patient übermitteln",
+        "description": "Beispiel Task für eine Dokumentenübermittlung an den Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/EntlassungExampleCP"
+        },
+        "name": "Beispiel Entlassung",
+        "description": "Beispiel CarePlan für die Entlassung eines Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/GanganalyseExampleCP"
+        },
+        "name": "Beispiel Ganganalyse",
+        "description": "Beispiel CarePlan für die Durchführung einer Ganganalyse mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "ServiceRequest/GanganalyseExampleSR"
+        },
+        "name": "Beispiel Ganganalyse",
+        "description": "Beispiel ServiceRequest für die Durchführung einer Ganganalyse mit dem Patienten (M0)",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -193,6 +353,70 @@
         "name": "Beispiel Laborergebnis",
         "description": "Beispiel DocumentReference für ein Laborergebnis",
         "exampleCanonical": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSLaborergebnisProfile"
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/LaboruntersuchungExampleCP"
+        },
+        "name": "Beispiel Laboruntersuchung",
+        "description": "Beispiel CarePlan für die Durchführung einer Laboruntersuchung mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "ServiceRequest/LaboruntersuchungExampleSR"
+        },
+        "name": "Beispiel Laboruntersuchung",
+        "description": "Beispiel ServiceRequest für die Durchführung einer Laboruntersuchung mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/MagnetresonanztomographieExampleCP"
+        },
+        "name": "Beispiel Magnetresonanztomographie (MRT)",
+        "description": "Beispiel CarePlan für die Durchführung einer MRT mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "ServiceRequest/MagnetresonanztomographieExampleSR"
+        },
+        "name": "Beispiel Magnetresonanztomographie (MRT)",
+        "description": "Beispiel ServiceRequest für die Durchführung einer MRT mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/MultipleSclerosisPerformanceTestExampleCP"
+        },
+        "name": "Beispiel Multiple Sclerosis Performance Test (MSPT)",
+        "description": "Beispiel CarePlan für die Durchführung eines MSPT mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "ServiceRequest/MultipleSclerosisPerformanceTestExampleSR"
+        },
+        "name": "Beispiel Multiple Sclerosis Performance Test (MSPT)",
+        "description": "Beispiel ServiceRequest für die Durchführung eines MSPT mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/OptischeKohaerenztomographieExampleCP"
+        },
+        "name": "Beispiel Optische Kohärenztomographie (OCT)",
+        "description": "Beispiel CarePlan für die Durchführung eines OCT mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "ServiceRequest/OptischeKohaerenztomographieExampleSR"
+        },
+        "name": "Beispiel Optische Kohärenztomographie (OCT)",
+        "description": "Beispiel ServiceRequest für die Durchführung eines OCT mit dem Patienten (M0)",
+        "exampleBoolean": true
       },
       {
         "reference": {
@@ -483,6 +707,62 @@
         "name": "Beispiel Sonstiges Dokument",
         "description": "Beispiel DocumentReference für ein Sonstiges Dokument, z.B. AU",
         "exampleCanonical": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSSonstigesDokumentProfile"
+      },
+      {
+        "reference": {
+          "reference": "Appointment/TerminvereinbarungExampleAPT"
+        },
+        "name": "Beispiel Terminvereinbarung",
+        "description": "Beispiel Appointment mit einem Terminvorschlag für einen Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/TerminvereinbarungExampleCP"
+        },
+        "name": "Beispiel Terminvereinbarung",
+        "description": "Beispiel CarePlan zur Terminvereinbarung mit einem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/TherapiespezifischeDiagnostikExampleCP"
+        },
+        "name": "Beispiel Therapiespezifische Diagnostik",
+        "description": "Beispiel CarePlan für die Durchführung einer therapiespezifischen Diagnostik mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "ServiceRequest/TherapiespezifischeDiagnostikExampleSR"
+        },
+        "name": "Beispiel Therapiespezifische Diagnostik",
+        "description": "Beispiel ServiceRequest für die Durchführung einer therapiespezifischen Diagnostik mit dem Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/VorstellungExampleCP"
+        },
+        "name": "Beispiel Erst- oder Wiedervorstellung",
+        "description": "Beispiel CarePlan zur Erstvorstellung eines Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/VoruntersuchungExampleCP"
+        },
+        "name": "Beispiel Voruntersuchung",
+        "description": "Beispiel CarePlan für die Voruntersuchung eines Patienten (M0)",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "CarePlan/ZusatzdiagnostikExampleCP"
+        },
+        "name": "Beispiel Zusatzdiagnostik",
+        "description": "Beispiel CarePlan für die Durchführung einer Zusatzdiagnostik mit dem Patienten (M0)",
+        "exampleBoolean": true
       }
     ],
     "page": {

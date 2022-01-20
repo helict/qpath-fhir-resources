@@ -1,0 +1,55 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/Appointment/TerminvereinbarungExampleAPT> a fhir:Appointment;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "TerminvereinbarungExampleAPT"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"TerminvereinbarungExampleAPT\" </p></div><p><b>status</b>: proposed</p><p><b>appointmentType</b>: Routine appointment - default if not valued <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v2-0276.html\">appointmentReason</a>#ROUTINE)</span></p><p><b>description</b>: Terminvereinbarung im Rahmen des Basismonitorings</p><p><b>minutesDuration</b>: 21600</p><p><b>created</b>: 2022-01-12T12:00:00Z</p><p><b>patientInstruction</b>: Bitte prüfen Sie den Terminvorschlag und bestätigen oder lehnen diesen ab.</p><h3>Participants</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Actor</b></td><td><b>Required</b></td><td><b>Status</b></td><td><b>Period</b></td></tr><tr><td>*</td><td>primary performer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-v3-ParticipationType.html\">ParticipationType</a>#PPRF)</span></td><td><a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> \" DOE\"</td><td>required</td><td>needs-action</td><td>2022-01-17T00:00:00Z --&gt; 2022-01-21T00:00:00Z</td></tr></table></div>"
+  ];
+  fhir:Appointment.status [ fhir:value "proposed"];
+  fhir:Appointment.appointmentType [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0276" ];
+       fhir:Coding.code [ fhir:value "ROUTINE" ]
+     ]
+  ];
+  fhir:Appointment.description [ fhir:value "Terminvereinbarung im Rahmen des Basismonitorings"];
+  fhir:Appointment.minutesDuration [ fhir:value "21600"^^xsd:positiveInteger];
+  fhir:Appointment.created [ fhir:value "2022-01-12T12:00:00Z"^^xsd:dateTime];
+  fhir:Appointment.patientInstruction [ fhir:value "Bitte prüfen Sie den Terminvorschlag und bestätigen oder lehnen diesen ab."];
+  fhir:Appointment.participant [
+     fhir:index 0;
+     fhir:Appointment.participant.type [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ParticipationType" ];
+         fhir:Coding.code [ fhir:value "PPRF" ]
+       ]
+     ];
+     fhir:Appointment.participant.actor [
+       fhir:link <http://qpath4ms.ukdd.de/Patient/PatientJohnDoe>;
+       fhir:Reference.reference [ fhir:value "Patient/PatientJohnDoe" ]
+     ];
+     fhir:Appointment.participant.required [ fhir:value "required" ];
+     fhir:Appointment.participant.status [ fhir:value "needs-action" ];
+     fhir:Appointment.participant.period [
+       fhir:Period.start [ fhir:value "2022-01-17T00:00:00Z"^^xsd:dateTime ];
+       fhir:Period.end [ fhir:value "2022-01-21T00:00:00Z"^^xsd:dateTime ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/Appointment/TerminvereinbarungExampleAPT.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

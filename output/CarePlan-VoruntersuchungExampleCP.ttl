@@ -1,0 +1,128 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/CarePlan/VoruntersuchungExampleCP> a fhir:CarePlan;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "VoruntersuchungExampleCP"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"VoruntersuchungExampleCP\" </p></div><p><b>instantiatesCanonical</b>: <a href=\"PlanDefinition-Q4MSVoruntersuchung.html\">PlanDefinition[http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung]</a></p><p><b>status</b>: draft</p><p><b>intent</b>: option</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> \" DOE\"</p><h3>Activities</h3><table class=\"grid\"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a name=\"VoruntersuchungExampleRG\"> </a><blockquote><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"VoruntersuchungExampleRG\" </p></div><p><b>instantiatesCanonical</b>: <a href=\"PlanDefinition-Q4MSVoruntersuchung.html\">PlanDefinition[http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung]</a></p><p><b>status</b>: draft</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> \" DOE\"</p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 3 Monate</p><p><b>timing</b>: Do Once per 3 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 12 Monate</p><p><b>timing</b>: Do Once per 12 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote></blockquote></blockquote></td></tr></table></div>"
+  ];
+  fhir:DomainResource.contained [
+     a fhir:RequestGroup;
+     fhir:index 0;
+     fhir:Resource.id [ fhir:value "VoruntersuchungExampleRG" ];
+     fhir:RequestGroup.instantiatesCanonical [
+       fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung";
+       fhir:index 0;
+       fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung>
+     ];
+     fhir:RequestGroup.status [ fhir:value "draft" ];
+     fhir:RequestGroup.intent [ fhir:value "plan" ];
+     fhir:RequestGroup.subject [
+       fhir:link <http://qpath4ms.ukdd.de/Patient/PatientJohnDoe>;
+       fhir:Reference.reference [ fhir:value "Patient/PatientJohnDoe" ]
+     ];
+     fhir:RequestGroup.action [
+       fhir:index 0;
+       fhir:RequestGroup.action.groupingBehavior [ fhir:value "logical-group" ];
+       fhir:RequestGroup.action.selectionBehavior [ fhir:value "all" ];
+       fhir:RequestGroup.action.requiredBehavior [ fhir:value "must-unless-documented" ];
+       fhir:RequestGroup.action.cardinalityBehavior [ fhir:value "single" ];
+       fhir:RequestGroup.action.action [
+         fhir:index 0;
+         fhir:RequestGroup.action.title [ fhir:value "Diagnostik alle 3 Monate" ];
+         fhir:RequestGroup.action.timingTiming [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.frequency [ fhir:value "1"^^xsd:positiveInteger ];
+             fhir:Timing.repeat.period [ fhir:value "3"^^xsd:decimal ];
+             fhir:Timing.repeat.periodUnit [ fhir:value "mo" ]
+           ]
+         ];
+         fhir:RequestGroup.action.groupingBehavior [ fhir:value "logical-group" ];
+         fhir:RequestGroup.action.selectionBehavior [ fhir:value "all" ];
+         fhir:RequestGroup.action.requiredBehavior [ fhir:value "must-unless-documented" ];
+         fhir:RequestGroup.action.cardinalityBehavior [ fhir:value "single" ];
+         fhir:RequestGroup.action.action [
+           fhir:index 0;
+           fhir:RequestGroup.action.title [ fhir:value "Multiple Sclerosis Performance Test (MSPT)" ];
+           fhir:RequestGroup.action.resource [
+             fhir:link <http://qpath4ms.ukdd.de/CarePlan/MultipleSclerosisPerformanceTestExampleCP>;
+             fhir:Reference.reference [ fhir:value "CarePlan/MultipleSclerosisPerformanceTestExampleCP" ]
+           ]
+         ], [
+           fhir:index 1;
+           fhir:RequestGroup.action.title [ fhir:value "Therapiespezifische Diagnostik" ];
+           fhir:RequestGroup.action.resource [
+             fhir:link <http://qpath4ms.ukdd.de/CarePlan/TherapiespezifischeDiagnostikExampleCP>;
+             fhir:Reference.reference [ fhir:value "CarePlan/TherapiespezifischeDiagnostikExampleCP" ]
+           ]
+         ]
+       ], [
+         fhir:index 1;
+         fhir:RequestGroup.action.title [ fhir:value "Diagnostik alle 12 Monate" ];
+         fhir:RequestGroup.action.timingTiming [
+           fhir:Timing.repeat [
+             fhir:Timing.repeat.frequency [ fhir:value "1"^^xsd:positiveInteger ];
+             fhir:Timing.repeat.period [ fhir:value "12"^^xsd:decimal ];
+             fhir:Timing.repeat.periodUnit [ fhir:value "mo" ]
+           ]
+         ];
+         fhir:RequestGroup.action.groupingBehavior [ fhir:value "logical-group" ];
+         fhir:RequestGroup.action.selectionBehavior [ fhir:value "all" ];
+         fhir:RequestGroup.action.requiredBehavior [ fhir:value "must-unless-documented" ];
+         fhir:RequestGroup.action.cardinalityBehavior [ fhir:value "single" ];
+         fhir:RequestGroup.action.action [
+           fhir:index 0;
+           fhir:RequestGroup.action.title [ fhir:value "Optische Kohärenztomographie (OCT)" ];
+           fhir:RequestGroup.action.resource [
+             fhir:link <http://qpath4ms.ukdd.de/CarePlan/OptischeKohaerenztomographieExampleCP>;
+             fhir:Reference.reference [ fhir:value "CarePlan/OptischeKohaerenztomographieExampleCP" ]
+           ]
+         ], [
+           fhir:index 1;
+           fhir:RequestGroup.action.title [ fhir:value "Ganganalyse" ];
+           fhir:RequestGroup.action.resource [
+             fhir:link <http://qpath4ms.ukdd.de/CarePlan/GanganalyseExampleCP>;
+             fhir:Reference.reference [ fhir:value "CarePlan/GanganalyseExampleCP" ]
+           ]
+         ], [
+           fhir:index 2;
+           fhir:RequestGroup.action.title [ fhir:value "Magnetresonanztomographie (MRT)" ];
+           fhir:RequestGroup.action.resource [
+             fhir:link <http://qpath4ms.ukdd.de/CarePlan/MagnetresonanztomographieExampleCP>;
+             fhir:Reference.reference [ fhir:value "CarePlan/MagnetresonanztomographieExampleCP" ]
+           ]
+         ]
+       ]
+     ]
+  ];
+  fhir:CarePlan.instantiatesCanonical [
+     fhir:value "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung";
+     fhir:index 0;
+     fhir:link <http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung>
+  ];
+  fhir:CarePlan.status [ fhir:value "draft"];
+  fhir:CarePlan.intent [ fhir:value "option"];
+  fhir:CarePlan.subject [
+     fhir:link <http://qpath4ms.ukdd.de/Patient/PatientJohnDoe>;
+     fhir:Reference.reference [ fhir:value "Patient/PatientJohnDoe" ]
+  ];
+  fhir:CarePlan.activity [
+     fhir:index 0;
+     fhir:CarePlan.activity.reference [
+       fhir:Reference.reference [ fhir:value "#VoruntersuchungExampleRG" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://qpath4ms.ukdd.de/CarePlan/VoruntersuchungExampleCP.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

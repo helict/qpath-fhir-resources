@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "Q4MSSonstigesDokumentProfile"];
   fhir:StructureDefinition.title [ fhir:value "Sonstiges Dokument"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-01-20T13:58:01+01:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-01-20T14:56:11+01:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

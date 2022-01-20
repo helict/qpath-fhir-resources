@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CarePlan xmlns="http://hl7.org/fhir">
+  <id value="AuswertungExampleCP"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "AuswertungExampleCP" </p></div><p><b>instantiatesCanonical</b>: <a href="PlanDefinition-Q4MSAuswertung.html">PlanDefinition[http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAuswertung]</a></p><p><b>status</b>: draft</p><p><b>intent</b>: option</p><p><b>subject</b>: <a href="Patient-PatientJohnDoe.html">Patient/PatientJohnDoe</a> " DOE"</p><h3>Activities</h3><table class="grid"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a name="AuswertungExampleRG"> </a><blockquote><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "AuswertungExampleRG" </p></div><p><b>instantiatesCanonical</b>: <a href="PlanDefinition-Q4MSAuswertung.html">PlanDefinition[http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAuswertung]</a></p><p><b>status</b>: draft</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href="Patient-PatientJohnDoe.html">Patient/PatientJohnDoe</a> " DOE"</p><h3>Actions</h3><table class="grid"><tr><td>-</td><td><b>Title</b></td><td><b>Resource</b></td></tr><tr><td>*</td><td>Auswertung</td><td><a href="Task-AuswertungExampleTSK.html">Task/AuswertungExampleTSK</a></td></tr></table></blockquote></td></tr></table></div>
+  </text>
+  <contained>
+    <RequestGroup>
+      <id value="AuswertungExampleRG"/>
+      <instantiatesCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAuswertung"/>
+      <status value="draft"/>
+      <intent value="plan"/>
+      <subject>
+        <reference value="Patient/PatientJohnDoe"/>
+      </subject>
+      <action>
+        <title value="Auswertung"/>
+        <resource>
+          <reference value="Task/AuswertungExampleTSK"/>
+        </resource>
+      </action>
+    </RequestGroup>
+  </contained>
+  <instantiatesCanonical value="http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAuswertung"/>
+  <status value="draft"/>
+  <intent value="option"/>
+  <subject>
+    <reference value="Patient/PatientJohnDoe"/>
+  </subject>
+  <activity>
+    <reference>
+      <reference value="#AuswertungExampleRG"/>
+    </reference>
+  </activity>
+</CarePlan>
