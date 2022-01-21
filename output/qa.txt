@@ -3,7 +3,7 @@
 
 err = 4, warn = 36, info = 35
 IG Publisher Version: 1.1.97
-Generated Fri Jan 21 07:37:40 CET 2022. FHIR version 4.0.1 for fhir.qpath4ms#0.1.0 (canonical = http://qpath4ms.ukdd.de)
+Generated Fri Jan 21 07:50:15 CET 2022. FHIR version 4.0.1 for fhir.qpath4ms#0.1.0 (canonical = http://qpath4ms.ukdd.de)
  Build Errors : 0 / 3 / 0
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSAllgemeineNeurologischeAnamneseAD : 0 / 0 / 1
  /home/jd/Repos/qpath-fhir-resources/fsh-generated/resources/ActivityDefinition-Q4MSAuswertungAD : 0 / 0 / 1

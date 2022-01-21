@@ -3,7 +3,7 @@
   "id": "Q4MSBefundauswertung",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSBefundauswertung\" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBefundauswertung</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: Q4MSBefundauswertung</p><p><b>type</b>: ECA Rule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#eca-rule)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-21T07:36:48+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><blockquote><p><b>action</b></p><p><b>title</b>: Befundauswertung</p><blockquote><p><b>condition</b></p><p><b>kind</b>: applicability</p></blockquote><p><b>type</b>: Create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-action-type.html\">ActionType</a>#create)</span></p><p><b>definition</b>: <a href=\"http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSBefundauswertungAD\">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSBefundauswertungAD</a></p></blockquote></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"Q4MSBefundauswertung\" </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBefundauswertung</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: Q4MSBefundauswertung</p><p><b>type</b>: ECA Rule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#eca-rule)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-21T07:49:24+01:00</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Martin Burwitz: <a href=\"mailto:martin.burwitz@tu-dresden.de\">martin.burwitz@tu-dresden.de</a>, Harry Preiß: <a href=\"mailto:harry.preiss@medicalsyn.com\">harry.preiss@medicalsyn.com</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><blockquote><p><b>action</b></p><p><b>title</b>: Befundauswertung</p><blockquote><p><b>condition</b></p><p><b>kind</b>: applicability</p></blockquote><p><b>type</b>: Create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-action-type.html\">ActionType</a>#create)</span></p><p><b>definition</b>: <a href=\"http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSBefundauswertungAD\">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSBefundauswertungAD</a></p></blockquote></div>"
   },
   "url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBefundauswertung",
   "version": "0.1.0",
@@ -18,7 +18,7 @@
   },
   "status": "draft",
   "experimental": true,
-  "date": "2022-01-21T07:36:48+01:00",
+  "date": "2022-01-21T07:49:24+01:00",
   "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
@@ -31,6 +31,26 @@
         {
           "system": "email",
           "value": "digital-health@tu-dresden.de"
+        }
+      ]
+    },
+    {
+      "name": "Martin Burwitz",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "martin.burwitz@tu-dresden.de",
+          "use": "work"
+        }
+      ]
+    },
+    {
+      "name": "Harry Preiß",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "harry.preiss@medicalsyn.com",
+          "use": "work"
         }
       ]
     },

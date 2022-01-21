@@ -22,6 +22,26 @@
       ]
     },
     {
+      "name": "Martin Burwitz",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "martin.burwitz@tu-dresden.de",
+          "use": "work"
+        }
+      ]
+    },
+    {
+      "name": "Harry Preiß",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "harry.preiss@medicalsyn.com",
+          "use": "work"
+        }
+      ]
+    },
+    {
       "name": "Marcel Susky",
       "telecom": [
         {

@@ -20,7 +20,7 @@
   "name": "Q4MSTerminvereinbarungProfile",
   "title": "Terminvereinbarung",
   "status": "active",
-  "date": "2022-01-21T07:36:48+01:00",
+  "date": "2022-01-21T07:49:24+01:00",
   "publisher": "Forschungsgruppe Digital Health",
   "contact": [
     {
@@ -33,6 +33,26 @@
         {
           "system": "email",
           "value": "digital-health@tu-dresden.de"
+        }
+      ]
+    },
+    {
+      "name": "Martin Burwitz",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "martin.burwitz@tu-dresden.de",
+          "use": "work"
+        }
+      ]
+    },
+    {
+      "name": "Harry Preiß",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "harry.preiss@medicalsyn.com",
+          "use": "work"
         }
       ]
     },

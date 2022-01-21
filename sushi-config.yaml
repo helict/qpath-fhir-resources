@@ -97,6 +97,16 @@ menu:
 # ContactDetail.
 #
 contact:
+  - name: Martin Burwitz
+    telecom:
+      - system: email # phone | fax | email | pager | url | sms | other
+        value: martin.burwitz@tu-dresden.de
+        use: work
+  - name: Harry Preiß
+    telecom:
+      - system: email # phone | fax | email | pager | url | sms | other
+        value: harry.preiss@medicalsyn.com
+        use: work
   - name: Marcel Susky
     telecom:
       - system: email # phone | fax | email | pager | url | sms | other

@@ -32,7 +32,7 @@
   <name value="Q4MSKonsiliarberichtProfile"/>
   <title value="Konsiliarbericht"/>
   <status value="active"/>
-  <date value="2022-01-21T07:36:48+01:00"/>
+  <date value="2022-01-21T07:49:24+01:00"/>
   <publisher value="Forschungsgruppe Digital Health"/>
   <contact>
     <name value="Forschungsgruppe Digital Health"/>
@@ -43,6 +43,22 @@
     <telecom>
       <system value="email"/>
       <value value="digital-health@tu-dresden.de"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Martin Burwitz"/>
+    <telecom>
+      <system value="email"/>
+      <value value="martin.burwitz@tu-dresden.de"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Harry Preiß"/>
+    <telecom>
+      <system value="email"/>
+      <value value="harry.preiss@medicalsyn.com"/>
+      <use value="work"/>
     </telecom>
   </contact>
   <contact>

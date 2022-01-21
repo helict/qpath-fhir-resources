@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "QPath4MSIG"];
   fhir:ImplementationGuide.title [ fhir:value "QPath4MS FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-21T07:36:48+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-21T07:49:24+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -33,6 +33,24 @@
      ]
   ], [
      fhir:index 1;
+     fhir:ContactDetail.name [ fhir:value "Martin Burwitz" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "martin.burwitz@tu-dresden.de" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:ContactDetail.name [ fhir:value "Harry Preiß" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "harry.preiss@medicalsyn.com" ];
+       fhir:ContactPoint.use [ fhir:value "work" ]
+     ]
+  ], [
+     fhir:index 3;
      fhir:ContactDetail.name [ fhir:value "Marcel Susky" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
