@@ -1,12 +1,8 @@
 .DS_Store
-validator_cli.jar
-.bundle/
-*.bak
-.tmp/
 .DS_Store
 Thumbs.db
 /fsh-generated
-!/fsh-generated/resources
 /input-cache
 /temp
 /template
+/output

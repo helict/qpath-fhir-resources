@@ -2,17 +2,16 @@
 
 ### Looking for the readable FHIR Implementation Guide?
 
-Please visit [FHIR Implementation Guide](https://helict.github.io/qpath-fhir-resources/output/)
 
-To interprete/compile FHIR Shorthand (FSH) files use [SUSHI](https://github.com/FHIR/sushi) command line tool (reverse conversion
-with [GoFSH](https://github.com/FHIR/GoFSH)). To generate the complete QPath4MS FHIR IG run `_updatePublisher.sh` (optionally) and
-`_genonce.sh` script on the repository. Later we can migrate to https://build.fhir.org using the 
-[Auto IG Builder](https://github.com/FHIR/auto-ig-builder).
+Please visit [FHIR Implementation Guide](https://build.fhir.org/ig/helict/qpath4ms-ig/)
 
-### Looking for FHIR JSON resources?
+To interprete/compile FHIR Shorthand (FSH) files use [SUSHI](https://github.com/FHIR/sushi) command line tool
+(reverse conversion with [GoFSH](https://github.com/FHIR/GoFSH)). To generate the complete QPath4MS FHIR IG run 
+`_updatePublisher.sh` (optionally) and `_genonce.sh` script on the repository.
 
-Please visit [FHIR JSON Resource Files](https://github.com/helict/qpath-fhir-resources/tree/qpath4ms-ig/fsh-generated/resources)
+### How is the FHIR Implementation Guide built and provided?
 
-### Looking for FHIR Shorthand (FSH) files?
-
-Please visit [FHIR Shorthand Files](https://github.com/helict/qpath-fhir-resources/tree/qpath4ms-ig/input/fsh)
+The QPath4MS FHIR IG is built using the [Auto IG Builder](https://github.com/FHIR/auto-ig-builder), which
+uses webhooks to trigger the build process on new commits. A build summary will also be made available 
+[here](https://fhir.github.io/auto-ig-builder/builds.html) as well as referenced via Zulip FHIR chat 
+[notifications](https://chat.fhir.org/#narrow/stream/179297-committers.2Fnotification/topic/ig-build)
