@@ -18,7 +18,15 @@
       "groupingBehavior": "logical-group",
       "selectionBehavior": "all",
       "requiredBehavior": "must-unless-documented",
-      "cardinalityBehavior": "multiple",
+      "cardinalityBehavior": "single",
+      "title": "Monitoring alle 3 Monate",
+      "timingTiming": {
+        "repeat": {
+          "frequency": 1,
+          "period": 3,
+          "periodUnit": "mo"
+        }
+      },
       "action": [
         {
           "id": "admission",

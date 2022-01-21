@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "QPath4MSIG"];
   fhir:ImplementationGuide.title [ fhir:value "QPath4MS FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-01-20T17:26:57+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-01-21T07:36:48+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;

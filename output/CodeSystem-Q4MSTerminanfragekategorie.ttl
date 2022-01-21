@@ -25,7 +25,7 @@
   fhir:CodeSystem.title [ fhir:value "Terminanfragekategorie"];
   fhir:CodeSystem.status [ fhir:value "active"];
   fhir:CodeSystem.experimental [ fhir:value "true"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-01-20T17:26:57+01:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-01-21T07:36:48+01:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "Forschungsgruppe Digital Health"];
   fhir:CodeSystem.contact [
      fhir:index 0;

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "99582a22-0d11-4fc2-8768-7cc846d8c150",
+  "id" : "9628e487-8a91-4754-914d-7fbf6d2c05af",
   "meta" : {
-    "lastUpdated" : "2022-01-20T17:26:57.187+01:00"
+    "lastUpdated" : "2022-01-21T07:36:48.278+01:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "Q4MSAnfragekategorieVS",
       "title" : "Anfragekategorie",
       "status" : "active",
-      "date" : "2022-01-20T17:26:57+01:00",
+      "date" : "2022-01-21T07:36:48+01:00",
       "publisher" : "Forschungsgruppe Digital Health",
       "contact" : [{
         "name" : "Forschungsgruppe Digital Health",
@@ -49,8 +49,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:01dc91dc-4168-44e2-b352-8a00bf268d80",
-        "timestamp" : "2022-01-20T17:27:27+01:00",
+        "identifier" : "urn:uuid:8c12bb30-bc25-4549-b5f8-ef015b42ab3b",
+        "timestamp" : "2022-01-21T07:37:17+01:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -112,7 +112,7 @@
       "name" : "Q4MSDokumentanforderungkategorieVS",
       "title" : "Dokumentanforderungkategorie",
       "status" : "active",
-      "date" : "2022-01-20T17:26:57+01:00",
+      "date" : "2022-01-21T07:36:48+01:00",
       "publisher" : "Forschungsgruppe Digital Health",
       "contact" : [{
         "name" : "Forschungsgruppe Digital Health",
@@ -142,8 +142,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8e47f86a-cfcb-4e86-a198-047048900c44",
-        "timestamp" : "2022-01-20T17:27:27+01:00",
+        "identifier" : "urn:uuid:592b283e-765f-416c-bcdf-25d83a02bc37",
+        "timestamp" : "2022-01-21T07:37:17+01:00",
         "total" : 6,
         "parameter" : [{
           "name" : "excludeNested",
@@ -200,7 +200,7 @@
       "name" : "Q4MSTerminanfragekategorieVS",
       "title" : "Terminanfragekategorie",
       "status" : "active",
-      "date" : "2022-01-20T17:26:57+01:00",
+      "date" : "2022-01-21T07:36:48+01:00",
       "publisher" : "Forschungsgruppe Digital Health",
       "contact" : [{
         "name" : "Forschungsgruppe Digital Health",
@@ -230,8 +230,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:13be1588-1ce2-439a-b39b-3d0c6085a2a5",
-        "timestamp" : "2022-01-20T17:27:27+01:00",
+        "identifier" : "urn:uuid:187f675b-4cfd-4807-a35c-17893ecdd607",
+        "timestamp" : "2022-01-21T07:37:17+01:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",

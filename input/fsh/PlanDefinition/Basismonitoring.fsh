@@ -11,7 +11,11 @@ Usage: #definition
 * action.groupingBehavior = #logical-group
 * action.selectionBehavior = #all
 * action.requiredBehavior = #must-unless-documented
-* action.cardinalityBehavior = #multiple
+* action.cardinalityBehavior = #single
+* action.title = "Monitoring alle 3 Monate"
+* action.timingTiming.repeat.frequency = 1
+* action.timingTiming.repeat.period = 3
+* action.timingTiming.repeat.periodUnit = #mo
 * action.action[0].id = "admission"
 * action.action[=].title = "Vorstellung"
 * action.action[=].description = "Erst- und Wiedervostellung"
