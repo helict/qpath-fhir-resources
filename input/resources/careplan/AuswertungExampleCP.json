@@ -1,0 +1,50 @@
+{
+	"resourceType": "CarePlan",
+	"id": "AuswertungExampleCP",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2022-01-27T10:21:36.210+00:00",
+		"source": "#nSFA8hvSy1wnVoRU"
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;AuswertungExampleCP&quot; </p></div><p><b>instantiatesCanonical</b>: <a href=\"PlanDefinition-Q4MSAuswertung.html\">Q4MSAuswertung</a></p><p><b>status</b>: draft</p><p><b>intent</b>: option</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> &quot; DOE&quot;</p><h3>Activities</h3><table class=\"grid\"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a name=\"AuswertungExampleRG\"> </a><blockquote><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;AuswertungExampleRG&quot; </p></div><p><b>instantiatesCanonical</b>: <a href=\"PlanDefinition-Q4MSAuswertung.html\">Q4MSAuswertung</a></p><p><b>status</b>: draft</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> &quot; DOE&quot;</p><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Resource</b></td></tr><tr><td>*</td><td>Auswertung</td><td><a href=\"Task-AuswertungExampleTSK.html\">Task/AuswertungExampleTSK</a></td></tr></table></blockquote></td></tr></table></div>"
+	},
+	"contained": [
+		{
+			"resourceType": "RequestGroup",
+			"id": "AuswertungExampleRG",
+			"instantiatesCanonical": [
+				"http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAuswertung"
+			],
+			"status": "draft",
+			"intent": "plan",
+			"subject": {
+				"reference": "Patient/PatientJohnDoe"
+			},
+			"action": [
+				{
+					"title": "Auswertung",
+					"resource": {
+						"reference": "Task/AuswertungExampleTSK"
+					}
+				}
+			]
+		}
+	],
+	"instantiatesCanonical": [
+		"http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAuswertung"
+	],
+	"status": "draft",
+	"intent": "option",
+	"subject": {
+		"reference": "Patient/PatientJohnDoe"
+	},
+	"activity": [
+		{
+			"reference": {
+				"reference": "#AuswertungExampleRG"
+			}
+		}
+	]
+}

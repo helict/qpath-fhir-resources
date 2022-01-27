@@ -1,0 +1,21 @@
+{
+	"resourceType": "MessageHeader",
+	"id": "Q4MSArztbriefanfrageHeader",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2022-01-27T10:15:53.332+00:00",
+		"source": "#VbE8NkgD0INofJgD"
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;Q4MSArztbriefanfrageHeader&quot; </p></div><p><b>event</b>: Arztbrief (Details: http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie code doctor-letter = 'Arztbrief', stated as 'null')</p><h3>Sources</h3><table class=\"grid\"><tr><td>-</td><td><b>Endpoint</b></td></tr><tr><td>*</td><td><code>127.0.0.1</code></td></tr></table><p><b>definition</b>: <a href=\"http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSArztbriefanfrage\">http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSArztbriefanfrage</a></p></div>"
+	},
+	"eventCoding": {
+		"system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie",
+		"code": "doctor-letter"
+	},
+	"source": {
+		"endpoint": "127.0.0.1"
+	},
+	"definition": "http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSArztbriefanfrage"
+}

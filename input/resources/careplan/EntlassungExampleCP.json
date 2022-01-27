@@ -1,0 +1,88 @@
+{
+	"resourceType": "CarePlan",
+	"id": "EntlassungExampleCP",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2022-01-27T10:21:36.278+00:00",
+		"source": "#zLyKDqqheOf7577a"
+	},
+	"text": {
+		"status": "generated",
+		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;EntlassungExampleCP&quot; </p></div><p><b>instantiatesCanonical</b>: <a href=\"PlanDefinition-Q4MSEntlassung.html\">Q4MSEntlassung</a></p><p><b>status</b>: draft</p><p><b>intent</b>: option</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> &quot; DOE&quot;</p><h3>Activities</h3><table class=\"grid\"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a name=\"EntlassungExampleRG\"> </a><blockquote><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;EntlassungExampleRG&quot; </p></div><p><b>instantiatesCanonical</b>: <a href=\"PlanDefinition-Q4MSEntlassung.html\">Q4MSEntlassung</a></p><p><b>status</b>: draft</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> &quot; DOE&quot;</p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Dokumente übermitteln (Arzt)</p><p><b>description</b>: Dokumente an Arzt übermitteln</p><p><b>resource</b>: <a href=\"CarePlan-DokumenteUebermittelnArztExampleCP.html\">CarePlan/DokumenteUebermittelnArztExampleCP</a></p></blockquote></blockquote></blockquote></td></tr></table></div>"
+	},
+	"contained": [
+		{
+			"resourceType": "RequestGroup",
+			"id": "EntlassungExampleRG",
+			"instantiatesCanonical": [
+				"http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSEntlassung"
+			],
+			"status": "draft",
+			"intent": "plan",
+			"subject": {
+				"reference": "Patient/PatientJohnDoe"
+			},
+			"action": [
+				{
+					"groupingBehavior": "logical-group",
+					"selectionBehavior": "all",
+					"requiredBehavior": "must-unless-documented",
+					"cardinalityBehavior": "single",
+					"action": [
+						{
+							"groupingBehavior": "logical-group",
+							"selectionBehavior": "all",
+							"requiredBehavior": "must-unless-documented",
+							"cardinalityBehavior": "single",
+							"action": [
+								{
+									"title": "Terminvereinbarung",
+									"description": "Termin zur Wiedervorstellung vereinbaren",
+									"timingTiming": {
+										"repeat": {
+											"frequency": 1,
+											"period": 3,
+											"periodUnit": "mo"
+										}
+									},
+									"resource": {
+										"reference": "CarePlan/TerminvereinbarungExampleCP"
+									}
+								},
+								{
+									"title": "Dokumente übermitteln (Patient)",
+									"description": "Dokumente an Patient übermitteln",
+									"resource": {
+										"reference": "CarePlan/DokumenteUebermittelnPatientExampleCP"
+									}
+								}
+							]
+						},
+						{
+							"title": "Dokumente übermitteln (Arzt)",
+							"description": "Dokumente an Arzt übermitteln",
+							"resource": {
+								"reference": "CarePlan/DokumenteUebermittelnArztExampleCP"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"instantiatesCanonical": [
+		"http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSEntlassung"
+	],
+	"status": "draft",
+	"intent": "option",
+	"subject": {
+		"reference": "Patient/PatientJohnDoe"
+	},
+	"activity": [
+		{
+			"reference": {
+				"reference": "#EntlassungExampleRG"
+			}
+		}
+	]
+}
