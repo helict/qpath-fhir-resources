@@ -2,13 +2,9 @@
 	"resourceType": "ValueSet",
 	"id": "Q4MSAnfragekategorieVS",
 	"meta": {
-		"versionId": "1",
-		"lastUpdated": "2022-01-27T10:14:19.777+00:00",
-		"source": "#9k4BY7iu1c4lppwv"
-	},
-	"text": {
-		"status": "generated",
-		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-Q4MSAnfragekategorie.html\"><code>http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSAnfragekategorie</code></a></li></ul></div>"
+		"versionId": "3",
+		"lastUpdated": "2022-01-27T14:09:29.625+00:00",
+		"source": "#cvjadGDfXB9gweZH"
 	},
 	"url": "http://qpath4ms.ukdd.de/fhir/ValueSet/Q4MSAnfragekategorieVS",
 	"version": "0.1.0",
@@ -62,7 +58,6 @@
 			]
 		}
 	],
-	"description": "Definiert Anfragekategorien",
 	"jurisdiction": [
 		{
 			"coding": [
@@ -73,12 +68,5 @@
 				}
 			]
 		}
-	],
-	"compose": {
-		"include": [
-			{
-				"system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSAnfragekategorie"
-			}
-		]
-	}
+	]
 }

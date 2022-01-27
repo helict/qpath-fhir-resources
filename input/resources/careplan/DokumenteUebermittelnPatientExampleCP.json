@@ -2,36 +2,10 @@
 	"resourceType": "CarePlan",
 	"id": "DokumenteUebermittelnPatientExampleCP",
 	"meta": {
-		"versionId": "1",
-		"lastUpdated": "2022-01-27T10:21:36.255+00:00",
-		"source": "#lRPOGhVUhZe9VagM"
+		"versionId": "3",
+		"lastUpdated": "2022-01-27T14:09:29.648+00:00",
+		"source": "#4XfYTVV30hjrIhDn"
 	},
-	"text": {
-		"status": "generated",
-		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;DokumenteUebermittelnPatientExampleCP&quot; </p></div><p><b>instantiatesCanonical</b>: <a href=\"PlanDefinition-Q4MSDokumenteUebermittelnPatient.html\">Q4MSDokumenteUebermittelnPatient</a></p><p><b>status</b>: draft</p><p><b>intent</b>: option</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> &quot; DOE&quot;</p><h3>Activities</h3><table class=\"grid\"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a name=\"DokumenteUebermittelnPatientExampleRG\"> </a><blockquote><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;DokumenteUebermittelnPatientExampleRG&quot; </p></div><p><b>instantiatesCanonical</b>: <a href=\"PlanDefinition-Q4MSDokumenteUebermittelnPatient.html\">Q4MSDokumenteUebermittelnPatient</a></p><p><b>status</b>: draft</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> &quot; DOE&quot;</p><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Resource</b></td></tr><tr><td>*</td><td>Dokumente übermitteln</td><td><a href=\"Task-DokumenteUebermittelnPatientExampleTSK.html\">Task/DokumenteUebermittelnPatientExampleTSK</a></td></tr></table></blockquote></td></tr></table></div>"
-	},
-	"contained": [
-		{
-			"resourceType": "RequestGroup",
-			"id": "DokumenteUebermittelnPatientExampleRG",
-			"instantiatesCanonical": [
-				"http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteUebermittelnPatient"
-			],
-			"status": "draft",
-			"intent": "plan",
-			"subject": {
-				"reference": "Patient/PatientJohnDoe"
-			},
-			"action": [
-				{
-					"title": "Dokumente übermitteln",
-					"resource": {
-						"reference": "Task/DokumenteUebermittelnPatientExampleTSK"
-					}
-				}
-			]
-		}
-	],
 	"instantiatesCanonical": [
 		"http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteUebermittelnPatient"
 	],
@@ -39,12 +13,5 @@
 	"intent": "option",
 	"subject": {
 		"reference": "Patient/PatientJohnDoe"
-	},
-	"activity": [
-		{
-			"reference": {
-				"reference": "#DokumenteUebermittelnPatientExampleRG"
-			}
-		}
-	]
+	}
 }

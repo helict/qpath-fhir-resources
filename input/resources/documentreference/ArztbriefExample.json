@@ -2,16 +2,12 @@
 	"resourceType": "DocumentReference",
 	"id": "ArztbriefExample",
 	"meta": {
-		"versionId": "1",
-		"lastUpdated": "2022-01-27T10:16:46.141+00:00",
-		"source": "#Vhysd9wk9dqrq6L2",
+		"versionId": "2",
+		"lastUpdated": "2022-01-27T14:09:29.667+00:00",
+		"source": "#t47BaAoCt05ep6k9",
 		"profile": [
 			"http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSArztbriefProfile"
 		]
-	},
-	"text": {
-		"status": "generated",
-		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;ArztbriefExample&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Q4MSArztbriefProfile.html\">Arztbrief</a></p></div><p><b>status</b>: current</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> &quot; DOE&quot;</p><blockquote><p><b>content</b></p></blockquote></div>"
 	},
 	"status": "current",
 	"subject": {

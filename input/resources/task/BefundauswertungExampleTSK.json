@@ -2,13 +2,9 @@
 	"resourceType": "Task",
 	"id": "BefundauswertungExampleTSK",
 	"meta": {
-		"versionId": "1",
-		"lastUpdated": "2022-01-27T10:22:39.347+00:00",
-		"source": "#Z2WzLGzUQmM7mOSD"
-	},
-	"text": {
-		"status": "generated",
-		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;BefundauswertungExampleTSK&quot; </p></div><p><b>instantiatesCanonical</b>: <a href=\"http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSBefundauswertungAD\">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSBefundauswertungAD</a></p><p><b>status</b>: ready</p><p><b>intent</b>: option</p><p><b>code</b>: Activate/approve the focal resource <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-task-code.html\">Task Codes</a>#approve)</span></p><p><b>description</b>: Befundauswertung</p><p><b>executionPeriod</b>: 2022-01-12T12:00:00Z --&gt; 2022-01-15T00:00:00Z</p><p><b>authoredOn</b>: 2022-01-12T12:00:00Z</p><p><b>performerType</b>: Neurologist <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#56397003)</span></p></div>"
+		"versionId": "3",
+		"lastUpdated": "2022-01-27T14:09:29.670+00:00",
+		"source": "#8YKcCPrUiGCvJlEe"
 	},
 	"instantiatesCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSBefundauswertungAD",
 	"status": "ready",
@@ -25,16 +21,5 @@
 	"executionPeriod": {
 		"start": "2022-01-12T12:00:00Z",
 		"end": "2022-01-15T00:00:00Z"
-	},
-	"authoredOn": "2022-01-12T12:00:00Z",
-	"performerType": [
-		{
-			"coding": [
-				{
-					"system": "http://snomed.info/sct",
-					"code": "56397003"
-				}
-			]
-		}
-	]
+	}
 }

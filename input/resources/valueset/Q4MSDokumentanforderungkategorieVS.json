@@ -2,13 +2,9 @@
 	"resourceType": "ValueSet",
 	"id": "Q4MSDokumentanforderungkategorieVS",
 	"meta": {
-		"versionId": "1",
-		"lastUpdated": "2022-01-27T10:14:19.788+00:00",
-		"source": "#XLzYNZ7Bs9A8MnKj"
-	},
-	"text": {
-		"status": "generated",
-		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-Q4MSDokumentanforderungkategorie.html\"><code>http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie</code></a></li></ul></div>"
+		"versionId": "3",
+		"lastUpdated": "2022-01-27T14:09:29.634+00:00",
+		"source": "#T2VkLKxgC9Nl5RYE"
 	},
 	"url": "http://qpath4ms.ukdd.de/fhir/ValueSet/Q4MSDokumentanforderungkategorieVS",
 	"version": "0.1.0",
@@ -62,7 +58,6 @@
 			]
 		}
 	],
-	"description": "Definiert Dokumentanforderungkategorien",
 	"jurisdiction": [
 		{
 			"coding": [
@@ -73,12 +68,5 @@
 				}
 			]
 		}
-	],
-	"compose": {
-		"include": [
-			{
-				"system": "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie"
-			}
-		]
-	}
+	]
 }

@@ -2,13 +2,9 @@
 	"resourceType": "PlanDefinition",
 	"id": "Q4MSMultipleSclerosisPerformanceTest",
 	"meta": {
-		"versionId": "1",
-		"lastUpdated": "2022-01-27T10:21:07.248+00:00",
-		"source": "#Da21LSAG2XThQqm2"
-	},
-	"text": {
-		"status": "generated",
-		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;Q4MSMultipleSclerosisPerformanceTest&quot; </p></div><p><b>url</b>: <code>http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: Q4MSMultipleSclerosisPerformanceTest</p><p><b>type</b>: ECA Rule <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-plan-definition-type.html\">PlanDefinitionType</a>#eca-rule)</span></p><p><b>status</b>: draft</p><p><b>experimental</b>: true</p><p><b>date</b>: 2022-01-21T20:37:16Z</p><p><b>publisher</b>: Forschungsgruppe Digital Health</p><p><b>contact</b>: Forschungsgruppe Digital Health: <a href=\"https://tud.link/xd10\">https://tud.link/xd10</a>,<a href=\"mailto:digital-health@tu-dresden.de\">digital-health@tu-dresden.de</a>, Martin Burwitz: <a href=\"mailto:martin.burwitz@tu-dresden.de\">martin.burwitz@tu-dresden.de</a>, Harry Preiß: <a href=\"mailto:harry.preiss@medicalsyn.com\">harry.preiss@medicalsyn.com</a>, Marcel Susky: <a href=\"mailto:marcel.susky@tu-dresden.de\">marcel.susky@tu-dresden.de</a></p><p><b>jurisdiction</b>: Germany <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#DE)</span></p><h3>Actions</h3><table class=\"grid\"><tr><td>-</td><td><b>Title</b></td><td><b>Type</b></td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td>Diagnostik Multiple Sclerosis Performance Test (MSPT)</td><td>Create <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.0.0/CodeSystem-action-type.html\">ActionType</a>#create)</span></td><td><a href=\"http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD\">http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD</a></td></tr></table></div>"
+		"versionId": "3",
+		"lastUpdated": "2022-01-27T14:09:29.848+00:00",
+		"source": "#CZ9zR4PML1EnDSXn"
 	},
 	"url": "http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMultipleSclerosisPerformanceTest",
 	"version": "0.1.0",
@@ -79,20 +75,6 @@
 					"display": "Germany"
 				}
 			]
-		}
-	],
-	"action": [
-		{
-			"title": "Diagnostik Multiple Sclerosis Performance Test (MSPT)",
-			"type": {
-				"coding": [
-					{
-						"system": "http://terminology.hl7.org/CodeSystem/action-type",
-						"code": "create"
-					}
-				]
-			},
-			"definitionCanonical": "http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSMultipleSclerosisPerformanceTestAD"
 		}
 	]
 }

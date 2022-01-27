@@ -2,16 +2,12 @@
 	"resourceType": "CodeSystem",
 	"id": "Q4MSDokumentanforderungkategorie",
 	"meta": {
-		"versionId": "1",
-		"lastUpdated": "2022-01-27T10:13:36.739+00:00",
-		"source": "#eXbEyAC89plWNwRJ",
+		"versionId": "3",
+		"lastUpdated": "2022-01-27T14:09:29.655+00:00",
+		"source": "#qR46bMfJTDslth3w",
 		"profile": [
 			"http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 		]
-	},
-	"text": {
-		"status": "generated",
-		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">laboratory-result<a name=\"Q4MSDokumentanforderungkategorie-laboratory-result\"> </a></td><td>Laborergebnis</td><td>Anforderung eines Laborergebnisses</td></tr><tr><td style=\"white-space:nowrap\">finding<a name=\"Q4MSDokumentanforderungkategorie-finding\"> </a></td><td>Befund</td><td>Anforderung eines Befunds</td></tr><tr><td style=\"white-space:nowrap\">doctor-letter<a name=\"Q4MSDokumentanforderungkategorie-doctor-letter\"> </a></td><td>Arztbrief</td><td>Anforderung eines Arztbriefs</td></tr><tr><td style=\"white-space:nowrap\">consiliary-report<a name=\"Q4MSDokumentanforderungkategorie-consiliary-report\"> </a></td><td>Konsiliarbericht</td><td>Anforderung eines Konsiliarberichts</td></tr><tr><td style=\"white-space:nowrap\">prescription<a name=\"Q4MSDokumentanforderungkategorie-prescription\"> </a></td><td>Rezept</td><td>Anforderung eines Rezepts</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"Q4MSDokumentanforderungkategorie-other\"> </a></td><td>Sonstiges</td><td>Anforderung eines sonstigen Dokuments</td></tr></table></div>"
 	},
 	"url": "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSDokumentanforderungkategorie",
 	"version": "0.1.0",
@@ -66,7 +62,6 @@
 			]
 		}
 	],
-	"description": "Deklariert Dokumentanforderungkategorien",
 	"jurisdiction": [
 		{
 			"coding": [
@@ -80,37 +75,5 @@
 	],
 	"caseSensitive": true,
 	"content": "complete",
-	"count": 6,
-	"concept": [
-		{
-			"code": "laboratory-result",
-			"display": "Laborergebnis",
-			"definition": "Anforderung eines Laborergebnisses"
-		},
-		{
-			"code": "finding",
-			"display": "Befund",
-			"definition": "Anforderung eines Befunds"
-		},
-		{
-			"code": "doctor-letter",
-			"display": "Arztbrief",
-			"definition": "Anforderung eines Arztbriefs"
-		},
-		{
-			"code": "consiliary-report",
-			"display": "Konsiliarbericht",
-			"definition": "Anforderung eines Konsiliarberichts"
-		},
-		{
-			"code": "prescription",
-			"display": "Rezept",
-			"definition": "Anforderung eines Rezepts"
-		},
-		{
-			"code": "other",
-			"display": "Sonstiges",
-			"definition": "Anforderung eines sonstigen Dokuments"
-		}
-	]
+	"count": 6
 }

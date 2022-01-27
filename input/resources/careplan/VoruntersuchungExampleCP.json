@@ -2,100 +2,10 @@
 	"resourceType": "CarePlan",
 	"id": "VoruntersuchungExampleCP",
 	"meta": {
-		"versionId": "1",
-		"lastUpdated": "2022-01-27T10:21:36.376+00:00",
-		"source": "#QG4w2KCCCtoaOFG5"
+		"versionId": "3",
+		"lastUpdated": "2022-01-27T14:09:29.672+00:00",
+		"source": "#bmLrb3Na4yWYGibQ"
 	},
-	"text": {
-		"status": "generated",
-		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;VoruntersuchungExampleCP&quot; </p></div><p><b>instantiatesCanonical</b>: <a href=\"PlanDefinition-Q4MSVoruntersuchung.html\">Q4MSVoruntersuchung</a></p><p><b>status</b>: draft</p><p><b>intent</b>: option</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> &quot; DOE&quot;</p><h3>Activities</h3><table class=\"grid\"><tr><td>-</td><td><b>Reference</b></td></tr><tr><td>*</td><td><a name=\"VoruntersuchungExampleRG\"> </a><blockquote><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource &quot;VoruntersuchungExampleRG&quot; </p></div><p><b>instantiatesCanonical</b>: <a href=\"PlanDefinition-Q4MSVoruntersuchung.html\">Q4MSVoruntersuchung</a></p><p><b>status</b>: draft</p><p><b>intent</b>: plan</p><p><b>subject</b>: <a href=\"Patient-PatientJohnDoe.html\">Patient/PatientJohnDoe</a> &quot; DOE&quot;</p><blockquote><p><b>action</b></p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 3 Monate</p><p><b>timing</b>: Do Once per 3 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Diagnostik alle 12 Monate</p><p><b>timing</b>: Do Once per 12 months</p><p><b>groupingBehavior</b>: logical-group</p><p><b>selectionBehavior</b>: all</p><p><b>requiredBehavior</b>: must-unless-documented</p><p><b>cardinalityBehavior</b>: single</p></blockquote></blockquote></blockquote></td></tr></table></div>"
-	},
-	"contained": [
-		{
-			"resourceType": "RequestGroup",
-			"id": "VoruntersuchungExampleRG",
-			"instantiatesCanonical": [
-				"http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung"
-			],
-			"status": "draft",
-			"intent": "plan",
-			"subject": {
-				"reference": "Patient/PatientJohnDoe"
-			},
-			"action": [
-				{
-					"groupingBehavior": "logical-group",
-					"selectionBehavior": "all",
-					"requiredBehavior": "must-unless-documented",
-					"cardinalityBehavior": "single",
-					"action": [
-						{
-							"title": "Diagnostik alle 3 Monate",
-							"timingTiming": {
-								"repeat": {
-									"frequency": 1,
-									"period": 3,
-									"periodUnit": "mo"
-								}
-							},
-							"groupingBehavior": "logical-group",
-							"selectionBehavior": "all",
-							"requiredBehavior": "must-unless-documented",
-							"cardinalityBehavior": "single",
-							"action": [
-								{
-									"title": "Multiple Sclerosis Performance Test (MSPT)",
-									"resource": {
-										"reference": "CarePlan/MultipleSclerosisPerformanceTestExampleCP"
-									}
-								},
-								{
-									"title": "Therapiespezifische Diagnostik",
-									"resource": {
-										"reference": "CarePlan/TherapiespezifischeDiagnostikExampleCP"
-									}
-								}
-							]
-						},
-						{
-							"title": "Diagnostik alle 12 Monate",
-							"timingTiming": {
-								"repeat": {
-									"frequency": 1,
-									"period": 12,
-									"periodUnit": "mo"
-								}
-							},
-							"groupingBehavior": "logical-group",
-							"selectionBehavior": "all",
-							"requiredBehavior": "must-unless-documented",
-							"cardinalityBehavior": "single",
-							"action": [
-								{
-									"title": "Optische Kohärenztomographie (OCT)",
-									"resource": {
-										"reference": "CarePlan/OptischeKohaerenztomographieExampleCP"
-									}
-								},
-								{
-									"title": "Ganganalyse",
-									"resource": {
-										"reference": "CarePlan/GanganalyseExampleCP"
-									}
-								},
-								{
-									"title": "Magnetresonanztomographie (MRT)",
-									"resource": {
-										"reference": "CarePlan/MagnetresonanztomographieExampleCP"
-									}
-								}
-							]
-						}
-					]
-				}
-			]
-		}
-	],
 	"instantiatesCanonical": [
 		"http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung"
 	],
@@ -103,12 +13,5 @@
 	"intent": "option",
 	"subject": {
 		"reference": "Patient/PatientJohnDoe"
-	},
-	"activity": [
-		{
-			"reference": {
-				"reference": "#VoruntersuchungExampleRG"
-			}
-		}
-	]
+	}
 }

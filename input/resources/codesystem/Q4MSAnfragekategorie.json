@@ -2,16 +2,12 @@
 	"resourceType": "CodeSystem",
 	"id": "Q4MSAnfragekategorie",
 	"meta": {
-		"versionId": "1",
-		"lastUpdated": "2022-01-27T10:08:54.501+00:00",
-		"source": "#GND7DvHgxnU4VBwz",
+		"versionId": "3",
+		"lastUpdated": "2022-01-27T14:09:29.639+00:00",
+		"source": "#zwcKSy3aqkTVjVGJ",
 		"profile": [
 			"http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 		]
-	},
-	"text": {
-		"status": "generated",
-		"div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSAnfragekategorie defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">drug-therapy<a name=\"Q4MSAnfragekategorie-drug-therapy\"> </a></td><td>Medikamentöse Therapie</td><td>Anfrage zur medikamentösen Therapie</td></tr><tr><td style=\"white-space:nowrap\">examination<a name=\"Q4MSAnfragekategorie-examination\"> </a></td><td>Untersuchung</td><td>Anfrage zu Krankenhausaufenthalt</td></tr><tr><td style=\"white-space:nowrap\">hospitalization<a name=\"Q4MSAnfragekategorie-hospitalization\"> </a></td><td>Krankenhausaufenthalt</td><td>Anfrage zu Krankenhausaufenthalt</td></tr><tr><td style=\"white-space:nowrap\">infection-vaccination<a name=\"Q4MSAnfragekategorie-infection-vaccination\"> </a></td><td>Infekte / Impfungen</td><td>Anfrage zu Infekten / Impfungen (z.B. Corona)</td></tr><tr><td style=\"white-space:nowrap\">non-drug-therapy<a name=\"Q4MSAnfragekategorie-non-drug-therapy\"> </a></td><td>Nicht-medikamentöse Therapie</td><td>Anfrage zur nicht-medikamentösen Therapie</td></tr><tr><td style=\"white-space:nowrap\">pregnancy<a name=\"Q4MSAnfragekategorie-pregnancy\"> </a></td><td>Schwangerschaft</td><td>Anfrage zu Schwangerschaft</td></tr><tr><td style=\"white-space:nowrap\">suspected-attack<a name=\"Q4MSAnfragekategorie-suspected-attack\"> </a></td><td>Schubverdacht</td><td>Anfrage zu Schubverdacht / Verschlechterung der Symptome</td></tr></table></div>"
 	},
 	"url": "http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSAnfragekategorie",
 	"version": "0.1.0",
@@ -66,7 +62,6 @@
 			]
 		}
 	],
-	"description": "Deklariert Anfragekategorien",
 	"jurisdiction": [
 		{
 			"coding": [
@@ -80,42 +75,5 @@
 	],
 	"caseSensitive": true,
 	"content": "complete",
-	"count": 7,
-	"concept": [
-		{
-			"code": "drug-therapy",
-			"display": "Medikamentöse Therapie",
-			"definition": "Anfrage zur medikamentösen Therapie"
-		},
-		{
-			"code": "examination",
-			"display": "Untersuchung",
-			"definition": "Anfrage zu Krankenhausaufenthalt"
-		},
-		{
-			"code": "hospitalization",
-			"display": "Krankenhausaufenthalt",
-			"definition": "Anfrage zu Krankenhausaufenthalt"
-		},
-		{
-			"code": "infection-vaccination",
-			"display": "Infekte / Impfungen",
-			"definition": "Anfrage zu Infekten / Impfungen (z.B. Corona)"
-		},
-		{
-			"code": "non-drug-therapy",
-			"display": "Nicht-medikamentöse Therapie",
-			"definition": "Anfrage zur nicht-medikamentösen Therapie"
-		},
-		{
-			"code": "pregnancy",
-			"display": "Schwangerschaft",
-			"definition": "Anfrage zu Schwangerschaft"
-		},
-		{
-			"code": "suspected-attack",
-			"display": "Schubverdacht",
-			"definition": "Anfrage zu Schubverdacht / Verschlechterung der Symptome"
-		}
-	]
+	"count": 7
 }
