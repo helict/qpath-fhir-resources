@@ -10,6 +10,7 @@ Alias: $ihe-xds-class-code = http://ihe-d.de/ValueSets/IHEXDSclassCode
 Alias: $ihe-xds-confidentiality-code = http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode
 Alias: $ihe-xds-type-code = http://ihe-d.de/ValueSets/IHEXDStypeCode
 Alias: $item-type = http://hl7.org/fhir/item-type
+Alias: $loinc = http://loinc.org
 Alias: $map-context-type = http://hl7.org/fhir/map-context-type
 Alias: $map-group-type-mode = http://hl7.org/fhir/map-group-type-mode
 Alias: $map-input-mode = http://hl7.org/fhir/map-input-mode
@@ -97,6 +98,7 @@ Alias: $q4ms-terminanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q
 Alias: $q4ms-activitydefinition-task-transform = http://qpath4ms.ukdd.de/fhir/StructureMap/Q4MSActivityDefinitionTaskTransform
 
 // QPath4MS Questionnaires and Answer Lists
+Alias: $q4ms-phq-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/PatientHealthQuestionnaire
 Alias: $q4ms-emiq-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/ExerciseMentalIllnessQuestionnaire
 Alias: $q4ms-emiq-answerlist = http://qpath4ms.ukdd.de/fhir/CodeSystem/ExerciseMentalIllnessQuestionnaire
 Alias: $q4ms-emiq-answerlist-vs = http://qpath4ms.ukdd.de/fhir/CodeSystem/ExerciseMentalIllnessQuestionnaireVS
