@@ -1,0 +1,2357 @@
+{
+	"resourceType": "ValueSet",
+	"id": "249",
+	"meta": {
+		"versionId": "1",
+		"lastUpdated": "2022-02-07T11:27:35.925+00:00",
+		"source": "#E5XdYKRITUv3o9xH",
+		"profile": [
+			"http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+		]
+	},
+	"url": "http://fhir.de/ValueSet/medikationsplanplus/edqm-darreichungsform",
+	"identifier": [
+		{
+			"use": "official",
+			"system": "http://art-decor.org/ns/oids/vs",
+			"value": "2.16.840.1.113883.2.6.60.4.11.27"
+		}
+	],
+	"version": "2018-05-09T00:00:00",
+	"name": "EDQMDoseForm",
+	"title": "EDQMDoseForm",
+	"status": "draft",
+	"experimental": false,
+	"publisher": "HL7 Deutschland e. V.",
+	"contact": [
+		{
+			"name": "HL7 Deutschland e. V.",
+			"telecom": [
+				{
+					"system": "url",
+					"value": "http://hl7.de"
+				}
+			]
+		}
+	],
+	"description": "EDQMDoseForm",
+	"immutable": false,
+	"compose": {
+		"include": [
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1"
+			}
+		]
+	},
+	"expansion": {
+		"identifier": "urn:uuid:5092e95e-27f2-4fa2-a13c-ea79b7102e46",
+		"timestamp": "2018-05-13T09:55:06Z",
+		"contains": [
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10101000",
+				"display": "Tropfen zum Einnehmen, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10102000",
+				"display": "Tropfen zum Einnehmen, Suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10103000",
+				"display": "Tropfen zum Einnehmen, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10104000",
+				"display": "Flüssigkeit zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10105000",
+				"display": "Lösung zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10106000",
+				"display": "Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10107000",
+				"display": "Emulsion zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10108000",
+				"display": "Gel zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10109000",
+				"display": "Paste zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10110000",
+				"display": "Pulver zur Herstellung einer Lösung zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10111000",
+				"display": "Pulver zur Herstellung einer Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10112000",
+				"display": "Granulat zur Herstellung einer Lösung zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10113000",
+				"display": "Granulat zur Herstellung einer Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10114000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Lösung zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10115000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10116000",
+				"display": "Lyophilisat zur Herstellung einer Suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10117000",
+				"display": "Sirup"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10118000",
+				"display": "Pulver zur Herstellung eines Sirups"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10119000",
+				"display": "Granulat zur Herstellung eines Sirups"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10120000",
+				"display": "Tablette zur Herstellung einer Lösung zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10121000",
+				"display": "Tablette zur Herstellung einer Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10122000",
+				"display": "Arzneitee"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10201000",
+				"display": "Pulver zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10202000",
+				"display": "Teeaufgusspulver"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10203000",
+				"display": "Brausepulver"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10204000",
+				"display": "Granulat"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10205000",
+				"display": "Brausegranulat"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10206000",
+				"display": "magensaftresistentes Granulat"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10207000",
+				"display": "Retardgranulat"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10208000",
+				"display": "Granulat mit veränderter Wirkstofffreisetzung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10209000",
+				"display": "Oblatenkapsel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10210000",
+				"display": "Hartkapsel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10211000",
+				"display": "Weichkapsel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10212000",
+				"display": "magensaftresistente Hartkapsel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10213000",
+				"display": "magensaftresistente Weichkapsel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10214000",
+				"display": "Weichkapsel zum Zerbeißen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10215000",
+				"display": "Hartkapsel, retardiert"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10216000",
+				"display": "Weichkapsel, retardiert"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10217000",
+				"display": "Hartkapsel mit veränderter Wirkstofffreisetzung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10218000",
+				"display": "Weichkapsel mit veränderter Wirkstofffreisetzung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10219000",
+				"display": "Tablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10220000",
+				"display": "überzogene Tablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10221000",
+				"display": "Filmtablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10222000",
+				"display": "Brausetablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10223000",
+				"display": "Schmelztablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10224000",
+				"display": "Lyophilisat zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10225000",
+				"display": "magensaftresistente Tablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10226000",
+				"display": "Retardtablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10227000",
+				"display": "Tablette mit veränderter Wirkstofffreisetzung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10228000",
+				"display": "Kautablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10229000",
+				"display": "wirkstoffhaltiges Kaugummi"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10230000",
+				"display": "Lutschpastille"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10231000",
+				"display": "Streukügelchen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10236100",
+				"display": "Schmelzfilm"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10301000",
+				"display": "Gurgellösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10302000",
+				"display": "Konzentrat zur Herstellung einer Gurgellösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10303000",
+				"display": "Pulver zur Herstellung einer Gurgellösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10304000",
+				"display": "Tablette zur Herstellung einer Gurgellösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10305000",
+				"display": "Lösung zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10306000",
+				"display": "Suspension zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10307000",
+				"display": "Tropfen zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10308000",
+				"display": "Spray zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10309000",
+				"display": "Sublingualspray"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10310000",
+				"display": "Mundwasser"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10311000",
+				"display": "Tablette zur Herstellung eines Mundwassers"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10312000",
+				"display": "Lösung zur Anwendung am Zahnfleisch"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10313000",
+				"display": "Gel zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10314000",
+				"display": "Paste zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10314005",
+				"display": "Salbe zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10314010",
+				"display": "Creme zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10314011",
+				"display": "Buccalfilm"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10315000",
+				"display": "Gel zur Anwendung am Zahnfleisch"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10316000",
+				"display": "Paste zur Anwendung am Zahnfleisch"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10317000",
+				"display": "Kapsel zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10318000",
+				"display": "Sublingualtablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10319000",
+				"display": "mucoadhäsive Buccaltablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10320000",
+				"display": "Buccaltablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10321000",
+				"display": "Lutschtablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10322000",
+				"display": "Lutschtablette, gepresst"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10323000",
+				"display": "Pastille"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10401000",
+				"display": "Pulver zur periodontalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10402000",
+				"display": "Dentalgel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10403000",
+				"display": "Dentalstift"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10404000",
+				"display": "Insert für Parodontaltaschen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10405000",
+				"display": "Dentalpulver"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10406000",
+				"display": "Dentallösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10407000",
+				"display": "Dentalsuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10408000",
+				"display": "Dentalemulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10409000",
+				"display": "Zahnpaste"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10410000",
+				"display": "Gel zur periodontalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10411000",
+				"display": "Insert zur periodontalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10501000",
+				"display": "Badezusatz"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10502000",
+				"display": "Creme"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10503000",
+				"display": "Gel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10504000",
+				"display": "Salbe"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10505000",
+				"display": "Paste zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10506000",
+				"display": "wirkstoffhaltiges Pflaster"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10507000",
+				"display": "Schaum zur  Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10508000",
+				"display": "Shampoo"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10509000",
+				"display": "Spray zur Anwendung auf der Haut, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10510000",
+				"display": "Spray zur Anwendung auf der Haut, Suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10511000",
+				"display": "Pulver-Spray zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10512000",
+				"display": "Flüssigkeit zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10513000",
+				"display": "Lösung zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10514000",
+				"display": "Konzentrat zur Herstellung einer Lösung zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10515000",
+				"display": "Suspension zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10516000",
+				"display": "Emulsion zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10517000",
+				"display": "Pulver zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10517500",
+				"display": "Kutanes Pflaster"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10518000",
+				"display": "Lösung zur Iontophorese"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10519000",
+				"display": "transdermales Pflaster"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10520000",
+				"display": "filmbildende Flüssigkeit"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10521000",
+				"display": "wirkstoffhaltiger Nagellack"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10521500",
+				"display": "Nail solution"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10522000",
+				"display": "Umschlagpaste"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10523000",
+				"display": "Stift zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10524000",
+				"display": "Schwämmchen zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10525000",
+				"display": "imprägnierter Verband"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10539500",
+				"display": "Scrub"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10546500",
+				"display": "transdermales Spray, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10547000",
+				"display": "transdermales System"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10548000",
+				"display": "Pricktestlösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10549000",
+				"display": "Scratchtestlösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10550000",
+				"display": "Pflaster für Provokationstest"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10601000",
+				"display": "Augencreme"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10602000",
+				"display": "Augengel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10603000",
+				"display": "Augensalbe"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10604000",
+				"display": "Augentropfen, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10604500",
+				"display": "Augentropfen, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10605000",
+				"display": "Augentropfensuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10606000",
+				"display": "Pulver und Lösungsmittel zur Herstellung von Augentropfen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10607000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Augentropfensuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10608000",
+				"display": "Lösungsmittel zur Herstellung von Augentropfen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10609000",
+				"display": "Augentropfen mit verlängerter Wirkungsdauer"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10610000",
+				"display": "Augenbad"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10611000",
+				"display": "Lösungsmittel zur Herstellung eines Augenbades"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10612000",
+				"display": "Augeninsert"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10613000",
+				"display": "Teststreifen zur Anwendung am Auge"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10701000",
+				"display": "Ohrencreme"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10702000",
+				"display": "Ohrengel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10703000",
+				"display": "Ohrensalbe"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10704000",
+				"display": "Ohrentropfen, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10705000",
+				"display": "Ohrentropfen, Suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10706000",
+				"display": "Ohrentropfen, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10707000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Ohrentropfensuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10708000",
+				"display": "Ohrenpulver"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10709000",
+				"display": "Ohrenspray, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10710000",
+				"display": "Ohrenspray, Suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10711000",
+				"display": "Ohrenspray, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10712000",
+				"display": "Ohrenspüllösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10713000",
+				"display": "Ohrenspülung, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10714000",
+				"display": "Ohrentampon"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10715000",
+				"display": "Ohrenstäbchen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10801000",
+				"display": "Nasencreme"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10802000",
+				"display": "Nasengel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10803000",
+				"display": "Nasensalbe"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10804000",
+				"display": "Nasentropfen, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10805000",
+				"display": "Nasentropfen, Suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10806000",
+				"display": "Nasentropfen, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10807000",
+				"display": "Nasenpulver"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10808000",
+				"display": "Nasenspray, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10809000",
+				"display": "Nasenspray, Suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10810000",
+				"display": "Nasenspray, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10811000",
+				"display": "Nasenspülung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10812000",
+				"display": "Nasenstift"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10900500",
+				"display": "Intravaginal ring"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10901000",
+				"display": "Vaginalcreme"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10902000",
+				"display": "Vaginalgel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10903000",
+				"display": "Vaginalsalbe"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10904000",
+				"display": "Vaginalschaum"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10905000",
+				"display": "Vaginallösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10906000",
+				"display": "Vaginalsuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10907000",
+				"display": "Vaginalemulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10908000",
+				"display": "Tablette zur Herstellung einer Vaginallösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10909000",
+				"display": "Vaginalzäpfchen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10910000",
+				"display": "Hartkapsel zur vaginalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10911000",
+				"display": "Weichkapsel zur vaginalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10912000",
+				"display": "Vaginaltablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10913000",
+				"display": "Schaumovula"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10914000",
+				"display": "Wirkstoffhaltiger Vaginaltampon"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10915000",
+				"display": "vaginales Wirkstofffreisetzungssystem"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "10916000",
+				"display": "Schwämmchen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11001000",
+				"display": "Rektalcreme"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11002000",
+				"display": "Rektalgel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11003000",
+				"display": "Rektalsalbe"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11004000",
+				"display": "Rektalschaum"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11005000",
+				"display": "Rektallösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11006000",
+				"display": "Rektalsuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11007000",
+				"display": "Rektalemulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11008000",
+				"display": "Konzentrat zur Herstellung einer Rektallösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11009000",
+				"display": "Pulver zur Herstellung einer Rektallösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11010",
+				"display": "Tropfen zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11010000",
+				"display": "Pulver zur Herstellung einer Rektalsuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11011000",
+				"display": "Tablette zur Herstellung einer Rektallösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11012000",
+				"display": "Tablette zur Herstellung einer Rektalsuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11013000",
+				"display": "Zäpfchen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11014000",
+				"display": "Rektalkapsel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11015000",
+				"display": "Rektaltampon"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11050",
+				"display": "Flüssigkeit zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11101000",
+				"display": "Lösung für einen Vernebler"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11102000",
+				"display": "Suspension für einen Vernebler"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11103000",
+				"display": "Pulver zur Herstellung einer Suspension für einen Vernebler"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11104000",
+				"display": "Pulver zur Herstellung einer Lösung für einen Vernebler"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11105000",
+				"display": "Emulsion für einen Vernebler"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11106000",
+				"display": "Druckgasinhalation, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11107000",
+				"display": "Druckgasinhalation, Suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11108000",
+				"display": "Druckgasinhalation, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11109000",
+				"display": "Pulver zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11110000",
+				"display": "Hartkapsel mit Pulver zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11111000",
+				"display": "einzeldosiertes Pulver zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11112000",
+				"display": "Pulver zur Herstellung eines Dampfs zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11113000",
+				"display": "Kapsel zur Herstellung eines Dampfs zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11114000",
+				"display": "Lösung zur Herstellung eines Dampfs zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11115000",
+				"display": "Tablette zur Herstellung eines Dampfs zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11116000",
+				"display": "Salbe zur Herstellung eines Dampfs zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11117000",
+				"display": "Flüssigkeit zur Herstellung eines Dampfs zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11118000",
+				"display": "Inhalationsgas"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11201000",
+				"display": "Injektionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11202000",
+				"display": "Injektionssuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11203000",
+				"display": "Emulsion zur Injektion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11204000",
+				"display": "Gel zur Injektion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11205000",
+				"display": "Pulver zur Herstellung einer Injektionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11206000",
+				"display": "Pulver zur Herstellung einer Injektionssuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11207000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11208000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11209000",
+				"display": "Konzentrat zur Herstellung einer Injektionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11210000",
+				"display": "Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11210500",
+				"display": "Infusionslösung im Applikationssystem"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11211000",
+				"display": "Emulsion zur Infusion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11212000",
+				"display": "Pulver zur Herstellung einer Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11213000",
+				"display": "Konzentrat zur Herstellung einer Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11214000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11214500",
+				"display": "Lyophilisat und Lösungsmittel zur Herstellung einer Injektionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11215000",
+				"display": "Lyophilisat zur Herstellung einer Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11216000",
+				"display": "Lösungsmittel zur Herstellung von Parenteralia"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11217000",
+				"display": "Lyophilisat zur Herstellung einer Injektionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11218000",
+				"display": "Lyophilisat zur Herstellung einer Injektionssuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11301000",
+				"display": "Implantat"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11302000",
+				"display": "Tablette zur Implantation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11303000",
+				"display": "Kette zur Implantation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11303500",
+				"display": "Suspension zur Implantation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11304000",
+				"display": "Pulver und Dispersionsmittel zur Herstellung einer Paste für Implantate"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11401000",
+				"display": "Peritonealdialyselösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11402000",
+				"display": "Hämofiltrationslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11403000",
+				"display": "Hämodiafiltrationslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11404000",
+				"display": "Hämodialyselösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11405000",
+				"display": "Konzentrat zur Herstellung einer Hämodialyselösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11501000",
+				"display": "Lösung zur intravesikalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11502000",
+				"display": "Blasenspüllösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11503000",
+				"display": "Pulver zur Herstellung einer Blasenspüllösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11504000",
+				"display": "Gel zur Anwendung in der Harnröhre"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11505000",
+				"display": "Stäbchen zur Anwendung in der Harnröhre"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11601000",
+				"display": "Lösung zur endotracheopulmonalen Instillation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11602000",
+				"display": "Pulver zur Herstellung einer Lösung zur endotracheopulmonalen Instillation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11603000",
+				"display": "Suspension zur endotracheopulmonalen Instillation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11604000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Lösung zur endotracheopulmonalen Instillation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11701000",
+				"display": "Gel zur endozervikalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11702000",
+				"display": "Pulver und Lösungsmittel zur Herstellung eines Gels zur endozervikalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11901000",
+				"display": "Intrauterines Wirkstofffreisetzungssystem"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11902000",
+				"display": "Lösung zur intrauterinen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11903000",
+				"display": "Suspension zur intrauterinen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11904000",
+				"display": "Emulsion zur intrauterinen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11905000",
+				"display": "Tablette zur intrauterinen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "11906000",
+				"display": "Kapsel zur intrauterinen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12004000",
+				"display": "Lösung für einen Vernebler"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12100",
+				"display": "Kapsel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12100500",
+				"display": "Absorbable coated sponge"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12101000",
+				"display": "Lack für die Gebisskontaktfläche"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12102000",
+				"display": "Stabilisatorlösung für Blutkonserven"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12103000",
+				"display": "Lösung zur Modifikation einer Blutfraktion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12104000",
+				"display": "Wundstäbchen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12105000",
+				"display": "Markerzubereitung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12106000",
+				"display": "Radionuklidgenerator"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12107000",
+				"display": "Kit für ein radioaktives Arzneimittel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12108000",
+				"display": "Lösung zur gastrointestinalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12109000",
+				"display": "Dispersion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12109500",
+				"display": "Fibrin sealant-powder and solvent for fibrin sealant"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12110000",
+				"display": "Suspension zur gastrointestinalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12111000",
+				"display": "Emulsion zur gastrointestinalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12112000",
+				"display": "Organkonservierungslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12113000",
+				"display": "Spüllösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12114000",
+				"display": "Magenspülflüssigkeit"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12115000",
+				"display": "Gewebekleber"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12115500",
+				"display": "Solution of perfusion of organs"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12116000",
+				"display": "Pulver und Lösungsmittel für einen Gewebekleber"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12117000",
+				"display": "Imprägnierter Tampon"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12118000",
+				"display": "lebendes Gewebeäquivalent"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12119000",
+				"display": "wirkstoffhaltiges Schwämmchen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12120",
+				"display": "magensaftresistente Kapsel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12120000",
+				"display": "Gel zur intestinalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12130000",
+				"display": "wirkstoffhaltiger Faden"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12131000",
+				"display": "Provokationstestlösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12150",
+				"display": "Retardkapsel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12200",
+				"display": "Tablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12301000",
+				"display": "Gas zur medizinischen Anwendung, druckverdichtet"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12302000",
+				"display": "Gas zur medizinischen Anwendung, kälteverflüssigt"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "12303000",
+				"display": "Gas zur medizinischen Anwendung, verflüssigt"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "13050",
+				"display": "Flüssigkeit zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "13220",
+				"display": "Lutschtablette"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "14050",
+				"display": "Dentalflüssigkeit"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "15090",
+				"display": "Spray zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "15130",
+				"display": "Flüssigkeit zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "16040",
+				"display": "Augentropfen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "17040",
+				"display": "Ohrentropfen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "17090",
+				"display": "Ohrenspray"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "17120",
+				"display": "Ohrenspülung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "18040",
+				"display": "Nasentropfen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "18080",
+				"display": "Nasenspray"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "19050",
+				"display": "Flüssigkeit zur vaginalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "19100",
+				"display": "Vaginalkapsel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "20050",
+				"display": "Klistier"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "21010",
+				"display": "Flüssigkeit für einen Vernebler"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "21060",
+				"display": "Druckgasinhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "21100",
+				"display": "Pulver zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "21140",
+				"display": "Dampf zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "22010",
+				"display": "Injektion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "22050",
+				"display": "Pulver zur Herstellung einer Injektionszubereitung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "22090",
+				"display": "steriles Konzentrat"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "22100",
+				"display": "Infusion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "22120",
+				"display": "Pulver zur Herstellung einer Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "26010",
+				"display": "Lösung zur endotracheopulmonalen Instillation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "29020",
+				"display": "Flüssigkeit zur intrauterinen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "30047500",
+				"display": "Beutelchen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "31030",
+				"display": "Zubereitung zur Modifikation einer Blutfraktion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "31080",
+				"display": "Flüssigkeit zur gastrointestinalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50001000",
+				"display": "Kautablette/Tablette zur Herstellung einer Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50001250",
+				"display": "Befilmtes Granulat im Beutel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50001500",
+				"display": "Concentrate and diluent for solution for infusion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50002000",
+				"display": "Konzentrat und Lösungsmittel für ein Konzentrat zur Herstellung einer Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50003000",
+				"display": "Konzentrat und Lösungsmittel zur Herstellung einer Lösung zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50004000",
+				"display": "Concentrate and solvent for cutaneous use"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50005000",
+				"display": "Concentrate and solvent for injection"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50006000",
+				"display": "Konzentrat und Lösungsmittel zur Herstellung einer Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50007000",
+				"display": "Konzentrat und Lösungsmittel zur Herstellung einer Injektionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50008000",
+				"display": "Konzentrat und Lösungsmittel zur Herstellung einer Injektionssuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50009000",
+				"display": "Konzentrat zur Herstellung eines Sprays zur Anwendung auf der Haut, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50009300",
+				"display": "Konzentrat zur Herstellung einer Infusionsdispersion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50009500",
+				"display": "Konzentrat zur Herstellung einer Emulsion zur Infusion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50010000",
+				"display": "Konzentrat zur Herstellung einer Lösung  zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50011000",
+				"display": "Konzentrat zur Herstellung einer Lösung zum Einnehmen /Rektallösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50012000",
+				"display": "Concentrate for peritoneal dialysis solution"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50013000",
+				"display": "Concentrate for solution for intravesical use"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50013500",
+				"display": "Konzentrat zur Herstellung eines Sprays, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50014000",
+				"display": "Concentrate for suspension for infusion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50015000",
+				"display": "Cutaneous and nasal ointment"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50015300",
+				"display": "Cutaneous/oromucosal/oral solution"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50015400",
+				"display": "Cutaneous/oromucosal spray"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50015500",
+				"display": "Spray zur Anwendung auf der Haut, Emulsion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50016000",
+				"display": "Spray zur Anwendung auf der Haut, Salbe"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50017000",
+				"display": "Dentalpaste"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50018000",
+				"display": "Augen-/Ohrentropfen, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50019000",
+				"display": "Augen-/Ohrensalbe"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50020000",
+				"display": "Ear/eye/nose drops, solution"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50020500",
+				"display": "Effervescent buccal tablet"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50021000",
+				"display": "Emulsion zur Injektion/Infusion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50021500",
+				"display": "Emulsion und Suspension zur Herstellung einer Emulsion zur Injektion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50022000",
+				"display": "Nebenhöhlenspülung, Suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50023000",
+				"display": "Augentropfen, Lösung im Einzeldosisbehältnis"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50023500",
+				"display": "Film coated gastro-resistant tablet"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50024000",
+				"display": "Gurgellösung/Mundspülung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50025000",
+				"display": "Gastro-resistant coated tablet"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50026000",
+				"display": "magensaftresistentes Granulat zur Herstellung einer Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50026250",
+				"display": "Gastro-resistant prolonged-release tablet"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50026500",
+				"display": "Granulat und Lösungsmittel zur Herstellung einer Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50027000",
+				"display": "Granulat und Lösungsmittel zur Herstellung einer Injektionssuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50028000",
+				"display": "Granules for oral and rectal suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50029000",
+				"display": "Granules for oral drops, solution"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50029250",
+				"display": "Granulat zum Eingeben über das Trinkwasser"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50029500",
+				"display": "Granulat zur Herstellung einer Vaginallösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50029600",
+				"display": "Hard capsule with gastro-resistant pellets"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50029700",
+				"display": "Arzneitee im Beutel"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50030000",
+				"display": "Tablette mit Pulver zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50031000",
+				"display": "Brausetablette zur Herstellung eines Dampfs zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50032000",
+				"display": "Emulsion zur Herstellung eines Dampfs zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50033000",
+				"display": "Dampf zur Inhalation, imprägnierter Einsatz"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50033300",
+				"display": "Schaum zur intrauterinen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50033500",
+				"display": "intravitreales Implantat im Applikator"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50034000",
+				"display": "Liquefied gas for dental use"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50035000",
+				"display": "Modified-release film-coated tablet"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50036000",
+				"display": "Granulat mit veränderter Wirkstofffreisetzung zur Herstellung einer Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50036100",
+				"display": "Muco-adhesive buccal prolonged-release tablet"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50036500",
+				"display": "Lösung zur nasalen Anwendung/Lösung zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50037000",
+				"display": "Nasal spray and oromucosal solution"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50037250",
+				"display": "Nasenspray, Lösung im Einzeldosisbehältnis"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50037750",
+				"display": "Tropfen zum Einnehmen, Flüssigkeit"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50038000",
+				"display": "Suspension zum Einnehmen/Rektalsuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50038500",
+				"display": "Lösung zum Einnehmen/ Konzentrat zur Herstellung einer Lösung für einen Vernebler"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50039000",
+				"display": "Pflaster zur Anwendung in der Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50039300",
+				"display": "Pulverbeutelchen zur Anwendung in Mundhöhle"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50039500",
+				"display": "Lösung zur Anwendung in der Mundhöhle/im Rachenraum und am Kehlkopf"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50040000",
+				"display": "Oromucosal/laryngopharyngeal solution/spray"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50041000",
+				"display": "Streukügelchen im Einzeldosisbehältnis"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50041500",
+				"display": "Pulver und Lösung zur Herstellung einer Injektionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50042000",
+				"display": "Pulver und Lösungsmittel für ein Konzentrat zur Herstellung einer Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50043000",
+				"display": "Pulver für ein Konzentrat zur Herstellung einer Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50044000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Lösung zur Anwendung auf der Haut"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50044500",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Injektionsdispersion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50045000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Lösung zur Anwendung in den Nebenhöhlen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50045500",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Lösung zum Auftragen auf die Wunde"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50046000",
+				"display": "Pulver und Lösungsmittel zur Herstellung eines Gels zur Anwendung am Zahnfleisch"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50047000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Lösung zur intraokularen Instillation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50047500",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Lösung zur intravesikalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50047700",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Lösung für einen Vernebler"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50048000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Depot-Injektionssuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50048250",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Injektionslösung in einer Fertigspritze"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50048300",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Injektionssuspension in einer Fertigspritze"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50048500",
+				"display": "Pulver und Suspension zur Herstellung einer Injektionssuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50048600",
+				"display": "Pulver, Dispersion und Lösungsmittel für ein Konzentrat zur Herstellung einer Infusionsdispersion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50048750",
+				"display": "Pulver für ein Konzentrat zur Herstellung einer Infusionsdispersion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50049000",
+				"display": "Pulver für ein Konzentrat zur Herstellung einer Hämodialyselösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50049100",
+				"display": "Pulver für ein Konzentrat zur Herstellung einer Suspension zur intravesikalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50049250",
+				"display": "Pulver für ein Konzentrat zur Herstellung einer Injektions-/Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50049270",
+				"display": "Pulver zur Herstellung einer Dentallösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50049300",
+				"display": "Pulver zur Herstellung einer Lösung zum Auftragen auf die Wunde"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50049500",
+				"display": "Pulver zur Herstellung einer Suspension zur Implantation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50050000",
+				"display": "Pulver zur Herstellung einer Lösung zur intravesikalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50051000",
+				"display": "Pulver zur Herstellung einer Suspensionen zur intravesikalen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50051100",
+				"display": "Powder for mouth wash"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50052000",
+				"display": "Pulver zur Herstellung einer Suspension zum Einnehmen/Rektalsuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50053000",
+				"display": "Pulver zur Herstellung einer Injektions- bzw. Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50053500",
+				"display": "Pulver zur Herstellung einer Injektions-/Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50054000",
+				"display": "Powder for solution for intravesical use"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50055000",
+				"display": "Powder for solution for nasal spray"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50055500",
+				"display": "Prolonged-release film-coated tablet"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50056000",
+				"display": "Retardgranulat zur Herstellung einer Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50056500",
+				"display": "Markerzubereitung, Lösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50057000",
+				"display": "Hämodialyselösung/Hämofiltrationslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50058000",
+				"display": "Solution for infusion and oral solution"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50059000",
+				"display": "Solution for injection/concentrate for solution for infusion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50060000",
+				"display": "Injektions-/Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50060100",
+				"display": "Injektionslösung in einer Patrone"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50060200",
+				"display": "Injektionslösung im Fertigpen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50060300",
+				"display": "Injektionslösung in einer Fertigspritze"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50060400",
+				"display": "Solution for injection in pre-filled syringe with automatic needle guard"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50060500",
+				"display": "Injektions-/Infusionslösung in einer Fertigspritze"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50061000",
+				"display": "Solution for intraperitoneal use"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50061300",
+				"display": "Lösung zum Eingeben über das Trinkwasser"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50061500",
+				"display": "Lösung für Gewebekleber"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50061600",
+				"display": "Solvent for nasal use"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50062000",
+				"display": "Suspension und Brausegranulat zur Herstellung einer Suspension zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50062500",
+				"display": "Suspension und Lösung zur Herstellung eines Sprays"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50063000",
+				"display": "Suspension for infusion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50063100",
+				"display": "Injektionssuspension in einer Patrone"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50063200",
+				"display": "Injektionssuspension in einem Fertigpen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50063300",
+				"display": "Injektionssuspension in einer Fertigspritze"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50063500",
+				"display": "Suspension zum Eingeben über das Trinkwasser"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50064000",
+				"display": "Tabletten und Lösungsmittel zur Herstellung einer Rektalsuspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50065000",
+				"display": "Tabletten und Pulver zur Herstellung einer Lösung zum Einnehmen"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50066000",
+				"display": "Tablet for oral suspension"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50070000",
+				"display": "Oral suspension for use in drinking water"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50071000",
+				"display": "Pulver und Lösungsmittel zur Herstellung eines Dentalgels"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50072000",
+				"display": "Pulver zum Eingeben über das Trinkwasser"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50073000",
+				"display": "Pulver zur Herstellung einer Lösung zur intraokularen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50074000",
+				"display": "Lösungsmittel zur Herstellung einer Lösung zur intraokularen Anwendung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50076000",
+				"display": "Lösungsmittel zur Herstellung einer Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50077000",
+				"display": "Dispersion zur Injektion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50078000",
+				"display": "Gas und Lösungsmittel zur Herstellung einer Injektions-/Infusionsdispersion"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50079000",
+				"display": "Konzentrat zur Herstellung einer Injektions- /Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50080000",
+				"display": "Pulver und Lösungsmittel zur Herstellung einer Injektions-/Infusionslösung"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50081000",
+				"display": "Lösung zur Inhalation"
+			},
+			{
+				"system": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"code": "50082000",
+				"display": "Pulver zur Herstellung von Tropfen zum Einnehmen, Suspension"
+			}
+		]
+	}
+}

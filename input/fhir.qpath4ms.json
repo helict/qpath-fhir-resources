@@ -1,9 +1,9 @@
 {
 	"id": "fhir.qpath4ms",
 	"meta": {
-		"versionId": "13",
-		"lastUpdated": "2022-01-27T14:09:26.157+00:00",
-		"source": "#6jYxnVUQ2ocGz2RD"
+		"versionId": "20",
+		"lastUpdated": "2022-02-07T11:27:56.555+00:00",
+		"source": "#4wumQU2bDrzHqSEn"
 	},
 	"resourceType": "ImplementationGuide",
 	"text": {
@@ -328,6 +328,12 @@
 					}
 				],
 				"url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+			}
+		],
+		"grouping": [
+			{
+				"id": "medicationPlan-group",
+				"name": "Medication Plan"
 			}
 		],
 		"resource": [
@@ -1663,6 +1669,44 @@
 				},
 				"name": "Beispiel Zusatzdiagnostik",
 				"description": "Beispiel CarePlan für die Durchführung einer Zusatzdiagnostik mit dem Patienten (M0)"
+			},
+			{
+				"exampleBoolean": false,
+				"reference": {
+					"reference": "StructureDefinition/Q4MSMedicationStatementProfile",
+					"display": "Q4MSMedicationStatementProfile"
+				},
+				"name": "Q4MSMedicationStatementProfile",
+				"groupingId": "medicationPlan-group"
+			},
+			{
+				"exampleBoolean": false,
+				"reference": {
+					"reference": "ValueSet/234",
+					"display": "medikationsplanplus-einnahmezeitpunkte"
+				},
+				"name": "medikationsplanplus-einnahmezeitpunkte",
+				"groupingId": "medicationPlan-group",
+				"description": "ValueSet zur Codierung von Einnahmezeitpunkten"
+			},
+			{
+				"exampleBoolean": false,
+				"reference": {
+					"reference": "StructureDefinition/Q4MSMedicationProfile",
+					"display": "Q4MSMedicationProfile"
+				},
+				"name": "Q4MSMedicationProfile",
+				"groupingId": "medicationPlan-group"
+			},
+			{
+				"exampleBoolean": false,
+				"reference": {
+					"reference": "ValueSet/249",
+					"display": "EDQMDoseForm"
+				},
+				"name": "EDQMDoseForm",
+				"groupingId": "medicationPlan-group",
+				"description": "EDQMDoseForm"
 			}
 		],
 		"page": {

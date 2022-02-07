@@ -1,0 +1,362 @@
+{
+	"resourceType": "StructureDefinition",
+	"id": "Q4MSMedicationStatementProfile",
+	"meta": {
+		"versionId": "16",
+		"lastUpdated": "2022-02-07T11:57:05.150+00:00",
+		"source": "#iA1ZKCFSDoJxlt90"
+	},
+	"url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/medicationPlan/Q4MSMedicationStatementProfile",
+	"name": "Q4MSMedicationStatementProfile",
+	"title": "Q4MSMedicationStatementProfile",
+	"status": "draft",
+	"fhirVersion": "4.0.1",
+	"kind": "resource",
+	"abstract": false,
+	"type": "MedicationStatement",
+	"baseDefinition": "http://hl7.org/fhir/StructureDefinition/MedicationStatement",
+	"derivation": "constraint",
+	"differential": {
+		"element": [
+			{
+				"id": "MedicationStatement",
+				"path": "MedicationStatement"
+			},
+			{
+				"id": "MedicationStatement.id",
+				"path": "MedicationStatement.id",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.meta",
+				"path": "MedicationStatement.meta",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.language",
+				"path": "MedicationStatement.language",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.identifier",
+				"path": "MedicationStatement.identifier",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.basedOn",
+				"path": "MedicationStatement.basedOn",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.partOf",
+				"path": "MedicationStatement.partOf",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.status",
+				"path": "MedicationStatement.status",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.category",
+				"path": "MedicationStatement.category",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.medication[x]",
+				"path": "MedicationStatement.medication[x]",
+				"type": [
+					{
+						"code": "Reference",
+						"profile": [
+							"http://qpath4ms.ukdd.de/fhir/StructureDefinition/medicationPlan/Q4MSMedicationProfile"
+						],
+						"targetProfile": [
+							"http://qpath4ms.ukdd.de/fhir/StructureDefinition/medicationPlan/Q4MSMedicationProfile"
+						]
+					}
+				],
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.medication[x].reference",
+				"path": "MedicationStatement.medication[x].reference",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.subject",
+				"path": "MedicationStatement.subject",
+				"type": [
+					{
+						"code": "Reference"
+					}
+				],
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.context",
+				"path": "MedicationStatement.context",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.subject.reference",
+				"path": "MedicationStatement.subject.reference",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.effective[x]",
+				"path": "MedicationStatement.effective[x]",
+				"min": 1,
+				"type": [
+					{
+						"code": "Period"
+					}
+				],
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.dateAsserted",
+				"path": "MedicationStatement.dateAsserted",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.reasonReference",
+				"path": "MedicationStatement.reasonReference",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.note",
+				"path": "MedicationStatement.note",
+				"max": "1",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.dosage",
+				"path": "MedicationStatement.dosage",
+				"slicing": {
+					"rules": "open"
+				},
+				"min": 1,
+				"max": "5",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext",
+				"path": "MedicationStatement.dosage",
+				"sliceName": "freitext",
+				"max": "1",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.text",
+				"path": "MedicationStatement.dosage.text",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.additionalInstruction",
+				"path": "MedicationStatement.dosage.additionalInstruction",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.patientInstruction",
+				"path": "MedicationStatement.dosage.patientInstruction",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.timing",
+				"path": "MedicationStatement.dosage.timing",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.asNeeded[x]",
+				"path": "MedicationStatement.dosage.asNeeded[x]",
+				"type": [
+					{
+						"code": "boolean"
+					}
+				],
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.site",
+				"path": "MedicationStatement.dosage.site",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.route",
+				"path": "MedicationStatement.dosage.route",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.method",
+				"path": "MedicationStatement.dosage.method",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.doseAndRate",
+				"path": "MedicationStatement.dosage.doseAndRate",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.maxDosePerPeriod",
+				"path": "MedicationStatement.dosage.maxDosePerPeriod",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.maxDosePerAdministration",
+				"path": "MedicationStatement.dosage.maxDosePerAdministration",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:freitext.maxDosePerLifetime",
+				"path": "MedicationStatement.dosage.maxDosePerLifetime",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert",
+				"path": "MedicationStatement.dosage",
+				"sliceName": "codiert",
+				"max": "4"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.sequence",
+				"path": "MedicationStatement.dosage.sequence",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.text",
+				"path": "MedicationStatement.dosage.text",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.additionalInstruction",
+				"path": "MedicationStatement.dosage.additionalInstruction",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.patientInstruction",
+				"path": "MedicationStatement.dosage.patientInstruction",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.timing",
+				"path": "MedicationStatement.dosage.timing",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.asNeeded[x]",
+				"path": "MedicationStatement.dosage.asNeeded[x]",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.site",
+				"path": "MedicationStatement.dosage.site",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.route",
+				"path": "MedicationStatement.dosage.route",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.method",
+				"path": "MedicationStatement.dosage.method",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.doseAndRate",
+				"path": "MedicationStatement.dosage.doseAndRate",
+				"min": 1,
+				"type": [
+					{
+						"code": "Element"
+					}
+				]
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.maxDosePerPeriod",
+				"path": "MedicationStatement.dosage.maxDosePerPeriod",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.maxDosePerAdministration",
+				"path": "MedicationStatement.dosage.maxDosePerAdministration",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.maxDosePerLifetime",
+				"path": "MedicationStatement.dosage.maxDosePerLifetime",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.timing.event",
+				"path": "MedicationStatement.dosage.timing.event",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.timing.repeat",
+				"path": "MedicationStatement.dosage.timing.repeat",
+				"max": "0"
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.timing.code",
+				"path": "MedicationStatement.dosage.timing.code",
+				"short": "Einnahmezeitpunkt CM|CD|CV|HS (@m|@d|@v|@h)",
+				"binding": {
+					"strength": "required",
+					"valueSet": "http://fhir.de/ValueSet/medikationsplanplus/einnahmezeitpunkte"
+				}
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.timing.code.coding",
+				"path": "MedicationStatement.dosage.timing.code.coding",
+				"max": "1",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.timing.code.coding.system",
+				"path": "MedicationStatement.dosage.timing.code.coding.system",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.dosage:codiert.timing.code.coding.code",
+				"path": "MedicationStatement.dosage.timing.code.coding.code",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.reasonCode.text",
+				"path": "MedicationStatement.reasonCode.text",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.effective[x].start",
+				"path": "MedicationStatement.effective[x].start",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.effective[x].end",
+				"path": "MedicationStatement.effective[x].end",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.identifier.system",
+				"path": "MedicationStatement.identifier.system",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.identifier.value",
+				"path": "MedicationStatement.identifier.value",
+				"mustSupport": true
+			},
+			{
+				"id": "MedicationStatement.meta.profile",
+				"path": "MedicationStatement.meta.profile",
+				"mustSupport": true
+			}
+		]
+	}
+}

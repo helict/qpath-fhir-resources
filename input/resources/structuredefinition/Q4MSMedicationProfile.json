@@ -1,0 +1,261 @@
+{
+	"resourceType": "StructureDefinition",
+	"id": "Q4MSMedicationProfile",
+	"meta": {
+		"versionId": "8",
+		"lastUpdated": "2022-02-07T11:56:41.739+00:00",
+		"source": "#vOXFOOIxl99hojwz"
+	},
+	"url": "http://qpath4ms.ukdd.de/fhir/StructureDefinition/medicationPlan/Q4MSMedicationProfile",
+	"name": "Q4MSMedicationProfile",
+	"title": "Q4MSMedicationProfile",
+	"status": "draft",
+	"fhirVersion": "4.0.1",
+	"kind": "resource",
+	"abstract": false,
+	"type": "Medication",
+	"baseDefinition": "http://hl7.org/fhir/StructureDefinition/Medication",
+	"derivation": "constraint",
+	"differential": {
+		"element": [
+			{
+				"id": "Medication",
+				"path": "Medication"
+			},
+			{
+				"id": "Medication.id",
+				"path": "Medication.id",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.meta",
+				"path": "Medication.meta",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.language",
+				"path": "Medication.language",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.contained",
+				"path": "Medication.contained",
+				"max": "0"
+			},
+			{
+				"id": "Medication.code",
+				"path": "Medication.code",
+				"short": "PZN-Code des Medikamentes",
+				"definition": "Die Verwendung von PZN ist verpflichtent, die Codes können jedoch nicht validiert werden, da der gesamte Katalog der Codes nicht vorliegt."
+			},
+			{
+				"id": "Medication.manufacturer",
+				"path": "Medication.manufacturer",
+				"max": "0"
+			},
+			{
+				"id": "Medication.form",
+				"path": "Medication.form",
+				"short": "Darreichungsform",
+				"definition": "Darreichungsform codiert nach EDQMDoseForm oder als Freitext",
+				"mustSupport": true,
+				"binding": {
+					"strength": "required",
+					"valueSet": "http://fhir.de/ValueSet/medikationsplanplus/edqm-darreichungsform"
+				}
+			},
+			{
+				"id": "Medication.amount",
+				"path": "Medication.amount",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.amount.numerator",
+				"path": "Medication.amount.numerator",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.amount.numerator.value",
+				"path": "Medication.amount.numerator.value",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.amount.numerator.unit",
+				"path": "Medication.amount.numerator.unit",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.amount.numerator.system",
+				"path": "Medication.amount.numerator.system",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.amount.numerator.code",
+				"path": "Medication.amount.numerator.code",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.amount.denominator",
+				"path": "Medication.amount.denominator",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.amount.denominator.value",
+				"path": "Medication.amount.denominator.value",
+				"mustSupport": false
+			},
+			{
+				"id": "Medication.amount.denominator.unit",
+				"path": "Medication.amount.denominator.unit",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.amount.denominator.system",
+				"path": "Medication.amount.denominator.system",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.amount.denominator.code",
+				"path": "Medication.amount.denominator.code",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient",
+				"path": "Medication.ingredient",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient.item[x]",
+				"path": "Medication.ingredient.item[x]",
+				"type": [
+					{
+						"code": "CodeableConcept"
+					}
+				],
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient.item[x].coding",
+				"path": "Medication.ingredient.item[x].coding",
+				"slicing": {
+					"rules": "open"
+				},
+				"mustSupport": false
+			},
+			{
+				"id": "Medication.ingredient.item[x].coding:atc",
+				"path": "Medication.ingredient.item[x].coding",
+				"sliceName": "atc",
+				"max": "1",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient.item[x].coding:atc.system",
+				"path": "Medication.ingredient.item[x].coding.system",
+				"min": 1,
+				"fixedString": "http://www.whocc.no/atc",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient.item[x].coding:atc.code",
+				"path": "Medication.ingredient.item[x].coding.code",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient.item[x].coding:atc.display",
+				"path": "Medication.ingredient.item[x].coding.display",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient.item[x].coding:edqm",
+				"path": "Medication.ingredient.item[x].coding",
+				"sliceName": "edqm",
+				"max": "1",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient.item[x].text",
+				"path": "Medication.ingredient.item[x].text",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient.item[x].coding:edqm.system",
+				"path": "Medication.ingredient.item[x].coding.system",
+				"min": 1,
+				"fixedString": "urn:oid:0.4.0.127.0.16.1.1.2.1",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient.item[x].coding:edqm.code",
+				"path": "Medication.ingredient.item[x].coding.code",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.ingredient.item[x].coding:edqm.display",
+				"path": "Medication.ingredient.item[x].coding.display",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.form.coding",
+				"path": "Medication.form.coding",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.form.text",
+				"path": "Medication.form.text",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.form.coding.system",
+				"path": "Medication.form.coding.system",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.form.coding.code",
+				"path": "Medication.form.coding.code",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.form.coding.display",
+				"path": "Medication.form.coding.display",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.code.coding",
+				"path": "Medication.code.coding",
+				"max": "1",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.code.coding.system",
+				"path": "Medication.code.coding.system",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.code.coding.code",
+				"path": "Medication.code.coding.code",
+				"min": 1,
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.code.coding.display",
+				"path": "Medication.code.coding.display",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.code.text",
+				"path": "Medication.code.text",
+				"mustSupport": true
+			},
+			{
+				"id": "Medication.meta.profile",
+				"path": "Medication.meta.profile",
+				"mustSupport": true
+			}
+		]
+	}
+}
