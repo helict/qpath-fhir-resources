@@ -5,6 +5,7 @@ Alias: $appointment-status = http://hl7.org/fhir/appointmentstatus
 Alias: $codesystem-content-mode = http://hl7.org/fhir/codesystem-content-mode
 Alias: $composition-status = http://hl7.org/fhir/composition-status
 Alias: $document-reference-status = http://hl7.org/fhir/document-reference-status
+Alias: $extension-cqf-expression = http://hl7.org/fhir/StructureDefinition/cqf-expression
 Alias: $ietf-bcp-47 = urn:ietf:bcp:47
 Alias: $ihe-xds-class-code = http://ihe-d.de/ValueSets/IHEXDSclassCode
 Alias: $ihe-xds-confidentiality-code = http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode
@@ -98,7 +99,9 @@ Alias: $q4ms-terminanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q
 Alias: $q4ms-activitydefinition-task-transform = http://qpath4ms.ukdd.de/fhir/StructureMap/Q4MSActivityDefinitionTaskTransform
 
 // QPath4MS Questionnaires and Answer Lists
-Alias: $q4ms-phq-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/PatientHealthQuestionnaire
 Alias: $q4ms-emiq-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/ExerciseMentalIllnessQuestionnaire
 Alias: $q4ms-emiq-answerlist = http://qpath4ms.ukdd.de/fhir/CodeSystem/ExerciseMentalIllnessQuestionnaire
-Alias: $q4ms-emiq-answerlist-vs = http://qpath4ms.ukdd.de/fhir/CodeSystem/ExerciseMentalIllnessQuestionnaireVS
+Alias: $q4ms-emiq-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/ExerciseMentalIllnessQuestionnaireVS
+Alias: $q4ms-msws-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/TwelveItemMultipleSclerosisWalkingScaleQuestionnaire
+Alias: $q4ms-msws-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/TwelveItemMultipleSclerosisWalkingScaleQuestionnareVS
+Alias: $q4ms-phq-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/PatientHealthQuestionnaire
