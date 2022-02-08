@@ -105,3 +105,4 @@ Alias: $q4ms-emiq-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/Exercise
 Alias: $q4ms-msws-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/TwelveItemMultipleSclerosisWalkingScaleQuestionnaire
 Alias: $q4ms-msws-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/TwelveItemMultipleSclerosisWalkingScaleQuestionnareVS
 Alias: $q4ms-phq-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/PatientHealthQuestionnaire
+Alias: $q4ms-phq-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/PatientHealthQuestionnaireVS
