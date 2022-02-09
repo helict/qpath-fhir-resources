@@ -1,7 +1,7 @@
 Instance: ExerciseMentalIllnessQuestionnaire
 InstanceOf: Questionnaire
 Title: "EMIQ"
-Description: "The Exercise Mental Illnes Questionnaire (EMIQ)"
+Description: "The Exercise Mental Illness Questionnaire (EMIQ)"
 Usage: #definition
 * url = $q4ms-emiq-questionnaire
 * version = "1.0.0"

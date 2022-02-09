@@ -10,7 +10,7 @@ Usage: #definition
 * subjectType = $resource-type#Patient
 * item[+].linkId = "MFIS.0"
 * item[=].text = "Mit den folgenden Fragen soll erfasst werden, wie ausgeprägt Sie im letzten Monat einschließlich des heutigen Tages durch Erschöpfung beeinträchtigt gewesen sind. Bitte beantworten Sie alle Fragen und wählen Sie nur eine Antwort durch Ankreuzen aus."
-* item[=].type = $item-type#group
+* item[=].type = $item-type#display
 * item[=].required = false
 * item[=].repeats = false
 * item[=].readOnly = true
