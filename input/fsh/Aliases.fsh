@@ -109,3 +109,5 @@ Alias: $q4ms-msws-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/Twe
 Alias: $q4ms-msws-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/TwelveItemMultipleSclerosisWalkingScaleQuestionnareVS
 Alias: $q4ms-phq-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/PatientHealthQuestionnaire
 Alias: $q4ms-phq-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/PatientHealthQuestionnaireVS
+Alias: $q4ms-mfis-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/ModifiedFatigueImpactScaleQuestionnaire
+Alias: $q4ms-mfis-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/ModifiedFatigueImpactScaleQuestionnaireVS
