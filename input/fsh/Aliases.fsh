@@ -102,7 +102,6 @@ Alias: $q4ms-activitydefinition-task-transform = http://qpath4ms.ukdd.de/fhir/St
 
 // QPath4MS Questionnaires and Answer Lists
 Alias: $q4ms-emiq-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/ExerciseMentalIllnessQuestionnaire
-Alias: $q4ms-emiq-answerlist = http://qpath4ms.ukdd.de/fhir/CodeSystem/ExerciseMentalIllnessQuestionnaire
 Alias: $q4ms-emiq-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/ExerciseMentalIllnessQuestionnaireVS
 Alias: $q4ms-fsmc-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/FatigueScaleForMotorAndCognitiveFunctionsQuestionnaire
 Alias: $q4ms-fsmc-answerlist-cs = http://qpath4ms.ukdd.de/fhir/CodeSystem/FatigueScaleForMotorAndCognitiveFunctionsQuestionnaireCS
