@@ -24,6 +24,7 @@ Alias: $participant-required = http://hl7.org/fhir/participantrequired
 Alias: $participation-status = http://hl7.org/fhir/participationstatus
 Alias: $plan-definition-type = http://terminology.hl7.org/CodeSystem/plan-definition-type
 Alias: $publication-status = http://hl7.org/fhir/publication-status
+Alias: $questionnaire-answers-status = http://hl7.org/fhir/questionnaire-answers-status
 Alias: $questionnaire-enable-operator = http://hl7.org/fhir/questionnaire-enable-operator
 Alias: $request-intent = http://hl7.org/fhir/request-intent
 Alias: $resource-type = http://hl7.org/fhir/resource-types
