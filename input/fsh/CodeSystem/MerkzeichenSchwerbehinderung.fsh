@@ -1,6 +1,7 @@
 CodeSystem: MerkzeichenSchwerbehinderung
 Title: "Merkzeichen"
 Description: "Merkzeichen der Schwerbehinderung"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"

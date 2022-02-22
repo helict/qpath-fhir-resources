@@ -1,6 +1,7 @@
 CodeSystem: Behinderungsgrade
 Title: "Behinderungsgrade"
 Description: "Grad der Behinderung (GdB) zwischen 20 und 100"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"

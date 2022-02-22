@@ -1,6 +1,7 @@
 CodeSystem: Pflegegrade
 Title: "Pflegegrade"
 Description: "Grad der Pflegebedürftigkeit (nach Pflegestärkungsgesetz 2)"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"

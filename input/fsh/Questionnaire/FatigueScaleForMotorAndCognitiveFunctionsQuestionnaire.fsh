@@ -31,7 +31,7 @@ Bitte lesen Sie jede Aussage genau durch. Entscheiden Sie dann, inwieweit die en
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = false
 * item[=].item[=].answerValueSet = Canonical(FatigueScaleForMotorAndCognitiveFunctionsQuestionnaireVS)
-* item[=].item[+].linkId = "FSMC.1.2"
+* item[=].item[+].linkId = "FSMC.1.3"
 * item[=].item[=].prefix = "3"
 * item[=].item[=].text = "Wegen meiner Erschöpfungszustände brauche ich heute bei körperlichen Tätigkeiten häufigere und/oder auch längere Ruhepausen als früher."
 * item[=].item[=].type = $item-type#choice

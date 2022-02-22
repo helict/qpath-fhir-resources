@@ -1,6 +1,7 @@
 CodeSystem: FatigueScaleForMotorAndCognitiveFunctionsQuestionnaireCS
 Title: "FSMC"
 Description: "Fatigue Scale for Motor and Cognitive Functions (FSMC) Questionnaire CodeSystem"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"

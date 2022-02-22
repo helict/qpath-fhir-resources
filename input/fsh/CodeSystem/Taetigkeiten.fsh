@@ -1,6 +1,7 @@
 CodeSystem: Taetigkeiten
 Title: "Tätigkeiten"
 Description: "Liste von Tätigkeiten"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"

@@ -1,6 +1,7 @@
 CodeSystem: Wohnsituation
 Title: "Wohnsituation"
 Description: "Liste von Wohnsituationen"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"

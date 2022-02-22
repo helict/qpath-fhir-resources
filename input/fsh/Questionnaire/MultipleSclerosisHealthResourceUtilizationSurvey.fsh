@@ -14,9 +14,6 @@ die Kosten abzuschätzen. Ihr Beitrag zu unseren Bemühungen, diese Kosten besse
 Bitte beachten Sie bei der Beantwortung der Fragen, dass sich der Zeitraum für die Kostenerhebung auf die letzten 6 Monate bezieht. Bitte beantworten Sie die Fragen der
 Reihe nach, eventuelle Sprünge zwischen den Fragen werden angezeigt. Vielen Dank."
 * item[=].type = $item-type#display
-* item[=].required = false
-* item[=].repeats = false
-* item[=].readOnly = true
 
 * item[+].linkId = "MS-HRS.1"
 * item[=].prefix = "I"

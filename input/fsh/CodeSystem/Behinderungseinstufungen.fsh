@@ -1,6 +1,7 @@
 CodeSystem: Behinderungseinstufungen
 Title: "Behinderungseinstufungen"
 Description: "Liste von Behinderungseinstufungen"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"
