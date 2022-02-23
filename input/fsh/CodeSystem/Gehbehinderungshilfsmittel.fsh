@@ -1,14 +1,8 @@
 CodeSystem: Gehbehinderungshilfsmittel
 Title: "Gehbehinderungshilfsmittel"
 Description: "Liste von Gehbehinderungshilfsmitteln"
-* ^publisher = "Forschungsgruppe Digital Health"
-* ^meta.profile = $shareable-codesystem
-* ^status = $publication-status#active
-* ^version = "1.0.0"
+* insert CodeSystemMetadata
 * ^url = $q4ms-gehbehinderungshilfsmittel
-* ^caseSensitive = true
-* ^content = $codesystem-content-mode#complete
-* ^experimental = true
 * #GH_WALKER     "Stöcke/ Rollator"
 * #GH_WHEELCHAIR "Rollstuhl"
 * #GH_SICKBED    "Krankenbett"

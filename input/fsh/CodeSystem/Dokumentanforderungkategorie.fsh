@@ -1,14 +1,8 @@
 CodeSystem: Q4MSDokumentanforderungkategorie
 Title: "Dokumentanforderungkategorie"
 Description: "Deklariert Dokumentanforderungkategorien"
-* ^publisher = "Forschungsgruppe Digital Health"
-* ^meta.profile = $shareable-codesystem
-* ^status = $publication-status#active
-* ^version = "1.0.0"
+* insert CodeSystemMetadata
 * ^url = $q4ms-dokumentanforderungkategorie
-* ^caseSensitive = true
-* ^content = $codesystem-content-mode#complete
-* ^experimental = true
 * #laboratory-result "Laborergebnis"    "Anforderung eines Laborergebnisses"
 * #finding           "Befund"           "Anforderung eines Befunds"
 * #doctor-letter     "Arztbrief"        "Anforderung eines Arztbriefs"

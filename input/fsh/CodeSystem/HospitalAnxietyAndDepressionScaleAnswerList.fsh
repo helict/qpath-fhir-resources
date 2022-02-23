@@ -1,14 +1,8 @@
 CodeSystem: HospitalAnxietyAndDepressionScaleQuestionnaireCS
 Title: "HADS-D"
 Description: "Hostpital Anxiety and Depression Scale, deutsche Version (HADS-D) Answer List"
-* ^publisher = "Forschungsgruppe Digital Health"
-* ^meta.profile = $shareable-codesystem
-* ^status = $publication-status#active
-* ^version = "1.0.0"
+* insert CodeSystemMetadata
 * ^url = $q4ms-hads-answerlist-cs
-* ^caseSensitive = true
-* ^content = $codesystem-content-mode#complete
-* ^experimental = true
 // 01 - Anxiety
 * #01A3 "Meistens"
 * #01A2 "Oft"

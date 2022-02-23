@@ -1,14 +1,8 @@
 CodeSystem: Taetigkeiten
 Title: "Tätigkeiten"
 Description: "Liste von Tätigkeiten"
-* ^publisher = "Forschungsgruppe Digital Health"
-* ^meta.profile = $shareable-codesystem
-* ^status = $publication-status#active
-* ^version = "1.0.0"
+* insert CodeSystemMetadata
 * ^url = $q4ms-taetigkeiten
-* ^caseSensitive = true
-* ^content = $codesystem-content-mode#complete
-* ^experimental = true
 * #T_EMPLOYED       "Angestellt"
 * #T_SELF_EMPLOYED  "Selbständig"
 * #T_JOB_SEEKING    "Arbeitssuchend"

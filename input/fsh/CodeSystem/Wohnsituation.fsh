@@ -1,14 +1,8 @@
 CodeSystem: Wohnsituation
 Title: "Wohnsituation"
 Description: "Liste von Wohnsituationen"
-* ^publisher = "Forschungsgruppe Digital Health"
-* ^meta.profile = $shareable-codesystem
-* ^status = $publication-status#active
-* ^version = "1.0.0"
+* insert CodeSystemMetadata
 * ^url = $q4ms-wohnsituation
-* ^caseSensitive = true
-* ^content = $codesystem-content-mode#complete
-* ^experimental = true
 * #WS1 "Allein"
 * #WS2 "Mit Familie/ Partner"
 * #WS3 "Im Pflegeheim"

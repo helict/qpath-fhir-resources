@@ -2,14 +2,8 @@
 CodeSystem: Bildungsgrade
 Title: "Bildungsgrade"
 Description: "Liste von Bildungsgraden"
-* ^publisher = "Forschungsgruppe Digital Health"
-* ^meta.profile = $shareable-codesystem
-* ^status = $publication-status#active
-* ^version = "1.0.0"
+* insert CodeSystemMetadata
 * ^url = $q4ms-bildungsgrade
-* ^caseSensitive = true
-* ^content = $codesystem-content-mode#complete
-* ^experimental = true
 * #BG1 "Hauptschulabschluss"
 * #BG2 "Realschulabschluss/ Abitur"
 * #BG3 "Abgeschlossene Berufsausbildung"

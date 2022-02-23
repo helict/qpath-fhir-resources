@@ -1,14 +1,8 @@
 CodeSystem: Pflegegrade
 Title: "Pflegegrade"
 Description: "Grad der Pflegebedürftigkeit (nach Pflegestärkungsgesetz 2)"
-* ^publisher = "Forschungsgruppe Digital Health"
-* ^meta.profile = $shareable-codesystem
-* ^status = $publication-status#active
-* ^version = "1.0.0"
+* insert CodeSystemMetadata
 * ^url = $q4ms-pflegegrade
-* ^caseSensitive = true
-* ^content = $codesystem-content-mode#complete
-* ^experimental = true
 * #PG1 "Pflegegrad 1" "Geringe Beeinträchtigung der Selbstständigkeit"
 * #PG2 "Pflegegrad 2" "Erhebliche Beeinträchtigung der Selbstständigkeit"
 * #PG3 "Pflegegrad 3" "Schwere Beeinträchtigung der Selbstständigkeit"
