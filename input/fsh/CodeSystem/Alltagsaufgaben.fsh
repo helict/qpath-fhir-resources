@@ -1,6 +1,7 @@
 CodeSystem: Alltagsaufgaben
 Title: "Alltagsaufgaben"
 Description: "Liste von Alltagsaufgaben"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"

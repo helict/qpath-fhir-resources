@@ -1,6 +1,7 @@
 CodeSystem: HamburgQualityOfLifeQuestionnaireInMSWalkingDistance
 Title: "HAQUAMS Walking Distance"
 Description: "Hamburg Quality of Life Questionnaire in Multiple Sclerosis (HAQUAMS) Walking Distance Answer List"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"

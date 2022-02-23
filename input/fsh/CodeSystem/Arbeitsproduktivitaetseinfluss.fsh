@@ -1,6 +1,7 @@
 CodeSystem: Arbeitsproduktivitaetseinfluss
 Title: "Arbeitsproduktivitätseinfluss"
 Description: "Stufen des Einflusses auf die Arbeitsproduktivität"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"

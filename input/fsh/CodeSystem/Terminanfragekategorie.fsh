@@ -1,6 +1,7 @@
 CodeSystem: Q4MSTerminanfragekategorie
 Title: "Terminanfragekategorie"
 Description: "Deklariert Terminanfragekategorien"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"

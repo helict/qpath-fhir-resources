@@ -2,6 +2,7 @@
 CodeSystem: Bildungsgrade
 Title: "Bildungsgrade"
 Description: "Liste von Bildungsgraden"
+* ^publisher = "Forschungsgruppe Digital Health"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"
