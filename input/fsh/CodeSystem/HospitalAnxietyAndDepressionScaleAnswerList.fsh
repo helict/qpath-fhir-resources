@@ -1,4 +1,4 @@
-CodeSystem: HospitalAnxietyAndDepressionScale
+CodeSystem: HospitalAnxietyAndDepressionScaleQuestionnaireCS
 Title: "HADS-D"
 Description: "Hostpital Anxiety and Depression Scale, deutsche Version (HADS-D) Answer List"
 * ^meta.profile = $shareable-codesystem

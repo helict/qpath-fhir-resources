@@ -6,7 +6,7 @@ Description: "Hamburg Quality of Life Questionnaire in Multiple Sclerosis (HAQUA
 * language = $ietf-bcp-47#de-DE
 * url = $q4ms-haquams-complaint-severity-answerlist-vs
 * version = "1.0.0"
-* name = "HAQUAMS Complaint Severity"
+* name = "HAQUAMSComplaintSeverity"
 * status = $publication-status#active
 * compose.include.system = $loinc
 * compose.include.concept[+].code = #LA29474-6

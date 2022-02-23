@@ -4,7 +4,7 @@ Description: "Liste von Wohnsituationen"
 * ^meta.profile = $shareable-codesystem
 * ^status = $publication-status#active
 * ^version = "1.0.0"
-* ^url = $q4ms-wohnsituationen
+* ^url = $q4ms-wohnsituation
 * ^caseSensitive = true
 * ^content = $codesystem-content-mode#complete
 * ^experimental = true

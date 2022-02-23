@@ -1,14 +1,12 @@
 Instance: HospitalAnxietyAndDepressionScaleQuestionnaire
 InstanceOf: Questionnaire
-Title: "HADS-D"
+Title: "HADS"
 Description: "Hostpital Anxiety and Depression Scale Questionnaire, deutsche Version (HADS-D)"
 Usage: #definition
-* language = $ietf-bcp-47#de-DE
+* insert QuestionnaireMetadata
 * url = $q4ms-hads-questionnaire
-* version = "1.0.0"
-* status = $publication-status#draft
-* experimental = true
-* subjectType = $resource-type#Patient
+* name = "HADS-D"
+* title = "Hostpital Anxiety and Depression Scale Questionnaire, deutsche Version"
 * item[+].linkId = "HADS-D"
 * item[=].text = "Wir bitten Sie jede Frage zu beantworten, und zwar so, wie es für Sie persönlich in der 
 letzten Woche am ehesten zutraf. Machen Sie bitte nur ein Kreuz pro Frage und lassen Sie bitte keine Frage aus!
@@ -67,7 +65,7 @@ letzten Woche am ehesten zutraf. Machen Sie bitte nur ein Kreuz pro Frage und la
 * item[=].item[=].answerValueSet = Canonical(HospitalAnxietyAndDepressionScaleQuestionnaire06dVS)
 * item[=].item[+].linkId = "HADS-D.7"
 * item[=].item[=].prefix = "7A"
-* item[=].item[=].text = "Ich kann behaglich dasitzen und mich entspannen.<Paste>"
+* item[=].item[=].text = "Ich kann behaglich dasitzen und mich entspannen."
 * item[=].item[=].type = $item-type#choice
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false

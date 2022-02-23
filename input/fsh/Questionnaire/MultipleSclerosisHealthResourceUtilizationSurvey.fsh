@@ -3,20 +3,16 @@ InstanceOf: Questionnaire
 Title: "MS-HRS"
 Description: "Multiple Sclerosis Health Resource Utilization Survey (MS-HRS) Questionnaire"
 Usage: #definition
+* insert QuestionnaireMetadata
 * url = $q4ms-mshrs-questionnaire
-* version = "1.0.0"
-* status = $publication-status#draft
-* experimental = true
-* subjectType = $resource-type#Patient
+* name = "MSHRS"
+* title = "Multiple Sclerosis Health Resource Utilization Survey Questionnaire"
 * item[+].linkId = "MS-HRS.0"
 * item[=].text = "Mit diesem Fragebogen sollen die Gesamtkosten einer Therapie der Multiplen Sklerose festgestellt werden. Wegen des Mangels an kompletten Daten ist es häufig schwierig,
 die Kosten abzuschätzen. Ihr Beitrag zu unseren Bemühungen, diese Kosten besser zu verstehen, ist daher von besonderer Bedeutung.
 Bitte beachten Sie bei der Beantwortung der Fragen, dass sich der Zeitraum für die Kostenerhebung auf die letzten 6 Monate bezieht. Bitte beantworten Sie die Fragen der
 Reihe nach, eventuelle Sprünge zwischen den Fragen werden angezeigt. Vielen Dank."
 * item[=].type = $item-type#display
-* item[=].required = false
-* item[=].repeats = false
-* item[=].readOnly = true
 
 * item[+].linkId = "MS-HRS.1"
 * item[=].prefix = "I"
@@ -86,7 +82,7 @@ Reihe nach, eventuelle Sprünge zwischen den Fragen werden angezeigt. Vielen Dan
 * item[=].item[=].type = $item-type#group
 * item[=].item[=].enableWhen.question = "MS-HRS.1.5"
 * item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].enableWhen.answerCoding = $loinc#LA32-6
+* item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].required = false
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = true
@@ -137,7 +133,7 @@ Reihe nach, eventuelle Sprünge zwischen den Fragen werden angezeigt. Vielen Dan
 * item[=].item[=].type = $item-type#group
 * item[=].item[=].enableWhen.question = "MS-HRS.1.6"
 * item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].enableWhen.answerCoding = $loinc#LA32-6
+* item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].required = false
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = true
@@ -148,7 +144,7 @@ Reihe nach, eventuelle Sprünge zwischen den Fragen werden angezeigt. Vielen Dan
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].readOnly = false
-* item[=].item[=].initial.valueInteger = 0
+* item[=].item[=].item[=].initial.valueInteger = 0
 
 * item[=].item[=].item[+].linkId = "MS-HRS.1.6.1.2"
 * item[=].item[=].item[=].text = "Und davon ... Tage in der Neurologie:"
@@ -188,7 +184,7 @@ Reihe nach, eventuelle Sprünge zwischen den Fragen werden angezeigt. Vielen Dan
 * item[=].item[=].type = $item-type#group
 * item[=].item[=].enableWhen.question = "MS-HRS.1.7"
 * item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].enableWhen.answerCoding = $loinc#LA32-6
+* item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].required = false
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = true
@@ -304,7 +300,7 @@ Reihe nach, eventuelle Sprünge zwischen den Fragen werden angezeigt. Vielen Dan
 * item[=].item[=].type = $item-type#group
 * item[=].item[=].enableWhen.question = "MS-HRS.1.8"
 * item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].enableWhen.answerCoding = $loinc#LA32-6
+* item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].required = false
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = true
@@ -355,7 +351,7 @@ Reihe nach, eventuelle Sprünge zwischen den Fragen werden angezeigt. Vielen Dan
 * item[=].item[=].type = $item-type#group
 * item[=].item[=].enableWhen.question = "MS-HRS.1.9"
 * item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].enableWhen.answerCoding = $loinc#LA32-6
+* item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].required = false
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = true
@@ -414,7 +410,7 @@ Reihe nach, eventuelle Sprünge zwischen den Fragen werden angezeigt. Vielen Dan
 * item[=].item[=].type = $item-type#group
 * item[=].item[=].enableWhen.question = "MS-HRS.1.12"
 * item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].enableWhen.answerCoding = $loinc#LA32-6
+* item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].required = false
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = true
@@ -523,7 +519,7 @@ stehen:"
 * item[=].item[=].type = $item-type#group
 * item[=].item[=].enableWhen.question = "MS-HRS.2.4"
 * item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].enableWhen.answerCoding = $loinc#LA32-6
+* item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].required = false
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = true
@@ -576,7 +572,7 @@ stehen:"
 * item[=].item[=].required = true
 * item[=].item[=].repeats = true
 * item[=].item[=].readOnly = false
-* item[=].item[=].answerValueSet = Canonical(WohnsituationenVS)
+* item[=].item[=].answerValueSet = Canonical(WohnsituationVS)
 
 * item[=].item[+].linkId = "MS-HRS.2.9"
 * item[=].item[=].prefix = "21"

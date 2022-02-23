@@ -5,5 +5,5 @@ Description: "Liste von Tätigkeiten ValueSet"
 * ^status = $publication-status#active
 * ^url = $q4ms-taetigkeiten-vs
 * ^version = "1.0.0"
-* ^name = "Tätigkeiten"
+* ^name = "Taetigkeiten"
 * include codes from system $q4ms-taetigkeiten

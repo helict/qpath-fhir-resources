@@ -3,17 +3,13 @@ InstanceOf: Questionnaire
 Title: "HAQUAMS"
 Description: "Hamburg Quality of Life Questionnaire in Multiple Sclerosis (HAQUAMS)"
 Usage: #definition
+* insert QuestionnaireMetadata
 * url = $q4ms-haquams-questionnaire
-* version = "1.0.0"
-* status = $publication-status#draft
-* experimental = true
-* subjectType = $resource-type#Patient
+* name = "HAQUAMS"
+* title = "Hamburg Quality of Life Questionnaire in Multiple Sclerosis"
 * item[+].linkId = "HAQUAMS.0"
 * item[=].text = "Dieser Bogen enthält viele Beschwerden, die gar nicht bei Ihnen vorliegen müssen, möglicherweise auch nie vorliegen werden. Erschrecken Sie nicht, er soll helfen, die Auswirkungen der Studie besser zu verstehen. Bitte füllen Sie alles aus, danke!"
 * item[=].type = $item-type#display
-* item[=].required = false
-* item[=].repeats = false
-* item[=].readOnly = true
 
 * item[+].linkId = "HAQUAMS.1"
 * item[=].prefix = "1"

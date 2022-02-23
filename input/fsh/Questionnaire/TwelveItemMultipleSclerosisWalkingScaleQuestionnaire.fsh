@@ -3,8 +3,11 @@ InstanceOf: Questionnaire
 Title: "MSWS-12"
 Description: "Twelve Item MS Walking Scale (MSWS-12) Questionnaire"
 Usage: #definition
+* language = $ietf-bcp-47#de-DE
 * url = $q4ms-msws-questionnaire
 * version = "1.0.0"
+* name = "MSWS12"
+* title = "Twelve Item MS Walking Scale Questionnaire"
 * status = $publication-status#draft
 * experimental = true
 * subjectType = $resource-type#Patient
@@ -38,7 +41,7 @@ Usage: #definition
 * item[=].item[=].answerValueSet = Canonical(TwelveItemMultipleSclerosisWalkingScaleQuestionnaireVS)
 * item[=].item[+].linkId = "MSWS-12.1.3"
 * item[=].item[=].prefix = "3"
-* item[=].item[=].text = "... Ihre Fähigkeit, Treppen auf- und abzusteigen, eingeschränkt? "
+* item[=].item[=].text = "... Ihre Fähigkeit, Treppen auf- und abzusteigen, eingeschränkt?"
 * item[=].item[=].type = $item-type#choice
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false
@@ -86,7 +89,7 @@ Usage: #definition
 * item[=].item[=].answerValueSet = Canonical(TwelveItemMultipleSclerosisWalkingScaleQuestionnaireVS)
 * item[=].item[+].linkId = "MSWS-12.1.9"
 * item[=].item[=].prefix = "9"
-* item[=].item[=].text = "... es erforderlich gemacht, dass Sie sich beim Gehen im Freien abstützen mussten (z.B. Gehstock, Gehwagen, usw.) "
+* item[=].item[=].text = "... es erforderlich gemacht, dass Sie sich beim Gehen im Freien abstützen mussten (z.B. Gehstock, Gehwagen, usw.)"
 * item[=].item[=].type = $item-type#choice
 * item[=].item[=].required = true
 * item[=].item[=].repeats = false

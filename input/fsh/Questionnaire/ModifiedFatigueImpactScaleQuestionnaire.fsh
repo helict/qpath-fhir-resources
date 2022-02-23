@@ -3,17 +3,13 @@ InstanceOf: Questionnaire
 Title: "MFIS"
 Description: "Modified Fatigue Impact Scale (MFIS) Questionnaire"
 Usage: #definition
+* insert QuestionnaireMetadata
 * url = $q4ms-mfis-questionnaire
-* version = "1.0.0"
-* status = $publication-status#draft
-* experimental = true
-* subjectType = $resource-type#Patient
+* name = "MFIS"
+* title = "Modified Fatigue Impact Scale Questionnaire"
 * item[+].linkId = "MFIS.0"
 * item[=].text = "Mit den folgenden Fragen soll erfasst werden, wie ausgeprägt Sie im letzten Monat einschließlich des heutigen Tages durch Erschöpfung beeinträchtigt gewesen sind. Bitte beantworten Sie alle Fragen und wählen Sie nur eine Antwort durch Ankreuzen aus."
 * item[=].type = $item-type#display
-* item[=].required = false
-* item[=].repeats = false
-* item[=].readOnly = true
 * item[+].linkId = "MFIS.1"
 * item[=].text = "Wegen meiner Müdigkeit..."
 * item[=].type = $item-type#group
@@ -36,7 +32,7 @@ Usage: #definition
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = false
 * item[=].item[=].answerValueSet = Canonical(ModifiedFatigueImpactScaleQuestionnaireVS)
-* item[=].item[+].linkId = "MFIS.1.2"
+* item[=].item[+].linkId = "MFIS.1.3"
 * item[=].item[=].prefix = "3"
 * item[=].item[=].text = "... habe ich das Gefühl, dass ich nicht klar denken kann"
 * item[=].item[=].type = $item-type#choice

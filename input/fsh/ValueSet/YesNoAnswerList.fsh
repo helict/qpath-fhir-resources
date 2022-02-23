@@ -6,7 +6,7 @@ Description: "Yes/No ValueSet"
 * language = $ietf-bcp-47#de-DE
 * url = $q4ms-yesno-answerlist-vs
 * version = "1.0.0"
-* name = "Yes/No"
+* name = "YesNo"
 * status = $publication-status#active
 * compose.include.system = $loinc
 * compose.include.concept[+].code = #LA33-6

@@ -5,5 +5,5 @@ Description: "Hamburg Quality of Life Questionnaire in Multiple Sclerosis (HAQUA
 * ^status = $publication-status#active
 * ^url = $q4ms-haquams-walking-aid-answerlist-vs
 * ^version = "1.0.0"
-* ^name = "HAQUAMS Walking Aid"
+* ^name = "HAQUAMSWalkingAid"
 * include codes from system $q4ms-haquams-walking-aid-answerlist

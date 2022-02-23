@@ -3,11 +3,10 @@ InstanceOf: Questionnaire
 Title: "EMIQ"
 Description: "The Exercise Mental Illness Questionnaire (EMIQ)"
 Usage: #definition
+* insert QuestionnaireMetadata
 * url = $q4ms-emiq-questionnaire
-* version = "1.0.0"
-* status = $publication-status#draft
-* experimental = true
-* subjectType = $resource-type#Patient
+* name = "EMIQ"
+* title = "Exercise Mental Illness Questionnaire"
 * item[+].linkId = "EMIQ"
 * item[=].text = "Kreuzen Sie bei den nachstehenden Fragen das Kästchen an, das Ihre Gehfähigkeit in den vergangenen 30 Tagen am besten beschreibt."
 * item[=].type = $item-type#group

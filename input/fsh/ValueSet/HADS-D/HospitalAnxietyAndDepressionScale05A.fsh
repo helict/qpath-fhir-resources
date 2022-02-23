@@ -5,7 +5,7 @@ Description: "Hospital Anxiety and Depression Scale, deutsche Version (HADS-D) 5
 * ^status = $publication-status#active
 * ^url = $q4ms-hads-05a-answerlist-vs
 * ^version = "1.0.0"
-* ^name = "HADS-D 5A"
+* ^name = "HADS5A"
 * $q4ms-hads-answerlist-cs#05A3
 * $q4ms-hads-answerlist-cs#05A2
 * $q4ms-hads-answerlist-cs#05A1

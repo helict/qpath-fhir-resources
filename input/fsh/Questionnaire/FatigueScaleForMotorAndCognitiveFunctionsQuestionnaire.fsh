@@ -3,11 +3,10 @@ InstanceOf: Questionnaire
 Title: "FSMC"
 Description: "Fatigue Scale for Motor and Cognitive Functions (FSMC) Questionnaire"
 Usage: #definition
+* insert QuestionnaireMetadata
 * url = $q4ms-fsmc-questionnaire
-* version = "1.0.0"
-* status = $publication-status#draft
-* experimental = true
-* subjectType = $resource-type#Patient
+* name = "FSMC"
+* title = "Fatigue Scale for Motor and Cognitive Functions Questionnaire"
 * item[+].linkId = "FSMC.1"
 * item[=].text = "Im folgenden Fragebogen geht es um alltägliche Probleme, die in direktem Zusammenhang mit einer extremen Form von Müdigkeit (Fatigue) stehen. Unter dieser extremen Form der Müdigkeit wird ein nicht zu beherrschender Zustand der Abgeschlagenheit, Erschöpfung und Energielosigkeit verstanden, der schlagartig eintritt, unabhängig von eindeutigen äusseren Ursachen. Gemeint sind damit nicht Einzelereignisse, wie sie jeder Mensch im Verlaufe des Tages, nach einer Anstrengung Oder nach einer schlaflosen Nacht erlebt!
 Bitte lesen Sie jede Aussage genau durch. Entscheiden Sie dann, inwieweit die entsprechende Aussage auf Sie und Ihren Alltag zutrifft. Bitte treffen Sie Ihre Antwort möglichst unabhängig von Ihrem momentanen Befinden und versuchen Sie uns ein Bild von Ihrem Zustand zu geben, wie Sie ihn Tag für Tag erleben. Setzen Sie hierzu bitte ein Kreuz in den entsprechenden Kreis (pro Aussage bitte nur ein Kreuz!)."
@@ -31,7 +30,7 @@ Bitte lesen Sie jede Aussage genau durch. Entscheiden Sie dann, inwieweit die en
 * item[=].item[=].repeats = false
 * item[=].item[=].readOnly = false
 * item[=].item[=].answerValueSet = Canonical(FatigueScaleForMotorAndCognitiveFunctionsQuestionnaireVS)
-* item[=].item[+].linkId = "FSMC.1.2"
+* item[=].item[+].linkId = "FSMC.1.3"
 * item[=].item[=].prefix = "3"
 * item[=].item[=].text = "Wegen meiner Erschöpfungszustände brauche ich heute bei körperlichen Tätigkeiten häufigere und/oder auch längere Ruhepausen als früher."
 * item[=].item[=].type = $item-type#choice

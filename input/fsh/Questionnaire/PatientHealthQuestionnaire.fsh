@@ -3,11 +3,10 @@ InstanceOf: Questionnaire
 Title: "PHQ-9"
 Description: "Patient Health Questionnaire (PHQ-9)"
 Usage: #definition
+* insert QuestionnaireMetadata
 * url = $q4ms-phq-questionnaire
-* version = "1.0.0"
-* status = $publication-status#draft
-* experimental = true
-* subjectType = $resource-type#Patient
+* name = "PHQ9"
+* title = "Patient Health Questionnaire"
 * code = $loinc#44249-1 "PHQ-9 quick depression assessment panel:-:Pt:^Patient:-:Report.PHQ-9"
 * item[+].linkId = "PHQ-9"
 * item[=].text = "Wie oft fühlten Sie sich im Verlauf der letzten 2 Wochen durch die folgenden Beschwerden beeinträchtigt?"
