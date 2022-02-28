@@ -141,6 +141,7 @@ Alias: $q4ms-haquams-walking-aid-answerlist = http://qpath4ms.ukdd.de/fhir/CodeS
 Alias: $q4ms-haquams-walking-aid-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/HamburgQualityOfLifeQuestionnaireInMSWalkingAidVS
 Alias: $q4ms-haquams-walking-distance-answerlist = http://qpath4ms.ukdd.de/fhir/CodeSystem/HamburgQualityOfLifeQuestionnaireInMSWalkingDistance
 Alias: $q4ms-haquams-walking-distance-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/HamburgQualityOfLifeQuestionnaireInMSWalkingDistanceVS
+Alias: $q4ms-unds-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/UnitedKingdomNeurologicalDisabilityRatingScaleQuestionnaire
 
 // Misc CodeSystems and ValueSets used in Questionnaires
 Alias: $q4ms-alltagsaufgaben = http://qpath4ms.ukdd.de/fhir/CodeSystem/Alltagsaufgaben
