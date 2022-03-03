@@ -3,7 +3,6 @@ InstanceOf: CarePlan
 Title: "Beispiel Voruntersuchung"
 Description: "Beispiel CarePlan für die Voruntersuchung eines Patienten (M0)"
 Usage: #example
-* contained = VoruntersuchungExampleRG
 * instantiatesCanonical = Canonical(Q4MSVoruntersuchung)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -12,7 +11,7 @@ Usage: #example
 
 Instance: VoruntersuchungExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Voruntersuchung"
 Description: "Beispiel RequestGroup für die Voruntersuchung eines Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSVoruntersuchung)
@@ -57,7 +56,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Multiple Sclerosis Performance Test (MSPT)"
 Description: "Beispiel CarePlan für die Durchführung eines MSPT mit dem Patienten (M0)"
-* contained = MultipleSclerosisPerformanceTestExampleRG
 * instantiatesCanonical = Canonical(Q4MSMultipleSclerosisPerformanceTest)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -68,7 +66,7 @@ Instance: MultipleSclerosisPerformanceTestExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Multiple Sclerosis Performance Test (MSPT)"
 Description: "Beispiel RequestGroup für die Durchführung eines MSPT mit dem Patienten (M0)"
-Usage: #inline
+Usage: #example
 * instantiatesCanonical = Canonical(Q4MSMultipleSclerosisPerformanceTest)
 * status = $publication-status#draft
 * intent = $request-intent#plan
@@ -97,7 +95,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Therapiespezifische Diagnostik"
 Description: "Beispiel CarePlan für die Durchführung einer therapiespezifischen Diagnostik mit dem Patienten (M0)"
-* contained = TherapiespezifischeDiagnostikExampleRG
 * instantiatesCanonical = Canonical(Q4MSTherapiespezifischeDiagnostik)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -108,7 +105,7 @@ Instance: TherapiespezifischeDiagnostikExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Therapiespezifische Diagnostik"
 Description: "Beispiel RequestGroup für die Durchführung einer therapiespezifischen Diagnostik mit dem Patienten (M0)"
-Usage: #inline
+Usage: #example
 * instantiatesCanonical = Canonical(Q4MSTherapiespezifischeDiagnostik)
 * status = $publication-status#draft
 * intent = $request-intent#plan
@@ -137,7 +134,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Optische Kohärenztomographie (OCT)"
 Description: "Beispiel CarePlan für die Durchführung eines OCT mit dem Patienten (M0)"
-* contained = OptischeKohaerenztomographieExampleRG
 * instantiatesCanonical = Canonical(Q4MSOptischeKohaerenztomographie)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -146,7 +142,7 @@ Description: "Beispiel CarePlan für die Durchführung eines OCT mit dem Patient
 
 Instance: OptischeKohaerenztomographieExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Optische Kohärenztomographie (OCT)"
 Description: "Beispiel RequestGroup für die Durchführung eines OCT mit dem Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSOptischeKohaerenztomographie)
@@ -177,7 +173,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Ganganalyse"
 Description: "Beispiel CarePlan für die Durchführung einer Ganganalyse mit dem Patienten (M0)"
-* contained = GanganalyseExampleRG
 * instantiatesCanonical = Canonical(Q4MSGanganalyse)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -186,7 +181,7 @@ Description: "Beispiel CarePlan für die Durchführung einer Ganganalyse mit dem
 
 Instance: GanganalyseExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Ganganalyse"
 Description: "Beispiel RequestGroup für die Durchführung einer Ganganalyse mit dem Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSGanganalyse)
@@ -217,7 +212,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Magnetresonanztomographie (MRT)"
 Description: "Beispiel CarePlan für die Durchführung einer MRT mit dem Patienten (M0)"
-* contained = MagnetresonanztomographieExampleRG
 * instantiatesCanonical = Canonical(Q4MSMagnetresonanztomographie)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -226,7 +220,7 @@ Description: "Beispiel CarePlan für die Durchführung einer MRT mit dem Patient
 
 Instance: MagnetresonanztomographieExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Magnetresonanztomographie (MRT)"
 Description: "Beispiel RequestGroup für die Durchführung einer MRT mit dem Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSMagnetresonanztomographie)

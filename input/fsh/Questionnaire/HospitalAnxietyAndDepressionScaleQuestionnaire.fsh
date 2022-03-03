@@ -5,7 +5,7 @@ Description: "Hostpital Anxiety and Depression Scale Questionnaire, deutsche Ver
 Usage: #definition
 * insert QuestionnaireMetadata
 * url = $q4ms-hads-questionnaire
-* name = "HADS-D"
+* name = "HADS"
 * title = "Hostpital Anxiety and Depression Scale Questionnaire, deutsche Version"
 * item[+].linkId = "HADS-D"
 * item[=].text = "Wir bitten Sie jede Frage zu beantworten, und zwar so, wie es für Sie persönlich in der 

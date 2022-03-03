@@ -14,9 +14,9 @@ Alias: $extension-questionnaire-choice-orientation = http://hl7.org/fhir/Structu
 Alias: $extension-questionnaire-item-control = http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl 
 Alias: $versicherungsart-de-basis = http://fhir.de/CodeSystem/versicherungsart-de-basis
 Alias: $ietf-bcp-47 = urn:ietf:bcp:47
-Alias: $ihe-xds-class-code = http://ihe-d.de/ValueSets/IHEXDSclassCode
-Alias: $ihe-xds-confidentiality-code = http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode
-Alias: $ihe-xds-type-code = http://ihe-d.de/ValueSets/IHEXDStypeCode
+Alias: $ihe-xds-class-code = http://ihe-d.de/CodeSystems/IHEXDSclassCode
+Alias: $ihe-xds-confidentiality-code = http://ihe-d.de/CodeSystems/IHEXDSconfidentialityCode
+Alias: $ihe-xds-type-code = http://ihe-d.de/CodeSystems/IHEXDStypeCode
 Alias: $item-type = http://hl7.org/fhir/item-type
 Alias: $loinc = http://loinc.org
 Alias: $map-context-type = http://hl7.org/fhir/map-context-type
@@ -103,7 +103,6 @@ Alias: $q4ms-sonstiges-dokument-sd = http://qpath4ms.ukdd.de/fhir/StructureDefin
 Alias: $q4ms-terminvereinbarung-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSTerminvereinbarungProfile
 
 // QPath4MS Pathway MessageDefinition Aliases
-Alias: $q4ms-arztbriefanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSArztbriefanfrage
 Alias: $q4ms-terminanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSTerminanfrage
 
 // QPath4MS StructureMap Definition Aliases

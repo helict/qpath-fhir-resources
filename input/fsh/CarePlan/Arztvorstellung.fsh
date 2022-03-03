@@ -3,7 +3,6 @@ InstanceOf: CarePlan
 Title: "Beispiel Arztvorstellung"
 Description: "Beispiel CarePlan für die Arztvorstellung eines Patienten (M0)"
 Usage: #example
-* contained = ArztvorstellungExampleRG
 * instantiatesCanonical = Canonical(Q4MSArztvorstellung)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -12,7 +11,7 @@ Usage: #example
 
 Instance: ArztvorstellungExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Arztvorstellung"
 Description: "Beispiel RequestGroup für die Arztvorstellung eines Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSArztvorstellung)
@@ -46,7 +45,6 @@ InstanceOf: CarePlan
 Title: "Beispiel Allgemeine und neurologische Untersuchung"
 Description: "Beispiel CarePlan für die Durchführung einer allgemeinen neurologischen Untersuchung mit dem Patienten (M0)"
 Usage: #example
-* contained = AllgemeineNeurologischeUntersuchungExampleRG
 * instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeUntersuchung)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -57,7 +55,7 @@ Instance: AllgemeineNeurologischeUntersuchungExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Allgemeine und neurologische Untersuchung"
 Description: "Beispiel RequestGroup für die Durchführung einer allgemeinen neurologischen Untersuchung mit dem Patienten (M0)"
-Usage: #inline
+Usage: #example
 * instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeUntersuchung)
 * status = $publication-status#draft
 * intent = $request-intent#plan
@@ -91,7 +89,6 @@ InstanceOf: CarePlan
 Title: "Beispiel Befundauswertung"
 Description: "Beispiel CarePlan für die Durchführung einer Befundauswertung mit dem Patienten (M0)"
 Usage: #example
-* contained = BefundauswertungExampleRG
 * instantiatesCanonical = Canonical(Q4MSBefundauswertung)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -102,7 +99,7 @@ Instance: BefundauswertungExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Befundauswertung"
 Description: "Beispiel RequestGroup für die Durchführung einer Befundauswertung mit dem Patienten (M0)"
-Usage: #inline
+Usage: #example
 * instantiatesCanonical = Canonical(Q4MSBefundauswertung)
 * status = $publication-status#draft
 * intent = $request-intent#plan
@@ -136,7 +133,6 @@ InstanceOf: CarePlan
 Title: "Beispiel Allgemeine und neurologische Anamnese"
 Description: "Beispiel CarePlan für die Durchführung einer allgemeinen und neurologischen Anamnese mit dem Patienten (M0)"
 Usage: #example
-* contained = AllgemeineNeurologischeAnamneseExampleRG
 * instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeAnamnese)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -147,7 +143,7 @@ Instance: AllgemeineNeurologischeAnamneseExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Allgemeine und neurologische Anamnese"
 Description: "Beispiel RequestGroup für die Durchführung einer allgemeinen und neurologischen Anamnese mit dem Patienten (M0)"
-Usage: #inline
+Usage: #example
 * instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeAnamnese)
 * status = $publication-status#draft
 * intent = $request-intent#plan
@@ -187,7 +183,6 @@ InstanceOf: CarePlan
 Title: "Beispiel Zusatzdiagnostik"
 Description: "Beispiel CarePlan für die Durchführung einer Zusatzdiagnostik mit dem Patienten (M0)"
 Usage: #example
-* contained = ZusatzdiagnostikExampleRG
 * instantiatesCanonical = Canonical(Q4MSZusatzdiagnostik)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -198,7 +193,7 @@ Instance: ZusatzdiagnostikExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Zusatzdiagnostik"
 Description: "Beispiel RequestGroup für die Durchführung einer Zusatzdiagnostik mit dem Patienten (M0)"
-Usage: #inline
+Usage: #example
 * instantiatesCanonical = Canonical(Q4MSZusatzdiagnostik)
 * status = $publication-status#draft
 * intent = $request-intent#plan
@@ -224,7 +219,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Laboruntersuchung"
 Description: "Beispiel CarePlan für die Durchführung einer Laboruntersuchung mit dem Patienten (M0)"
-* contained = LaboruntersuchungExampleRG
 * instantiatesCanonical = Canonical(Q4MSLaboruntersuchung)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -233,7 +227,7 @@ Description: "Beispiel CarePlan für die Durchführung einer Laboruntersuchung m
 
 Instance: LaboruntersuchungExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Laboruntersuchung"
 Description: "Beispiel RequestGroup für die Durchführung einer Laboruntersuchung mit dem Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSLaboruntersuchung)
@@ -264,7 +258,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Auswertung"
 Description: "Beispiel CarePlan für die Durchführung einer Auswertung mit dem Patienten (M0)"
-* contained = AuswertungExampleRG
 * instantiatesCanonical = Canonical(Q4MSAuswertung)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -273,7 +266,7 @@ Description: "Beispiel CarePlan für die Durchführung einer Auswertung mit dem 
 
 Instance: AuswertungExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Auswertung"
 Description: "Beispiel RequestGroup für die Durchführung einer Auswertung mit dem Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSAuswertung)

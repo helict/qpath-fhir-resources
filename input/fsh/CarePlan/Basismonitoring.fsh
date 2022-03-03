@@ -3,7 +3,6 @@ InstanceOf: CarePlan
 Usage: #example
   Title: "Beispiel Basismonitoring Patientenpfad"
   Description: "Beispiel CarePlan einer Basismonitoring-Patientenpfadinstanz bei Erstvorstellung (M0) von Patient John Doe nach Überweisung aus der ambulanten neurologischen Einrichtung"
-* contained = BasismonitoringExampleRG
 * instantiatesCanonical = Canonical(Q4MSBasismonitoring)
 * status = $publication-status#draft
 * intent = $request-intent#plan
@@ -12,7 +11,7 @@ Usage: #example
 
 Instance: BasismonitoringExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Basismonitoring Patientenpfad"
 Description: "Beispiel RequestGroup einer Basismonitoring-Patientenpfadinstanz (M0)"
 * instantiatesCanonical = Canonical(Q4MSBasismonitoring)

@@ -7,7 +7,7 @@ Usage: #definition
 * url = $q4ms-phq-questionnaire
 * name = "PHQ9"
 * title = "Patient Health Questionnaire"
-* code = $loinc#44249-1 "PHQ-9 quick depression assessment panel:-:Pt:^Patient:-:Report.PHQ-9"
+* code = $loinc#44249-1
 * item[+].linkId = "PHQ-9"
 * item[=].text = "Wie oft fühlten Sie sich im Verlauf der letzten 2 Wochen durch die folgenden Beschwerden beeinträchtigt?"
 * item[=].type = $item-type#group

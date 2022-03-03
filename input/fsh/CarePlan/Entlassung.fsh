@@ -3,7 +3,6 @@ InstanceOf: CarePlan
 Title: "Beispiel Entlassung"
 Description: "Beispiel CarePlan für die Entlassung eines Patienten (M0)"
 Usage: #example
-* contained = EntlassungExampleRG
 * instantiatesCanonical = Canonical(Q4MSEntlassung)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -12,7 +11,7 @@ Usage: #example
 
 Instance: EntlassungExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Entlassung"
 Description: "Beispiel RequestGroup für die Entlassung eines Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSEntlassung)
@@ -47,7 +46,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Dokumente an Patient übermitteln"
 Description: "Beispiel CarePlan für eine Dokumentenübermittlung an den Patienten abfragen (M0)"
-* contained = DokumenteUebermittelnPatientExampleRG
 * instantiatesCanonical = Canonical(Q4MSDokumenteUebermittelnPatient)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -58,7 +56,7 @@ Instance: DokumenteUebermittelnPatientExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Dokumente an Patient übermitteln"
 Description: "Beispiel RequestGroup für eine Dokumentenübermittlung an den Patienten abfragen (M0)"
-Usage: #inline
+Usage: #example
 * instantiatesCanonical = Canonical(Q4MSDokumenteUebermittelnPatient)
 * status = $publication-status#draft
 * intent = $request-intent#plan
@@ -91,7 +89,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Dokumente an Arzt übermitteln"
 Description: "Beispiel CarePlan für eine Dokumentenübermittlung an den Patienten abfragen (M0)"
-* contained = DokumenteUebermittelnArztExampleRG
 * instantiatesCanonical = Canonical(Q4MSDokumenteUebermittelnArzt)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -102,7 +99,7 @@ Instance: DokumenteUebermittelnArztExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Dokumente an Arzt übermitteln"
 Description: "Beispiel RequestGroup für eine Dokumentenübermittlung an den Patienten abfragen (M0)"
-Usage: #inline
+Usage: #example
 * instantiatesCanonical = Canonical(Q4MSDokumenteUebermittelnArzt)
 * status = $publication-status#draft
 * intent = $request-intent#plan

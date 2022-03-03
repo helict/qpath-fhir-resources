@@ -3,7 +3,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Erst- oder Wiedervorstellung"
 Description: "Beispiel CarePlan zur Erstvorstellung eines Patienten (M0)"
-* contained = VorstellungExampleRG
 * instantiatesCanonical = Canonical(Q4MSVorstellung)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -12,7 +11,7 @@ Description: "Beispiel CarePlan zur Erstvorstellung eines Patienten (M0)"
 
 Instance: VorstellungExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Erstvorstellung"
 Description: "Beispiel RequestGroup zur Erstvorstellung eines Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSVorstellung)
@@ -36,7 +35,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Terminvereinbarung"
 Description: "Beispiel CarePlan zur Terminvereinbarung mit einem Patienten (M0)"
-* contained = TerminvereinbarungExampleRG
 * instantiatesCanonical = Canonical(Q4MSTerminvereinbarung)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -45,7 +43,7 @@ Description: "Beispiel CarePlan zur Terminvereinbarung mit einem Patienten (M0)"
 
 Instance: TerminvereinbarungExampleRG
 InstanceOf: RequestGroup
-Usage: #inline
+Usage: #example
 Title: "Beispiel Terminvereinbarung"
 Description: "Beispiel Appointment zur Terminvereinbarung mit einem Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSTerminvereinbarung)
@@ -81,7 +79,6 @@ InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Dokumente abfragen"
 Description: "Beispiel CarePlan für eine Dokumentenabfrage beim Patienten abfragen (M0)"
-* contained = DokumenteAbfragenPatientExampleRG
 * instantiatesCanonical = Canonical(Q4MSDokumenteAbfragenPatient)
 * status = $publication-status#draft
 * intent = $request-intent#option
@@ -92,32 +89,10 @@ Instance: DokumenteAbfragenPatientExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Dokumente abfragen"
 Description: "Beispiel RequestGroup für eine Dokumentenabfrage beim Patienten abfragen (M0)"
-Usage: #inline
+Usage: #example
 * instantiatesCanonical = Canonical(Q4MSDokumenteAbfragenPatient)
 * status = $publication-status#draft
 * intent = $request-intent#plan
 * subject = Reference(PatientJohnDoe)
 * action.title = "Dokumente abfragen"
-* action.resource = Reference(DokumenteAbfragenPatientExampleTSK)
-
-Instance: DokumenteAbfragenPatientExampleTSK
-InstanceOf: Task
-Usage: #example
-Title: "Beispiel Dokumente abfragen"
-Description: "Beispiel Task für eine Dokumentenabfrage beim Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSDokumenteAbfragenAD)
-* status = $task-status#ready
-* intent = $request-intent#option
-* code = $task-code#approve
-* focus = Reference(DokumenteAbfragenPatientExampleCP)
-* description = "Dokumente abfragen"
-* executionPeriod.start = "2022-01-12T12:00:00Z"
-* executionPeriod.end = "2022-01-15T00:00:00Z"
-* authoredOn = "2022-01-12T12:00:00Z"
-* restriction.period.start = "2022-01-12T12:00:00Z"
-* restriction.period.end = "2022-01-21T00:00:00Z"
-* restriction.recipient = Reference(PatientJohnDoe)
-//* input.type = $q4ms-dokumentanforderungkategorie#doctor-letter
-//* input.valueReference = Reference(Q4MSArztbriefanfrage)
-//* output.type = $q4ms-dokumentanforderungkategorie#doctor-letter
-//* output.valueReference = Reference(ArztbriefExample)
+* action.resource = Reference(DokumenteAbfragenPatientTaskExample)
