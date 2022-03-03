@@ -2,6 +2,7 @@
 Alias: $action-type = http://terminology.hl7.org/CodeSystem/action-type
 Alias: $activitydefinition-sd = http://hl7.org/fhir/StructureDefinition/activitydefinition
 Alias: $appointment-status = http://hl7.org/fhir/appointmentstatus
+Alias: $bundle-type = http://hl7.org/fhir/bundle-type
 Alias: $codesystem-content-mode = http://hl7.org/fhir/codesystem-content-mode
 Alias: $composition-status = http://hl7.org/fhir/composition-status
 Alias: $document-reference-status = http://hl7.org/fhir/document-reference-status
@@ -103,6 +104,7 @@ Alias: $q4ms-sonstiges-dokument-sd = http://qpath4ms.ukdd.de/fhir/StructureDefin
 Alias: $q4ms-terminvereinbarung-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSTerminvereinbarungProfile
 
 // QPath4MS Pathway MessageDefinition Aliases
+Alias: $q4ms-fragebogenanforderung-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSFragebogenanforderungMD
 Alias: $q4ms-terminanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSTerminanfrage
 
 // QPath4MS StructureMap Definition Aliases

@@ -88,6 +88,18 @@ menu:
     Patient Health Questionnaire (PHQ-9): Questionnaire-PatientHealthQuestionnaire.html
     Twelve Item MS Walking Scale (MSWS-12): Questionnaire-TwelveItemMultipleSclerosisWalkingScaleQuestionnaire.html
     United Kingdom Neurological Disability Rating Scale Questionnaire (UNDS): Questionnaire-UnitedKingdomNeurologicalDisabilityRatingScaleQuestionnaire.html
+  Use Case Example:
+    PlanDefinition - Dokumente beim Patient abfragen: PlanDefinition-Q4MSDokumenteAbfragenPatient.html
+    ActivityDefinition - Dokumente abfragen: ActivityDefinition-Q4MSDokumenteAbfragenAD.html
+    MessageDefinition - Fragebogenanforderung: MessageDefinition-Q4MSFragebogenanforderungMD.html
+    CarePlan - Beispiel Dokumente abfragen: CarePlan-DokumenteAbfragenPatientExampleCP.html
+    RequestGroup - Dokumente abfragen: RequestGroup-DokumenteAbfragenPatientExampleRG.html
+    Task - Dokumente abfragen: Task-DokumenteAbfragenPatientTaskExample.html
+    Sub-Task - EMIQ Fragebogen ausfüllen: Task-EMIQFragebogenanforderungTaskExample.html
+    Bundle - Fragebogenanforderung Message: Bundle-FragebogenanforderungMessageExample.html
+    MessageHeader - Fragebogenanforderung: MessageHeader-FragebogenanforderungMessageHeaderExample.html
+    Questionnaire EMIQ: Questionnaire-ExerciseMentalIllnessQuestionnaire.html
+    QuestionnaireResponse EMIQ: QuestionnaireResponse-ExerciseMentalIllnessQuestionnaireResponseExample.html
   Artifacts:
     Message Definitions: artifacts.html#1
     Questionnaires: artifacts.html#2
