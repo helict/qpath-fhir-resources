@@ -12,8 +12,8 @@ Usage: #definition
 * action[=].title = "Terminvereinbarung"
 * action[=].description = "Termin zur Vorstellung vereinbaren"
 * action[=].definitionCanonical = Canonical(Q4MSTerminvereinbarung)
-* action[+].title = "Dokumente abfragen"
-* action[=].description = "Dokumente beim Patienten abfragen"
+* action[+].title = "Dokumente anfragen"
+* action[=].description = "Dokumente beim Patienten anfragen"
 * action[=].relatedAction.actionId = "appointment"
 * action[=].relatedAction.relationship = #after-end
-* action[=].definitionCanonical = Canonical(Q4MSDokumenteAbfragenPatient)
+* action[=].definitionCanonical = Canonical(Q4MSDokumenteAnfragenPatient)

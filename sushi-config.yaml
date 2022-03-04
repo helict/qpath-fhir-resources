@@ -34,7 +34,6 @@ dependencies:
   hl7.fhir.uv.sdc: 3.0.0-preview
   de.basisprofil.r4: 1.3.0-alpha1
 
-
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in
 # this file, it is assumed that the author will fully manage the
@@ -88,18 +87,6 @@ menu:
     Patient Health Questionnaire (PHQ-9): Questionnaire-PatientHealthQuestionnaire.html
     Twelve Item MS Walking Scale (MSWS-12): Questionnaire-TwelveItemMultipleSclerosisWalkingScaleQuestionnaire.html
     United Kingdom Neurological Disability Rating Scale Questionnaire (UNDS): Questionnaire-UnitedKingdomNeurologicalDisabilityRatingScaleQuestionnaire.html
-  Use Case Example:
-    PlanDefinition - Dokumente beim Patient abfragen: PlanDefinition-Q4MSDokumenteAbfragenPatient.html
-    ActivityDefinition - Dokumente abfragen: ActivityDefinition-Q4MSDokumenteAbfragenAD.html
-    MessageDefinition - Fragebogenanforderung: MessageDefinition-Q4MSFragebogenanforderungMD.html
-    CarePlan - Beispiel Dokumente abfragen: CarePlan-DokumenteAbfragenPatientExampleCP.html
-    RequestGroup - Dokumente abfragen: RequestGroup-DokumenteAbfragenPatientExampleRG.html
-    Task - Dokumente abfragen: Task-DokumenteAbfragenPatientTaskExample.html
-    Sub-Task - EMIQ Fragebogen ausfüllen: Task-EMIQFragebogenanforderungTaskExample.html
-    Bundle - Fragebogenanforderung Message: Bundle-FragebogenanforderungMessageExample.html
-    MessageHeader - Fragebogenanforderung: MessageHeader-FragebogenanforderungMessageHeaderExample.html
-    Questionnaire EMIQ: Questionnaire-ExerciseMentalIllnessQuestionnaire.html
-    QuestionnaireResponse EMIQ: QuestionnaireResponse-ExerciseMentalIllnessQuestionnaireResponseExample.html
   Artifacts:
     Message Definitions: artifacts.html#1
     Questionnaires: artifacts.html#2
@@ -123,6 +110,11 @@ menu:
 # ContactDetail.
 #
 contact:
+  - name: Marcel Susky
+    telecom:
+      - system: email # phone | fax | email | pager | url | sms | other
+        value: marcel.susky@tu-dresden.de
+        use: work
   - name: Martin Burwitz
     telecom:
       - system: email # phone | fax | email | pager | url | sms | other
@@ -132,11 +124,6 @@ contact:
     telecom:
       - system: email # phone | fax | email | pager | url | sms | other
         value: harry.preiss@medicalsyn.com
-        use: work
-  - name: Marcel Susky
-    telecom:
-      - system: email # phone | fax | email | pager | url | sms | other
-        value: marcel.susky@tu-dresden.de
         use: work
 #
 #
@@ -196,7 +183,6 @@ contact:
 #     resources:
 #     - StructureDefinition/bark-control
 #     - StructureDefinition/bee-sting
-#
 #
 # The ImplementationGuide resource defines several other properties
 # not represented above. These properties can be used as-is and

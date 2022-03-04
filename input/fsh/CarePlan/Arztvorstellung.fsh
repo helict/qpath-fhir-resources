@@ -121,9 +121,9 @@ Description: "Beispiel Task für die Durchführung einer Befundauswertung mit de
 * executionPeriod.end = "2022-01-15T00:00:00Z"
 * authoredOn = "2022-01-12T12:00:00Z"
 * performerType = $snomed-ct#56397003
-//* input[0].type = $q4ms-dokumentanforderungkategorie#finding
+//* input[0].type = $q4ms-dokumentarten#finding
 //* input[=].valueDocumentReference = Reference(Q4MSBefundProfile)
-//* input[+].type = $q4ms-dokumentanforderungkategorie#laboratory-result
+//* input[+].type = $q4ms-dokumentarten#laboratory-result
 //* input[=].valueDocumentReference = Reference(Q4MSLaborergebnisProfile)
 
 // Arztvorstellung -> Allgemeine und neurologische Anamnese
@@ -165,11 +165,11 @@ Description: "Beispiel Task für die Durchführung einer allgemeinenen und neuro
 * executionPeriod.end = "2022-01-15T00:00:00Z"
 * authoredOn = "2022-01-12T12:00:00Z"
 * performerType = $snomed-ct#56397003
-//* input[0].type = $q4ms-dokumentanforderungkategorie#doctor-letter
+//* input[0].type = $q4ms-dokumentarten#doctor-letter
 //* input[=].valueDocumentReference = Reference(Q4MSArztbriefProfile)
-//* input[+].type = $q4ms-dokumentanforderungkategorie#consiliary-report
+//* input[+].type = $q4ms-dokumentarten#consiliary-report
 //* input[=].valueDocumentReference = Reference(Q4MSKonsiliarberichtProfile)
-//* input[+].type = $q4ms-dokumentanforderungkategorie#other
+//* input[+].type = $q4ms-dokumentarten#other
 //* input[=].valueDocumentReference = Reference(Q4MSSonsigesDokumentProfile)
 
 // Arztvorstellung -> Therapiespezifische Diagnostik (see Voruntersuchung -> Therapiespezifische Diagnostik)
@@ -308,7 +308,7 @@ Description: "Beispiel Task für die Durchführung einer Auswertung mit dem Pati
 * restriction.period.start = "2022-01-12T12:00:00Z"
 * restriction.period.end = "2022-01-21T00:00:00Z"
 * restriction.recipient = Reference(PatientJohnDoe)
-//* input.type = $q4ms-dokumentanforderungkategorie#other     // Patiententagebuch
+//* input.type = $q4ms-dokumentarten#other     // Patiententagebuch
 //* input.valueReference = Reference(Q4MSSonstigesDokumentProfile)
-//* output.type = $q4ms-dokumentanforderungkategorie#other    // Anweisungen (z.B. Sonder-Zusatzdiagnostik)
+//* output.type = $q4ms-dokumentarten#other    // Anweisungen (z.B. Sonder-Zusatzdiagnostik)
 //* output.valueReference = Reference(Q4MSSonstigesDokumentProfile)

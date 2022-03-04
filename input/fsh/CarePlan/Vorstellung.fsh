@@ -22,11 +22,11 @@ Description: "Beispiel RequestGroup zur Erstvorstellung eines Patienten (M0)"
 * action[=].title = "Terminvereinbarung"
 * action[=].description = "Termin zur Vorstellung vereinbaren"
 * action[=].resource = Reference(TerminvereinbarungExampleCP)
-* action[+].title = "Dokumente abfragen"
-* action[=].description = "Dokumente beim Patienten abfragen"
+* action[+].title = "Dokumente anfragen"
+* action[=].description = "Dokumente beim Patienten anfragen"
 * action[=].relatedAction.actionId = "appointment"
 * action[=].relatedAction.relationship = #after-end
-* action[=].resource = Reference(DokumenteAbfragenPatientExampleCP)
+* action[=].resource = Reference(DokumenteAnfragenPatientExampleCP)
 
 // Vorstellung -> Terminvereinbarung 
 
@@ -72,27 +72,27 @@ Description: "Beispiel Appointment mit einem Terminvorschlag für einen Patiente
 * participant.period.start = "2022-01-17T00:00:00Z"
 * participant.period.end = "2022-01-21T00:00:00Z"
 
-// Vorstellung -> DokumenteAbfragenPatient
+// Vorstellung -> DokumenteAnfragenPatient
 
-Instance: DokumenteAbfragenPatientExampleCP
+Instance: DokumenteAnfragenPatientExampleCP
 InstanceOf: CarePlan
 Usage: #example
-Title: "Beispiel Dokumente abfragen"
-Description: "Beispiel CarePlan für eine Dokumentenabfrage beim Patienten abfragen (M0)"
-* instantiatesCanonical = Canonical(Q4MSDokumenteAbfragenPatient)
+Title: "Beispiel CarePlan Dokumente anfragen"
+Description: "Beispiel CarePlan für eine Dokumentenanfrage beim Patienten (M0)"
+* instantiatesCanonical = Canonical(Q4MSDokumenteAnfragenPatient)
 * status = $publication-status#draft
 * intent = $request-intent#option
 * subject = Reference(PatientJohnDoe)
-* activity.reference = Reference(DokumenteAbfragenPatientExampleRG)
+* activity.reference = Reference(DokumenteAnfragenPatientExampleRG)
 
-Instance: DokumenteAbfragenPatientExampleRG
+Instance: DokumenteAnfragenPatientExampleRG
 InstanceOf: RequestGroup
-Title: "Beispiel Dokumente abfragen"
-Description: "Beispiel RequestGroup für eine Dokumentenabfrage beim Patienten abfragen (M0)"
+Title: "Beispiel RequestGroup Dokumente anfragen"
+Description: "Beispiel RequestGroup für eine Dokumentenanfrage beim Patienten (M0)"
 Usage: #example
-* instantiatesCanonical = Canonical(Q4MSDokumenteAbfragenPatient)
+* instantiatesCanonical = Canonical(Q4MSDokumenteAnfragenPatient)
 * status = $publication-status#draft
 * intent = $request-intent#plan
 * subject = Reference(PatientJohnDoe)
-* action.title = "Dokumente abfragen"
-* action.resource = Reference(DokumenteAbfragenPatientTaskExample)
+* action.title = "Dokumente anfragen"
+* action.resource = Reference(DokumenteAnfragenPatientExampleTK)

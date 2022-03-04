@@ -1,8 +1,8 @@
 Instance: ExerciseMentalIllnessQuestionnaireResponseExample
 InstanceOf: QuestionnaireResponse
 Usage: #example
-Title: "Beispiel EMIQ Antwortbogen"
-Description: "Beispiel eines Exercise Mental Illness Questionnaire (EMIQ) Antwortbogens"
+Title: "Beispiel QuestionnaireResponse EMIQ Antwortbogen"
+Description: "Beispiel QuestionnaireResponse eines Exercise Mental Illness Questionnaire (EMIQ) Antwortbogens"
 * language = $ietf-bcp-47#de-DE
 * questionnaire = Canonical(ExerciseMentalIllnessQuestionnaire)
 * status = $questionnaire-answers-status#completed
