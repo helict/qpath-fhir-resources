@@ -12,6 +12,7 @@ Alias: $extension-calculated-expression = http://hl7.org/fhir/uv/sdc/StructureDe
 Alias: $extension-ordinal-value = http://hl7.org/fhir/StructureDefinition/ordinalValue
 Alias: $extension-questionnaire-hidden = http://hl7.org/fhir/StructureDefinition/questionnaire-hidden
 Alias: $extension-questionnaire-choice-orientation = http://hl7.org/fhir/StructureDefinition/questionnaire-choiceOrientation
+Alias: $extension-questionnaire-hidden = http://hl7.org/fhir/StructureDefinition/questionnaire-hidden
 Alias: $extension-questionnaire-item-control = http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl 
 Alias: $versicherungsart-de-basis = http://fhir.de/CodeSystem/versicherungsart-de-basis
 Alias: $ietf-bcp-47 = urn:ietf:bcp:47

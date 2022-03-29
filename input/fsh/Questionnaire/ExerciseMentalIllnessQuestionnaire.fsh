@@ -69,13 +69,15 @@ Usage: #definition
 * insert ExerciseMentalIllnessQuestionnaireCommonItemParts
 
 * item[+].linkId = "EMIQ.Score"
-* item[=].text = "The Exercise Mental Illness Questionnaire (EMIQ) Score"
+* item[=].text = "Gesamtwertung"
 * item[=].type = $item-type#decimal
-* item[=].required = true
+* item[=].required = false
 * item[=].repeats = false
 * item[=].readOnly = true
-* item[=].extension.url = $extension-calculated-expression
-* item[=].extension.valueExpression.description = "Score von 0 (keine Gehschwäche) bis 100 (schwere Gehschwäche)"
-* item[=].extension.valueExpression.name = "Score"
-* item[=].extension.valueExpression.language = $expression-language#text/fhirpath
-* item[=].extension.valueExpression.expression = "%resource.repeat(item).where(linkId='EMIQ').item.answer.extension.where(url.contains('ordinalValue')).valueDecimal.avg() * 100 / 3"
+* item[=].extension[+].url = $extension-calculated-expression
+* item[=].extension[=].valueExpression.description = "Score von 0 (keine Gehschwäche) bis 100 (schwere Gehschwäche)"
+* item[=].extension[=].valueExpression.name = "Score"
+* item[=].extension[=].valueExpression.language = $expression-language#text/fhirpath
+* item[=].extension[=].valueExpression.expression = "%resource.repeat(item).where(linkId='EMIQ').item.answer.extension.where(url.contains('ordinalValue')).valueDecimal.avg() * 100 / 3"
+* item[=].extension[+].url = $extension-questionnaire-hidden
+* item[=].extension[=].valueBoolean = true
