@@ -3,4 +3,5 @@ Title: "Nachrichtenereignis"
 Description: "Deklariert Nachrichtenereignisse"
 * insert CodeSystemMetadata
 * ^url = $q4ms-nachrichtenereignisse
-* #document-request "Dokumentenanfrage"  "Anfrage zur Bereitstellung von einem oder mehreren Dokumenten"
+* #check-in-request   "Check-In-Anfrage"  "Anfrage zum Check-In eines Patienten"
+* #check-in-response  "Check-In-Antwort"  "Antwort auf eine Anfrage zum Check-In eines Patienten"

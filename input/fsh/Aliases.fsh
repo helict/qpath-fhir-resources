@@ -20,6 +20,9 @@ Alias: $ihe-xds-class-code = http://ihe-d.de/CodeSystems/IHEXDSclassCode
 Alias: $ihe-xds-confidentiality-code = http://ihe-d.de/CodeSystems/IHEXDSconfidentialityCode
 Alias: $ihe-xds-type-code = http://ihe-d.de/CodeSystems/IHEXDStypeCode
 Alias: $item-type = http://hl7.org/fhir/item-type
+Alias: $list-example-use-codes = http://terminology.hl7.org/CodeSystem/list-example-use-codes
+Alias: $list-mode = http://hl7.org/fhir/list-mode
+Alias: $list-status = http://hl7.org/fhir/list-status
 Alias: $loinc = http://loinc.org
 Alias: $map-context-type = http://hl7.org/fhir/map-context-type
 Alias: $map-group-type-mode = http://hl7.org/fhir/map-group-type-mode
@@ -28,6 +31,8 @@ Alias: $map-model-mode = http://hl7.org/fhir/map-model-mode
 Alias: $map-transform = http://hl7.org/fhir/map-transform
 Alias: $message-significance-category = http://hl7.org/fhir/message-significance-category
 Alias: $messageheader-response-request = http://hl7.org/fhir/messageheader-response-request
+Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $observation-status = http://hl7.org/fhir/observation-status
 Alias: $participant-required = http://hl7.org/fhir/participantrequired
 Alias: $participation-status = http://hl7.org/fhir/participationstatus
 Alias: $plan-definition-type = http://terminology.hl7.org/CodeSystem/plan-definition-type
@@ -65,10 +70,8 @@ Alias: $q4ms-arztvorstellung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSA
 Alias: $q4ms-auswertung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSAuswertung
 Alias: $q4ms-basismonitoring = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBasismonitoring
 Alias: $q4ms-befundauswertung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSBefundauswertung
-Alias: $q4ms-dokumente-anfragen-patient = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteAnfragenPatient
-Alias: $q4ms-dokumente-uebermitteln-arzt = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteUebermittelnArzt
-Alias: $q4ms-dokumente-uebermitteln-patient = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSDokumenteUebermittelnPatient
-Alias: $q4ms-entlassung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSEntlassung
+Alias: $q4ms-check-in = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSCheckIn
+Alias: $q4ms-check-out = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSCheckOut
 Alias: $q4ms-ganganalyse = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSGanganalyse
 Alias: $q4ms-laboruntersuchung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSLaboruntersuchung
 Alias: $q4ms-magnetresonanztomographie = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSMagnetresonanztomographie
@@ -76,16 +79,15 @@ Alias: $q4ms-multiple-sclerosis-performance-test = http://qpath4ms.ukdd.de/fhir/
 Alias: $q4ms-optische-koheraenztomographie = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSOptischeKohaerenztomographie
 Alias: $q4ms-terminvereinbarung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTerminvereinbarung
 Alias: $q4ms-therapiespezifische-diagnostik = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSTherapiespezifischeDiagnostik
-Alias: $q4ms-vorstellung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVorstellung
-Alias: $q4ms-voruntersuchung = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchung
+Alias: $q4ms-voruntersuchungen = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSVoruntersuchungen
 Alias: $q4ms-zusatzdiagnostik = http://qpath4ms.ukdd.de/fhir/PlanDefinition/Q4MSZusatzdiagnostik
 
 // QPath4MS Pathway ActivityDefinition Aliases
 Alias: $q4ms-allgemeine-neurologische-anamnese-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAllgemeineNeurologischeAnamneseAD
 Alias: $q4ms-auswertung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSAuswertungAD
 Alias: $q4ms-befundauswertung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSBefundauswertungAD
-Alias: $q4ms-dokumente-anfragen-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteAnfragenAD
-Alias: $q4ms-dokumente-uebermitteln-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSDokumenteUebermittelnAD
+Alias: $q4ms-check-in-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSCheckInAD
+Alias: $q4ms-check-out-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSCheckOutAD
 Alias: $q4ms-expanded-disability-status-scale-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSExpandedDisabilityStatusScaleAD
 Alias: $q4ms-ganganalyse-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSGanganalyseAD
 Alias: $q4ms-laboruntersuchung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSLaboruntersuchungAD
@@ -95,24 +97,30 @@ Alias: $q4ms-optische-kohaerenztomographie-ad = http://qpath4ms.ukdd.de/fhir/Act
 Alias: $q4ms-terminvereinbarung-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSTerminvereinbarungAD
 Alias: $q4ms-therapiespezifische-diagnostik-ad = http://qpath4ms.ukdd.de/fhir/ActivityDefinition/Q4MSTherapiespezifischeDiagnostikAD
 
-// QPath4MS Pathway Profile Aliases
+// QPath4MS Profile Aliases
 Alias: $q4ms-arztbrief-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSArztbriefProfile
 Alias: $q4ms-befund-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSBefundProfile
+Alias: $q4ms-check-in-nachricht-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSCheckInNachrichtProfile
+Alias: $q4ms-check-in-nachricht-header-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSCheckInNachrichtHeaderProfile
 Alias: $q4ms-dokument-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSDokumentProfile
-Alias: $q4ms-dokumentenanfrage-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSDokumentenanfrageProfile
 Alias: $q4ms-konsiliarbericht-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSKonsiliarberichtProfile
 Alias: $q4ms-laborergebnis-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSLaborergebnisProfile
+Alias: $q4ms-patient-anliegen-erfassen-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSPatientAnliegenErfassenProfile
+Alias: $q4ms-patient-anliegen-eintrag-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSPatientAnliegenEintragProfile
+Alias: $q4ms-patient-anliegen-liste-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSPatientAnliegenListeProfile
+Alias: $q4ms-patient-check-in-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSPatientCheckInProfile
+Alias: $q4ms-patient-dokumente-bereitstellen-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSPatientDokumenteBereitstellenProfile
+Alias: $q4ms-patient-frageboegen-ausfuellen-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSPatientFrageboegenAusfuellenProfile
+Alias: $q4ms-patient-medikation-aktualisieren-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSPatientMedikationAktualisierenProfile
+Alias: $q4ms-patient-medikation-liste-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSPatientMedikationListeProfile
 Alias: $q4ms-rezept-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSRezeptProfile
 Alias: $q4ms-sonstiges-dokument-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSSonstigesDokumentProfile
 Alias: $q4ms-terminvereinbarung-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSTerminvereinbarungProfile
 
 // QPath4MS Pathway MessageDefinition Aliases
-Alias: $q4ms-dokumente-anfragen-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSDokumenteAnfragenMD
-Alias: $q4ms-dokumente-anfragen-antwort-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSDokumenteAnfragenMD
+Alias: $q4ms-check-in-anfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSCheckInAnfrageMD
+Alias: $q4ms-check-in-antwort-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSCheckInAntwortMD
 Alias: $q4ms-terminanfrage-md = http://qpath4ms.ukdd.de/fhir/MessageDefinition/Q4MSTerminanfrage
-
-// QPath4MS StructureMap Definition Aliases
-Alias: $q4ms-activitydefinition-task-transform = http://qpath4ms.ukdd.de/fhir/StructureMap/Q4MSActivityDefinitionTaskTransform
 
 // QPath4MS Questionnaires and Answer Lists
 Alias: $q4ms-emiq-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/ExerciseMentalIllnessQuestionnaire

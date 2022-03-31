@@ -29,9 +29,9 @@ Description: "Beispiel RequestGroup für die Arztvorstellung eines Patienten (M0
 * action[=].action[=].resource = Reference(BefundauswertungExampleCP)
 * action[=].action[+].title = "Allgemeine und neurologische Anamnese"
 * action[=].action[=].resource = Reference(AllgemeineNeurologischeAnamneseExampleCP)
-* action[=].action[+].title = "Therapiespezifische Diagnostik"   // TODO: Check with professionals
+* action[=].action[+].title = "Therapiespezifische Diagnostik"
 * action[=].action[=].resource = Reference(TherapiespezifischeDiagnostikExampleCP)
-* action[=].action[+].title = "Zusatzdiagnostik"  // TODO: Check with professionals
+* action[=].action[+].title = "Zusatzdiagnostik"
 * action[=].action[=].resource = Reference(ZusatzdiagnostikExampleCP)
 * action[+].title = "Auswertung"
 * action[=].relatedAction.actionId = "examination"
@@ -73,11 +73,11 @@ Description: "Beispiel Task für die Durchführung einer allgemeinen und neurolo
 * intent = $request-intent#option
 * code = $task-code#approve
 * description = "Expanded Disability Status Scale (EDSS)"
-* executionPeriod.start = "2022-01-12T12:00:00Z"
-* executionPeriod.end = "2022-01-15T00:00:00Z"
-* authoredOn = "2022-01-12T12:00:00Z"
+* executionPeriod.start = "2021-08-16T10:30:00Z"
+* executionPeriod.end = "2021-08-16T16:00:00Z"
+* authoredOn = "2021-08-16T10:30:00Z"
 * performerType = $snomed-ct#56397003
-* restriction.period.start = "2022-01-12T12:00:00Z"
+* restriction.period.start = "2021-08-16T10:30:00Z"
 * restriction.period.end = "2022-01-21T00:00:00Z"
 * restriction.recipient = Reference(PatientJohnDoe)
 // Input: EDSS Questionnaire
@@ -117,9 +117,9 @@ Description: "Beispiel Task für die Durchführung einer Befundauswertung mit de
 * intent = $request-intent#option
 * code = $task-code#approve
 * description = "Befundauswertung"
-* executionPeriod.start = "2022-01-12T12:00:00Z"
-* executionPeriod.end = "2022-01-15T00:00:00Z"
-* authoredOn = "2022-01-12T12:00:00Z"
+* executionPeriod.start = "2021-08-16T10:30:00Z"
+* executionPeriod.end = "2021-08-16T16:00:00Z"
+* authoredOn = "2021-08-16T10:30:00Z"
 * performerType = $snomed-ct#56397003
 //* input[0].type = $q4ms-dokumentarten#finding
 //* input[=].valueDocumentReference = Reference(Q4MSBefundProfile)
@@ -161,9 +161,9 @@ Description: "Beispiel Task für die Durchführung einer allgemeinenen und neuro
 * intent = $request-intent#option
 * code = $task-code#approve
 * description = "Allgemeine und neurologische Anamnese"
-* executionPeriod.start = "2022-01-12T12:00:00Z"
-* executionPeriod.end = "2022-01-15T00:00:00Z"
-* authoredOn = "2022-01-12T12:00:00Z"
+* executionPeriod.start = "2021-08-16T10:30:00Z"
+* executionPeriod.end = "2021-08-16T16:00:00Z"
+* authoredOn = "2021-08-16T10:30:00Z"
 * performerType = $snomed-ct#56397003
 //* input[0].type = $q4ms-dokumentarten#doctor-letter
 //* input[=].valueDocumentReference = Reference(Q4MSArztbriefProfile)
@@ -247,7 +247,7 @@ Description: "Beispiel ServiceRequest für die Durchführung einer Laboruntersuc
 * intent = $request-intent#plan
 * doNotPerform = false
 * subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2022-01-12T12:00:00Z"
+* occurrencePeriod.start = "2021-08-16T10:30:00Z"
 * occurrencePeriod.end = "2022-01-21T00:00:00Z"
 * locationCode = $v3-role-code#HLAB
 
@@ -286,7 +286,7 @@ Description: "Beispiel ServiceRequest für die Durchführung einer Auswertung mi
 * intent = $request-intent#plan
 * doNotPerform = false
 * subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2022-01-12T12:00:00Z"
+* occurrencePeriod.start = "2021-08-16T10:30:00Z"
 * occurrencePeriod.end = "2022-01-21T00:00:00Z"
 * locationCode = $v3-role-code#NEUR
 
@@ -301,11 +301,11 @@ Description: "Beispiel Task für die Durchführung einer Auswertung mit dem Pati
 * code = $task-code#approve
 * focus = Reference(AuswertungExampleCP)
 * description = "Auswertung"
-* executionPeriod.start = "2022-01-12T12:00:00Z"
-* executionPeriod.end = "2022-01-15T00:00:00Z"
-* authoredOn = "2022-01-12T12:00:00Z"
+* executionPeriod.start = "2021-08-16T10:30:00Z"
+* executionPeriod.end = "2021-08-16T16:00:00Z"
+* authoredOn = "2021-08-16T10:30:00Z"
 * performerType = $snomed-ct#56397003
-* restriction.period.start = "2022-01-12T12:00:00Z"
+* restriction.period.start = "2021-08-16T10:30:00Z"
 * restriction.period.end = "2022-01-21T00:00:00Z"
 * restriction.recipient = Reference(PatientJohnDoe)
 //* input.type = $q4ms-dokumentarten#other     // Patiententagebuch

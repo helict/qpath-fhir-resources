@@ -1,19 +1,19 @@
 # QPath4MS IG
 
-## Basismonitoring-Prozess
+## Basismonitoringpfad
 
-TBD
+![Basismonitoringpfad](Basismonitoringpfad.png)
 
 ## Beispiel Anwendungsfälle
 
-### Fragebogen ausfüllen
+### Check-In zum ersten Besuch im Multiple Sklerose-Zentrum (vereinfacht)
 
 #### Beschreibung
 
-Eine Patientin hat im Multiple Sklerose-Zentrum (MSZ) einen Termin zur Vorstellung im Rahmen des kontinuierlichen Monitorings vereinbart.
-In Vorbereitung auf den Besuch im MSZ soll die Patientin einen den EMIQ-Fragebogen ausfüllen und die Antworten bereitstellen, um beim
-Besuch im MSZ möglichst wenig Zeit mit vorbereitenden Tätigkeiten zu verbringen. Die Bereitstellung des Fragebogens sowie die Übermittlung
-der Antworten soll digital vollzogen werden.
+Eine Patientin hat mit dem Multiple Sklerose-Zentrum (MSZ) ihren ersten Besuchstermin im Rahmen des kontinuierlichen Monitorings vereinbart.
+In Vorbereitung auf den Besuch im MSZ soll die Patientin den EMIQ-Fragebogen ausfüllen und die Antworten bereitstellen, um beim Besuch im MSZ
+möglichst wenig Zeit mit vorbereitenden oder administrativen Tätigkeiten zu verbringen. Die Bereitstellung des Fragebogens sowie die
+Übermittlung der Antworten soll digital durchgeführt werden.
 
 #### FHIR Ressourcen
 
@@ -21,29 +21,29 @@ der Antworten soll digital vollzogen werden.
 
 | FHIR Ressource | [Workflow](https://www.hl7.org/fhir/workflow.html)-Ressourcenkategorie | Beschreibung |
 |:-|:-|:-|
-|[PlanDefinition](PlanDefinition-Q4MSDokumenteAnfragenPatient.html)|Definition|Definition der geplante Anfrage von Dokumenten bei Patientin|
-|[ActivityDefinition](ActivityDefinition-Q4MSDokumenteAnfragenAD.html)|Definition|Definition der einzelnen Schritte zur Anfrage von Dokumenten bei Patientin|
-|[CarePlan](CarePlan-DokumenteAnfragenPatientExampleCP.html)|Request|Konkrete Instanz einer Anfrage von Dokumenten bei Patientin|
-|[RequestGroup](RequestGroup-DokumenteAnfragenPatientExampleRG.html)|Request|Konkrete Schritte zur Anfrage von Dokumenten bei Patientin|
+|[PlanDefinition](PlanDefinition-Q4MSCheckIn.html)|Definition|Definition des geplanten Check-Ins der Patientin|
+|[ActivityDefinition](ActivityDefinition-Q4MSCheckInAD.html)|Definition|Definition der einzelnen Schritte zum Check-In der Patientin|
+|[CarePlan](CarePlan-CheckInExampleCP.html)|Request|Konkrete Instanz des Check-Ins der Patientin|
+|[RequestGroup](RequestGroup-CheckInExampleRG.html)|Request|Konkrete Schritte zum Check-In der Patientin|
 
 ##### Anfrage (Requested)
 
 | FHIR Ressource | [Workflow](https://www.hl7.org/fhir/workflow.html)-Ressourcenkategorie | Beschreibung |
-|[Task (Anfrage)](Task-DokumenteAnfragenPatientExampleTK.html)|Request|Beschreibung der Anfrage von Dokumenten bei Patientin|
-|[Sub-Task (Anfrage)](Task-EMIQFragebogenAusfuellenExampleTK.html)|Request|Beschreibung der Anfrage zum Ausfüllen eines Fragebogens durch Patientin|
-|[Bundle (Anfrage)](Bundle-DokumenteAnfragenPatientExampleBM.html)|-|Nachricht zur Anfrage von Dokumenten bei Patientin|
-|[MessageHeader (Anfrage)](MessageHeader-DokumenteAnfragenPatientExampleMH.html)|-|Metadaten zur Nachricht zur Anfrage von Dokumenten bei Patientin|
-|[MessageDefinition (Anfrage)](MessageDefinition-Q4MSDokumenteAnfragenMD.html)|-|Vorgaben zum Inhalt der Nachricht zur Anfrage von Dokumenten bei Patientin|
+|[Task (Anfrage)](Task-CheckInExampleTSK.html)|Request|Beschreibung der Aufgaben inklusive Termin zum Check-In der Patientin|
+|[Sub-Task (Anfrage)](Task-EmiqFragebogenAusfuellenExampleTSK.html)|Request|Beschreibung der Aufgabe zum Ausfüllen eines Fragebogens durch Patientin|
+|[Bundle (Anfrage)](Bundle-CheckInAnfrageExampleBM.html)|-|Nachricht zum Check-In der Patientin|
+|[MessageHeader (Anfrage)](MessageHeader-CheckInAnfrageExampleMH.html)|-|Metadaten zur Nachricht zum Check-In der Patientin|
+|[MessageDefinition (Anfrage)](MessageDefinition-Q4MSCheckInAnfrageMD.html)|-|Definition der Nachricht zum Check-In der Patientin|
 |[Questionnaire (Anfrage)](Questionnaire-ExerciseMentalIllnessQuestionnaire.html)|Definition|Durch Patientin auszufüllender Fragebogen|
 
 ##### Antwort (Received)
 
 | FHIR Ressource | [Workflow](https://www.hl7.org/fhir/workflow.html)-Ressourcenkategorie | Beschreibung |
-|[Task (Antwort)](Task-DokumenteAnfragenPatientAntwortExampleTK.html)|Request|Beschreibung der Empfangsbestätigung zur Anfrage von Dokumenten bei Patientin|
-|[Sub-Task (Antwort)](Task-EMIQFragebogenAusfuellenAntwortExampleTK.html)|Request|Beschreibung der Empfangsbestätigung zur Anfrage zum Ausfüllen eines Fragebogens durch Patientin|
-|[Bundle (Antwort)](Bundle-DokumenteAnfragenPatientAntwortExampleBM.html)|-|Antwortnachricht zur Anfrage von Dokumenten bei Patientin|
-|[MessageHeader (Antwort)](MessageHeader-DokumenteAnfragenPatientAntwortExampleMH.html)|-|Metadaten zur Antwortnachricht zur Anfrage von Dokumenten bei Patientin|
-|[MessageDefinition (Antwort)](MessageDefinition-Q4MSDokumenteAnfragenAntwortMD.html)|-|Vorgaben zum Inhalt der Antwortnachricht zur Anfrage von Dokumenten bei Patientin|
+|[Task (Antwort)](Task-CheckInAntwortExampleTSK.html)|Request|Beschreibung der Empfangsbestätigung zum Check-In der Patientin|
+|[Sub-Task (Antwort)](Task-EmiqFragebogenAusfuellenAntwortExampleTSK.html)|Request|Beschreibung der Empfangsbestätigung zum Ausfüllen eines Fragebogens durch Patientin|
+|[Bundle (Antwort)](Bundle-CheckInAntwortExampleBM.html)|-|Antwortnachricht zum Check-In der Patientin|
+|[MessageHeader (Antwort)](MessageHeader-CheckInAntwortExampleMH.html)|-|Metadaten zur Antwortnachricht zum Check-In der Patientin|
+|[MessageDefinition (Antwort)](MessageDefinition-Q4MSCheckInAntwortMD.html)|-|Definition der Antwortnachricht zum Check-In der Patientin|
 
 #### Workflow
 
@@ -53,15 +53,14 @@ Workflow-Management Communication Pattern: [Messaging Task from placer to fulfil
 
 ##### Workflowschritte
 
-Nachfolgend sind die einzelnen Schritte von der Erstellung einer Anfrage bis zum Abschluss bzw. der Erfüllung dieser aufgeführt.
-Dabei wird nur der technische und fachliche Erfolgsfall abgebildet, z.B. das Versäumnis, die angefragten Dokumente fristgerecht
-oder überhaupt bereitzustellen fehlt in der Darstellung.
+Nachfolgend sind die einzelnen Schritte von der Erstellung einer Anfrage bis zum Übermitteln der Empfangsbestätigung aufgeführt.
+Dabei wird nur der Erfolgsfall abgebildet, z.B. das Versäumnis, die angefragten Dokumente fristgerecht oder überhaupt bereitzustellen fehlt in der Darstellung.
 
-|Schritte|[Task.status](https://www.hl7.org/fhir/task-definitions.html#Task.status)|[Sub-Task.status](https://www.hl7.org/fhir/task-definitions.html#Task.status)|[Task.businessStatus](https://www.hl7.org/fhir/task-definitions.html#Task.businessStatus)|
-|:-|:-|:-|:-|
-|Das MSZ veranlasst die Anfrage von Dokumenten bei Patientin. Es wird eine [CarePlan](https://www.hl7.org/fhir/careplan.html)-Ressource (inkl. [RequestGroup](https://www.hl7.org/fhir/requestgroup.html)) erzeugt, die die Veranlassung repräsentiert. Ein erzeugter [Task](https://www.hl7.org/fhir/task.html), der über [Task.basedOn](https://www.hl7.org/fhir/task-definitions.html#Task.basedOn) den CarePlan referenziert, repräsentiert die Anfrage des klinische Systems and das Patientenportal.|Draft|Draft|-|
-|Das klinische System übermittelt eine Anfragenachricht, d.h. eine [Bundle-Message](https://www.hl7.org/fhir/bundle.html), an das Patientenportal.|Requested|Requested|-|
-|Das Patientenportal bestätigt den Erhalt der Anfragenachricht nach dem Erhalt, indem es den Task.status aktualisiert, eine Antwortnachricht mit dem gleichen Task als Inhalt erzeugt und diese an das klinische System sendet.|Received|Received|-|
-|Das Patientenportal wertet die Anfragenachricht und dessen Inhalt aus und akzeptiert den Task diese. Die Patientin wird zur eingetroffenen Anfrage benachrichtigt.|Accepted|Accepted|-|
-|Die Patientin bearbeitet die Anfrage, indem die im Task.input angefragten Dokumente bearbeitet bzw. über Task.output angegebene Dokumente bereitgestellt werden.|In-Progress|In-Progrees|-|
-|Die Patientin hat die Bearbeitung bzw. Bereitstellung abgeschlossen.|Completed|Completed|-|
+|Nr.|Schritte|[Task.status](https://www.hl7.org/fhir/task-definitions.html#Task.status)|[Sub-Task.status](https://www.hl7.org/fhir/task-definitions.html#Task.status)|[Task.businessStatus](https://www.hl7.org/fhir/task-definitions.html#Task.businessStatus)|
+|:-|:-|:-|:-|:-|
+|1.|Das MSZ veranlasst den Check-In der Patientin. Es wird eine [CarePlan](https://www.hl7.org/fhir/careplan.html)-Ressource (inkl. [RequestGroup](https://www.hl7.org/fhir/requestgroup.html)) erzeugt, die die Veranlassung repräsentiert. Ein erzeugter [Task](https://www.hl7.org/fhir/task.html), der über [Task.basedOn](https://www.hl7.org/fhir/task-definitions.html#Task.basedOn) den CarePlan referenziert, repräsentiert die Anfrage des klinische Systems and das Patientenportal.|Draft|Draft|-|
+|2.|Das klinische System übermittelt eine Anfrage als Nachricht, d.h. eine [Bundle-Message](https://www.hl7.org/fhir/bundle.html), an das Patientenportal.|Requested|Requested|-|
+|3.|Das Patientenportal bestätigt den Erhalt der Anfrage, indem es den Task.status aktualisiert, eine Antwortnachricht mit dem gleichen Task als Inhalt erzeugt und diese an das klinische System sendet.|Received|Received|-|
+|4.|Das Patientenportal wertet die Anfragen und dessen Inhalt aus und akzeptiert den Task. Die Patientin wird zur eingetroffenen Anfrage benachrichtigt.|Accepted|Accepted|-|
+|5.|Die Patientin bearbeitet die Anfrage, indem die im (Sub-) Task.input angefragten Inhalte bearbeitet bzw. über (Sub-) Task.output angeforderte Inhalte bereitstellt.|In-Progress|In-Progrees|-|
+|6.|Die Patientin hat die Bearbeitung bzw. Bereitstellung abgeschlossen.|Completed|Completed|-|

@@ -1,20 +1,20 @@
-Instance: VoruntersuchungExampleCP
+Instance: VoruntersuchungenExampleCP
 InstanceOf: CarePlan
-Title: "Beispiel Voruntersuchung"
-Description: "Beispiel CarePlan für die Voruntersuchung eines Patienten (M0)"
+Title: "Beispiel Voruntersuchungen"
+Description: "Beispiel CarePlan zu den Voruntersuchungen eines Patienten (M0)"
 Usage: #example
-* instantiatesCanonical = Canonical(Q4MSVoruntersuchung)
+* instantiatesCanonical = Canonical(Q4MSVoruntersuchungen)
 * status = $publication-status#draft
 * intent = $request-intent#option
 * subject = Reference(PatientJohnDoe)
-* activity.reference = Reference(VoruntersuchungExampleRG)
+* activity.reference = Reference(VoruntersuchungenExampleRG)
 
-Instance: VoruntersuchungExampleRG
+Instance: VoruntersuchungenExampleRG
 InstanceOf: RequestGroup
 Usage: #example
-Title: "Beispiel Voruntersuchung"
-Description: "Beispiel RequestGroup für die Voruntersuchung eines Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSVoruntersuchung)
+Title: "Beispiel Voruntersuchungen"
+Description: "Beispiel RequestGroup zu den Voruntersuchungen eines Patienten (M0)"
+* instantiatesCanonical = Canonical(Q4MSVoruntersuchungen)
 * status = $publication-status#draft
 * intent = $request-intent#plan
 * subject = Reference(PatientJohnDoe)
@@ -84,8 +84,8 @@ Description: "Beispiel ServiceRequest für die Durchführung eines MSPT mit dem 
 * intent = $request-intent#plan
 * doNotPerform = false
 * subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2022-01-12T12:00:00Z"
-* occurrencePeriod.end = "2022-01-21T00:00:00Z"
+* occurrencePeriod.start = "2021-08-16T10:30:00Z"
+* occurrencePeriod.end = "2021-08-16T16:00:00Z"
 * locationCode = $v3-role-code#NEUR
 
 // Voruntersuchung -> Therapiespezifische Diagnostik
@@ -123,8 +123,8 @@ Description: "Beispiel ServiceRequest für die Durchführung einer therapiespezi
 * intent = $request-intent#plan
 * doNotPerform = false
 * subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2022-01-12T12:00:00Z"
-* occurrencePeriod.end = "2022-01-21T00:00:00Z"
+* occurrencePeriod.start = "2021-08-16T10:30:00Z"
+* occurrencePeriod.end = "2021-08-16T16:00:00Z"
 * locationCode = $v3-role-code#DX
 
 // Voruntersuchung -> OCT
@@ -162,8 +162,8 @@ Description: "Beispiel ServiceRequest für die Durchführung eines OCT mit dem P
 * intent = $request-intent#plan
 * doNotPerform = false
 * subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2022-01-12T12:00:00Z"
-* occurrencePeriod.end = "2022-01-21T00:00:00Z"
+* occurrencePeriod.start = "2021-08-16T10:30:00Z"
+* occurrencePeriod.end = "2021-08-16T16:00:00Z"
 * locationCode = $v3-role-code#OPTC
 
 // Voruntersuchung -> Ganganalyse
@@ -201,8 +201,8 @@ Description: "Beispiel ServiceRequest für die Durchführung einer Ganganalyse m
 * intent = $request-intent#plan
 * doNotPerform = false
 * subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2022-01-12T12:00:00Z"
-* occurrencePeriod.end = "2022-01-21T00:00:00Z"
+* occurrencePeriod.start = "2021-08-16T10:30:00Z"
+* occurrencePeriod.end = "2021-08-16T16:00:00Z"
 * locationCode = $v3-role-code#SPMED
 
 // Voruntersuchung -> MRT
@@ -240,6 +240,6 @@ Description: "Beispiel ServiceRequest für die Durchführung einer MRT mit dem P
 * intent = $request-intent#plan
 * doNotPerform = false
 * subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2022-01-12T12:00:00Z"
-* occurrencePeriod.end = "2022-01-21T00:00:00Z"
+* occurrencePeriod.start = "2021-08-16T10:30:00Z"
+* occurrencePeriod.end = "2021-08-16T16:00:00Z"
 * locationCode = $v3-role-code#HRAD

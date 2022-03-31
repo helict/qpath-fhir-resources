@@ -16,25 +16,31 @@ Usage: #definition
 * action.timingTiming.repeat.frequency = 1
 * action.timingTiming.repeat.period = 3
 * action.timingTiming.repeat.periodUnit = #mo
-* action.action[0].id = "admission"
-* action.action[=].title = "Vorstellung"
-* action.action[=].description = "Erst- und Wiedervostellung"
-* action.action[=].definitionCanonical = Canonical(Q4MSVorstellung)
-* action.action[+].id = "diagnostic-testing"
-* action.action[=].title = "Voruntersuchung"
+* action.action[0].id = "check-in"
+* action.action[=].title = "Check-In"
+* action.action[=].description = "Check-In durchführen"
+* action.action[=].definitionCanonical = Canonical(Q4MSCheckIn)
+* action.action[+].id = "diagnostics"
+* action.action[=].title = "Voruntersuchungen"
 * action.action[=].description = "Diagnostische Voruntersuchungen durchführen"
-* action.action[=].relatedAction.actionId = "admission"
+* action.action[=].relatedAction.actionId = "check-in"
 * action.action[=].relatedAction.relationship = #after-end
-* action.action[=].definitionCanonical = Canonical(Q4MSVoruntersuchung)
+* action.action[=].definitionCanonical = Canonical(Q4MSVoruntersuchungen)
 * action.action[+].id = "examination"
 * action.action[=].title = "Arztvorstellung"
 * action.action[=].description = "Voruntersuchungen auswerten und Therapiemaßnahmen ableiten"
-* action.action[=].relatedAction.actionId = "diagnostic-testing"
+* action.action[=].relatedAction.actionId = "diagnostics"
 * action.action[=].relatedAction.relationship = #after-end
 * action.action[=].definitionCanonical = Canonical(Q4MSArztvorstellung)
-* action.action[+].id = "discharge"
-* action.action[=].title = "Entlassung"
-* action.action[=].description = "Patient nach Hause entlassen"
+* action.action[+].id = "schedule-appointment"
+* action.action[=].title = "Terminvereinbarung"
+* action.action[=].description = "Termin für nächsten Besuch vereinbaren"
 * action.action[=].relatedAction.actionId = "examination"
 * action.action[=].relatedAction.relationship = #after-end
-* action.action[=].definitionCanonical = Canonical(Q4MSEntlassung)
+* action.action[=].definitionCanonical = Canonical(Q4MSTerminvereinbarung)
+* action.action[+].id = "check-out"
+* action.action[=].title = "Check-Out"
+* action.action[=].description = "Check-Out durchführen"
+* action.action[=].relatedAction.actionId = "schedule-appointment"
+* action.action[=].relatedAction.relationship = #after-end
+* action.action[=].definitionCanonical = Canonical(Q4MSCheckOut)

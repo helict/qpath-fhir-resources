@@ -1,10 +1,10 @@
-Profile: Q4MSDokumentenanfrageProfile
+Profile: Q4MSCheckInNachrichtProfile
 Parent: MessageDefinition
-Title: "Dokumentenanfrage"
-Description: "Profile einer Dokumentenanfrage"
-* ^url = $q4ms-dokumentenanfrage-sd
+Title: "Check-In-Nachricht"
+Description: "Profile einer Check-In-Nachricht"
+* ^url = $q4ms-check-in-nachricht-sd
 * status = $publication-status#draft
-* parent = Canonical(Q4MSDokumenteAnfragenAD)
+* parent = Canonical(Q4MSCheckInAD)
 * eventCoding from Q4MSNachrichtenereignisseVS (required)
 * category = $message-significance-category#consequence
 * focus.code = $resource-type#Task
