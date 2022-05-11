@@ -186,6 +186,6 @@ Alias: $q4ms-wohnsituation = http://qpath4ms.ukdd.de/fhir/CodeSystem/Wohnsituati
 Alias: $q4ms-wohnsituation-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/WohnsituationVS
 Alias: $q4ms-yesno-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/YesNoVS
 Alias: $q4ms-yesnouncertain-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/YesNoUncertainVS
-Alias: $q4ms-cimq-questionnaire = http://qpath4ms.ukdd.de/fhir/ValueSet/CheckInMonitoringQuestionnaire
+Alias: $q4ms-cimq-questionnaire = http://qpath4ms.ukdd.de/fhir/Questionnaire/CheckInMonitoringQuestionnaire
 Alias: $q4ms-cimqsd-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/CheckInMonitoringQuestionnaireSymptomDevelopmentVS
 Alias: $q4ms-cimqsi-answerlist-vs = http://qpath4ms.ukdd.de/fhir/ValueSet/CheckInMonitoringQuestionnaireSymptomIntensityVS
