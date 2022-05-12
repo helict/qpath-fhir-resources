@@ -612,7 +612,7 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].readOnly = false
 * item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
-* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
+* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#radio-button
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.2"
 * item[=].item[=].item[=].item[=].type = $item-type#group
 * item[=].item[=].item[=].item[=].text = "Zigarettenkonsum"
@@ -652,7 +652,7 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
-* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
+* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#radio-button
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.4"
 * item[=].item[=].item[=].item[=].type = $item-type#group
 * item[=].item[=].item[=].item[=].text = "Zigarrenkonsum"
@@ -691,7 +691,7 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].readOnly = false
 * item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
-* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
+* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#radio-button
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.6"
 * item[=].item[=].item[=].item[=].type = $item-type#group
 * item[=].item[=].item[=].item[=].text = "Pfeifenkonsum"
@@ -759,7 +759,7 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].readOnly = false
 * item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
-* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
+* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#radio-button
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.2.1.2"
 * item[=].item[=].item[=].item[=].text = "Wie viele Milliliter (ml) Bier trinken Sie pro Tag?"
@@ -783,7 +783,7 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].readOnly = false
 * item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
-* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
+* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#radio-button
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.2.1.4"
 * item[=].item[=].item[=].item[=].text = "Wie viele Milliliter (ml) Wein trinken Sie pro Tag?"
@@ -807,7 +807,7 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].readOnly = false
 * item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
-* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
+* item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#radio-button
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.2.1.6"
 * item[=].item[=].item[=].item[=].text = "Wie viele Milliliter (ml) Spirituosen trinken Sie pro Tag?"
