@@ -1,12 +1,12 @@
 Instance: YesNoVS
 InstanceOf: ValueSet
 Usage: #definition
-Title: "Yes/No"
-Description: "Yes/No ValueSet"
+Title: "Ja/Nein"
+Description: "Ja/Nein Answer List"
 * language = $ietf-bcp-47#de-DE
 * url = $q4ms-yesno-answerlist-vs
 * version = "1.0.0"
-* name = "YesNo"
+* name = "YesNoVS"
 * status = $publication-status#active
 * compose.include.system = $loinc
 * compose.include.concept[+].code = #LA33-6
