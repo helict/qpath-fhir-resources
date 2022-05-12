@@ -593,21 +593,24 @@ Usage: #definition
 * item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
 * item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#radio-button
 * item[=].item[=].item[+].linkId = "CIMQ-5.1.2"
-* item[=].item[=].item[=].text = "Bitte zutreffendes markieren"
+* item[=].item[=].item[=].text = "Details zum Tabakkonsum"
 * item[=].item[=].item[=].type = $item-type#group
-* item[=].item[=].item[=].enableWhen.question = "CIMQ-5.1.1"
-* item[=].item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].item[=].required = false
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].readOnly = true
+* item[=].item[=].item[=].enableWhen.question = "CIMQ-5.1.1"
+* item[=].item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
+* item[=].item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
+* item[=].item[=].item[=].extension[+].url = $extension-questionnaire-hidden
+* item[=].item[=].item[=].extension[=].valueBoolean = true
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.1"
-* item[=].item[=].item[=].item[=].text = "Zigaretten"
-* item[=].item[=].item[=].item[=].type = $item-type#boolean
+* item[=].item[=].item[=].item[=].text = "Rauchen Sie Zigarette?"
+* item[=].item[=].item[=].item[=].type = $item-type#choice
 * item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].readOnly = false
+* item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
 * item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.2"
@@ -618,11 +621,11 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].readOnly = true
 * item[=].item[=].item[=].item[=].enableWhen.question = "CIMQ-5.1.2.1"
 * item[=].item[=].item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].item[=].item[=].enableWhen.answerBoolean = true
+* item[=].item[=].item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-hidden
 * item[=].item[=].item[=].item[=].extension[=].valueBoolean = true
 * item[=].item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.2.1"
-* item[=].item[=].item[=].item[=].item[=].text = "Seit (Jahr)"
+* item[=].item[=].item[=].item[=].item[=].text = "Seit wann rauchen Sie Zigaretten? (Jahr)"
 * item[=].item[=].item[=].item[=].item[=].type = $item-type#date
 * item[=].item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].item[=].repeats = false
@@ -630,7 +633,7 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].item[=].extension[+].url = $extension-entry-format
 * item[=].item[=].item[=].item[=].item[=].extension[=].valueString = "yyyy"
 * item[=].item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.2.2"
-* item[=].item[=].item[=].item[=].item[=].text = "Anzahl pro Tag"
+* item[=].item[=].item[=].item[=].item[=].text = "Wie viele Zigaretten rauchen Sie pro Tag? (Anzahl)"
 * item[=].item[=].item[=].item[=].item[=].type = $item-type#integer
 * item[=].item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].item[=].repeats = false
@@ -641,11 +644,13 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].item[=].extension[=].valueCoding = $ucum#/d
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.3"
-* item[=].item[=].item[=].item[=].text = "Zigarren"
-* item[=].item[=].item[=].item[=].type = $item-type#boolean
+* item[=].item[=].item[=].item[=].text = "Rauchen Sie Zigarre?"
+* item[=].item[=].item[=].item[=].type = $item-type#choice
 * item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].readOnly = false
+* item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
+* item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
 * item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.4"
@@ -656,11 +661,11 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].readOnly = true
 * item[=].item[=].item[=].item[=].enableWhen.question = "CIMQ-5.1.2.3"
 * item[=].item[=].item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].item[=].item[=].enableWhen.answerBoolean = true
+* item[=].item[=].item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-hidden
 * item[=].item[=].item[=].item[=].extension[=].valueBoolean = true
 * item[=].item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.4.1"
-* item[=].item[=].item[=].item[=].item[=].text = "Seit (Jahr)"
+* item[=].item[=].item[=].item[=].item[=].text = "Seit wann rauchen Sie Zigarren? (Jahr)"
 * item[=].item[=].item[=].item[=].item[=].type = $item-type#date
 * item[=].item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].item[=].repeats = false
@@ -668,7 +673,7 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].item[=].extension[+].url = $extension-entry-format
 * item[=].item[=].item[=].item[=].item[=].extension[=].valueString = "yyyy"
 * item[=].item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.4.2"
-* item[=].item[=].item[=].item[=].item[=].text = "Anzahl pro Tag"
+* item[=].item[=].item[=].item[=].item[=].text = "Wie viele Zigarren rauchen Sie pro Tag? (Anzahl)"
 * item[=].item[=].item[=].item[=].item[=].type = $item-type#integer
 * item[=].item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].item[=].repeats = false
@@ -679,11 +684,12 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].item[=].extension[=].valueCoding = $ucum#/d
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.5"
-* item[=].item[=].item[=].item[=].text = "Pfeife"
-* item[=].item[=].item[=].item[=].type = $item-type#boolean
+* item[=].item[=].item[=].item[=].text = "Rauchen Sie Pfeife?"
+* item[=].item[=].item[=].item[=].type = $item-type#choice
 * item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].readOnly = false
+* item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
 * item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.6"
@@ -694,11 +700,11 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].readOnly = true
 * item[=].item[=].item[=].item[=].enableWhen.question = "CIMQ-5.1.2.5"
 * item[=].item[=].item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].item[=].item[=].enableWhen.answerBoolean = true
+* item[=].item[=].item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-hidden
 * item[=].item[=].item[=].item[=].extension[=].valueBoolean = true
 * item[=].item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.6.1"
-* item[=].item[=].item[=].item[=].item[=].text = "Seit (Jahr)"
+* item[=].item[=].item[=].item[=].item[=].text = "Seit wann rauchen Sie Pfeife? (Jahr)"
 * item[=].item[=].item[=].item[=].item[=].type = $item-type#date
 * item[=].item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].item[=].repeats = false
@@ -706,7 +712,7 @@ Usage: #definition
 * item[=].item[=].item[=].item[=].item[=].extension[+].url = $extension-entry-format
 * item[=].item[=].item[=].item[=].item[=].extension[=].valueString = "yyyy"
 * item[=].item[=].item[=].item[=].item[+].linkId = "CIMQ-5.1.2.6.2"
-* item[=].item[=].item[=].item[=].item[=].text = "Anzahl pro Tag"
+* item[=].item[=].item[=].item[=].item[=].text = "Wie viele Pfeifen rauchen Sie pro Tag? (Anzahl)"
 * item[=].item[=].item[=].item[=].item[=].type = $item-type#integer
 * item[=].item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].item[=].repeats = false
@@ -734,79 +740,84 @@ Usage: #definition
 * item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
 * item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#radio-button
 * item[=].item[=].item[+].linkId = "CIMQ-5.2.2"
-* item[=].item[=].item[=].text = "Bitte zutreffendes markieren"
+* item[=].item[=].item[=].text = "Details zum Alkoholkonsum"
 * item[=].item[=].item[=].type = $item-type#group
-* item[=].item[=].item[=].enableWhen.question = "CIMQ-5.2.1"
-* item[=].item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].item[=].required = false
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].readOnly = true
+* item[=].item[=].item[=].enableWhen.question = "CIMQ-5.2.1"
+* item[=].item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
+* item[=].item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
+* item[=].item[=].item[=].extension[+].url = $extension-questionnaire-hidden
+* item[=].item[=].item[=].extension[=].valueBoolean = true
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.2.1.1"
-* item[=].item[=].item[=].item[=].text = "Bier"
-* item[=].item[=].item[=].item[=].type = $item-type#boolean
+* item[=].item[=].item[=].item[=].text = "Trinken Sie Bier?"
+* item[=].item[=].item[=].item[=].type = $item-type#choice
 * item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].readOnly = false
+* item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
 * item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.2.1.2"
-* item[=].item[=].item[=].item[=].text = "Wie viel Milliliter (ml) Bier pro Tag?"
+* item[=].item[=].item[=].item[=].text = "Wie viele Milliliter (ml) Bier trinken Sie pro Tag?"
 * item[=].item[=].item[=].item[=].type = $item-type#integer
 * item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].readOnly = false
 * item[=].item[=].item[=].item[=].enableWhen.question = "CIMQ-5.2.1.1"
 * item[=].item[=].item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].item[=].item[=].enableWhen.answerBoolean = true
+* item[=].item[=].item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-min-value
 * item[=].item[=].item[=].item[=].extension[=].valueInteger = 1
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-unit
 * item[=].item[=].item[=].item[=].extension[=].valueCoding = $ucum#mL/d
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.2.1.3"
-* item[=].item[=].item[=].item[=].text = "Wein"
-* item[=].item[=].item[=].item[=].type = $item-type#boolean
+* item[=].item[=].item[=].item[=].text = "Trinken Sie Wein?"
+* item[=].item[=].item[=].item[=].type = $item-type#choice
 * item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].readOnly = false
+* item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
 * item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.2.1.4"
-* item[=].item[=].item[=].item[=].text = "Wie viel Milliliter (ml) Wein pro Tag?"
+* item[=].item[=].item[=].item[=].text = "Wie viele Milliliter (ml) Wein trinken Sie pro Tag?"
 * item[=].item[=].item[=].item[=].type = $item-type#integer
 * item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].readOnly = false
 * item[=].item[=].item[=].item[=].enableWhen.question = "CIMQ-5.2.1.3"
 * item[=].item[=].item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].item[=].item[=].enableWhen.answerBoolean = true
+* item[=].item[=].item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-min-value
 * item[=].item[=].item[=].item[=].extension[=].valueInteger = 1
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-unit
 * item[=].item[=].item[=].item[=].extension[=].valueCoding = $ucum#mL/d
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.2.1.5"
-* item[=].item[=].item[=].item[=].text = "Spirituosen"
-* item[=].item[=].item[=].item[=].type = $item-type#boolean
+* item[=].item[=].item[=].item[=].text = "Trinken Sie Spirituosen?"
+* item[=].item[=].item[=].item[=].type = $item-type#choice
 * item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].readOnly = false
+* item[=].item[=].item[=].item[=].answerValueSet = Canonical(YesNoVS)
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-item-control
 * item[=].item[=].item[=].item[=].extension[=].valueCodeableConcept = $questionnaire-item-control#check-box
 
 * item[=].item[=].item[=].item[+].linkId = "CIMQ-5.2.1.6"
-* item[=].item[=].item[=].item[=].text = "Wie viel Milliliter (ml) Spirituosen pro Tag?"
+* item[=].item[=].item[=].item[=].text = "Wie viele Milliliter (ml) Spirituosen trinken Sie pro Tag?"
 * item[=].item[=].item[=].item[=].type = $item-type#integer
 * item[=].item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[=].readOnly = false
 * item[=].item[=].item[=].item[=].enableWhen.question = "CIMQ-5.2.1.5"
 * item[=].item[=].item[=].item[=].enableWhen.operator = $questionnaire-enable-operator#=
-* item[=].item[=].item[=].item[=].enableWhen.answerBoolean = true
+* item[=].item[=].item[=].item[=].enableWhen.answerCoding = $loinc#LA33-6
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-min-value
 * item[=].item[=].item[=].item[=].extension[=].valueInteger = 1
 * item[=].item[=].item[=].item[=].extension[+].url = $extension-questionnaire-unit
