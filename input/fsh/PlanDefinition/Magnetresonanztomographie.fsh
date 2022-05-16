@@ -12,5 +12,5 @@ Usage: #definition
 * action.type = $action-type#create
 * action.condition.kind = #applicability
 * action.condition.expression.language = #text/cql
-* action.condition.expression.expression = "no current pregnancy"
+* action.condition.expression.expression = "Nicht schwanger"
 * action.definitionCanonical = Canonical(Q4MSMagnetresonanztomographieAD)

@@ -13,12 +13,10 @@ Usage: #definition
 * action[=].selectionBehavior = #all
 * action[=].requiredBehavior = #must-unless-documented
 * action[=].cardinalityBehavior = #single
-* action[=].action[0].title = "Allgemeine und neurologische Untersuchung"
-* action[=].action[=].definitionCanonical = Canonical(Q4MSAllgemeineNeurologischeUntersuchung)
+* action[=].action[0].title = "Allgemeine und neurologische Anamnese"
+* action[=].action[=].definitionCanonical = Canonical(Q4MSAllgemeineNeurologischeAnamnese)
 * action[=].action[+].title = "Befundauswertung"
 * action[=].action[=].definitionCanonical = Canonical(Q4MSBefundauswertung)
-* action[=].action[+].title = "Allgemeine und neurologische Anamnese"
-* action[=].action[=].definitionCanonical = Canonical(Q4MSAllgemeineNeurologischeAnamnese)
 * action[=].action[+].title = "Therapiespezifische Diagnostik"
 * action[=].action[=].definitionCanonical = Canonical(Q4MSTherapiespezifischeDiagnostik)
 * action[=].action[+].title = "Zusatzdiagnostik"

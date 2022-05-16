@@ -23,12 +23,10 @@ Description: "Beispiel RequestGroup für die Arztvorstellung eines Patienten (M0
 * action[=].selectionBehavior = #all
 * action[=].requiredBehavior = #must-unless-documented
 * action[=].cardinalityBehavior = #single
-* action[=].action[0].title = "Allgemeine und neurologische Untersuchung"
-* action[=].action[=].resource = Reference(AllgemeineNeurologischeUntersuchungExampleCP)
+* action[=].action[0].title = "Allgemeine und neurologische Anamnese"
+* action[=].action[=].resource = Reference(AllgemeineNeurologischeAnamneseExampleCP)
 * action[=].action[+].title = "Befundauswertung"
 * action[=].action[=].resource = Reference(BefundauswertungExampleCP)
-* action[=].action[+].title = "Allgemeine und neurologische Anamnese"
-* action[=].action[=].resource = Reference(AllgemeineNeurologischeAnamneseExampleCP)
 * action[=].action[+].title = "Therapiespezifische Diagnostik"
 * action[=].action[=].resource = Reference(TherapiespezifischeDiagnostikExampleCP)
 * action[=].action[+].title = "Zusatzdiagnostik"
@@ -37,50 +35,6 @@ Description: "Beispiel RequestGroup für die Arztvorstellung eines Patienten (M0
 * action[=].relatedAction.actionId = "examination"
 * action[=].relatedAction.relationship = #after-end
 * action[=].resource = Reference(AuswertungExampleCP)
-
-// Arztvorstellung -> Allgemeine neurologische Untersuchung (EDSS)
-
-Instance: AllgemeineNeurologischeUntersuchungExampleCP
-InstanceOf: CarePlan
-Title: "Beispiel Allgemeine und neurologische Untersuchung"
-Description: "Beispiel CarePlan für die Durchführung einer allgemeinen neurologischen Untersuchung mit dem Patienten (M0)"
-Usage: #example
-* instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeUntersuchung)
-* status = $publication-status#draft
-* intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
-* activity.reference = Reference(AllgemeineNeurologischeUntersuchungExampleRG)
-
-Instance: AllgemeineNeurologischeUntersuchungExampleRG
-InstanceOf: RequestGroup
-Title: "Beispiel Allgemeine und neurologische Untersuchung"
-Description: "Beispiel RequestGroup für die Durchführung einer allgemeinen neurologischen Untersuchung mit dem Patienten (M0)"
-Usage: #example
-* instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeUntersuchung)
-* status = $publication-status#draft
-* intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
-* action.title = "Expanded Disability Status Scale (EDSS)"
-* action.resource = Reference(AllgemeineNeurologischeUntersuchungExampleTSK)
-
-Instance: AllgemeineNeurologischeUntersuchungExampleTSK
-InstanceOf: Task
-Usage: #example
-Title: "Beispiel Allgemeine und neurologische Untersuchung"
-Description: "Beispiel Task für die Durchführung einer allgemeinen und neurologischen Untersuchung mit dem Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSExpandedDisabilityStatusScaleAD)
-* status = $task-status#ready
-* intent = $request-intent#option
-* code = $task-code#approve
-* description = "Expanded Disability Status Scale (EDSS)"
-* executionPeriod.start = "2021-08-16T10:30:00Z"
-* executionPeriod.end = "2021-08-16T16:00:00Z"
-* authoredOn = "2021-08-16T10:30:00Z"
-* performerType = $snomed-ct#56397003
-* restriction.period.start = "2021-08-16T10:30:00Z"
-* restriction.period.end = "2022-01-21T00:00:00Z"
-* restriction.recipient = Reference(PatientJohnDoe)
-// Input: EDSS Questionnaire
 
 // Arztvorstellung -> Befundauswertung
 

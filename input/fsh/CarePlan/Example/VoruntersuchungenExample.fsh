@@ -34,6 +34,16 @@ Description: "Beispiel RequestGroup zu den Voruntersuchungen eines Patienten (M0
 * action.action[=].action[=].resource = Reference(MultipleSclerosisPerformanceTestExampleCP)
 * action.action[=].action[+].title = "Therapiespezifische Diagnostik"
 * action.action[=].action[=].resource = Reference(TherapiespezifischeDiagnostikExampleCP)
+* action.action[+].title = "Diagnostik alle 6 Monate"
+* action.action[=].timingTiming.repeat.frequency = 1
+* action.action[=].timingTiming.repeat.period = 6
+* action.action[=].timingTiming.repeat.periodUnit = #mo
+* action.action[=].groupingBehavior = #logical-group
+* action.action[=].selectionBehavior = #all
+* action.action[=].requiredBehavior = #must-unless-documented
+* action.action[=].cardinalityBehavior = #single
+* action.action[=].action[0].title = "Allgemeine und neurologische Untersuchung"
+* action.action[=].action[=].resource = Reference(AllgemeineNeurologischeUntersuchungExampleCP)
 * action.action[+].title = "Diagnostik alle 12 Monate"
 * action.action[=].timingTiming.repeat.frequency = 1
 * action.action[=].timingTiming.repeat.period = 12
@@ -48,6 +58,8 @@ Description: "Beispiel RequestGroup zu den Voruntersuchungen eines Patienten (M0
 * action.action[=].action[=].resource = Reference(GanganalyseExampleCP)
 * action.action[=].action[+].title = "Magnetresonanztomographie (MRT)"
 * action.action[=].action[=].resource = Reference(MagnetresonanztomographieExampleCP)
+* action.action[=].action[+].title = "Laboruntersuchung"
+* action.action[=].action[=].resource = Reference(LaboruntersuchungExampleCP)
 
 // Voruntersuchung -> MSPT
 
@@ -126,6 +138,50 @@ Description: "Beispiel ServiceRequest für die Durchführung einer therapiespezi
 * occurrencePeriod.start = "2021-08-16T10:30:00Z"
 * occurrencePeriod.end = "2021-08-16T16:00:00Z"
 * locationCode = $v3-role-code#DX
+
+// Arztvorstellung -> Allgemeine neurologische Untersuchung (EDSS)
+
+Instance: AllgemeineNeurologischeUntersuchungExampleCP
+InstanceOf: CarePlan
+Title: "Beispiel Allgemeine und neurologische Untersuchung"
+Description: "Beispiel CarePlan für die Durchführung einer allgemeinen neurologischen Untersuchung mit dem Patienten (M0)"
+Usage: #example
+* instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeUntersuchung)
+* status = $publication-status#draft
+* intent = $request-intent#option
+* subject = Reference(PatientJohnDoe)
+* activity.reference = Reference(AllgemeineNeurologischeUntersuchungExampleRG)
+
+Instance: AllgemeineNeurologischeUntersuchungExampleRG
+InstanceOf: RequestGroup
+Title: "Beispiel Allgemeine und neurologische Untersuchung"
+Description: "Beispiel RequestGroup für die Durchführung einer allgemeinen neurologischen Untersuchung mit dem Patienten (M0)"
+Usage: #example
+* instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeUntersuchung)
+* status = $publication-status#draft
+* intent = $request-intent#plan
+* subject = Reference(PatientJohnDoe)
+* action.title = "Expanded Disability Status Scale (EDSS)"
+* action.resource = Reference(AllgemeineNeurologischeUntersuchungExampleTSK)
+
+Instance: AllgemeineNeurologischeUntersuchungExampleTSK
+InstanceOf: Task
+Usage: #example
+Title: "Beispiel Allgemeine und neurologische Untersuchung"
+Description: "Beispiel Task für die Durchführung einer allgemeinen und neurologischen Untersuchung mit dem Patienten (M0)"
+* instantiatesCanonical = Canonical(Q4MSExpandedDisabilityStatusScaleAD)
+* status = $task-status#ready
+* intent = $request-intent#option
+* code = $task-code#approve
+* description = "Expanded Disability Status Scale (EDSS)"
+* executionPeriod.start = "2021-08-16T10:30:00Z"
+* executionPeriod.end = "2021-08-16T16:00:00Z"
+* authoredOn = "2021-08-16T10:30:00Z"
+* performerType = $snomed-ct#56397003
+* restriction.period.start = "2021-08-16T10:30:00Z"
+* restriction.period.end = "2022-01-21T00:00:00Z"
+* restriction.recipient = Reference(PatientJohnDoe)
+// Input: EDSS Questionnaire
 
 // Voruntersuchung -> OCT
 
