@@ -9,3 +9,7 @@ Usage: #definition
 * experimental = true
 * kind = $resource-type#ServiceRequest
 * doNotPerform = false
+* timingDuration.system = $ucum
+* timingDuration.code = #min
+* timingDuration.value = 10
+* timingDuration.unit = "min"

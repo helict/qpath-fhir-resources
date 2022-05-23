@@ -7,5 +7,9 @@ Usage: #definition
 * name = "Q4MSExpandedDisabilityStatusScaleAD"
 * status = $publication-status#draft
 * experimental = true
-* kind = $resource-type#Task
+* kind = $resource-type#ServiceRequest
 * doNotPerform = false
+* timingDuration.system = $ucum
+* timingDuration.code = #min
+* timingDuration.value = 20
+* timingDuration.unit = "min"
