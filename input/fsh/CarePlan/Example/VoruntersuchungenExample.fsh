@@ -72,6 +72,7 @@ Description: "Beispiel CarePlan für die Durchführung eines MSPT mit dem Patien
 * status = $publication-status#draft
 * intent = $request-intent#option
 * subject = Reference(PatientJohnDoe)
+* activity.extension[$extension-careplan-activity-title].valueString = "Multiple Sclerosis Performance Test (MSPT)"
 * activity.reference = Reference(MultipleSclerosisPerformanceTestExampleRG)
 
 Instance: MultipleSclerosisPerformanceTestExampleRG
@@ -86,20 +87,6 @@ Usage: #example
 * action.title = "Multiple Sclerosis Performance Test (MSPT)"
 * action.resource = Reference(MultipleSclerosisPerformanceTestExampleSR)
 
-Instance: MultipleSclerosisPerformanceTestExampleSR
-InstanceOf: ServiceRequest
-Usage: #example
-Title: "Beispiel Multiple Sclerosis Performance Test (MSPT)"
-Description: "Beispiel ServiceRequest für die Durchführung eines MSPT mit dem Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSMultipleSclerosisPerformanceTestAD)
-* status = $task-status#active
-* intent = $request-intent#plan
-* doNotPerform = false
-* subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2021-08-16T10:30:00Z"
-* occurrencePeriod.end = "2021-08-16T16:00:00Z"
-* locationCode = $v3-role-code#NEUR
-
 // Voruntersuchung -> Therapiespezifische Diagnostik
 
 Instance: TherapiespezifischeDiagnostikExampleCP
@@ -111,6 +98,7 @@ Description: "Beispiel CarePlan für die Durchführung einer therapiespezifische
 * status = $publication-status#draft
 * intent = $request-intent#option
 * subject = Reference(PatientJohnDoe)
+* activity.extension[$extension-careplan-activity-title].valueString = "Therapiespezifische Diagnostik"
 * activity.reference = Reference(TherapiespezifischeDiagnostikExampleRG)
 
 Instance: TherapiespezifischeDiagnostikExampleRG
@@ -162,26 +150,7 @@ Usage: #example
 * intent = $request-intent#plan
 * subject = Reference(PatientJohnDoe)
 * action.title = "Expanded Disability Status Scale (EDSS)"
-* action.resource = Reference(AllgemeineNeurologischeUntersuchungExampleTSK)
-
-Instance: AllgemeineNeurologischeUntersuchungExampleTSK
-InstanceOf: Task
-Usage: #example
-Title: "Beispiel Allgemeine und neurologische Untersuchung"
-Description: "Beispiel Task für die Durchführung einer allgemeinen und neurologischen Untersuchung mit dem Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSExpandedDisabilityStatusScaleAD)
-* status = $task-status#ready
-* intent = $request-intent#option
-* code = $task-code#approve
-* description = "Expanded Disability Status Scale (EDSS)"
-* executionPeriod.start = "2021-08-16T10:30:00Z"
-* executionPeriod.end = "2021-08-16T16:00:00Z"
-* authoredOn = "2021-08-16T10:30:00Z"
-* performerType = $snomed-ct#56397003
-* restriction.period.start = "2021-08-16T10:30:00Z"
-* restriction.period.end = "2022-01-21T00:00:00Z"
-* restriction.recipient = Reference(PatientJohnDoe)
-// Input: EDSS Questionnaire
+* action.resource = Reference(AllgemeineNeurologischeUntersuchungExampleSR)
 
 // Voruntersuchung -> OCT
 
@@ -194,6 +163,7 @@ Description: "Beispiel CarePlan für die Durchführung eines OCT mit dem Patient
 * status = $publication-status#draft
 * intent = $request-intent#option
 * subject = Reference(PatientJohnDoe)
+* activity.extension[$extension-careplan-activity-title].valueString = "Optische Kohärenztomographie (OCT)"
 * activity.reference = Reference(OptischeKohaerenztomographieExampleRG)
 
 Instance: OptischeKohaerenztomographieExampleRG
@@ -208,20 +178,6 @@ Description: "Beispiel RequestGroup für die Durchführung eines OCT mit dem Pat
 * action.title = "Optische Kohärenztomographie (OCT)"
 * action.resource = Reference(OptischeKohaerenztomographieExampleSR)
 
-Instance: OptischeKohaerenztomographieExampleSR
-InstanceOf: ServiceRequest
-Usage: #example
-Title: "Beispiel Optische Kohärenztomographie (OCT)"
-Description: "Beispiel ServiceRequest für die Durchführung eines OCT mit dem Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSOptischeKohaerenztomographieAD)
-* status = $task-status#active
-* intent = $request-intent#plan
-* doNotPerform = false
-* subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2021-08-16T10:30:00Z"
-* occurrencePeriod.end = "2021-08-16T16:00:00Z"
-* locationCode = $v3-role-code#OPTC
-
 // Voruntersuchung -> Ganganalyse
 
 Instance: GanganalyseExampleCP
@@ -233,6 +189,7 @@ Description: "Beispiel CarePlan für die Durchführung einer Ganganalyse mit dem
 * status = $publication-status#draft
 * intent = $request-intent#option
 * subject = Reference(PatientJohnDoe)
+* activity.extension[$extension-careplan-activity-title].valueString = "Ganganalyse"
 * activity.reference = Reference(GanganalyseExampleRG)
 
 Instance: GanganalyseExampleRG
@@ -247,20 +204,6 @@ Description: "Beispiel RequestGroup für die Durchführung einer Ganganalyse mit
 * action.title = "Ganganalyse"
 * action.resource = Reference(GanganalyseExampleSR)
 
-Instance: GanganalyseExampleSR
-InstanceOf: ServiceRequest
-Usage: #example
-Title: "Beispiel Ganganalyse"
-Description: "Beispiel ServiceRequest für die Durchführung einer Ganganalyse mit dem Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSGanganalyseAD)
-* status = $task-status#active
-* intent = $request-intent#plan
-* doNotPerform = false
-* subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2021-08-16T10:30:00Z"
-* occurrencePeriod.end = "2021-08-16T16:00:00Z"
-* locationCode = $v3-role-code#SPMED
-
 // Voruntersuchung -> MRT
 
 Instance: MagnetresonanztomographieExampleCP
@@ -272,6 +215,7 @@ Description: "Beispiel CarePlan für die Durchführung einer MRT mit dem Patient
 * status = $publication-status#draft
 * intent = $request-intent#option
 * subject = Reference(PatientJohnDoe)
+* activity.extension[$extension-careplan-activity-title].valueString = "Magnetresonanztomographie (MRT)"
 * activity.reference = Reference(MagnetresonanztomographieExampleRG)
 
 Instance: MagnetresonanztomographieExampleRG
@@ -285,17 +229,3 @@ Description: "Beispiel RequestGroup für die Durchführung einer MRT mit dem Pat
 * subject = Reference(PatientJohnDoe)
 * action.title = "Magnetresonanztomographie (MRT)"
 * action.resource = Reference(MagnetresonanztomographieExampleSR)
-
-Instance: MagnetresonanztomographieExampleSR
-InstanceOf: ServiceRequest
-Usage: #example
-Title: "Beispiel Magnetresonanztomographie (MRT)"
-Description: "Beispiel ServiceRequest für die Durchführung einer MRT mit dem Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSMagnetresonanztomographieAD)
-* status = $task-status#active
-* intent = $request-intent#plan
-* doNotPerform = false
-* subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2021-08-16T10:30:00Z"
-* occurrencePeriod.end = "2021-08-16T16:00:00Z"
-* locationCode = $v3-role-code#HRAD

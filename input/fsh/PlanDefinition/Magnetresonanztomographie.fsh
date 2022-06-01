@@ -9,6 +9,10 @@ Usage: #definition
 * status = $publication-status#draft
 * experimental = true
 * action.title = "Diagnostik Magnetresonanztomographie (MRT)"
+* action.trigger.type = $trigger-type#periodic
+* action.trigger.timingTiming.repeat.frequency = 1
+* action.trigger.timingTiming.repeat.period = 12
+* action.trigger.timingTiming.repeat.periodUnit = $ucum#mo
 * action.type = $action-type#create
 * action.condition.kind = #applicability
 * action.condition.expression.language = #text/cql

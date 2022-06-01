@@ -191,20 +191,6 @@ Description: "Beispiel RequestGroup für die Durchführung einer Laboruntersuchu
 * action.title = "Laboruntersuchung"
 * action.resource = Reference(LaboruntersuchungExampleSR)
 
-Instance: LaboruntersuchungExampleSR
-InstanceOf: ServiceRequest
-Usage: #example
-Title: "Beispiel Laboruntersuchung"
-Description: "Beispiel ServiceRequest für die Durchführung einer Laboruntersuchung mit dem Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSLaboruntersuchungAD)
-* status = $task-status#active
-* intent = $request-intent#plan
-* doNotPerform = false
-* subject = Reference(PatientJohnDoe)
-* occurrencePeriod.start = "2021-08-16T10:30:00Z"
-* occurrencePeriod.end = "2022-01-21T00:00:00Z"
-* locationCode = $v3-role-code#HLAB
-
 // Arztvorstellung -> Auswertung
 
 Instance: AuswertungExampleCP
