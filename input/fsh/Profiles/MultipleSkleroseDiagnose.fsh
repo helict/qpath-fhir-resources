@@ -19,7 +19,7 @@ Description: "Profil zur Diagnose einer Multiplen Sklerose"
 * recordedDate MS
 * note MS
 
-Instance: PatientJohnDoeMultipleSclerosisDiagnosisExample
+Instance: PatientWithMultipleSclerosisDiagnosisExample
 InstanceOf: Q4MSMultipleSkleroseDiagnoseProfile
 Usage: #example
 Title: "ICD-10 MS-Diagnose John Doe"
@@ -31,4 +31,4 @@ Description: "ICD-10 GM Multiple Sklerose-Diagnose von John Doe"
 * code.coding.code = #G35.0
 * code.coding.display = "Erstmanifestation einer Multiplen Sklerose"
 //* code.extension[$ext-icd-diagnosesicherheit].valueCoding = $kbv-icd-diagnosesicherheit#G
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)

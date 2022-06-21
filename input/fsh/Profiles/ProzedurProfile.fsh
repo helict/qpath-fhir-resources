@@ -19,7 +19,7 @@ Description: "Profil zur Anfrage einer Prozedur"
 * code 1..1 MS
 * code from $ops-codes (required)
 * subject MS
-* subject only Reference(Patient)
+* subject only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * occurrence[x] only Timing
 * occurrenceTiming.event 0..1 MS
 * occurrenceTiming.repeat MS
@@ -49,7 +49,7 @@ Description: "Beispiel ServiceRequest für die Durchführung eines MSPT mit dem 
 * intent = $request-intent#plan
 * doNotPerform = false
 * code = $ops-codes#8-92
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * occurrenceTiming.event = "2022-04-19T09:00:00Z"
 * occurrenceTiming.repeat.duration = 25
 * occurrenceTiming.repeat.durationUnit = $ucum#min
@@ -67,7 +67,7 @@ Description: "Beispiel ServiceRequest für die Durchführung einer allgemeinen u
 * intent = $request-intent#plan
 * doNotPerform = false
 * code = $ops-codes#1-20a
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * occurrenceTiming.event = "2022-04-19T08:00:00Z"
 * occurrenceTiming.repeat.duration = 20
 * occurrenceTiming.repeat.durationUnit = $ucum#min
@@ -85,7 +85,7 @@ Description: "Beispiel ServiceRequest für die Durchführung eines OCT mit dem P
 * intent = $request-intent#plan
 * doNotPerform = false
 * code = $ops-codes#3-300
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * occurrenceTiming.event = "2022-04-19T09:30:00Z"
 * occurrenceTiming.repeat.duration = 25
 * occurrenceTiming.repeat.durationUnit = $ucum#min
@@ -103,7 +103,7 @@ Description: "Beispiel ServiceRequest für die Durchführung einer Ganganalyse m
 * intent = $request-intent#plan
 * code = $ops-codes#1-798
 * doNotPerform = false
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * occurrenceTiming.event = "2022-04-19T08:30:00Z"
 * occurrenceTiming.repeat.duration = 25
 * occurrenceTiming.repeat.durationUnit = $ucum#min
@@ -121,7 +121,7 @@ Description: "Beispiel ServiceRequest für die Durchführung einer Laboruntersuc
 * intent = $request-intent#plan
 * code = $ops-codes#1-942
 * doNotPerform = false
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * occurrenceTiming.event = "2022-04-19T10:20:00Z"
 * occurrenceTiming.repeat.duration = 10
 * occurrenceTiming.repeat.durationUnit = $ucum#min

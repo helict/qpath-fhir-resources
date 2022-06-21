@@ -6,9 +6,9 @@ Description: "Beispiel QuestionnaireResponse eines Exercise Mental Illness Quest
 * language = $ietf-bcp-47#de-DE
 * questionnaire = Canonical(ExerciseMentalIllnessQuestionnaire)
 * status = $questionnaire-answers-status#completed
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * authored = "2022-02-11T19:26:17Z"
-* source = Reference(PatientJohnDoe)
+* source = Reference(PatientPseudonym)
 * item[+].linkId = "EMIQ"
 * item[=].item[+].linkId = "EMIQ.1"
 * item[=].item[=].answer.valueCoding = $loinc#LA6297-1

@@ -6,7 +6,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSArztvorstellung)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(ArztvorstellungExampleRG)
 
 Instance: ArztvorstellungExampleRG
@@ -17,7 +17,7 @@ Description: "Beispiel RequestGroup für die Arztvorstellung eines Patienten (M0
 * instantiatesCanonical = Canonical(Q4MSArztvorstellung)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action[0].id = "examination"
 * action[=].groupingBehavior = #logical-group
 * action[=].selectionBehavior = #all
@@ -46,7 +46,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSBefundauswertung)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(BefundauswertungExampleRG)
 
 Instance: BefundauswertungExampleRG
@@ -57,7 +57,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSBefundauswertung)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Befundauswertung"
 * action.resource = Reference(BefundauswertungExampleTSK)
 
@@ -90,7 +90,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeAnamnese)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(AllgemeineNeurologischeAnamneseExampleRG)
 
 Instance: AllgemeineNeurologischeAnamneseExampleRG
@@ -101,7 +101,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeAnamnese)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Allgemeine und neurologische Anamnese"
 * action.resource = Reference(AllgemeineNeurologischeAnamneseExampleTSK)
 
@@ -140,7 +140,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSZusatzdiagnostik)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(ZusatzdiagnostikExampleRG)
 
 Instance: ZusatzdiagnostikExampleRG
@@ -151,7 +151,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSZusatzdiagnostik)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.selectionBehavior = #any
 * action.requiredBehavior = #must-unless-documented
 * action.cardinalityBehavior = #single
@@ -176,7 +176,7 @@ Description: "Beispiel CarePlan für die Durchführung einer Laboruntersuchung m
 * instantiatesCanonical = Canonical(Q4MSLaboruntersuchung)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(LaboruntersuchungExampleRG)
 
 Instance: LaboruntersuchungExampleRG
@@ -187,7 +187,7 @@ Description: "Beispiel RequestGroup für die Durchführung einer Laboruntersuchu
 * instantiatesCanonical = Canonical(Q4MSLaboruntersuchung)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Laboruntersuchung"
 * action.resource = Reference(LaboruntersuchungExampleSR)
 
@@ -201,7 +201,7 @@ Description: "Beispiel CarePlan für die Durchführung einer Auswertung mit dem 
 * instantiatesCanonical = Canonical(Q4MSAuswertung)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(AuswertungExampleRG)
 
 Instance: AuswertungExampleRG
@@ -212,7 +212,7 @@ Description: "Beispiel RequestGroup für die Durchführung einer Auswertung mit 
 * instantiatesCanonical = Canonical(Q4MSAuswertung)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Auswertung"
 * action.resource = Reference(AuswertungExampleTSK)
 
@@ -225,7 +225,7 @@ Description: "Beispiel ServiceRequest für die Durchführung einer Auswertung mi
 * status = $task-status#active
 * intent = $request-intent#plan
 * doNotPerform = false
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * occurrencePeriod.start = "2021-08-16T10:30:00Z"
 * occurrencePeriod.end = "2022-01-21T00:00:00Z"
 * locationCode = $v3-role-code#NEUR
@@ -247,7 +247,7 @@ Description: "Beispiel Task für die Durchführung einer Auswertung mit dem Pati
 * performerType = $snomed-ct#56397003
 * restriction.period.start = "2021-08-16T10:30:00Z"
 * restriction.period.end = "2022-01-21T00:00:00Z"
-* restriction.recipient = Reference(PatientJohnDoe)
+* restriction.recipient = Reference(PatientPseudonym)
 //* input.type = $q4ms-dokumentarten#other     // Patiententagebuch
 //* input.valueReference = Reference(Q4MSSonstigesDokumentProfile)
 //* output.type = $q4ms-dokumentarten#other    // Anweisungen (z.B. Sonder-Zusatzdiagnostik)

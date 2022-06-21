@@ -7,7 +7,7 @@ Description: "Profil zum Check-In eines Patienten zum nächsten Arztbesuch"
 * instantiatesCanonical = Canonical(Q4MSCheckInAD)
 * basedOn only Reference(CarePlan)
 * description 1..1 MS
-* for only Reference(Patient)
+* for only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * for 1..1 MS
 * restriction.period 1..1 MS
 * input 0..1 MS

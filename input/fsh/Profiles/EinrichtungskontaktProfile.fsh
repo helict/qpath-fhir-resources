@@ -9,6 +9,7 @@ Description: "Profil eines Einrichtungskontaktes (IST)"
 * ^url = $q4ms-einrichtungskontakt-sd
 * status 1..1 MS
 * subject 1..1 MS
+* subject only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * episodeOfCare 1..1 MS
 * episodeOfCare only Reference(Q4MSMonitoringzyklusProfile)
 * appointment 1..1 MS
@@ -26,7 +27,7 @@ Description: "Beispiel Encounter Basismonitoring 1. Zyklus (M0, IST)"
 * status = $encounter-status#finished
 * class = $v3-act-code#AMB "Ambulant"
 * type = $encounter-kontaktart-de#tagesklinik "Tagesklinische Behandlung"
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringErsterZyklusExampleEOC)
 * appointment = Reference(BasismonitoringErsterZyklusExampleAPT)
 * serviceProvider = Reference(UnikliniumDresdenMultipleSkleroseZentrum)

@@ -7,7 +7,7 @@ Description: "Profil eines Eintrags in der Liste von Anliegen eines Patienten zu
 * status = $observation-status#preliminary
 * category = $observation-category#social-history
 * code = $loinc#75310-3 "Gesundheitliche Bedenken"
-* subject only Reference(Patient)
+* subject only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * effective[x] only dateTime or Period
 * performer only Reference(Patient)
 * value[x] only string

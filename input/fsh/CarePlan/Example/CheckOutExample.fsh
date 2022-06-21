@@ -6,7 +6,7 @@ Description: "Beispiel CarePlan zum Check-Out eines Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSCheckOut)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(CheckOutExampleRG)
 
 Instance: CheckOutExampleRG
@@ -17,6 +17,6 @@ Description: "Beispiel RequestGroup zum Check-Out eines Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSCheckOut)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Check-Out eines Patienten"
 // TODO: Reference Task resource

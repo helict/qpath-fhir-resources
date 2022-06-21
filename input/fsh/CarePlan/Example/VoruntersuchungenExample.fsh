@@ -6,7 +6,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSVoruntersuchungen)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(VoruntersuchungenExampleRG)
 
 Instance: VoruntersuchungenExampleRG
@@ -17,7 +17,7 @@ Description: "Beispiel RequestGroup zu den Voruntersuchungen eines Patienten (M0
 * instantiatesCanonical = Canonical(Q4MSVoruntersuchungen)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.groupingBehavior = #logical-group
 * action.selectionBehavior = #all
 * action.requiredBehavior = #must-unless-documented
@@ -71,7 +71,7 @@ Description: "Beispiel CarePlan für die Durchführung eines MSPT mit dem Patien
 * instantiatesCanonical = Canonical(Q4MSMultipleSclerosisPerformanceTest)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.extension[$extension-careplan-activity-title].valueString = "Multiple Sclerosis Performance Test (MSPT)"
 * activity.reference = Reference(MultipleSclerosisPerformanceTestExampleRG)
 
@@ -83,7 +83,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSMultipleSclerosisPerformanceTest)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Multiple Sclerosis Performance Test (MSPT)"
 * action.resource = Reference(MultipleSclerosisPerformanceTestExampleSR)
 
@@ -97,7 +97,7 @@ Description: "Beispiel CarePlan für die Durchführung einer therapiespezifische
 * instantiatesCanonical = Canonical(Q4MSTherapiespezifischeDiagnostik)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.extension[$extension-careplan-activity-title].valueString = "Therapiespezifische Diagnostik"
 * activity.reference = Reference(TherapiespezifischeDiagnostikExampleRG)
 
@@ -109,7 +109,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSTherapiespezifischeDiagnostik)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Therapiespezifische Diagnostik"
 * action.resource = Reference(TherapiespezifischeDiagnostikExampleSR)
 
@@ -122,7 +122,7 @@ Description: "Beispiel ServiceRequest für die Durchführung einer therapiespezi
 * status = $task-status#active
 * intent = $request-intent#plan
 * doNotPerform = false
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * occurrencePeriod.start = "2021-08-16T10:30:00Z"
 * occurrencePeriod.end = "2021-08-16T16:00:00Z"
 * locationCode = $v3-role-code#DX
@@ -137,7 +137,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeUntersuchung)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(AllgemeineNeurologischeUntersuchungExampleRG)
 
 Instance: AllgemeineNeurologischeUntersuchungExampleRG
@@ -148,7 +148,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSAllgemeineNeurologischeUntersuchung)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Expanded Disability Status Scale (EDSS)"
 * action.resource = Reference(AllgemeineNeurologischeUntersuchungExampleSR)
 
@@ -162,7 +162,7 @@ Description: "Beispiel CarePlan für die Durchführung eines OCT mit dem Patient
 * instantiatesCanonical = Canonical(Q4MSOptischeKohaerenztomographie)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.extension[$extension-careplan-activity-title].valueString = "Optische Kohärenztomographie (OCT)"
 * activity.reference = Reference(OptischeKohaerenztomographieExampleRG)
 
@@ -174,7 +174,7 @@ Description: "Beispiel RequestGroup für die Durchführung eines OCT mit dem Pat
 * instantiatesCanonical = Canonical(Q4MSOptischeKohaerenztomographie)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Optische Kohärenztomographie (OCT)"
 * action.resource = Reference(OptischeKohaerenztomographieExampleSR)
 
@@ -188,7 +188,7 @@ Description: "Beispiel CarePlan für die Durchführung einer Ganganalyse mit dem
 * instantiatesCanonical = Canonical(Q4MSGanganalyse)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.extension[$extension-careplan-activity-title].valueString = "Ganganalyse"
 * activity.reference = Reference(GanganalyseExampleRG)
 
@@ -200,7 +200,7 @@ Description: "Beispiel RequestGroup für die Durchführung einer Ganganalyse mit
 * instantiatesCanonical = Canonical(Q4MSGanganalyse)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Ganganalyse"
 * action.resource = Reference(GanganalyseExampleSR)
 
@@ -214,7 +214,7 @@ Description: "Beispiel CarePlan für die Durchführung einer MRT mit dem Patient
 * instantiatesCanonical = Canonical(Q4MSMagnetresonanztomographie)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.extension[$extension-careplan-activity-title].valueString = "Magnetresonanztomographie (MRT)"
 * activity.reference = Reference(MagnetresonanztomographieExampleRG)
 
@@ -226,6 +226,6 @@ Description: "Beispiel RequestGroup für die Durchführung einer MRT mit dem Pat
 * instantiatesCanonical = Canonical(Q4MSMagnetresonanztomographie)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Magnetresonanztomographie (MRT)"
 * action.resource = Reference(MagnetresonanztomographieExampleSR)

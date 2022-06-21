@@ -15,7 +15,7 @@ Title: "Q4MSMedicationStatementProfile"
 * medication[x] only Reference(Q4MSMedicationProfile)
 * medication[x] MS
 * medication[x] ^type.profile = Canonical(Q4MSMedicationProfile)
-* subject only Reference
+* subject only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * subject MS
 * context ..0
 * subject.reference 1.. MS

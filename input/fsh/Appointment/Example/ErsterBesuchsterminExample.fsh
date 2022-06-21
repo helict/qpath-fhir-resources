@@ -8,7 +8,7 @@ Description: "Beispiel Appointment zum ersten Besuchstermin am 16.08.2021, 10:30
 * description = "Erster Besuchstermin"
 * created = "2021-05-12T12:00:00Z"
 * participant.type = $v3-participation-type#PPRF
-* participant.actor = Reference(PatientJohnDoe)
+* participant.actor = Reference(PatientPseudonym)
 * participant.required = $participant-required#required
 * participant.status = $participation-status#needs-action
 * requestedPeriod.start = "2021-08-16T10:30:00Z"

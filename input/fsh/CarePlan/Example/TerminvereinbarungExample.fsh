@@ -6,7 +6,7 @@ Description: "Beispiel CarePlan zur Terminvereinbarung mit einem Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSTerminvereinbarung)
 * status = $publication-status#draft
 * intent = $request-intent#option
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(TerminvereinbarungExampleRG)
 
 Instance: TerminvereinbarungExampleRG
@@ -17,6 +17,6 @@ Description: "Beispiel Appointment zur Terminvereinbarung mit einem Patienten (M
 * instantiatesCanonical = Canonical(Q4MSTerminvereinbarung)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.title = "Nächster Besuchstermin"
 * action.resource = Reference(ZweiterBesuchsterminExampleAPT)

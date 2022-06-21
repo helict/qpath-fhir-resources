@@ -6,7 +6,7 @@ Usage: #example
 * instantiatesCanonical = Canonical(Q4MSBasismonitoring)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * activity.reference = Reference(BasismonitoringExampleRG)
 
 Instance: BasismonitoringExampleRG
@@ -17,7 +17,7 @@ Description: "Beispiel RequestGroup einer Basismonitoring-Patientenpfadinstanz z
 * instantiatesCanonical = Canonical(Q4MSBasismonitoring)
 * status = $publication-status#draft
 * intent = $request-intent#plan
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * action.groupingBehavior = #logical-group
 * action.selectionBehavior = #all
 * action.requiredBehavior = #must-unless-documented

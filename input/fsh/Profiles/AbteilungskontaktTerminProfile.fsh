@@ -24,7 +24,7 @@ Description: "Profil eines Termins zum Abteilungskontakt (SOLL)"
 * participant ^slicing.rules = #open
 * participant contains Patient 1..1
 * participant[Patient].type = $encounter-participant-type#PPRF (exactly)
-* participant[Patient].actor only Reference(Patient)
+* participant[Patient].actor only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * participant[Patient].required = $participant-required#required (exactly)
 * participant[Patient].status MS
 
@@ -41,7 +41,7 @@ Description: "Neurologische Untersuchung, festgelegt durch MSZ (M0, SOLL)"
 * created = "2022-04-01T11:00:00Z"
 * basedOn = Reference(NeurologischeUntersuchungExampleSR) // TODO SR
 * participant[Patient].type = $encounter-participant-type#PPRF
-* participant[Patient].actor = Reference(PatientJohnDoe)
+* participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required
 * participant[Patient].status = $participation-status#accepted
 
@@ -58,7 +58,7 @@ Description: "Multiple Sclerosis Performance Test, festgelegt durch MSZ (M0, SOL
 * created = "2022-04-01T11:00:00Z"
 * basedOn = Reference(MultipleSclerosisPerformanceTestExampleSR)
 * participant[Patient].type = $encounter-participant-type#PPRF
-* participant[Patient].actor = Reference(PatientJohnDoe)
+* participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required
 * participant[Patient].status = $participation-status#accepted
 
@@ -75,7 +75,7 @@ Description: "Ganganalyse, festgelegt durch MSZ (M0, SOLL)"
 * created = "2022-04-01T11:00:00Z"
 * basedOn = Reference(GanganalyseExampleSR)
 * participant[Patient].type = $encounter-participant-type#PPRF
-* participant[Patient].actor = Reference(PatientJohnDoe)
+* participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required
 * participant[Patient].status = $participation-status#accepted
 
@@ -92,7 +92,7 @@ Description: "Optische Kohärenztomographie, festgelegt durch MSZ (M0, SOLL)"
 * created = "2022-04-01T11:00:00Z"
 * basedOn = Reference(OptischeKohaerenztomographieExampleSR)
 * participant[Patient].type = $encounter-participant-type#PPRF
-* participant[Patient].actor = Reference(PatientJohnDoe)
+* participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required
 * participant[Patient].status = $participation-status#accepted
 
@@ -109,7 +109,7 @@ Description: "Arztvorstellung, festgelegt durch MSZ (M0, SOLL)"
 * created = "2022-04-01T11:00:00Z"
 //* basedOn = Reference(ArztvorstellungExampleSR)
 * participant[Patient].type = $encounter-participant-type#PPRF
-* participant[Patient].actor = Reference(PatientJohnDoe)
+* participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required
 * participant[Patient].status = $participation-status#accepted
 
@@ -126,6 +126,6 @@ Description: "Laboruntersuchung, festgelegt durch MSZ (M0, SOLL)"
 * created = "2022-04-01T11:00:00Z"
 //* basedOn = Reference(LaborExampleSR)
 * participant[Patient].type = $encounter-participant-type#PPRF
-* participant[Patient].actor = Reference(PatientJohnDoe)
+* participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required
 * participant[Patient].status = $participation-status#accepted

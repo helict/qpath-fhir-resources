@@ -15,7 +15,7 @@ Description: "Profil eines Termins zum Einrichtungskontakt (SOLL)"
 * participant ^slicing.rules = #open
 * participant contains Patient 1..1
 * participant[Patient].type = $encounter-participant-type#PPRF (exactly)
-* participant[Patient].actor only Reference(Patient)
+* participant[Patient].actor only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * participant[Patient].required = $participant-required#required (exactly)
 * participant[Patient].status MS
 
@@ -29,6 +29,6 @@ Description: "Beispiel Appointment Basismonitoring 1. Zyklus (M0, SOLL)"
 * end = "2022-04-19T10:30:00Z"
 * created = "2022-04-01T11:00:00Z"
 * participant[Patient].type = $encounter-participant-type#PPRF
-* participant[Patient].actor = Reference(PatientJohnDoe)
+* participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required
 * participant[Patient].status = $participation-status#accepted

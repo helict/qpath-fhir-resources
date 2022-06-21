@@ -12,6 +12,7 @@ Description: "Profil eines Abteilungskontaktes (IST)"
 * serviceType 1..1 MS
 * serviceType from $ops-codes (required)
 * subject 1..1 MS
+* subject only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * episodeOfCare only Reference(Q4MSMonitoringzyklusProfile)
 * basedOn only Reference(Q4MSProzedurProfile)
 * appointment 0..1 MS
@@ -39,7 +40,7 @@ Description: "Neurologische Untersuchung, beendet (M0, IST)"
 * class = $v3-act-code#AMB "Ambulant"
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
 * serviceType = $ops-codes#1-20a
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringErsterZyklusExampleEOC)
 * basedOn = Reference(NeurologischeUntersuchungExampleSR)
 * appointment = Reference(NeurologischeUntersuchungExampleAPT)
@@ -63,7 +64,7 @@ Description: "Multiple Sclerosis Performance Test, beendet (M0, IST)"
 * class = $v3-act-code#AMB "Ambulant"
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
 * serviceType = $ops-codes#8-92
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringErsterZyklusExampleEOC)
 * basedOn = Reference(MultipleSclerosisPerformanceTestExampleSR)
 * appointment = Reference(MultipleSclerosisPerformanceTestExampleAPT)
@@ -87,7 +88,7 @@ Description: "Ganganalyse, beendet (M0, IST)"
 * class = $v3-act-code#AMB "Ambulant"
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
 * serviceType = $ops-codes#1-798
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringErsterZyklusExampleEOC)
 * basedOn = Reference(GanganalyseExampleSR)
 * appointment = Reference(GanganalyseExampleAPT)
@@ -111,7 +112,7 @@ Description: "Optische Kohärenztomographie, beendet (M0, IST)"
 * class = $v3-act-code#AMB "Ambulant"
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
 * serviceType = $ops-codes#3-300
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringErsterZyklusExampleEOC)
 * basedOn = Reference(OptischeKohaerenztomographieExampleSR)
 * appointment = Reference(OptischeKohaerenztomographieExampleAPT)
@@ -135,7 +136,7 @@ Description: "Arztvorstellung, beendet (M0, IST)"
 * class = $v3-act-code#AMB "Ambulant"
 * type = $encounter-kontaktart-de#konsil "Konsil"
 * serviceType = $dkgev-fachabteilungsschluessel-erweitert#2800
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringErsterZyklusExampleEOC)
 * basedOn = Reference(ArztvorstellungExampleSR)
 * appointment = Reference(ArztvorstellungExampleAPT)
@@ -159,7 +160,7 @@ Description: "Laboruntersuchung, beendet (M0, IST)"
 * class = $v3-act-code#AMB "Ambulant"
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
 * serviceType = $ops-codes#1-942
-* subject = Reference(PatientJohnDoe)
+* subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringErsterZyklusExampleEOC)
 * basedOn = Reference(LaboruntersuchungExampleSR)
 * appointment = Reference(LaborExampleAPT)

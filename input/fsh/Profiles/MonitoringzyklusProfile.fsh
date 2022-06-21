@@ -12,6 +12,7 @@ Description: "Profil eines Monitoringzyklus"
 * diagnosis 1..1 MS
 * diagnosis.condition only Reference(Q4MSMultipleSkleroseDiagnoseProfile)
 * patient 1..1 MS
+* patient only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * managingOrganization 1..1 MS
 * period 1..1 MS
 * period.start 1..1 MS
@@ -23,8 +24,8 @@ Usage: #example
 Title: "Kontinuierliches Basismonitoring Z1"
 Description: "Beispiel eines 1. Zyklus zum kontinuierlichen Basismonitoring"
 * status = $episode-of-care-status#planned
-* diagnosis.condition = Reference(PatientJohnDoeMultipleSclerosisDiagnosisExample)
-* patient = Reference(PatientJohnDoe)
+* diagnosis.condition = Reference(PatientWithMultipleSclerosisDiagnosisExample)
+* patient = Reference(PatientPseudonym)
 * managingOrganization = Reference(UnikliniumDresdenMultipleSkleroseZentrum)
 * period.start = "2022-04-19"
 * period.end = "2023-04-19"

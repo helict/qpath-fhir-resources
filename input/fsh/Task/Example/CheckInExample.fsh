@@ -10,7 +10,7 @@ Description: "Beispiel Task zum Check-In eines Patienten"
 * description = "Aufgaben für den Check-In zum nächsten Arztbesuch"
 * status = $task-status#requested
 * intent = $request-intent#order
-* for = Reference(PatientJohnDoe)
+* for = Reference(PatientPseudonym)
 * restriction.period.end = "2021-08-12T00:00:00Z"
 * input.type.text = "Nächster Besuchstermin"
 * input.valueReference = Reference(ErsterBesuchsterminExampleAPT)
@@ -24,7 +24,7 @@ Description: "Beispiel Task zum Ausfüllen von Fragebögen"
 * partOf = Reference(CheckInExampleTSK)
 * status = $task-status#requested
 * intent = $request-intent#order
-* for = Reference(PatientJohnDoe)
+* for = Reference(PatientPseudonym)
 * restriction.period.end = "2021-08-12T00:00:00Z"
 * input.type.coding = $q4ms-dokumentarten#questionnaire
 * input.type.text = "EMIQ Fragebogen"
@@ -42,7 +42,7 @@ Description: "Beispiel Task zum Check-In eines Patienten (Empfangsbestätigung)"
 * description = "Aufgaben für den Check-In zum nächsten Arztbesuch"
 * status = $task-status#received
 * intent = $request-intent#order
-* for = Reference(PatientJohnDoe)
+* for = Reference(PatientPseudonym)
 * restriction.period.end = "2021-08-12T00:00:00Z"
 * input.type.text = "Nächster Besuchstermin"
 * input.valueReference = Reference(ErsterBesuchsterminExampleAPT)
@@ -56,7 +56,7 @@ Description: "Beispiel Task zum Ausfüllen von Fragebögen (Empfangsbestätigung
 * partOf = Reference(CheckInExampleTSK)
 * status = $task-status#received
 * intent = $request-intent#order
-* for = Reference(PatientJohnDoe)
+* for = Reference(PatientPseudonym)
 * restriction.period.end = "2021-08-12T00:00:00Z"
 * input.type.coding = $q4ms-dokumentarten#questionnaire
 * input.type.text = "EMIQ Fragebogen"

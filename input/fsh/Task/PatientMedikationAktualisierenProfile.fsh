@@ -5,7 +5,7 @@ Title: "Medikation aktualisieren"
 Description: "Profil einer Aufgabe zur Aktualisierung der aktuellen Medikation eines Patienten zum nächsten Arztbesuch"
 * ^url = $q4ms-patient-medikation-aktualisieren-sd
 * partOf only Reference(Q4MSPatientCheckInProfile)
-* for only Reference(Patient)
+* for only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * for 1..1 MS
 * note MS
 * restriction.period 1..1 MS

@@ -6,4 +6,4 @@ Description: "Profile eines Dokuments"
 * type from $ihe-xds-type-code (required)
 * category from $ihe-xds-class-code (required)
 * securityLabel from $ihe-xds-confidentiality-code (required)
-* subject only Reference(Patient)
+* subject only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)

@@ -5,7 +5,7 @@ Title: "Dokumente bereitstellen"
 Description: "Profil einer Aufgabe zur Bereitstellung von Dokumenten zum nächsten Arztbesuch eines Patienten"
 * ^url = $q4ms-patient-dokumente-bereitstellen-sd
 * partOf only Reference(Q4MSPatientCheckInProfile)
-* for only Reference(Patient)
+* for only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * for 1..1 MS
 * note MS
 * restriction.period 1..1 MS

@@ -7,7 +7,7 @@ Description: "Profil einer Liste von Anliegen eines Patienten zur Diskussion bei
 * status = $list-status#current
 * mode = $list-mode#snapshot
 * code = $list-example-use-codes#problems
-* subject only Reference(Patient)
-* source only Reference(Patient)
+* subject only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
+* source only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * entry 0..* MS
   * item only Reference(Q4MSPatientAnliegenEintragProfile)
