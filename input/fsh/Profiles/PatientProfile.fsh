@@ -10,7 +10,7 @@ Title: "Patientenportal Patient"
 Description: "Profil eines Patienten im Patientenportal"
 * ^url = $q4ms-patient-sd
 * identifier 1..* MS
-* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "system"
 * identifier ^slicing.rules = #open
 * identifier ^slicing.ordered = false
