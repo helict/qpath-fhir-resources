@@ -12,7 +12,7 @@ InstanceOf: Questionnaire
 Title: "EMIQ"
 Description: "The Exercise Mental Illness Questionnaire (EMIQ)"
 Usage: #definition
-* insert QuestionnaireMetadata
+* insert QuestionnaireMetadataActive
 * url = $q4ms-emiq-questionnaire
 * name = "EMIQ"
 * title = "Exercise Mental Illness Questionnaire"

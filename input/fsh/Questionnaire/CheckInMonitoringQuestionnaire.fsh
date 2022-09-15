@@ -3,7 +3,7 @@ InstanceOf: Questionnaire
 Title: "CIMQ"
 Description: "Check-In Monitoring-Fragebogen (CIMQ)"
 Usage: #definition
-* insert QuestionnaireMetadata
+* insert QuestionnaireMetadataActive
 * url = $q4ms-cimq-questionnaire
 * name = "CIMQ"
 * title = "Check-In Monitoring-Fragebogen"

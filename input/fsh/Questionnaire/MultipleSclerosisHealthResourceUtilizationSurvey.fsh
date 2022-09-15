@@ -3,7 +3,7 @@ InstanceOf: Questionnaire
 Title: "MS-HRS"
 Description: "Multiple Sclerosis Health Resource Utilization Survey (MS-HRS) Questionnaire"
 Usage: #definition
-* insert QuestionnaireMetadata
+* insert QuestionnaireMetadataActive
 * url = $q4ms-mshrs-questionnaire
 * name = "MSHRS"
 * title = "Multiple Sclerosis Health Resource Utilization Survey Questionnaire"

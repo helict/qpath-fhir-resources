@@ -3,7 +3,7 @@ InstanceOf: Questionnaire
 Title: "HADS"
 Description: "Hostpital Anxiety and Depression Scale Questionnaire, deutsche Version (HADS-D)"
 Usage: #definition
-* insert QuestionnaireMetadata
+* insert QuestionnaireMetadataActive
 * url = $q4ms-hads-questionnaire
 * name = "HADS"
 * title = "Hostpital Anxiety and Depression Scale Questionnaire, deutsche Version"

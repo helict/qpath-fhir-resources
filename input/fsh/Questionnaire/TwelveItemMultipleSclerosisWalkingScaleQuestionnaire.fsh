@@ -3,14 +3,10 @@ InstanceOf: Questionnaire
 Title: "MSWS-12"
 Description: "Twelve Item MS Walking Scale (MSWS-12) Questionnaire"
 Usage: #definition
-* language = $ietf-bcp-47#de-DE
+* insert QuestionnaireMetadataActive
 * url = $q4ms-msws-questionnaire
-* version = "1.0.0"
 * name = "MSWS12"
 * title = "Twelve Item MS Walking Scale Questionnaire"
-* status = $publication-status#draft
-* experimental = true
-* subjectType = $resource-type#Patient
 * item[+].linkId = "MSWS-12.0"
 * item[=].text = "Wenn sie überhaupt nicht gehen können, kreuzen Sie bitte dieses Kästchen an"
 * item[=].type = $item-type#boolean

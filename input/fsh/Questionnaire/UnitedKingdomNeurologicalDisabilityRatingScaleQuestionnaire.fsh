@@ -3,14 +3,10 @@ InstanceOf: Questionnaire
 Title: "UNDS"
 Description: "United Kingdom Neurological Disability Rating Scale Questionnaire (UNDS), deutsche Version"
 Usage: #definition
-* language = $ietf-bcp-47#de-DE
+* insert QuestionnaireMetadataActive
 * url = $q4ms-unds-questionnaire
-* version = "1.0.0"
 * name = "UNDS"
 * title = "United Kingdom Neurological Disability Rating Scale Questionnaire"
-* status = $publication-status#draft
-* experimental = true
-* subjectType = $resource-type#Patient
 * item[0].linkId = "UNDS-1"
 * item[=].text = "Kognitive Störungen"
 * item[=].type = $item-type#group

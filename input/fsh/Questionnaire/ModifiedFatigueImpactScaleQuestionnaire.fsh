@@ -3,7 +3,7 @@ InstanceOf: Questionnaire
 Title: "MFIS"
 Description: "Modified Fatigue Impact Scale (MFIS) Questionnaire"
 Usage: #definition
-* insert QuestionnaireMetadata
+* insert QuestionnaireMetadataActive
 * url = $q4ms-mfis-questionnaire
 * name = "MFIS"
 * title = "Modified Fatigue Impact Scale Questionnaire"

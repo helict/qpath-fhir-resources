@@ -3,7 +3,7 @@ InstanceOf: Questionnaire
 Title: "HAQUAMS"
 Description: "Hamburg Quality of Life Questionnaire in Multiple Sclerosis (HAQUAMS)"
 Usage: #definition
-* insert QuestionnaireMetadata
+* insert QuestionnaireMetadataActive
 * url = $q4ms-haquams-questionnaire
 * name = "HAQUAMS"
 * title = "Hamburg Quality of Life Questionnaire in Multiple Sclerosis"
