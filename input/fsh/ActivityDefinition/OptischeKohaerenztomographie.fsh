@@ -8,7 +8,7 @@ Usage: #definition
 * title = "Optische Kohärenztomographie (OCT)"
 * status = $publication-status#draft
 * experimental = true
-* kind = $resource-type#ServiceRequest
+* kind = $request-resource-type#ServiceRequest
 * code = $ops-codes#3-300
 * intent = $request-intent#plan
 * profile = Canonical(Q4MSProzedurProfile)

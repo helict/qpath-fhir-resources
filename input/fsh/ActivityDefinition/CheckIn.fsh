@@ -7,5 +7,5 @@ Usage: #definition
 * name = "Q4MSCheckInAD"
 * status = $publication-status#draft
 * experimental = true
-* kind = $resource-type#Task
+* kind = $request-resource-type#Task
 * doNotPerform = false

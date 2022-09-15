@@ -4,14 +4,14 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.qpath4ms
-canonical: http://qpath4ms.ukdd.de
+canonical: http://qpath4ms.ukdd.de/fhir
 name: QPath4MS IG
 title: QPath4MS FHIR Implementation Guide
 description: Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2021+
+copyrightYear: 2022+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: urn:iso:std:iso:3166#DE "Germany" # https://www.hl7.org/fhir/valueset-jurisdiction.html
@@ -33,6 +33,8 @@ publisher:
 dependencies:
   hl7.fhir.uv.sdc: 3.0.0
   de.basisprofil.r4: 1.3.2
+  #de.basisprofil.r4: 1.4.0
+  #de.medizininformatikinitiative.kerndatensatz.prozedur: 1.0.7
 
 # The pages property corresponds to IG.definition.page. SUSHI can
 # auto-generate the page list, but if the author includes pages in

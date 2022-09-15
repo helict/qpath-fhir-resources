@@ -8,7 +8,7 @@ Usage: #definition
 * title = "Magnetresonanztomographie (MRT)"
 * status = $publication-status#draft
 * experimental = true
-* kind = $resource-type#ServiceRequest
+* kind = $request-resource-type#ServiceRequest
 * code = $ops-codes#3-80
 * intent = $request-intent#plan
 * profile = Canonical(Q4MSProzedurProfile)

@@ -1,12 +1,11 @@
 Alias: $q4ms-repository-aenderungskategorie = http://qpath4ms.ukdd.de/fhir/CodeSystem/Q4MSRepositoryAenderungskategorie
 Alias: $q4ms-repository-aenderung-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSRepositoryAenderungProfile
 Alias: $q4ms-repository-aenderungsnachricht-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSRepositoryAenderungnachrichtProfile
-Alias: $q4ms-repository-aenderungsnachrichtkopf-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSRepositoryAenderungnachrichtkopfProfile
+Alias: $q4ms-repository-aenderungsnachrichtkopf-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSRepositoryAenderungsnachrichtkopfProfile
 Alias: $q4ms-fhir-rest-api-endpoint-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSFhirRestApiEndpointProfile
 Alias: $endpoint-connection-type = http://terminology.hl7.org/CodeSystem/endpoint-connection-type
 Alias: $endpoint-status = http://hl7.org/fhir/endpoint-status
 Alias: $http-verb = http://hl7.org/fhir/http-verb
-Alias: $mime-types = urn:ietf:bcp:13
 
 CodeSystem: Q4MSRepositoryAenderungskategorie
 Title: "Repository-Änderungskategorie"
@@ -27,7 +26,7 @@ Description: "Profil eines Endpunkts zu einer FHIR REST API, z.B. Repository fü
 * name 1..1
 * managingOrganization 1..1
 * contact 1..*
-* payloadType from $resource-type (required)
+* payloadType from $resource-type-vs (required)
 * payloadMimeType = $mime-types#application/fhir+json (exactly)
 
 Instance: PathwayRepositoryEndpointExample
@@ -45,7 +44,7 @@ Description: "Beispiel eines Endpunkts zum Repository für Patientenpfadvorlagen
 * contact[+].system = $contact-point-system#phone
 * contact[=].value = "+4935141884862"
 * contact[=].rank = 2
-* payloadType[+] = $resource-type#ActivitiyDefinition
+* payloadType[+] = $resource-type#ActivityDefinition
 * payloadType[+] = $resource-type#Appointment
 * payloadType[+] = $resource-type#Bundle
 * payloadType[+] = $resource-type#CarePlan
@@ -107,27 +106,18 @@ Description: "Profil für die Anzeige von Änderungen und deren Lokalisation im 
 * total 0..0
 * link 0..0
 * entry 1..*
-* entry ^slicing.discriminator.type = #value
-* entry ^slicing.discriminator.path = "request.method"
-* entry ^slicing.discriminator.type = #value
-* entry ^slicing.discriminator.path = "request.url"
-* entry ^slicing.rules = #closed
-* entry ^slicing.description = "Slices request.method and request.url value"
-* entry ^slicing.ordered = false
-* entry 1..*
-* entry contains Lokalisation 1..*
-* entry[Lokalisation].link 0..0
-* entry[Lokalisation].resource 1..1 MS
-* entry[Lokalisation].resource only Q4MSFhirRestApiEndpointProfile
-* entry[Lokalisation].search 0..0
-* entry[Lokalisation].request.method MS
-* entry[Lokalisation].request.method = $http-verb#GET (exactly)
-* entry[Lokalisation].request.url MS
-* entry[Lokalisation].request.ifNoneMatch 0..0
-* entry[Lokalisation].request.ifModifiedSince 0..0
-* entry[Lokalisation].request.ifMatch 0..0
-* entry[Lokalisation].request.ifNoneExist 0..0
-* entry[Lokalisation].response 0..0
+* entry.link 0..0
+* entry.resource MS
+* entry.resource only Q4MSFhirRestApiEndpointProfile
+* entry.search 0..0
+* entry.request.method MS
+* entry.request.method = $http-verb#GET (exactly)
+* entry.request.url 1..1 MS
+* entry.request.ifNoneMatch 0..0
+* entry.request.ifModifiedSince 0..0
+* entry.request.ifMatch 0..0
+* entry.request.ifNoneExist 0..0
+* entry.response 0..0
 * signature 0..0
 
 Instance: PathwayRepositoryAenderungExample
@@ -135,30 +125,31 @@ InstanceOf: Q4MSRepositoryAenderungProfile
 Usage: #example
 Title: "Beispiel Änderung"
 Description: "Beispiel Änderung"
+* id = "ba6949bf-994f-4ed9-9f14-2b2f87f3d04b"
 * type = $bundle-type#batch
 * timestamp = "2022-06-23T17:54:41Z"
-* entry[Lokalisation][0].resource = PathwayRepositoryEndpointExample
-* entry[Lokalisation][=].request.method = $http-verb#GET
-* entry[Lokalisation][=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/NeurologischeUntersuchungExampleAPT"
-* entry[Lokalisation][+].resource = PathwayRepositoryEndpointExample
-* entry[Lokalisation][=].request.method = $http-verb#GET
-* entry[Lokalisation][=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/MultipleSclerosisPerformanceTestExampleAPT"
-* entry[Lokalisation][+].resource = PathwayRepositoryEndpointExample
-* entry[Lokalisation][=].request.method = $http-verb#GET
-* entry[Lokalisation][=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/GanganalyseExampleExampleAPT"
-* entry[Lokalisation][+].resource = PathwayRepositoryEndpointExample
-* entry[Lokalisation][=].request.method = $http-verb#GET
-* entry[Lokalisation][=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/OptischeKohaerenztomographieExampleAPT"
-* entry[Lokalisation][+].resource = PathwayRepositoryEndpointExample
-* entry[Lokalisation][=].request.method = $http-verb#GET
-* entry[Lokalisation][=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/ArztvorstellungExampleAPT"
-* entry[Lokalisation][+].resource = PathwayRepositoryEndpointExample
-* entry[Lokalisation][=].request.method = $http-verb#GET
-* entry[Lokalisation][=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/LaboruntersuchungExampleAPT"
+* entry[+].fullUrl = "urn:uuid:35c605c7-b03f-4cbb-b92e-e3615a5e5e87"
+* entry[=].request.method = $http-verb#GET
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/AllgemeineNeurologischeUntersuchungExampleAPT"
+* entry[+].fullUrl = "urn:uuid:c24070a8-dd9f-483d-8e47-4d3aa8efb5c6"
+* entry[=].request.method = $http-verb#GET
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/MultipleSclerosisPerformanceTestExampleAPT"
+* entry[+].fullUrl = "urn:uuid:12818646-900b-4c94-ba0a-34ae66bb1a73"
+* entry[=].request.method = $http-verb#GET
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/GanganalyseExampleExampleAPT"
+* entry[+].fullUrl = "urn:uuid:737c9373-c615-448f-aeaf-95044de0e52d"
+* entry[=].request.method = $http-verb#GET
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/OptischeKohaerenztomographieExampleAPT"
+* entry[+].fullUrl = "urn:uuid:e8b08d38-478a-4d57-afee-90885699c9b1"
+* entry[=].request.method = $http-verb#GET
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/ArztvorstellungExampleAPT"
+* entry[+].fullUrl = "urn:uuid:fd851138-d6ac-4e92-9d9c-12868c24c669"
+* entry[=].request.method = $http-verb#GET
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/LaboruntersuchungExampleAPT"
 
 Profile: Q4MSRepositoryAenderungsnachrichtProfile
 Parent: Bundle
-Id: Q4MSBenachrichtigungProfile
+Id: Q4MSRepositoryAenderungnachrichtProfile
 Title: "Repository-Änderungsnachricht"
 Description: "Profil einer Nachricht, die Änderungen in einem oder mehreren Repositories anzeigt"
 * ^url = $q4ms-repository-aenderungsnachricht-sd
@@ -182,5 +173,7 @@ Title: "Beispiel Änderungsnachricht"
 Description: "Beispiel Änderungsnachricht"
 * type = $bundle-type#message
 * timestamp = "2022-06-23T17:54:41Z"
-* entry[+].resource = PathwayRepositoryAenderungsnachrichtkopfExample
-* entry[+].resource = PathwayRepositoryAenderungExample
+* entry[+].fullUrl = "urn:uuid:f6954039-59f3-4b71-b446-77435c6835a3"
+* entry[=].resource = PathwayRepositoryAenderungsnachrichtkopfExample
+* entry[+].fullUrl = "urn:uuid:ba6949bf-994f-4ed9-9f14-2b2f87f3d04b"
+* entry[=].resource = PathwayRepositoryAenderungExample

@@ -1,8 +1,10 @@
+Alias: $edqm-dose-form-vs = http://fhir.de/ValueSet/medikationsplanplus/edqm-darreichungsform
+
 Profile: Q4MSMedicationProfile
 Parent: Medication
 Id: Q4MSMedicationProfile
 Title: "Q4MSMedicationProfile"
-* ^url = "http://qpath4ms.ukdd.de/fhir/StructureDefinition/medicationPlan/Q4MSMedicationProfile"
+* ^url = "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSMedicationProfile"
 * ^status = #draft
 * id MS
 * meta MS
@@ -12,9 +14,9 @@ Title: "Q4MSMedicationProfile"
 * code ^definition = "Die Verwendung von PZN ist verpflichtent, die Codes können jedoch nicht validiert werden, da der gesamte Katalog der Codes nicht vorliegt."
 * manufacturer ..0
 * form MS
-* form from http://fhir.de/ValueSet/medikationsplanplus/edqm-darreichungsform (required)
+* form from $edqm-dose-form-vs (required)
 * form ^short = "Darreichungsform"
-* form ^definition = "Darreichungsform codiert nach EDQMDoseForm oder als Freitext"
+* form ^definition = "Darreichungsform codiert nach EDQM oder als Freitext"
 * amount MS
 * amount.numerator MS
 * amount.numerator.value MS
@@ -29,6 +31,8 @@ Title: "Q4MSMedicationProfile"
 * ingredient MS
 * ingredient.item[x] only CodeableConcept
 * ingredient.item[x] MS
+* ingredient.item[x].coding ^slicing.discriminator[0].type = #value
+* ingredient.item[x].coding ^slicing.discriminator[=].path = "system"
 * ingredient.item[x].coding ^slicing.rules = #open
 * ingredient.item[x].coding ^mustSupport = false
 * ingredient.item[x].coding contains

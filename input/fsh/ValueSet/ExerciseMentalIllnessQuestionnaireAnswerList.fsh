@@ -3,7 +3,7 @@ InstanceOf: ValueSet
 Usage: #definition
 Title: "EMIQVS"
 Description: "The Exercise Mental Illness Questionnaire (EMIQ) ValueSet"
-* language = $ietf-bcp-47#en
+* language = $ietf-bcp-47#de-DE
 * url = $q4ms-emiq-answerlist-vs
 * version = "1.0.0"
 * name = "EMIQVS"

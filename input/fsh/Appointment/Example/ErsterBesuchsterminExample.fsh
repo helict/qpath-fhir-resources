@@ -3,6 +3,7 @@ InstanceOf: Appointment
 Usage: #example
 Title: "Beispiel erster Besuchstermin"
 Description: "Beispiel Appointment zum ersten Besuchstermin am 16.08.2021, 10:30 Uhr (M0)"
+* id = "885d5730-4e21-4325-9914-df03ebfac192"
 * status = $appointment-status#proposed
 * appointmentType = $v2-0276#ROUTINE
 * description = "Erster Besuchstermin"

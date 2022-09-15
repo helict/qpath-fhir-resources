@@ -7,5 +7,5 @@ Usage: #definition
 * name = "Q4MSTherapiespezifischeDiagnostikAD"
 * status = $publication-status#draft
 * experimental = true
-* kind = $resource-type#ServiceRequest
+* kind = $request-resource-type#ServiceRequest
 * doNotPerform = false

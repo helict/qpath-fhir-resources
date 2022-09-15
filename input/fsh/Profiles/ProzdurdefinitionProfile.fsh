@@ -9,7 +9,7 @@ Description: "Profil zur Definition einer Prozedur"
 * status 1..1 MS
 * title 1..1 MS
 * kind 1..1 MS
-* kind = $resource-type#ServiceRequest
+* kind = $request-resource-type#ServiceRequest
 * profile 1..1 MS
 * profile = $q4ms-prozedur-sd
 * code 1..1 MS

@@ -8,7 +8,7 @@ Usage: #definition
 * title = "Laboruntersuchung"
 * status = $publication-status#draft
 * experimental = true
-* kind = $resource-type#ServiceRequest
+* kind = $request-resource-type#ServiceRequest
 * code = $ops-codes#1-942
 * intent = $request-intent#plan
 * profile = Canonical(Q4MSProzedurProfile)

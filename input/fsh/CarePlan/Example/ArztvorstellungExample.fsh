@@ -159,8 +159,8 @@ Usage: #example
 * action.action[=].resource = Reference(GanganalyseExampleCP)
 * action.action[+].title = "Optische Kohärenztomographie (OCT)"
 * action.action[=].resource = Reference(OptischeKohaerenztomographieExampleCP)
-* action.action[+].title = "Magnetresonanztomographie (MRT)"
-* action.action[=].resource = Reference(MagnetresonanztomographieExampleCP)
+//* action.action[+].title = "Magnetresonanztomographie (MRT)"
+//* action.action[=].resource = Reference(MagnetresonanztomographieExampleCP)
 * action.action[+].title = "Laboruntersuchung"
 * action.action[=].resource = Reference(LaboruntersuchungExampleCP)
 * action.action[+].title = "Multiple Sclerosis Performance Test (MSPT)"

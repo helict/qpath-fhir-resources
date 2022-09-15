@@ -19,4 +19,16 @@ Description: "Beispiel RequestGroup zum Check-Out eines Patienten (M0)"
 * intent = $request-intent#plan
 * subject = Reference(PatientPseudonym)
 * action.title = "Check-Out eines Patienten"
-// TODO: Reference Task resource
+* action.resource = Reference(CheckOutExampleTSK)
+
+Instance: CheckOutExampleTSK
+InstanceOf: Task
+Usage: #example
+Title: "Beispiel Task Check-Out (Platzhalter)"
+Description: "Beispiel Task zum Check-In eines Patienten"
+* instantiatesCanonical = Canonical(Q4MSCheckOutAD)
+* basedOn = Reference(CheckOutExampleCP)
+* description = "Aufgaben zum Check-Out für den Patienten"
+* status = $task-status#requested
+* intent = $request-intent#order
+* for = Reference(PatientPseudonym)

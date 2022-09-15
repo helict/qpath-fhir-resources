@@ -9,5 +9,6 @@ Description: "Profile einer Terminanfrage"
 * date = "2021-12-21"
 * parent = Canonical(Q4MSTerminvereinbarungAD)
 * eventCoding = $q4ms-terminanfragekategorie#booking
+* focus.code = $resource-type#Appointment
 * focus.max = "1"
 * responseRequired = $messageheader-response-request#always

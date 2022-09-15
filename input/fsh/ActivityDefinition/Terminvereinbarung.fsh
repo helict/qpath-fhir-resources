@@ -7,5 +7,5 @@ Usage: #definition
 * name = "Q4MSTerminvereinbarungAD"
 * status = $publication-status#draft
 * experimental = true
-* kind = $resource-type#Appointment
+* kind = $request-resource-type#Appointment
 * doNotPerform = false

@@ -56,8 +56,8 @@ Description: "Beispiel RequestGroup zu den Voruntersuchungen eines Patienten (M0
 * action.action[=].action[=].resource = Reference(OptischeKohaerenztomographieExampleCP)
 * action.action[=].action[+].title = "Ganganalyse"
 * action.action[=].action[=].resource = Reference(GanganalyseExampleCP)
-* action.action[=].action[+].title = "Magnetresonanztomographie (MRT)"
-* action.action[=].action[=].resource = Reference(MagnetresonanztomographieExampleCP)
+//* action.action[=].action[+].title = "Magnetresonanztomographie (MRT)"
+//* action.action[=].action[=].resource = Reference(MagnetresonanztomographieExampleCP)
 * action.action[=].action[+].title = "Laboruntersuchung"
 * action.action[=].action[=].resource = Reference(LaboruntersuchungExampleCP)
 
@@ -206,26 +206,26 @@ Description: "Beispiel RequestGroup für die Durchführung einer Ganganalyse mit
 
 // Voruntersuchung -> MRT
 
-Instance: MagnetresonanztomographieExampleCP
-InstanceOf: CarePlan
-Usage: #example
-Title: "Beispiel Magnetresonanztomographie (MRT)"
-Description: "Beispiel CarePlan für die Durchführung einer MRT mit dem Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSMagnetresonanztomographie)
-* status = $publication-status#draft
-* intent = $request-intent#option
-* subject = Reference(PatientPseudonym)
-* activity.extension[$extension-careplan-activity-title].valueString = "Magnetresonanztomographie (MRT)"
-* activity.reference = Reference(MagnetresonanztomographieExampleRG)
-
-Instance: MagnetresonanztomographieExampleRG
-InstanceOf: RequestGroup
-Usage: #example
-Title: "Beispiel Magnetresonanztomographie (MRT)"
-Description: "Beispiel RequestGroup für die Durchführung einer MRT mit dem Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSMagnetresonanztomographie)
-* status = $publication-status#draft
-* intent = $request-intent#plan
-* subject = Reference(PatientPseudonym)
-* action.title = "Magnetresonanztomographie (MRT)"
-* action.resource = Reference(MagnetresonanztomographieExampleSR)
+//Instance: MagnetresonanztomographieExampleCP
+//InstanceOf: CarePlan
+//Usage: #example
+//Title: "Beispiel Magnetresonanztomographie (MRT)"
+//Description: "Beispiel CarePlan für die Durchführung einer MRT mit dem Patienten (M0)"
+//* instantiatesCanonical = Canonical(Q4MSMagnetresonanztomographie)
+//* status = $publication-status#draft
+//* intent = $request-intent#option
+//* subject = Reference(PatientPseudonym)
+//* activity.extension[$extension-careplan-activity-title].valueString = "Magnetresonanztomographie (MRT)"
+//* activity.reference = Reference(MagnetresonanztomographieExampleRG)
+//
+//Instance: MagnetresonanztomographieExampleRG
+//InstanceOf: RequestGroup
+//Usage: #example
+//Title: "Beispiel Magnetresonanztomographie (MRT)"
+//Description: "Beispiel RequestGroup für die Durchführung einer MRT mit dem Patienten (M0)"
+//* instantiatesCanonical = Canonical(Q4MSMagnetresonanztomographie)
+//* status = $publication-status#draft
+//* intent = $request-intent#plan
+//* subject = Reference(PatientPseudonym)
+//* action.title = "Magnetresonanztomographie (MRT)"
+//* action.resource = Reference(MagnetresonanztomographieExampleSR)

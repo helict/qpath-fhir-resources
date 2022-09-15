@@ -3,7 +3,7 @@ InstanceOf: Questionnaire
 Title: "FSMC"
 Description: "Fatigue Scale for Motor and Cognitive Functions (FSMC) Questionnaire"
 Usage: #definition
-* insert QuestionnaireMetadata
+* insert QuestionnaireMetadataActive
 * url = $q4ms-fsmc-questionnaire
 * name = "FSMC"
 * title = "Fatigue Scale for Motor and Cognitive Functions Questionnaire"

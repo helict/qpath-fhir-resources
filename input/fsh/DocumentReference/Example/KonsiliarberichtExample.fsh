@@ -4,4 +4,7 @@ Usage: #example
 Title: "Beispiel Konsiliarbericht"
 Description: "Beispiel DocumentReference für einen Konsiliarbericht"
 * subject = Reference(PatientPseudonym)
-* content[+].attachment.title = "Leeres Beispiel Attachment für einen Konsiliarbericht"
+* content[+].attachment.contentType = $mime-types#text/plain
+* content[=].attachment.language = $ietf-bcp-47#DE
+* content[=].attachment.data = "Cg=="
+* content[=].attachment.title = "Leeres Beispiel Attachment"

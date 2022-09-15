@@ -8,7 +8,7 @@ Usage: #definition
 * title = "Expanded Disability Status Scale (EDSS)"
 * status = $publication-status#draft
 * experimental = true
-* kind = $resource-type#ServiceRequest
+* kind = $request-resource-type#ServiceRequest
 * code = $ops-codes#1-20a
 * intent = $request-intent#plan
 * profile = Canonical(Q4MSProzedurProfile)

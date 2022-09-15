@@ -25,7 +25,7 @@ Usage: #example
 Title: "Basismonitoring Z1 (M0, IST)"
 Description: "Beispiel Encounter Basismonitoring 1. Zyklus (M0, IST)"
 * status = $encounter-status#finished
-* class = $v3-act-code#AMB "Ambulant"
+* class = $v3-act-code#AMB
 * type = $encounter-kontaktart-de#tagesklinik "Tagesklinische Behandlung"
 * subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringErsterZyklusExampleEOC)

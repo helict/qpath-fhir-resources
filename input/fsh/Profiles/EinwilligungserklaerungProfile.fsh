@@ -44,7 +44,7 @@ Description: "Profil einer Einwilligungserklärung zur Nutzung des Patientenport
 * organization[Institutionskennzeichen].identifier.type.coding.code = #XX (exactly)
 * organization[Institutionskennzeichen].identifier.system 1..1
 * organization[Institutionskennzeichen].identifier.system = $iknr (exactly)
-* organization[Institutionskennzeichen].identifier.value1..1
+* organization[Institutionskennzeichen].identifier.value 1..1
 * organization[Institutionskennzeichen].display 1..1
 * source[x] 1..1 MS
 * source[x] only Attachment

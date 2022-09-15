@@ -13,8 +13,8 @@ Description: "Profil eines Termins zum Abteilungskontakt (SOLL)"
 * status 1..1 MS
 * start 1..1 MS
 * end 1..1 MS
-* serviceType 1..1 MS
-* serviceType from $ops-codes (required)
+//* serviceType from $ops-codes (required)
+//* serviceType 1..1 MS
 * minutesDuration MS
 * patientInstruction MS
 * basedOn MS
@@ -28,7 +28,7 @@ Description: "Profil eines Termins zum Abteilungskontakt (SOLL)"
 * participant[Patient].required = $participant-required#required (exactly)
 * participant[Patient].status MS
 
-Instance: NeurologischeUntersuchungExampleAPT
+Instance: AllgemeineNeurologischeUntersuchungExampleAPT
 InstanceOf: Q4MSAbteilungskontaktTerminProfile
 Usage: #example
 Title: "Neurologische Untersuchung (M0, SOLL)"
@@ -36,27 +36,10 @@ Description: "Neurologische Untersuchung, festgelegt durch MSZ (M0, SOLL)"
 * status = $appointment-status#fulfilled
 * start = "2022-04-19T08:00:00Z"
 * end = "2022-04-19T08:20:00Z"
-* serviceType = $ops-codes#1-20a
+//* serviceType = $ops-codes#1-20a
 * minutesDuration = 20
 * created = "2022-04-01T11:00:00Z"
-* basedOn = Reference(NeurologischeUntersuchungExampleSR) // TODO SR
-* participant[Patient].type = $encounter-participant-type#PPRF
-* participant[Patient].actor = Reference(PatientPseudonym)
-* participant[Patient].required = $participant-required#required
-* participant[Patient].status = $participation-status#accepted
-
-Instance: MultipleSclerosisPerformanceTestExampleAPT
-InstanceOf: Q4MSAbteilungskontaktTerminProfile
-Usage: #example
-Title: "MSPT (M0, SOLL)"
-Description: "Multiple Sclerosis Performance Test, festgelegt durch MSZ (M0, SOLL)"
-* status = $appointment-status#fulfilled
-* start = "2022-04-19T09:00:00Z"
-* end = "2022-04-19T09:25:00Z"
-* serviceType = $ops-codes#8-92
-* minutesDuration = 25
-* created = "2022-04-01T11:00:00Z"
-* basedOn = Reference(MultipleSclerosisPerformanceTestExampleSR)
+* basedOn = Reference(AllgemeineNeurologischeUntersuchungExampleSR)
 * participant[Patient].type = $encounter-participant-type#PPRF
 * participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required
@@ -70,10 +53,27 @@ Description: "Ganganalyse, festgelegt durch MSZ (M0, SOLL)"
 * status = $appointment-status#fulfilled
 * start = "2022-04-19T08:30:00Z"
 * end = "2022-04-19T08:55:00Z"
-* serviceType = $ops-codes#1-798
+//* serviceType = $ops-codes#1-798
 * minutesDuration = 25
 * created = "2022-04-01T11:00:00Z"
 * basedOn = Reference(GanganalyseExampleSR)
+* participant[Patient].type = $encounter-participant-type#PPRF
+* participant[Patient].actor = Reference(PatientPseudonym)
+* participant[Patient].required = $participant-required#required
+* participant[Patient].status = $participation-status#accepted
+
+Instance: MultipleSclerosisPerformanceTestExampleAPT
+InstanceOf: Q4MSAbteilungskontaktTerminProfile
+Usage: #example
+Title: "MSPT (M0, SOLL)"
+Description: "Multiple Sclerosis Performance Test, festgelegt durch MSZ (M0, SOLL)"
+* status = $appointment-status#fulfilled
+* start = "2022-04-19T09:00:00Z"
+* end = "2022-04-19T09:25:00Z"
+//* serviceType = $ops-codes#8-92
+* minutesDuration = 25
+* created = "2022-04-01T11:00:00Z"
+* basedOn = Reference(MultipleSclerosisPerformanceTestExampleSR)
 * participant[Patient].type = $encounter-participant-type#PPRF
 * participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required
@@ -87,7 +87,7 @@ Description: "Optische Kohärenztomographie, festgelegt durch MSZ (M0, SOLL)"
 * status = $appointment-status#fulfilled
 * start = "2022-04-19T09:30:00Z"
 * end = "2022-04-19T09:55:00Z"
-* serviceType = $ops-codes#3-300
+//* serviceType = $ops-codes#3-300
 * minutesDuration = 25
 * created = "2022-04-01T11:00:00Z"
 * basedOn = Reference(OptischeKohaerenztomographieExampleSR)
@@ -104,10 +104,10 @@ Description: "Arztvorstellung, festgelegt durch MSZ (M0, SOLL)"
 * status = $appointment-status#fulfilled
 * start = "2022-04-19T10:00:00Z"
 * end = "2022-04-19T10:15:00Z"
-* serviceType = $dkgev-fachabteilungsschluessel-erweitert#2800
+//* serviceType = $ops-codes#8-92
 * minutesDuration = 15
 * created = "2022-04-01T11:00:00Z"
-//* basedOn = Reference(ArztvorstellungExampleSR)
+* basedOn = Reference(ArztvorstellungExampleSR)
 * participant[Patient].type = $encounter-participant-type#PPRF
 * participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required
@@ -121,10 +121,10 @@ Description: "Laboruntersuchung, festgelegt durch MSZ (M0, SOLL)"
 * status = $appointment-status#fulfilled
 * start = "2022-04-19T10:20:00Z"
 * end = "2022-04-19T10:30:00Z"
-* serviceType = $ops-codes#1-942
+//* serviceType = $ops-codes#1-942
 * minutesDuration = 10
 * created = "2022-04-01T11:00:00Z"
-//* basedOn = Reference(LaborExampleSR)
+* basedOn = Reference(LaboruntersuchungExampleSR)
 * participant[Patient].type = $encounter-participant-type#PPRF
 * participant[Patient].actor = Reference(PatientPseudonym)
 * participant[Patient].required = $participant-required#required

@@ -82,7 +82,7 @@ Usage: #definition
 * item[+].linkId = "PHQ9.Score"
 * item[=].code = $loinc#44261-6
 * item[=].text = "Gesamtwertung"
-* item[=].type = $item-type#quantity
+* item[=].type = $item-type#decimal
 * item[=].required = false
 * item[=].repeats = false
 * item[=].readOnly = true
