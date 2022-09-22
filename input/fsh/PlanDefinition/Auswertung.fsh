@@ -5,7 +5,7 @@ Description: "PlanDefinition zur Auswertung"
 Usage: #definition
 * url = $q4ms-auswertung
 * name = "Q4MSAuswertung"
-* status = $publication-status#draft
+* status = $publication-status#active
 * type = $plan-definition-type#eca-rule
 * experimental = true
 * action.title = "Auswertung"

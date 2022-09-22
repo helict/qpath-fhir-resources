@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-allgemeine-neurologische-untersuchung
 * name = "Q4MSAllgemeineNeurologischeUntersuchung"
 * type = $plan-definition-type#eca-rule
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action.code = $ops-codes#1-20a
 * action.title = "Expanded Disability Status Scale (EDSS)"

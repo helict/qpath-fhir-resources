@@ -5,7 +5,7 @@ Description: "ActivityDefinition zum Check-In"
 Usage: #definition
 * url = $q4ms-check-in-ad
 * name = "Q4MSCheckInAD"
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * kind = $request-resource-type#Task
 * doNotPerform = false

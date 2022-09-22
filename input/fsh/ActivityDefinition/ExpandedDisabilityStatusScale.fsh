@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-expanded-disability-status-scale-ad
 * name = "Q4MSExpandedDisabilityStatusScaleAD"
 * title = "Expanded Disability Status Scale (EDSS)"
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * kind = $request-resource-type#ServiceRequest
 * code = $ops-codes#1-20a

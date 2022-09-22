@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-arztvorstellung
 * name = "Q4MSArztvorstellung"
 * type = $plan-definition-type#workflow-definition
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action[0].id = "examination"
 * action[=].groupingBehavior = #logical-group

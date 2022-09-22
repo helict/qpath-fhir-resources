@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-magnetresonanztomographie-ad
 * name = "Q4MSMagnetresonanztomographieAD"
 * title = "Magnetresonanztomographie (MRT)"
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * kind = $request-resource-type#ServiceRequest
 * code = $ops-codes#3-80

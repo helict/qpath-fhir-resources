@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-optische-koheraenztomographie
 * name = "Q4MSOptischeKohaerenztomographie"
 * type = $plan-definition-type#eca-rule
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action.code = $ops-codes#3-300
 * action.title = "Diagnostik Optische Kohärenztomographie (OCT)"

@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-multiple-sclerosis-performance-test-ad
 * name = "Q4MSMultipleSclerosisPerformanceTestAD"
 * title = "Multiple Sclerosis Performance Test (MSPT)"
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * kind = $request-resource-type#ServiceRequest
 * code = $ops-codes#8-92

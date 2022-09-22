@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-laboruntersuchung-ad
 * name = "Q4MSLaboruntersuchungAD"
 * title = "Laboruntersuchung"
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * kind = $request-resource-type#ServiceRequest
 * code = $ops-codes#1-942

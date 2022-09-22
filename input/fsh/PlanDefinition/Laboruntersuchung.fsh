@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-laboruntersuchung
 * name = "Q4MSLaboruntersuchung"
 * type = $plan-definition-type#eca-rule
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action.code = $ops-codes#1-942
 * action.title = "Laboruntersuchung"

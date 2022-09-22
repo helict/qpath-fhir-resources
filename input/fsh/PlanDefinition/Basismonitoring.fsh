@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-basismonitoring
 * name = "Q4MSBasismonitoring"
 * type = $plan-definition-type#clinical-protocol
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action.groupingBehavior = #logical-group
 * action.selectionBehavior = #all

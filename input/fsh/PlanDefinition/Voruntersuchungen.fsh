@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-voruntersuchungen
 * name = "Q4MSVoruntersuchungen"
 * type = $plan-definition-type#workflow-definition
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action.groupingBehavior = #logical-group
 * action.selectionBehavior = #all

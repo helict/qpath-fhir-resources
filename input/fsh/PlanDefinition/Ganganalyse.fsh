@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-ganganalyse
 * name = "Q4MSGanganalyse"
 * type = $plan-definition-type#eca-rule
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action.code = $ops-codes#1-798
 * action.title = "Diagnostik Ganganalyse"

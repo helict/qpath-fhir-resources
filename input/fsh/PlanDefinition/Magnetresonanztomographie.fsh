@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-magnetresonanztomographie
 * name = "Q4MSMagnetresonanztomographie"
 * type = $plan-definition-type#eca-rule
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action.title = "Diagnostik Magnetresonanztomographie (MRT)"
 * action.trigger.type = $trigger-type#periodic

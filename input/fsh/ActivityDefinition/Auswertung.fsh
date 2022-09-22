@@ -5,7 +5,7 @@ Description: "ActivityDefinition zur Auswertung"
 Usage: #definition
 * url = $q4ms-auswertung-ad
 * name = "Q4MSAuswertungAD"
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * kind = $request-resource-type#Task
 * doNotPerform = false

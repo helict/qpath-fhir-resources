@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-terminvereinbarung
 * name = "Q4MSTerminvereinbarung"
 * type = $plan-definition-type#eca-rule
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action.title = "Termin mit Patient vereinbaren"
 * action.type = $action-type#create

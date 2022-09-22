@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-therapiespezifische-diagnostik
 * name = "Q4MSTherapiespezifischeDiagnostik"
 * type = $plan-definition-type#eca-rule
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action.title = "Therapiespezifische Diagnostik"
 * action.type = $action-type#create

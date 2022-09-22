@@ -5,7 +5,7 @@ Description: "ActivityDefinition zur Terminvereinbarung"
 Usage: #definition
 * url = $q4ms-terminvereinbarung-ad
 * name = "Q4MSTerminvereinbarungAD"
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * kind = $request-resource-type#Appointment
 * doNotPerform = false

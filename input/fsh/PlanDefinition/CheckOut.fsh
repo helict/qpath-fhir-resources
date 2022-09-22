@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-check-out
 * name = "Q4MSCheckOut"
 * type = $plan-definition-type#eca-rule
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * action.title = "Check-Out eines Patienten"
 * action.type = $action-type#create

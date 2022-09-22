@@ -6,7 +6,7 @@ Usage: #definition
 * url = $q4ms-optische-kohaerenztomographie-ad
 * name = "Q4MSOptischeKohaerenztomographieAD"
 * title = "Optische Kohärenztomographie (OCT)"
-* status = $publication-status#draft
+* status = $publication-status#active
 * experimental = true
 * kind = $request-resource-type#ServiceRequest
 * code = $ops-codes#3-300
