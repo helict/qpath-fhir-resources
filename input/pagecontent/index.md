@@ -39,10 +39,10 @@ möglichst wenig Zeit mit vorbereitenden oder administrativen Tätigkeiten zu ve
 ##### Antwort (Received)
 
 | FHIR Ressource | [Workflow](https://www.hl7.org/fhir/workflow.html)-Ressourcenkategorie | Beschreibung |
-|[Task (Antwort)](Task-CheckInAntwortExampleTSK.html)|Request|Beschreibung der Empfangsbestätigung zum Check-In der Patientin|
-|[Sub-Task (Antwort)](Task-EmiqFragebogenAusfuellenAntwortExampleTSK.html)|Request|Beschreibung der Empfangsbestätigung zum Ausfüllen eines Fragebogens durch Patientin|
+|[Task (Antwort)](Task-519c0009-118d-4055-95bc-9071d8470850.html)|Request|Beschreibung der Empfangsbestätigung zum Check-In der Patientin|
+|[Sub-Task (Antwort)](Task-a7c7bb9b-1234-491c-9bb5-78814c12a4c6.html)|Request|Beschreibung der Empfangsbestätigung zum Ausfüllen eines Fragebogens durch Patientin|
 |[Bundle (Antwort)](Bundle-CheckInAntwortExampleBM.html)|-|Antwortnachricht zum Check-In der Patientin|
-|[MessageHeader (Antwort)](MessageHeader-CheckInAntwortExampleMH.html)|-|Metadaten zur Antwortnachricht zum Check-In der Patientin|
+|[MessageHeader (Antwort)](MessageHeader-5ea78a0e-5ef6-406e-ab88-611a90aa46d2.html)|-|Metadaten zur Antwortnachricht zum Check-In der Patientin|
 |[MessageDefinition (Antwort)](MessageDefinition-Q4MSCheckInAntwortMD.html)|-|Definition der Antwortnachricht zum Check-In der Patientin|
 
 #### Workflow
