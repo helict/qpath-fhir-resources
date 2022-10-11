@@ -8,6 +8,7 @@ Usage: #definition
 * type = $plan-definition-type#workflow-definition
 * status = $publication-status#active
 * experimental = true
+* library = Canonical(Q4MSBasismonitoringLibrary)
 * action.groupingBehavior = #logical-group
 * action.selectionBehavior = #all
 * action.requiredBehavior = #must-unless-documented
@@ -49,7 +50,7 @@ Usage: #definition
 * action.action[=].action[+].title = "Magnetresonanztomographie (MRT)"
 * action.action[=].action[=].definitionCanonical = Canonical(Q4MSMagnetresonanztomographie)
 * action.action[=].action[=].condition.kind = #applicability
-* action.action[=].action[=].condition.expression.language = #text/cql
+* action.action[=].action[=].condition.expression.language = #text/cql-identifier
 * action.action[=].action[=].condition.expression.expression = "Letztes MRT älter 12 Monate"
 * action.action[=].action[+].title = "Laboruntersuchung"
 * action.action[=].action[=].definitionCanonical = Canonical(Q4MSLaboruntersuchung)
