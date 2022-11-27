@@ -4,6 +4,31 @@
 
 ![Basismonitoringpfad](Basismonitoringpfad.png)
 
+### Basismonitoring - Beispiel-Pfad
+
+| Definition | PLAN | ServiceRequest/Task | Appointment (SOLL) | Encounter (IST) |
+|:-|:-|:-|:-|:-|
+| [1-Jahres-Zyklus](PlanDefinition-Q4MSBasismonitoringCycle.html) | [1. Jahr](CarePlan-BasismonitoringY1ExampleCP.html) | | | |
+
+| [- Termin M0](PlanDefinition-Q4MSBasismonitoringM0.html) | [- CarePlan PLAN](CarePlan-BasismonitoringM0ExampleCP.html) | | [- Appointment SOLL](Appointment-BesuchsterminM0ExampleAPT.html) | [Encounter - IST](Encounter-BesuchsterminM0ExampleENC.html) |
+| [-- CheckIn](PlanDefinition-Q4MSCheckIn.html) | [-- CarePlan (PLAN)](CarePlan-CheckInM0ExampleCP.html) | [-- Task (SOLL/IST)](Task-CheckInM0ExampleTSK.html) | | |
+| [-- Voruntersuchungen](PlanDefinition-Q4MSVoruntersuchungenM0.html) | [-- CarePlan (PLAN)](CarePlan-VoruntersuchungenM0ExampleCP.html) | | | |
+| [--- MSPT](PlanDefinition-Q4MSMultipleSclerosisPerformanceTest.html) | [-- CarePlan (PLAN)](CarePlan-MultipleSclerosisPerformanceTestM0ExampleCP.html) | [--- ServiceRequest](ServiceRequest-MultipleSclerosisPerformanceTestM0ExampleSR.html) | [--- Appointment](Appointment-MultipleSclerosisPerformanceTestM0ExampleAPT.html) | [--- Encounter](Encounter-MultipleSclerosisPerformanceTestM0ExampleENC.html) |
+| [--- Therapiespezifische Diagnostik](PlanDefinition-Q4MSTherapiespezifischeDiagnostik.html) | [-- CarePlan (PLAN)](CarePlan-TherapiespezifischeDiagnostikM0ExampleCP.html) | [--- ServiceRequest](ServiceRequest-TherapiespezifischeDiagnostikM0ExampleSR.html) | [--- Appointment](Appointment-TherapiespezifischeDiagnostikM0ExampleAPT.html) | [--- Encounter](Encounter-TherapiespezifischeDiagnostikM0ExampleENC.html) |
+| [--- Allg. neu. Untersuchung](PlanDefinition-Q4MSAllgemeineNeurologischeUntersuchung.html) | [-- CarePlan (PLAN)](CarePlan-AllgemeineNeurologischeUntersuchungM0ExampleCP.html) | [--- ServiceRequest](ServiceRequest-AllgemeineNeurologischeUntersuchungM0ExampleSR.html) | [--- Appointment](Appointment-AllgemeineNeurologischeUntersuchungM0ExampleAPT.html) | [--- Encounter](Encounter-AllgemeineNeurologischeUntersuchungM0ExampleENC.html) |
+| [--- OCT](PlanDefinition-Q4MSOptischeKohaerenztomographie.html) | [-- CarePlan (PLAN)](CarePlan-OptischeKohaerenztomographieM0ExampleCP.html) | [--- ServiceRequest](ServiceRequest-OptischeKohaerenztomographieM0ExampleSR.html) | [--- Appointment](Appointment-OptischeKohaerenztomographieM0ExampleAPT.html) | [--- Encounter](Encounter-OptischeKohaerenztomographieM0ExampleENC.html) |
+| [--- Ganganalyse](PlanDefinition-Q4MSGanganalyse.html) | [-- CarePlan (PLAN)](CarePlan-GanganalyseM0ExampleCP.html) | [--- ServiceRequest](ServiceRequest-GanganalyseM0ExampleSR.html) | [--- Appointment](Appointment-GanganalyseM0ExampleAPT.html) | [--- Encounter](Encounter-GanganalyseM0ExampleENC.html) |
+| [--- Labor](PlanDefinition-Q4MSLaboruntersuchung.html) | [-- CarePlan (PLAN)](CarePlan-LaboruntersuchungM0ExampleCP.html) | [--- ServiceRequest](ServiceRequest-LaboruntersuchungM0ExampleSR.html) | [--- Appointment](Appointment-LaboruntersuchungM0ExampleAPT.html) | [--- Encounter](Encounter-LaboruntersuchungM0ExampleENC.html) |
+| [-- Arztvorstellung](PlanDefinition-Q4MSArztvorstellung.html) | [-- CarePlan (PLAN)](CarePlan-ArztvorstellungM0ExampleCP.html) | [--- ServiceRequest](ServiceRequest-ArztvorstellungM0ExampleSR.html) | [--- Appointment](Appointment-ArztvorstellungM0ExampleAPT.html) | [--- Encounter](Encounter-ArztvorstellungM0ExampleENC.html) |
+| [-- Terminvereinbarung](PlanDefinition-Q4MSTerminvereinbarung.html) | [-- CarePlan (PLAN)](CarePlan-TerminvereinbarungM0ExampleCP.html) | [-- Task (SOLL/IST)](Task-TerminvereinbarungM0ExampleTSK.html) | | |
+| [-- Checkout](PlanDefinition-Q4MSCheckOut.html) | [-- CarePlan (PLAN)](CarePlan-CheckOutM0ExampleCP.html) | [-- Task (SOLL/IST)](Task-CheckOutM0ExampleTSK.html) | | |
+
+| [- Termin M3](PlanDefinition-Q4MSBasismonitoringM3.html) | [- CarePlan PLAN](CarePlan-BasismonitoringM3ExampleCP.html) | | [- Appointment SOLL](Appointment-BesuchsterminM3ExampleAPT.html) | [Encounter - IST](Encounter-BesuchsterminM3ExampleENC.html) |
+
+| [- Termin M6](PlanDefinition-Q4MSBasismonitoringM6.html) | [- CarePlan PLAN](CarePlan-BasismonitoringM6ExampleCP.html) | | [- Appointment SOLL](Appointment-BesuchsterminM6ExampleAPT.html) | [Encounter - IST](Encounter-BesuchsterminM6ExampleENC.html) |
+
+| [- Termin M9](PlanDefinition-Q4MSBasismonitoringM9.html) | [- CarePlan PLAN](CarePlan-BasismonitoringM9ExampleCP.html) | | [- Appointment SOLL](Appointment-BesuchsterminM9ExampleAPT.html) | [Encounter - IST](Encounter-BesuchsterminM9ExampleENC.html) |
+
 ## Beispiel Anwendungsfälle
 
 ### Check-In zum ersten Besuch im Multiple Sklerose-Zentrum (vereinfacht)
@@ -23,8 +48,8 @@ möglichst wenig Zeit mit vorbereitenden oder administrativen Tätigkeiten zu ve
 |:-|:-|:-|
 |[PlanDefinition](PlanDefinition-Q4MSCheckIn.html)|Definition|Definition des geplanten Check-Ins der Patientin|
 |[ActivityDefinition](ActivityDefinition-Q4MSCheckInAD.html)|Definition|Definition der einzelnen Schritte zum Check-In der Patientin|
-|[CarePlan](CarePlan-CheckInExampleCP.html)|Request|Konkrete Instanz des Check-Ins der Patientin|
-|[RequestGroup](RequestGroup-CheckInExampleRG.html)|Request|Konkrete Schritte zum Check-In der Patientin|
+|[CarePlan](CarePlan-CheckInM0ExampleCP.html)|Request|Konkrete Instanz des Check-Ins der Patientin|
+|[RequestGroup](RequestGroup-CheckInM0ExampleRG.html)|Request|Konkrete Schritte zum Check-In der Patientin|
 
 ##### Anfrage (Requested)
 

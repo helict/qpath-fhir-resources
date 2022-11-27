@@ -1,33 +1,33 @@
-Instance: CheckOutExampleCP
+Instance: CheckOutM3ExampleCP
 InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Check-Out"
-Description: "Beispiel CarePlan zum Check-Out eines Patienten (M0)"
+Description: "Beispiel CarePlan zum Check-Out eines Patienten (M3)"
 * instantiatesCanonical = Canonical(Q4MSCheckOut)
 * status = $publication-status#draft
 * intent = $request-intent#option
 * subject = Reference(PatientPseudonym)
-* activity.reference = Reference(CheckOutExampleRG)
+* activity.reference = Reference(CheckOutM3ExampleRG)
 
-Instance: CheckOutExampleRG
+Instance: CheckOutM3ExampleRG
 InstanceOf: RequestGroup
 Usage: #example
 Title: "Beispiel Check-Out"
-Description: "Beispiel RequestGroup zum Check-Out eines Patienten (M0)"
+Description: "Beispiel RequestGroup zum Check-Out eines Patienten (M3)"
 * instantiatesCanonical = Canonical(Q4MSCheckOut)
 * status = $publication-status#draft
 * intent = $request-intent#plan
 * subject = Reference(PatientPseudonym)
 * action.title = "Check-Out eines Patienten"
-* action.resource = Reference(CheckOutExampleTSK)
+* action.resource = Reference(CheckOutM3ExampleTSK)
 
-Instance: CheckOutExampleTSK
+Instance: CheckOutM3ExampleTSK
 InstanceOf: Task
 Usage: #example
 Title: "Beispiel Task Check-Out (Platzhalter)"
-Description: "Beispiel Task zum Check-In eines Patienten"
+Description: "Beispiel Task zum Check-Out eines Patienten (M3)"
 * instantiatesCanonical = Canonical(Q4MSCheckOutAD)
-* basedOn = Reference(CheckOutExampleCP)
+* basedOn = Reference(CheckOutM3ExampleCP)
 * description = "Aufgaben zum Check-Out für den Patienten"
 * status = $task-status#requested
 * intent = $request-intent#order

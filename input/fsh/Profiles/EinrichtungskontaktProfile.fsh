@@ -18,16 +18,3 @@ Description: "Profil eines Einrichtungskontaktes (IST)"
 * diagnosis.condition only Reference(Q4MSMultipleSkleroseDiagnoseProfile)
 * location MS
 * serviceProvider 1..1 MS
-
-Instance: BasismonitoringErsterZyklusExampleENC
-InstanceOf: Q4MSEinrichtungskontaktProfile
-Usage: #example
-Title: "Basismonitoring Z1 (M0, IST)"
-Description: "Beispiel Encounter Basismonitoring 1. Zyklus (M0, IST)"
-* status = $encounter-status#finished
-* class = $v3-act-code#AMB
-* type = $encounter-kontaktart-de#tagesklinik "Tagesklinische Behandlung"
-* subject = Reference(PatientPseudonym)
-* episodeOfCare = Reference(BasismonitoringErsterZyklusExampleEOC)
-* appointment = Reference(BasismonitoringErsterZyklusExampleAPT)
-* serviceProvider = Reference(UnikliniumDresdenMultipleSkleroseZentrum)

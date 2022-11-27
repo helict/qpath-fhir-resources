@@ -1,69 +1,66 @@
-Instance: VoruntersuchungenExampleCP
+Instance: VoruntersuchungenM0ExampleCP
 InstanceOf: CarePlan
 Title: "Beispiel Voruntersuchungen"
 Description: "Beispiel CarePlan zu den Voruntersuchungen eines Patienten (M0)"
 Usage: #example
-* instantiatesCanonical = Canonical(Q4MSVoruntersuchungen)
+* instantiatesCanonical = Canonical(Q4MSVoruntersuchungenM0)
 * status = $publication-status#draft
 * intent = $request-intent#option
 * subject = Reference(PatientPseudonym)
-* activity.reference = Reference(VoruntersuchungenExampleRG)
+* activity.reference = Reference(VoruntersuchungenM0ExampleRG)
+* partOf = Reference(BasismonitoringM0ExampleCP)
+* encounter = Reference(VoruntersuchungenM0ExampleENC)
 
-Instance: VoruntersuchungenExampleRG
+Instance: VoruntersuchungenM0ExampleRG
 InstanceOf: RequestGroup
 Usage: #example
 Title: "Beispiel Voruntersuchungen"
 Description: "Beispiel RequestGroup zu den Voruntersuchungen eines Patienten (M0)"
-* instantiatesCanonical = Canonical(Q4MSVoruntersuchungen)
+* instantiatesCanonical = Canonical(Q4MSVoruntersuchungenM0)
 * status = $publication-status#draft
 * intent = $request-intent#plan
 * subject = Reference(PatientPseudonym)
+* encounter = Reference(VoruntersuchungenM0ExampleENC)
 * action.groupingBehavior = #logical-group
 * action.selectionBehavior = #all
 * action.requiredBehavior = #must-unless-documented
 * action.cardinalityBehavior = #single
+
 * action.action[0].title = "Diagnostik alle 3 Monate"
-* action.action[=].timingTiming.repeat.frequency = 1
-* action.action[=].timingTiming.repeat.period = 3
-* action.action[=].timingTiming.repeat.periodUnit = #mo
 * action.action[=].groupingBehavior = #logical-group
 * action.action[=].selectionBehavior = #all
 * action.action[=].requiredBehavior = #must-unless-documented
 * action.action[=].cardinalityBehavior = #single
 * action.action[=].action[0].title = "Multiple Sclerosis Performance Test (MSPT)"
-* action.action[=].action[=].resource = Reference(MultipleSclerosisPerformanceTestExampleCP)
+* action.action[=].action[=].resource = Reference(MultipleSclerosisPerformanceTestM0ExampleCP)
 * action.action[=].action[+].title = "Therapiespezifische Diagnostik"
-* action.action[=].action[=].resource = Reference(TherapiespezifischeDiagnostikExampleCP)
+* action.action[=].action[=].resource = Reference(TherapiespezifischeDiagnostikM0ExampleCP)
+
 * action.action[+].title = "Diagnostik alle 6 Monate"
-* action.action[=].timingTiming.repeat.frequency = 1
-* action.action[=].timingTiming.repeat.period = 6
-* action.action[=].timingTiming.repeat.periodUnit = #mo
 * action.action[=].groupingBehavior = #logical-group
 * action.action[=].selectionBehavior = #all
 * action.action[=].requiredBehavior = #must-unless-documented
 * action.action[=].cardinalityBehavior = #single
 * action.action[=].action[0].title = "Allgemeine und neurologische Untersuchung"
-* action.action[=].action[=].resource = Reference(AllgemeineNeurologischeUntersuchungExampleCP)
+* action.action[=].action[=].resource = Reference(AllgemeineNeurologischeUntersuchungM0ExampleCP)
+
 * action.action[+].title = "Diagnostik alle 12 Monate"
-* action.action[=].timingTiming.repeat.frequency = 1
-* action.action[=].timingTiming.repeat.period = 12
-* action.action[=].timingTiming.repeat.periodUnit = #mo
 * action.action[=].groupingBehavior = #logical-group
 * action.action[=].selectionBehavior = #all
 * action.action[=].requiredBehavior = #must-unless-documented
 * action.action[=].cardinalityBehavior = #single
 * action.action[=].action[0].title = "Optische Kohärenztomographie (OCT)"
-* action.action[=].action[=].resource = Reference(OptischeKohaerenztomographieExampleCP)
+* action.action[=].action[=].resource = Reference(OptischeKohaerenztomographieM0ExampleCP)
 * action.action[=].action[+].title = "Ganganalyse"
-* action.action[=].action[=].resource = Reference(GanganalyseExampleCP)
+* action.action[=].action[=].resource = Reference(GanganalyseM0ExampleCP)
 //* action.action[=].action[+].title = "Magnetresonanztomographie (MRT)"
 //* action.action[=].action[=].resource = Reference(MagnetresonanztomographieExampleCP)
 * action.action[=].action[+].title = "Laboruntersuchung"
-* action.action[=].action[=].resource = Reference(LaboruntersuchungExampleCP)
+* action.action[=].action[=].resource = Reference(LaboruntersuchungM0ExampleCP)
 
-// Voruntersuchung -> MSPT
+// Voruntersuchung M0 -> MSPT
 
-Instance: MultipleSclerosisPerformanceTestExampleCP
+Instance: MultipleSclerosisPerformanceTestM0ExampleCP
 InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Multiple Sclerosis Performance Test (MSPT)"
@@ -73,9 +70,11 @@ Description: "Beispiel CarePlan für die Durchführung eines MSPT mit dem Patien
 * intent = $request-intent#option
 * subject = Reference(PatientPseudonym)
 * activity.extension[$extension-careplan-activity-title].valueString = "Multiple Sclerosis Performance Test (MSPT)"
-* activity.reference = Reference(MultipleSclerosisPerformanceTestExampleRG)
+* activity.reference = Reference(MultipleSclerosisPerformanceTestM0ExampleRG)
+* partOf = Reference(VoruntersuchungenM0ExampleCP)
+* encounter = Reference(MultipleSclerosisPerformanceTestM0ExampleENC)
 
-Instance: MultipleSclerosisPerformanceTestExampleRG
+Instance: MultipleSclerosisPerformanceTestM0ExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Multiple Sclerosis Performance Test (MSPT)"
 Description: "Beispiel RequestGroup für die Durchführung eines MSPT mit dem Patienten (M0)"
@@ -85,11 +84,12 @@ Usage: #example
 * intent = $request-intent#plan
 * subject = Reference(PatientPseudonym)
 * action.title = "Multiple Sclerosis Performance Test (MSPT)"
-* action.resource = Reference(MultipleSclerosisPerformanceTestExampleSR)
+* action.resource = Reference(MultipleSclerosisPerformanceTestM0ExampleSR)
+* encounter = Reference(MultipleSclerosisPerformanceTestM0ExampleENC)
 
 // Voruntersuchung -> Therapiespezifische Diagnostik
 
-Instance: TherapiespezifischeDiagnostikExampleCP
+Instance: TherapiespezifischeDiagnostikM0ExampleCP
 InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Therapiespezifische Diagnostik"
@@ -99,9 +99,11 @@ Description: "Beispiel CarePlan für die Durchführung einer therapiespezifische
 * intent = $request-intent#option
 * subject = Reference(PatientPseudonym)
 * activity.extension[$extension-careplan-activity-title].valueString = "Therapiespezifische Diagnostik"
-* activity.reference = Reference(TherapiespezifischeDiagnostikExampleRG)
+* activity.reference = Reference(TherapiespezifischeDiagnostikM0ExampleRG)
+* partOf = Reference(VoruntersuchungenM0ExampleCP)
+* encounter = Reference(TherapiespezifischeDiagnostikM0ExampleENC)
 
-Instance: TherapiespezifischeDiagnostikExampleRG
+Instance: TherapiespezifischeDiagnostikM0ExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Therapiespezifische Diagnostik"
 Description: "Beispiel RequestGroup für die Durchführung einer therapiespezifischen Diagnostik mit dem Patienten (M0)"
@@ -111,9 +113,10 @@ Usage: #example
 * intent = $request-intent#plan
 * subject = Reference(PatientPseudonym)
 * action.title = "Therapiespezifische Diagnostik"
-* action.resource = Reference(TherapiespezifischeDiagnostikExampleSR)
+* action.resource = Reference(TherapiespezifischeDiagnostikM0ExampleSR)
+* encounter = Reference(TherapiespezifischeDiagnostikM0ExampleENC)
 
-Instance: TherapiespezifischeDiagnostikExampleSR
+Instance: TherapiespezifischeDiagnostikM0ExampleSR
 InstanceOf: ServiceRequest
 Usage: #example
 Title: "Beispiel Therapiespezifische Diagnostik"
@@ -123,13 +126,14 @@ Description: "Beispiel ServiceRequest für die Durchführung einer therapiespezi
 * intent = $request-intent#plan
 * doNotPerform = false
 * subject = Reference(PatientPseudonym)
+// TODO: check timing specification here (PLAN)
 * occurrencePeriod.start = "2021-08-16T10:30:00Z"
 * occurrencePeriod.end = "2021-08-16T16:00:00Z"
 * locationCode = $v3-role-code#DX
 
-// Arztvorstellung -> Allgemeine neurologische Untersuchung (EDSS)
+// Voruntersuchung -> Allgemeine neurologische Untersuchung (EDSS)
 
-Instance: AllgemeineNeurologischeUntersuchungExampleCP
+Instance: AllgemeineNeurologischeUntersuchungM0ExampleCP
 InstanceOf: CarePlan
 Title: "Beispiel Allgemeine und neurologische Untersuchung"
 Description: "Beispiel CarePlan für die Durchführung einer allgemeinen neurologischen Untersuchung mit dem Patienten (M0)"
@@ -138,9 +142,11 @@ Usage: #example
 * status = $publication-status#draft
 * intent = $request-intent#option
 * subject = Reference(PatientPseudonym)
-* activity.reference = Reference(AllgemeineNeurologischeUntersuchungExampleRG)
+* activity.reference = Reference(AllgemeineNeurologischeUntersuchungM0ExampleRG)
+* partOf = Reference(VoruntersuchungenM0ExampleCP)
+* encounter = Reference(AllgemeineNeurologischeUntersuchungM0ExampleENC)
 
-Instance: AllgemeineNeurologischeUntersuchungExampleRG
+Instance: AllgemeineNeurologischeUntersuchungM0ExampleRG
 InstanceOf: RequestGroup
 Title: "Beispiel Allgemeine und neurologische Untersuchung"
 Description: "Beispiel RequestGroup für die Durchführung einer allgemeinen neurologischen Untersuchung mit dem Patienten (M0)"
@@ -150,11 +156,12 @@ Usage: #example
 * intent = $request-intent#plan
 * subject = Reference(PatientPseudonym)
 * action.title = "Expanded Disability Status Scale (EDSS)"
-* action.resource = Reference(AllgemeineNeurologischeUntersuchungExampleSR)
+* action.resource = Reference(AllgemeineNeurologischeUntersuchungM0ExampleSR)
+* encounter = Reference(AllgemeineNeurologischeUntersuchungM0ExampleENC)
 
 // Voruntersuchung -> OCT
 
-Instance: OptischeKohaerenztomographieExampleCP
+Instance: OptischeKohaerenztomographieM0ExampleCP
 InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Optische Kohärenztomographie (OCT)"
@@ -164,9 +171,11 @@ Description: "Beispiel CarePlan für die Durchführung eines OCT mit dem Patient
 * intent = $request-intent#option
 * subject = Reference(PatientPseudonym)
 * activity.extension[$extension-careplan-activity-title].valueString = "Optische Kohärenztomographie (OCT)"
-* activity.reference = Reference(OptischeKohaerenztomographieExampleRG)
+* activity.reference = Reference(OptischeKohaerenztomographieM0ExampleRG)
+* partOf = Reference(VoruntersuchungenM0ExampleCP)
+* encounter = Reference(OptischeKohaerenztomographieM0ExampleENC)
 
-Instance: OptischeKohaerenztomographieExampleRG
+Instance: OptischeKohaerenztomographieM0ExampleRG
 InstanceOf: RequestGroup
 Usage: #example
 Title: "Beispiel Optische Kohärenztomographie (OCT)"
@@ -176,11 +185,12 @@ Description: "Beispiel RequestGroup für die Durchführung eines OCT mit dem Pat
 * intent = $request-intent#plan
 * subject = Reference(PatientPseudonym)
 * action.title = "Optische Kohärenztomographie (OCT)"
-* action.resource = Reference(OptischeKohaerenztomographieExampleSR)
+* action.resource = Reference(OptischeKohaerenztomographieM0ExampleSR)
+* encounter = Reference(OptischeKohaerenztomographieM0ExampleENC)
 
 // Voruntersuchung -> Ganganalyse
 
-Instance: GanganalyseExampleCP
+Instance: GanganalyseM0ExampleCP
 InstanceOf: CarePlan
 Usage: #example
 Title: "Beispiel Ganganalyse"
@@ -190,9 +200,11 @@ Description: "Beispiel CarePlan für die Durchführung einer Ganganalyse mit dem
 * intent = $request-intent#option
 * subject = Reference(PatientPseudonym)
 * activity.extension[$extension-careplan-activity-title].valueString = "Ganganalyse"
-* activity.reference = Reference(GanganalyseExampleRG)
+* activity.reference = Reference(GanganalyseM0ExampleRG)
+* partOf = Reference(VoruntersuchungenM0ExampleCP)
+* encounter = Reference(GanganalyseM0ExampleENC)
 
-Instance: GanganalyseExampleRG
+Instance: GanganalyseM0ExampleRG
 InstanceOf: RequestGroup
 Usage: #example
 Title: "Beispiel Ganganalyse"
@@ -202,7 +214,36 @@ Description: "Beispiel RequestGroup für die Durchführung einer Ganganalyse mit
 * intent = $request-intent#plan
 * subject = Reference(PatientPseudonym)
 * action.title = "Ganganalyse"
-* action.resource = Reference(GanganalyseExampleSR)
+* action.resource = Reference(GanganalyseM0ExampleSR)
+* encounter = Reference(GanganalyseM0ExampleENC)
+
+// Voruntersuchung -> Laboruntersuchung
+
+Instance: LaboruntersuchungM0ExampleCP
+InstanceOf: CarePlan
+Usage: #example
+Title: "Beispiel Laboruntersuchung"
+Description: "Beispiel CarePlan für die Durchführung einer Laboruntersuchung mit dem Patienten (M0)"
+* instantiatesCanonical = Canonical(Q4MSLaboruntersuchung)
+* status = $publication-status#draft
+* intent = $request-intent#option
+* subject = Reference(PatientPseudonym)
+* activity.reference = Reference(LaboruntersuchungM0ExampleRG)
+* partOf = Reference(VoruntersuchungenM0ExampleCP)
+* encounter = Reference(LaboruntersuchungM0ExampleENC)
+
+Instance: LaboruntersuchungM0ExampleRG
+InstanceOf: RequestGroup
+Usage: #example
+Title: "Beispiel Laboruntersuchung (Zusatz)"
+Description: "Beispiel RequestGroup für die Durchführung einer Laboruntersuchung mit dem Patienten (M0)"
+* instantiatesCanonical = Canonical(Q4MSLaboruntersuchung)
+* status = $publication-status#draft
+* intent = $request-intent#plan
+* subject = Reference(PatientPseudonym)
+* action.title = "Laboruntersuchung"
+* action.resource = Reference(LaboruntersuchungM0ExampleSR)
+* encounter = Reference(LaboruntersuchungM0ExampleENC)
 
 // Voruntersuchung -> MRT
 

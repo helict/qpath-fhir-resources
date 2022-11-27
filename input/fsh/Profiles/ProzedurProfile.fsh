@@ -37,110 +37,107 @@ Description: "Profil zur Anfrage einer Prozedur"
 * extension[WorkflowEpisodeOfCare].url = $ext-workflow-episode-of-care (exactly)
 * extension[WorkflowEpisodeOfCare].value[x] only Reference(Q4MSMonitoringzyklusProfile)
 
-Instance: AllgemeineNeurologischeUntersuchungExampleSR
+// M0 -> Voruntersuchung -> Allgemeine neurologische Untersuchung (EDSS)
+
+Instance: AllgemeineNeurologischeUntersuchungM0ExampleSR
 InstanceOf: Q4MSProzedurProfile
 Usage: #example
 Title: "Expanded Disability Status Scale (M0, PLAN)"
 Description: "Beispiel ServiceRequest für die Durchführung einer allgemeinen und neurologischen Untersuchung mit dem Patienten (M0, PLAN)"
 * instantiatesCanonical = Canonical(Q4MSExpandedDisabilityStatusScaleAD)
-* basedOn = Reference(AllgemeineNeurologischeUntersuchungExampleCP)
+* basedOn = Reference(AllgemeineNeurologischeUntersuchungM0ExampleCP)
 * status = $request-status#active
 * intent = $request-intent#plan
 * doNotPerform = false
 * code = $ops-codes#1-20a
 * subject = Reference(PatientPseudonym)
+// TODO: check timing definition here (PLAN) 
 * occurrenceTiming.event = "2022-04-19T08:00:00Z"
 * occurrenceTiming.repeat.duration = 20
 * occurrenceTiming.repeat.durationUnit = $ucum#min
 * locationCode = $v3-role-code#NEUR
-* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringErsterZyklusExampleEOC)
+* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringY1ExampleEOC)
 
-Instance: GanganalyseExampleSR
+// M0 -> Voruntersuchung -> Ganganalyse
+
+Instance: GanganalyseM0ExampleSR
 InstanceOf: Q4MSProzedurProfile
 Usage: #example
 Title: "Ganganalyse (M0, PLAN)"
 Description: "Beispiel ServiceRequest für die Durchführung einer Ganganalyse mit dem Patienten (M0, PLAN)"
 * instantiatesCanonical = Canonical(Q4MSGanganalyseAD)
-* basedOn = Reference(GanganalyseExampleCP)
+* basedOn = Reference(GanganalyseM0ExampleCP)
 * status = $request-status#active
 * intent = $request-intent#plan
 * code = $ops-codes#1-798
 * doNotPerform = false
 * subject = Reference(PatientPseudonym)
+// TODO: check timing definition here (PLAN) 
 * occurrenceTiming.event = "2022-04-19T08:30:00Z"
 * occurrenceTiming.repeat.duration = 25
 * occurrenceTiming.repeat.durationUnit = $ucum#min
 * locationCode = $v3-role-code#SPMED
-* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringErsterZyklusExampleEOC)
+* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringY1ExampleEOC)
 
-Instance: MultipleSclerosisPerformanceTestExampleSR
+// M0 -> Voruntersuchung -> MSPT
+
+Instance: MultipleSclerosisPerformanceTestM0ExampleSR
 InstanceOf: Q4MSProzedurProfile
 Usage: #example
-Title: "Multiple Sclerosis Performance Test (MSPT, PLAN)"
+Title: "Multiple Sclerosis Performance Test (MSPT, M0, PLAN)"
 Description: "Beispiel ServiceRequest für die Durchführung eines MSPT mit dem Patienten (M0, PLAN)"
 * instantiatesCanonical = Canonical(Q4MSMultipleSclerosisPerformanceTestAD)
-* basedOn = Reference(MultipleSclerosisPerformanceTestExampleCP)
+* basedOn = Reference(MultipleSclerosisPerformanceTestM0ExampleCP)
 * status = $request-status#active
 * intent = $request-intent#plan
 * doNotPerform = false
 * code = $ops-codes#8-92
 * subject = Reference(PatientPseudonym)
+// TODO: check timing definition here (PLAN) 
 * occurrenceTiming.event = "2022-04-19T09:00:00Z"
 * occurrenceTiming.repeat.duration = 25
 * occurrenceTiming.repeat.durationUnit = $ucum#min
 * locationCode = $v3-role-code#NEUR
-* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringErsterZyklusExampleEOC)
+* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringY1ExampleEOC)
 
-Instance: OptischeKohaerenztomographieExampleSR
+// M0 -> Voruntersuchung -> OCT
+
+Instance: OptischeKohaerenztomographieM0ExampleSR
 InstanceOf: Q4MSProzedurProfile
 Usage: #example
 Title: "Optische Kohärenztomographie (M0, PLAN)"
 Description: "Beispiel ServiceRequest für die Durchführung eines OCT mit dem Patienten (M0, PLAN)"
 * instantiatesCanonical = Canonical(Q4MSOptischeKohaerenztomographieAD)
-* basedOn = Reference(OptischeKohaerenztomographieExampleCP)
+* basedOn = Reference(OptischeKohaerenztomographieM0ExampleCP)
 * status = $request-status#active
 * intent = $request-intent#plan
 * doNotPerform = false
 * code = $ops-codes#3-300
 * subject = Reference(PatientPseudonym)
+// TODO: check timing definition here (PLAN) 
 * occurrenceTiming.event = "2022-04-19T09:30:00Z"
 * occurrenceTiming.repeat.duration = 25
 * occurrenceTiming.repeat.durationUnit = $ucum#min
 * locationCode = $v3-role-code#OPTC
-* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringErsterZyklusExampleEOC)
+* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringY1ExampleEOC)
 
-Instance: ArztvorstellungExampleSR
-InstanceOf: Q4MSProzedurProfile
-Usage: #example
-Title: "Arztvorstellung (M0, PLAN)"
-Description: "Beispiel ServiceRequest für die Vorstellung eines Patienten beim Arzt (M0, PLAN)"
-* instantiatesCanonical = Canonical(Q4MSArztvorstellung)
-* basedOn = Reference(ArztvorstellungExampleCP)
-* status = $request-status#active
-* intent = $request-intent#plan
-* code = $ops-codes#8-92
-* doNotPerform = false
-* subject = Reference(PatientPseudonym)
-* occurrenceTiming.event = "2022-04-19T10:00:00Z"
-* occurrenceTiming.repeat.duration = 15
-* occurrenceTiming.repeat.durationUnit = $ucum#min
-* locationCode = $v3-role-code#PROFF
-* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringErsterZyklusExampleEOC)
+// M0 -> Voruntersuchung -> Laboruntersuchung
 
-Instance: LaboruntersuchungExampleSR
+Instance: LaboruntersuchungM0ExampleSR
 InstanceOf: Q4MSProzedurProfile
 Usage: #example
 Title: "Laboruntersuchung (M0, PLAN)"
-Description: "Beispiel ServiceRequest für die Durchführung einer Laboruntersuchung mit dem Patienten (M0, PLAN)"
+Description: "Beispiel ServiceRequest für die Durchführung einer Laboruntersuchung mit dem Patienten (M0)"
 * instantiatesCanonical = Canonical(Q4MSLaboruntersuchungAD)
-* basedOn = Reference(LaboruntersuchungExampleCP)
+* basedOn = Reference(LaboruntersuchungM0ExampleCP)
 * status = $request-status#active
 * intent = $request-intent#plan
 * code = $ops-codes#1-942
 * doNotPerform = false
 * subject = Reference(PatientPseudonym)
+// TODO: check timing definition here (PLAN) 
 * occurrenceTiming.event = "2022-04-19T10:20:00Z"
 * occurrenceTiming.repeat.duration = 10
 * occurrenceTiming.repeat.durationUnit = $ucum#min
 * locationCode = $v3-role-code#HLAB
-* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringErsterZyklusExampleEOC)
+* extension[$ext-workflow-episode-of-care].valueReference = Reference(BasismonitoringY1ExampleEOC)

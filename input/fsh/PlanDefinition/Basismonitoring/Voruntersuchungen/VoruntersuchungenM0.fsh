@@ -1,10 +1,10 @@
-Instance: Q4MSVoruntersuchungen
+Instance: Q4MSVoruntersuchungenM0
 InstanceOf: PlanDefinition
 Title: "Voruntersuchungen"
 Description: "PlanDefinition zu Voruntersuchungen"
 Usage: #definition
-* url = $q4ms-voruntersuchungen
-* name = "Q4MSVoruntersuchungen"
+* url = $q4ms-voruntersuchungen-m0
+* name = "Q4MSVoruntersuchungenM0"
 * type = $plan-definition-type#workflow-definition
 * status = $publication-status#active
 * experimental = true
@@ -14,9 +14,6 @@ Usage: #definition
 * action.requiredBehavior = #must-unless-documented
 * action.cardinalityBehavior = #single
 * action.action[0].title = "Diagnostik alle 3 Monate"
-* action.action[=].timingTiming.repeat.frequency = 1
-* action.action[=].timingTiming.repeat.period = 3
-* action.action[=].timingTiming.repeat.periodUnit = #mo
 * action.action[=].groupingBehavior = #logical-group
 * action.action[=].selectionBehavior = #all
 * action.action[=].requiredBehavior = #must-unless-documented
@@ -26,9 +23,6 @@ Usage: #definition
 * action.action[=].action[+].title = "Therapiespezifische Diagnostik"
 * action.action[=].action[=].definitionCanonical = Canonical(Q4MSTherapiespezifischeDiagnostik)
 * action.action[+].title = "Diagnostik alle 6 Monate"
-* action.action[=].timingTiming.repeat.frequency = 1
-* action.action[=].timingTiming.repeat.period = 6
-* action.action[=].timingTiming.repeat.periodUnit = #mo
 * action.action[=].groupingBehavior = #logical-group
 * action.action[=].selectionBehavior = #all
 * action.action[=].requiredBehavior = #must-unless-documented
@@ -36,9 +30,6 @@ Usage: #definition
 * action.action[=].action[0].title = "Allgemeine und neurologische Untersuchung"
 * action.action[=].action[=].definitionCanonical = Canonical(Q4MSAllgemeineNeurologischeUntersuchung)
 * action.action[+].title = "Diagnostik alle 12 Monate"
-* action.action[=].timingTiming.repeat.frequency = 1
-* action.action[=].timingTiming.repeat.period = 12
-* action.action[=].timingTiming.repeat.periodUnit = #mo
 * action.action[=].groupingBehavior = #logical-group
 * action.action[=].selectionBehavior = #all
 * action.action[=].requiredBehavior = #must-unless-documented

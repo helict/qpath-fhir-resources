@@ -5,7 +5,7 @@ Profile: Q4MSMonitoringzyklusProfile
 Parent: EpisodeOfCare
 Id: Q4MSMonitoringzyklusProfile
 Title: "Monitoringzyklus"
-Description: "Profil eines Monitoringzyklus"
+Description: "Profil eines Monitoringzyklus - 1 Jahr"
 * ^url = $q4ms-monitoringzyklus-sd
 * status 1..1 MS
 * type MS
@@ -18,7 +18,7 @@ Description: "Profil eines Monitoringzyklus"
 * period.start 1..1 MS
 * period.end 1..1 MS
 
-Instance: BasismonitoringErsterZyklusExampleEOC
+Instance: BasismonitoringY1ExampleEOC
 InstanceOf: Q4MSMonitoringzyklusProfile
 Usage: #example
 Title: "Kontinuierliches Basismonitoring Z1"
@@ -27,5 +27,5 @@ Description: "Beispiel eines 1. Zyklus zum kontinuierlichen Basismonitoring"
 * diagnosis.condition = Reference(PatientWithMultipleSclerosisDiagnosisExample)
 * patient = Reference(PatientPseudonym)
 * managingOrganization = Reference(UnikliniumDresdenMultipleSkleroseZentrum)
-* period.start = "2022-04-19"
-* period.end = "2023-04-19"
+* period.start = "2022-11-01"
+* period.end = "2023-10-31"

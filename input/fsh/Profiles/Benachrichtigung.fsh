@@ -130,22 +130,22 @@ Description: "Beispiel Änderung"
 * timestamp = "2022-06-23T17:54:41Z"
 * entry[+].fullUrl = "urn:uuid:35c605c7-b03f-4cbb-b92e-e3615a5e5e87"
 * entry[=].request.method = $http-verb#GET
-* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/AllgemeineNeurologischeUntersuchungExampleAPT"
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/AllgemeineNeurologischeUntersuchungM0ExampleAPT"
 * entry[+].fullUrl = "urn:uuid:c24070a8-dd9f-483d-8e47-4d3aa8efb5c6"
 * entry[=].request.method = $http-verb#GET
-* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/MultipleSclerosisPerformanceTestExampleAPT"
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/MultipleSclerosisPerformanceTestM0ExampleAPT"
 * entry[+].fullUrl = "urn:uuid:12818646-900b-4c94-ba0a-34ae66bb1a73"
 * entry[=].request.method = $http-verb#GET
 * entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/GanganalyseExampleExampleAPT"
 * entry[+].fullUrl = "urn:uuid:737c9373-c615-448f-aeaf-95044de0e52d"
 * entry[=].request.method = $http-verb#GET
-* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/OptischeKohaerenztomographieExampleAPT"
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/OptischeKohaerenztomographieM0ExampleAPT"
 * entry[+].fullUrl = "urn:uuid:e8b08d38-478a-4d57-afee-90885699c9b1"
 * entry[=].request.method = $http-verb#GET
-* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/ArztvorstellungExampleAPT"
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/ArztvorstellungM0ExampleAPT"
 * entry[+].fullUrl = "urn:uuid:fd851138-d6ac-4e92-9d9c-12868c24c669"
 * entry[=].request.method = $http-verb#GET
-* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/LaboruntersuchungExampleAPT"
+* entry[=].request.url = "https://sv-neu-qpmspath/fhir/Appointment/LaboruntersuchungM0ExampleAPT"
 
 Profile: Q4MSRepositoryAenderungsnachrichtProfile
 Parent: Bundle
