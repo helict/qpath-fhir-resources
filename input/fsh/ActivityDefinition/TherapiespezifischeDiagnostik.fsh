@@ -8,4 +8,5 @@ Usage: #definition
 * status = $publication-status#active
 * experimental = true
 * kind = $request-resource-type#ServiceRequest
+* code = $ops-codes#1-942.0
 * doNotPerform = false

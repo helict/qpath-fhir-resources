@@ -9,8 +9,8 @@ Description: "Profil eines Abteilungskontaktes (IST)"
 * ^url = $q4ms-abteilungskontakt-sd
 * status 1..1 MS
 * class MS
-//* serviceType from $ops-codes (required)
-//* serviceType 1..1 MS
+* serviceType from $ops-codes (preferred)
+* serviceType 0..1 MS
 * subject 1..1 MS
 * subject only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * episodeOfCare only Reference(Q4MSMonitoringzyklusProfile)

@@ -13,8 +13,8 @@ Description: "Profil eines Termins zum Abteilungskontakt (SOLL)"
 * status 1..1 MS
 * start 1..1 MS
 * end 1..1 MS
-//* serviceType from $ops-codes (required)
-//* serviceType 1..1 MS
+* serviceType from $ops-codes (preferred)
+* serviceType 0..1 MS
 * minutesDuration MS
 * patientInstruction MS
 * basedOn MS

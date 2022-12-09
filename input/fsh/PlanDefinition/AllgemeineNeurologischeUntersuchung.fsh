@@ -8,7 +8,7 @@ Usage: #definition
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#active
 * experimental = true
-* action.code = $ops-codes#1-20a
+* action.code = $ops-codes#1-208.y
 * action.title = "Expanded Disability Status Scale (EDSS)"
 * action.trigger.type = $trigger-type#periodic
 * action.trigger.timingTiming.repeat.frequency = 1

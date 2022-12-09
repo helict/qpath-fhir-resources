@@ -8,7 +8,7 @@ Usage: #definition
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#active
 * experimental = true
-* action.code = $ops-codes#3-300
+* action.code = $ops-codes#3-300.y
 * action.title = "Diagnostik Optische Kohärenztomographie (OCT)"
 * action.trigger.type = $trigger-type#periodic
 * action.trigger.timingTiming.repeat.frequency = 1

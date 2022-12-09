@@ -9,7 +9,7 @@ Usage: #definition
 * status = $publication-status#active
 * experimental = true
 * kind = $request-resource-type#ServiceRequest
-* code = $ops-codes#8-92
+* code = $ops-codes#1-20a
 * intent = $request-intent#plan
 * profile = Canonical(Q4MSProzedurProfile)
 * doNotPerform = false

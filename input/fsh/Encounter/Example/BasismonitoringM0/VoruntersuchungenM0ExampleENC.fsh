@@ -30,7 +30,7 @@ Description: "Neurologische Untersuchung, beendet (M0, IST)"
 * statusHistory[=].period.end = "2022-04-19T08:03:00Z"
 * class = $v3-act-code#AMB 
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
-//* serviceType = $ops-codes#1-20a
+* serviceType = $ops-codes#1-208.y
 * subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringY1ExampleEOC)
 * basedOn = Reference(AllgemeineNeurologischeUntersuchungM0ExampleSR)
@@ -54,7 +54,7 @@ Description: "Ganganalyse, beendet (M0, IST)"
 * statusHistory[=].period.end = "2022-04-19T09:05:00Z"
 * class = $v3-act-code#AMB 
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
-//* serviceType = $ops-codes#1-798
+* serviceType = $ops-codes#1-798.x
 * subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringY1ExampleEOC)
 * basedOn = Reference(GanganalyseM0ExampleSR)
@@ -78,7 +78,7 @@ Description: "Multiple Sclerosis Performance Test, beendet (M0, IST)"
 * statusHistory[=].period.end = "2022-04-19T08:20:00Z"
 * class = $v3-act-code#AMB 
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
-//* serviceType = $ops-codes#8-92
+* serviceType = $ops-codes#1-20a
 * subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringY1ExampleEOC)
 * basedOn = Reference(MultipleSclerosisPerformanceTestM0ExampleSR)
@@ -102,7 +102,7 @@ Description: "Therapiespezifische Diagnostik, beendet (M0, IST)"
 * statusHistory[=].period.end = "2022-04-19T08:20:00Z"
 * class = $v3-act-code#AMB 
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
-//* serviceType = $ops-codes#8-92
+* serviceType = $ops-codes#1-942.0
 * subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringY1ExampleEOC)
 * basedOn = Reference(TherapiespezifischeDiagnostikM0ExampleSR)
@@ -126,7 +126,7 @@ Description: "Optische Kohärenztomographie, beendet (M0, IST)"
 * statusHistory[=].period.end = "2022-04-19T10:00:00Z"
 * class = $v3-act-code#AMB 
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
-//* serviceType = $ops-codes#3-300
+* serviceType = $ops-codes#3-300.y
 * subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringY1ExampleEOC)
 * basedOn = Reference(OptischeKohaerenztomographieM0ExampleSR)
@@ -150,7 +150,7 @@ Description: "Laboruntersuchung, beendet (M0, IST)"
 * statusHistory[=].period.end = "2022-04-19T10:40:00Z"
 * class = $v3-act-code#AMB 
 * type = $encounter-kontaktart-de#ub "Untersuchung und Behandlung"
-//* serviceType = $ops-codes#1-942
+* serviceType = $ops-codes#1-204.y
 * subject = Reference(PatientPseudonym)
 * episodeOfCare = Reference(BasismonitoringY1ExampleEOC)
 * basedOn = Reference(LaboruntersuchungM0ExampleSR)

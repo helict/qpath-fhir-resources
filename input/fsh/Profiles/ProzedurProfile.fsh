@@ -16,7 +16,7 @@ Description: "Profil zur Anfrage einer Prozedur"
 * category from $ops-codes-vs (preferred)
 * doNotPerform MS
 * code 1..1 MS
-* code from $ops-codes-vs (required)
+* code from $ops-codes-vs (preferred)
 * subject MS
 * subject only Reference(Q4MSPatientProfile or Q4MSPatientPseudonymProfile)
 * occurrence[x] only Timing
@@ -49,7 +49,7 @@ Description: "Beispiel ServiceRequest für die Durchführung einer allgemeinen u
 * status = $request-status#active
 * intent = $request-intent#plan
 * doNotPerform = false
-* code = $ops-codes#1-20a
+* code = $ops-codes#1-208.y
 * subject = Reference(PatientPseudonym)
 // TODO: check timing definition here (PLAN) 
 * occurrenceTiming.event = "2022-04-19T08:00:00Z"
@@ -69,7 +69,7 @@ Description: "Beispiel ServiceRequest für die Durchführung einer Ganganalyse m
 * basedOn = Reference(GanganalyseM0ExampleCP)
 * status = $request-status#active
 * intent = $request-intent#plan
-* code = $ops-codes#1-798
+* code = $ops-codes#1-798.x
 * doNotPerform = false
 * subject = Reference(PatientPseudonym)
 // TODO: check timing definition here (PLAN) 
@@ -91,7 +91,7 @@ Description: "Beispiel ServiceRequest für die Durchführung eines MSPT mit dem 
 * status = $request-status#active
 * intent = $request-intent#plan
 * doNotPerform = false
-* code = $ops-codes#8-92
+* code = $ops-codes#1-20a
 * subject = Reference(PatientPseudonym)
 // TODO: check timing definition here (PLAN) 
 * occurrenceTiming.event = "2022-04-19T09:00:00Z"
@@ -112,7 +112,7 @@ Description: "Beispiel ServiceRequest für die Durchführung eines OCT mit dem P
 * status = $request-status#active
 * intent = $request-intent#plan
 * doNotPerform = false
-* code = $ops-codes#3-300
+* code = $ops-codes#3-300.y
 * subject = Reference(PatientPseudonym)
 // TODO: check timing definition here (PLAN) 
 * occurrenceTiming.event = "2022-04-19T09:30:00Z"
@@ -132,7 +132,7 @@ Description: "Beispiel ServiceRequest für die Durchführung einer Laboruntersuc
 * basedOn = Reference(LaboruntersuchungM0ExampleCP)
 * status = $request-status#active
 * intent = $request-intent#plan
-* code = $ops-codes#1-942
+* code = $ops-codes#1-204.y
 * doNotPerform = false
 * subject = Reference(PatientPseudonym)
 // TODO: check timing definition here (PLAN) 

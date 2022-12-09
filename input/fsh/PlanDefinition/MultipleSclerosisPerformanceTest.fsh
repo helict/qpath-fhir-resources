@@ -8,7 +8,7 @@ Usage: #definition
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#active
 * experimental = true
-* action.code = $ops-codes#8-92
+* action.code = $ops-codes#1-20a
 * action.title = "Diagnostik Multiple Sclerosis Performance Test (MSPT)"
 * action.trigger.type = $trigger-type#periodic
 * action.trigger.timingTiming.repeat.frequency = 1

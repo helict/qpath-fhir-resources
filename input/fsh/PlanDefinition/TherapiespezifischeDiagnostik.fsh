@@ -8,6 +8,7 @@ Usage: #definition
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#active
 * experimental = true
+* action.code = $ops-codes#1-942.0
 * action.title = "Therapiespezifische Diagnostik"
 * action.type = $action-type#create
 * action.trigger.type = $trigger-type#periodic

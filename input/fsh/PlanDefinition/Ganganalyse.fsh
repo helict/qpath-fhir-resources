@@ -8,7 +8,7 @@ Usage: #definition
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#active
 * experimental = true
-* action.code = $ops-codes#1-798
+* action.code = $ops-codes#1-798.x
 * action.title = "Diagnostik Ganganalyse"
 * action.trigger.type = $trigger-type#periodic
 * action.trigger.timingTiming.repeat.frequency = 1

@@ -8,6 +8,7 @@ Usage: #definition
 * type = $plan-definition-type#eca-rule
 * status = $publication-status#active
 * experimental = true
+* action.code = $ops-codes#3-80x
 * action.title = "Diagnostik Magnetresonanztomographie (MRT)"
 * action.trigger.type = $trigger-type#periodic
 * action.trigger.timingTiming.repeat.frequency = 1
