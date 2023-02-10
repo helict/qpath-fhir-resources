@@ -18,24 +18,22 @@ Description: "Beispiel RequestGroup zu den Voruntersuchungen eines Patienten (M9
 * status = $publication-status#draft
 * intent = $request-intent#plan
 * subject = Reference(PatientPseudonym)
-* action.groupingBehavior = #logical-group
-* action.selectionBehavior = #all
-* action.requiredBehavior = #must-unless-documented
-* action.cardinalityBehavior = #single
-* action.action[0].title = "Diagnostik alle 3 Monate"
-* action.action[=].groupingBehavior = #logical-group
-* action.action[=].selectionBehavior = #all
-* action.action[=].requiredBehavior = #must-unless-documented
-* action.action[=].cardinalityBehavior = #single
-* action.action[=].action[0].title = "Multiple Sclerosis Performance Test (MSPT)"
-* action.action[=].action[=].resource = Reference(MultipleSclerosisPerformanceTestM9ExampleCP)
-* action.action[=].action[+].title = "Therapiespezifische Diagnostik"
-* action.action[=].action[=].resource = Reference(TherapiespezifischeDiagnostikM9ExampleCP)
 
-//* action.action[+].title = "Diagnostik alle 6 Monate"
+// * action.groupingBehavior = #logical-group
+// * action.selectionBehavior = #all
+// * action.requiredBehavior = #must-unless-documented
+// * action.cardinalityBehavior = #single
+
+// Diagnostik aller 3 Monate
+* action[+].title = "Multiple Sclerosis Performance Test (MSPT)"
+* action[=].resource = Reference(MultipleSclerosisPerformanceTestM9ExampleCP)
+* action[+].title = "Therapiespezifische Diagnostik"
+* action[=].resource = Reference(TherapiespezifischeDiagnostikM9ExampleCP)
+
+//* action[+].title = "Diagnostik alle 6 Monate"
 // -> entfällt, da M9
 
-//* action.action[+].title = "Diagnostik alle 12 Monate"
+//* action[+].title = "Diagnostik alle 12 Monate"
 // -> entfällt, da M9
 
 // Voruntersuchung M9 -> MSPT

@@ -1,7 +1,7 @@
 {
   "package-id": "fhir.qpath4ms",
   "title": "QPath4MS FHIR Implementation Guide",
-  "canonical": "http://qpath4ms.ukdd.de", 
+  "canonical": "https://pathway-fgdh.wiwi.tu-dresden.de", 
   "introduction": "Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade",
   "category": ["Research", "Care Planning"],
   "list" : [{

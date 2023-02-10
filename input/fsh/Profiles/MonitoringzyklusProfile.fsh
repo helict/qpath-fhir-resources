@@ -1,5 +1,5 @@
 Alias: $episode-of-care-status = http://hl7.org/fhir/episode-of-care-status
-Alias: $q4ms-monitoringzyklus-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSMonitoringzyklusProfile
+Alias: $q4ms-monitoringzyklus-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSMonitoringzyklusProfile
 
 Profile: Q4MSMonitoringzyklusProfile
 Parent: EpisodeOfCare

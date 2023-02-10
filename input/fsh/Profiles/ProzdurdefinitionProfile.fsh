@@ -1,4 +1,4 @@
-Alias: $q4ms-prozedurdefinition-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSProzedurdefinitionProfile
+Alias: $q4ms-prozedurdefinition-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSProzedurdefinitionProfile
 
 Profile: Q4MSProzedurdefinitionProfile
 Parent: ActivityDefinition

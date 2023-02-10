@@ -1,4 +1,4 @@
-Alias: $q4ms-prozedur-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSProzedurProfile
+Alias: $q4ms-prozedur-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSProzedurProfile
 Alias: $ext-workflow-episode-of-care = http://hl7.org/fhir/StructureDefinition/workflow-episodeOfCare
 
 Profile: Q4MSProzedurProfile

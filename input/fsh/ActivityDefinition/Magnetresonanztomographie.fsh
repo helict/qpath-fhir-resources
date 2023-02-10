@@ -24,9 +24,13 @@ Usage: #definition
 * dynamicValue[+].path = "doNotPerform"
 * dynamicValue[=].expression.language = $expression-language#text/fhirpath
 * dynamicValue[=].expression.expression = "%context.doNotPerform"
-* dynamicValue[+].path = "occurrence.repeat.duration"
+
+* dynamicValue[+].path = "occurrence"
 * dynamicValue[=].expression.language = $expression-language#text/fhirpath
-* dynamicValue[=].expression.expression = "%context.timing.repeat.duration"
-* dynamicValue[+].path = "occurrence.repeat.durationUnit"
-* dynamicValue[=].expression.language = $expression-language#text/fhirpath
-* dynamicValue[=].expression.expression = "%context.timing.repeat.durationUnit"
+* dynamicValue[=].expression.expression = "%context.timing"
+// * dynamicValue[+].path = "occurrence.repeat.duration"
+// * dynamicValue[=].expression.language = $expression-language#text/fhirpath
+// * dynamicValue[=].expression.expression = "%context.timing.repeat.duration"
+// * dynamicValue[+].path = "occurrence.repeat.durationUnit"
+// * dynamicValue[=].expression.language = $expression-language#text/fhirpath
+// * dynamicValue[=].expression.expression = "%context.timing.repeat.durationUnit"

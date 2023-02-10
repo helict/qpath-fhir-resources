@@ -2,7 +2,7 @@ Profile: Q4MSMedicationStatementProfile
 Parent: MedicationStatement
 Id: Q4MSMedicationStatementProfile
 Title: "Q4MSMedicationStatementProfile"
-* ^url = "http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSMedicationStatementProfile"
+* ^url = "https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSMedicationStatementProfile"
 * ^status = #draft
 * id MS
 * meta MS

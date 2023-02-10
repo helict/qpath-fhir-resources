@@ -8,43 +8,43 @@ Usage: #definition
 * type = $plan-definition-type#clinical-protocol
 * status = $publication-status#active
 * experimental = true
-* action.groupingBehavior = #logical-group
-* action.selectionBehavior = #all
-* action.requiredBehavior = #must-unless-documented
-* action.cardinalityBehavior = #single
-* action.title = "Basismonitoring - Quartalstermine"
+// * action.groupingBehavior = #logical-group
+// * action.selectionBehavior = #all
+// * action.requiredBehavior = #must-unless-documented
+// * action.cardinalityBehavior = #single
+// * action.title = "Basismonitoring - Quartalstermine"
 
-* action.action[0].id = "m0"
-* action.action[=].title = "Termin M0"
-* action.action[=].description = "Monitoring Termin in M0"
-* action.action[=].definitionCanonical = Canonical(Q4MSBasismonitoringM0)
+* action[0].id = "m0"
+* action[=].title = "Termin M0"
+* action[=].description = "Monitoring Termin in M0"
+* action[=].definitionCanonical = Canonical(Q4MSBasismonitoringM0)
 
-* action.action[+].id = "m3"
-* action.action[=].title = "Termin M3"
-* action.action[=].description = "Monitoring Termin in M3"
-* action.action[=].definitionCanonical = Canonical(Q4MSBasismonitoringM3)
-* action.action[=].relatedAction.actionId = "m0"
-* action.action[=].relatedAction.relationship = #after-end
-* action.action[=].relatedAction.offsetDuration.value = 3
-* action.action[=].relatedAction.offsetDuration.system = $ucum
-* action.action[=].relatedAction.offsetDuration.code = $ucum#mo
+* action[+].id = "m3"
+* action[=].title = "Termin M3"
+* action[=].description = "Monitoring Termin in M3"
+* action[=].definitionCanonical = Canonical(Q4MSBasismonitoringM3)
+* action[=].relatedAction.actionId = "m0"
+* action[=].relatedAction.relationship = #after-end
+* action[=].relatedAction.offsetDuration.value = 3
+* action[=].relatedAction.offsetDuration.system = $ucum
+* action[=].relatedAction.offsetDuration.code = $ucum#mo
 
-* action.action[+].id = "m6"
-* action.action[=].title = "Termin M6"
-* action.action[=].description = "Monitoring Termin in M6"
-* action.action[=].definitionCanonical = Canonical(Q4MSBasismonitoringM6)
-* action.action[=].relatedAction.actionId = "m3"
-* action.action[=].relatedAction.relationship = #after-end
-* action.action[=].relatedAction.offsetDuration.value = 3
-* action.action[=].relatedAction.offsetDuration.system = $ucum
-* action.action[=].relatedAction.offsetDuration.code = $ucum#mo
+* action[+].id = "m6"
+* action[=].title = "Termin M6"
+* action[=].description = "Monitoring Termin in M6"
+* action[=].definitionCanonical = Canonical(Q4MSBasismonitoringM6)
+* action[=].relatedAction.actionId = "m3"
+* action[=].relatedAction.relationship = #after-end
+* action[=].relatedAction.offsetDuration.value = 3
+* action[=].relatedAction.offsetDuration.system = $ucum
+* action[=].relatedAction.offsetDuration.code = $ucum#mo
 
-* action.action[+].id = "m9"
-* action.action[=].title = "Termin M9"
-* action.action[=].description = "Monitoring Termin in M9"
-* action.action[=].definitionCanonical = Canonical(Q4MSBasismonitoringM3)
-* action.action[=].relatedAction.actionId = "m6"
-* action.action[=].relatedAction.relationship = #after-end
-* action.action[=].relatedAction.offsetDuration.value = 3
-* action.action[=].relatedAction.offsetDuration.system = $ucum
-* action.action[=].relatedAction.offsetDuration.code = $ucum#mo
+* action[+].id = "m9"
+* action[=].title = "Termin M9"
+* action[=].description = "Monitoring Termin in M9"
+* action[=].definitionCanonical = Canonical(Q4MSBasismonitoringM3)
+* action[=].relatedAction.actionId = "m6"
+* action[=].relatedAction.relationship = #after-end
+* action[=].relatedAction.offsetDuration.value = 3
+* action[=].relatedAction.offsetDuration.system = $ucum
+* action[=].relatedAction.offsetDuration.code = $ucum#mo

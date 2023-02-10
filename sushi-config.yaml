@@ -4,7 +4,7 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.qpath4ms
-canonical: http://qpath4ms.ukdd.de/fhir
+canonical: https://pathway-fgdh.wiwi.tu-dresden.de/fhir
 name: QPath4MS IG
 title: QPath4MS FHIR Implementation Guide
 description: Ein Leitfaden zur Implementierung ausgewählter Multiple Sklerose-Patientenpfade
@@ -91,15 +91,14 @@ menu:
     Twelve Item MS Walking Scale (MSWS-12): Questionnaire-TwelveItemMultipleSclerosisWalkingScaleQuestionnaire.html
     United Kingdom Neurological Disability Rating Scale Questionnaire (UNDS): Questionnaire-UnitedKingdomNeurologicalDisabilityRatingScaleQuestionnaire.html
   Artifacts:
-    Message Definitions: artifacts.html#1
-    Questionnaires: artifacts.html#2
-    Profiles: artifacts.html#3
-    Value Sets: artifacts.html#4
-    Code Systems: artifacts.html#5
-    Activity Definitions: artifacts.html#6
-    Plan Definitinos: artifacts.html#7
-    Examples: artifacts.html#8
-    Other: artifacts.html#9
+    Activity Definitions: artifacts.html#1
+    Plan Definitinos: artifacts.html#2
+    Questionnaires: artifacts.html#3
+    Profiles: artifacts.html#4
+    Value Sets: artifacts.html#5
+    Code Systems: artifacts.html#6
+    Examples: artifacts.html#7
+    Other: artifacts.html#8
   Downloads:
     Full IG: full-ig.zip
 

@@ -14,7 +14,9 @@ Usage: #definition
 * action.trigger.timingTiming.repeat.period = 12
 * action.trigger.timingTiming.repeat.periodUnit = $ucum#mo
 * action.type = $action-type#create
-* action.condition.kind = #applicability
-* action.condition.expression.language = #text/cql
-* action.condition.expression.expression = "Nicht schwanger"
+
+// * action.condition.kind = #applicability
+// * action.condition.expression.language = #text/cql
+// * action.condition.expression.expression = "Nicht schwanger"
+
 * action.definitionCanonical = Canonical(Q4MSMagnetresonanztomographieAD)

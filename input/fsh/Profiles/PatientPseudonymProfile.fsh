@@ -1,4 +1,4 @@
-Alias: $q4ms-patient-pseudonym-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSPatientPseudonymProfile
+Alias: $q4ms-patient-pseudonym-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSPatientPseudonymProfile
 Alias: $identifier-use = http://hl7.org/fhir/CodeSystem/identifier-use
 
 Profile: Q4MSPatientPseudonymProfile

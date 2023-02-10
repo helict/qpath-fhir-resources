@@ -1,7 +1,7 @@
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $condition-verification-status =	http://terminology.hl7.org/CodeSystem/condition-ver-status
 Alias: $icd-10-gm = http://fhir.de/CodeSystem/bfarm/icd-10-gm
-Alias: $q4ms-ms-diagnose-sd = http://qpath4ms.ukdd.de/fhir/Q4MSMultipleSkleroseDiagnoseProfile
+Alias: $q4ms-ms-diagnose-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/Q4MSMultipleSkleroseDiagnoseProfile
 //Alias: $ext-icd-diagnosesicherheit = http://fhir.de/StructureDefinition/icd-10-gm-diagnosesicherheit
 //Alias: $kbv-icd-diagnosesicherheit = https://fhir.kbv.de/ValueSet/KBV_VS_SFHIR_ICD_DIAGNOSESICHERHEIT
 
@@ -26,6 +26,7 @@ InstanceOf: Q4MSMultipleSkleroseDiagnoseProfile
 Usage: #example
 Title: "ICD-10 MS-Diagnose John Doe"
 Description: "ICD-10 GM Multiple Sklerose-Diagnose von John Doe"
+* id = "PatientWithMultipleSclerosisDiagnosisExample"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-verification-status#confirmed
 * code.coding.system = $icd-10-gm

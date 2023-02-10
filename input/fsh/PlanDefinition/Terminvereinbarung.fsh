@@ -11,3 +11,5 @@ Usage: #definition
 * action.title = "Termin mit Patient vereinbaren"
 * action.type = $action-type#create
 * action.definitionCanonical = Canonical(Q4MSTerminvereinbarungAD)
+* action.timingTiming.repeat.duration = 10
+* action.timingTiming.repeat.durationUnit = $ucum#min

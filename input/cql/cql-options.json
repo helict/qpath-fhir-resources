@@ -1,5 +1,6 @@
 {
   "options": [
+    "EnableAnnotations",
     "EnableLocators",
     "DisableListDemotion",
     "DisableListPromotion"
@@ -8,8 +9,11 @@
     "XML",
     "JSON"
   ],
-  "validateUnits": true,
-  "verifyOnly": false,
-  "errorLevel": "Error",
-  "signatureLevel": "None"
+  "validateUnits":true,
+  "verifyOnly":false,
+  "errorLevel":"Info",
+  "signatureLevel":"None",
+  "compatibilityLevel":"1.5",
+  "analyzeDataRequirements":false,
+  "collapseDataRequirements":true
 }

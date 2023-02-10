@@ -1,4 +1,4 @@
-Alias: $q4ms-basismonitoring-lib = http://qpath4ms.ukdd.de/fhir/Library/Q4MSBasismonitoringLibrary
+Alias: $q4ms-basismonitoring-lib = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/Library/Q4MSBasismonitoringLibrary
 Alias: $library-type = http://terminology.hl7.org/CodeSystem/library-type
 
 Instance: Q4MSBasismonitoringLibrary

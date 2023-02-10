@@ -1,5 +1,5 @@
 Alias: $encounter-status = http://hl7.org/fhir/encounter-status
-Alias: $q4ms-einrichtungskontakt-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSEinrichtungskontaktProfile
+Alias: $q4ms-einrichtungskontakt-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSEinrichtungskontaktProfile
 
 Profile: Q4MSEinrichtungskontaktProfile
 Parent: Encounter

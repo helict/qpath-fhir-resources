@@ -11,4 +11,6 @@ Usage: #definition
 * action.title = "Check-Out eines Patienten"
 * action.type = $action-type#create
 * action.definitionCanonical = Canonical(Q4MSCheckOutAD)
+* action.timingTiming.repeat.duration = 15
+* action.timingTiming.repeat.durationUnit = $ucum#min
 

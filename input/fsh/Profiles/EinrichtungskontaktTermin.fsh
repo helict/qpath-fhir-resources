@@ -1,4 +1,4 @@
-Alias: $q4ms-einrichtungskontakt-termin-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSEinrichtungskontaktTerminProfile
+Alias: $q4ms-einrichtungskontakt-termin-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSEinrichtungskontaktTerminProfile
 
 Profile: Q4MSEinrichtungskontaktTerminProfile
 Parent: Appointment

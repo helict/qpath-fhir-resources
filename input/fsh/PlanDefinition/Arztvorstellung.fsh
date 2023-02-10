@@ -11,3 +11,6 @@ Usage: #definition
 * action.title = "Arztvorstellung"
 * action.type = $action-type#create
 * action.definitionCanonical = Canonical(Q4MSArztvorstellungAD)
+* action[=].timingTiming.repeat.duration = 30
+* action[=].timingTiming.repeat.durationUnit = $ucum#min
+* action[=].timingTiming.repeat.timeOfDay = "11:00:00"

@@ -1,4 +1,4 @@
-Alias: $q4ms-patient-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSPatientProfile
+Alias: $q4ms-patient-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSPatientProfile
 Alias: $identifier-use = http://hl7.org/fhir/CodeSystem/identifier-use
 Alias: $contact-point-system = http://hl7.org/fhir/contact-point-system
 Alias: $gender-amtlich-vs = http://fhir.de/ValueSet/gender-amtlich-de

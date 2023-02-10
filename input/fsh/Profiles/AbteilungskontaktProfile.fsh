@@ -1,5 +1,5 @@
 Alias: $encounter-kontaktart-de = http://fhir.de/codes-vsystem/kontaktart-de
-Alias: $q4ms-abteilungskontakt-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSAbteilungskontaktProfile
+Alias: $q4ms-abteilungskontakt-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSAbteilungskontaktProfile
 
 Profile: Q4MSAbteilungskontaktProfile
 Parent: Encounter

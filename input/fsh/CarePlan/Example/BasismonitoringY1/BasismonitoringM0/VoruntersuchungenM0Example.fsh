@@ -21,42 +21,31 @@ Description: "Beispiel RequestGroup zu den Voruntersuchungen eines Patienten (M0
 * intent = $request-intent#plan
 * subject = Reference(PatientPseudonym)
 * encounter = Reference(VoruntersuchungenM0ExampleENC)
-* action.groupingBehavior = #logical-group
-* action.selectionBehavior = #all
-* action.requiredBehavior = #must-unless-documented
-* action.cardinalityBehavior = #single
 
-* action.action[0].title = "Diagnostik alle 3 Monate"
-* action.action[=].groupingBehavior = #logical-group
-* action.action[=].selectionBehavior = #all
-* action.action[=].requiredBehavior = #must-unless-documented
-* action.action[=].cardinalityBehavior = #single
-* action.action[=].action[0].title = "Multiple Sclerosis Performance Test (MSPT)"
-* action.action[=].action[=].resource = Reference(MultipleSclerosisPerformanceTestM0ExampleCP)
-* action.action[=].action[+].title = "Therapiespezifische Diagnostik"
-* action.action[=].action[=].resource = Reference(TherapiespezifischeDiagnostikM0ExampleCP)
+// * action.groupingBehavior = #logical-group
+// * action.selectionBehavior = #all
+// * action.requiredBehavior = #must-unless-documented
+// * action.cardinalityBehavior = #single
 
-* action.action[+].title = "Diagnostik alle 6 Monate"
-* action.action[=].groupingBehavior = #logical-group
-* action.action[=].selectionBehavior = #all
-* action.action[=].requiredBehavior = #must-unless-documented
-* action.action[=].cardinalityBehavior = #single
-* action.action[=].action[0].title = "Allgemeine und neurologische Untersuchung"
-* action.action[=].action[=].resource = Reference(AllgemeineNeurologischeUntersuchungM0ExampleCP)
+// Diagnostik aller 3 Monate
+* action[+].title = "Multiple Sclerosis Performance Test (MSPT)"
+* action[=].resource = Reference(MultipleSclerosisPerformanceTestM0ExampleCP)
+* action[+].title = "Therapiespezifische Diagnostik"
+* action[=].resource = Reference(TherapiespezifischeDiagnostikM0ExampleCP)
 
-* action.action[+].title = "Diagnostik alle 12 Monate"
-* action.action[=].groupingBehavior = #logical-group
-* action.action[=].selectionBehavior = #all
-* action.action[=].requiredBehavior = #must-unless-documented
-* action.action[=].cardinalityBehavior = #single
-* action.action[=].action[0].title = "Optische Kohärenztomographie (OCT)"
-* action.action[=].action[=].resource = Reference(OptischeKohaerenztomographieM0ExampleCP)
-* action.action[=].action[+].title = "Ganganalyse"
-* action.action[=].action[=].resource = Reference(GanganalyseM0ExampleCP)
-//* action.action[=].action[+].title = "Magnetresonanztomographie (MRT)"
-//* action.action[=].action[=].resource = Reference(MagnetresonanztomographieExampleCP)
-* action.action[=].action[+].title = "Laboruntersuchung"
-* action.action[=].action[=].resource = Reference(LaboruntersuchungM0ExampleCP)
+// Diagnostik aller 6 Monate
+* action[+].title = "Allgemeine und neurologische Untersuchung"
+* action[=].resource = Reference(AllgemeineNeurologischeUntersuchungM0ExampleCP)
+
+// Diagnostik aller 12 Monate
+* action[+].title = "Optische Kohärenztomographie (OCT)"
+* action[=].resource = Reference(OptischeKohaerenztomographieM0ExampleCP)
+* action[+].title = "Ganganalyse"
+* action[=].resource = Reference(GanganalyseM0ExampleCP)
+//* action[+].title = "Magnetresonanztomographie (MRT)"
+//* action[=].resource = Reference(MagnetresonanztomographieExampleCP)
+* action[+].title = "Laboruntersuchung"
+* action[=].resource = Reference(LaboruntersuchungM0ExampleCP)
 
 // Voruntersuchung M0 -> MSPT
 

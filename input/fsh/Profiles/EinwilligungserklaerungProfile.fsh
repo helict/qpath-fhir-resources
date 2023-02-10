@@ -1,4 +1,4 @@
-Alias: $q4ms-einwilligungserklaerung-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSEinwilligungserklaerungProfile
+Alias: $q4ms-einwilligungserklaerung-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSEinwilligungserklaerungProfile
 Alias: $consent-scope = http://terminology.hl7.org/CodeSystem/consentscope
 Alias: $iknr = http://fhir.de/sid/arge-ik/iknr
 

@@ -13,6 +13,9 @@ Usage: #definition
 * kind = $request-resource-type#ServiceRequest
 * intent = $request-intent#plan
 * profile = Canonical(Q4MSProzedurProfile)
+* timingTiming.repeat.duration = 30
+* timingTiming.repeat.durationUnit = $ucum#min
+* timingTiming.repeat.timeOfDay = "11:00:00"
 * dynamicValue[+].path = "code"
 * dynamicValue[=].expression.language = $expression-language#text/fhirpath
 * dynamicValue[=].expression.expression = "%context.code"

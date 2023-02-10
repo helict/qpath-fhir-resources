@@ -2,7 +2,7 @@ Alias: $appointment-status = http://hl7.org/fhir/appointmentstatus
 Alias: $encounter-participant-type = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
 Alias: $participant-required = http://hl7.org/fhir/participantrequired
 Alias: $participation-status = http://hl7.org/fhir/participationstatus
-Alias: $q4ms-abteilungskontakt-termin-sd = http://qpath4ms.ukdd.de/fhir/StructureDefinition/Q4MSAbteilungskontaktTerminProfile
+Alias: $q4ms-abteilungskontakt-termin-sd = https://pathway-fgdh.wiwi.tu-dresden.de/fhir/StructureDefinition/Q4MSAbteilungskontaktTerminProfile
 
 Profile: Q4MSAbteilungskontaktTerminProfile
 Parent: Appointment
